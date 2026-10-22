@@ -9,6 +9,6 @@ const { story } = await useAsyncStoryblok("home", {
 <template>
   <UContainer>
     <h1 class="text-3xl">Test Page</h1>
-    <StoryblokComponent v-if="story" :blok="story.content" />
+    <!-- <StoryblokComponent v-if="story" :blok="story.content" /> -->
   </UContainer>
 </template>
