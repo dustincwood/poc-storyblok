@@ -46,6 +46,8 @@ const demoItems = [
       { links: [{ label: 'Link 7', to: '#' }, { label: 'Link 8', to: '#' }, { label: 'Link 9', to: '#' }] },
     ],
   },
+  // Non-mega dropdowns open rightward from their item; add alignRight: true to an item near the
+  // right end of the bar so its panel opens leftward instead
   {
     label: 'Megamenu',
     // Full width of the bar; column width is in twelfths (3, 4, 6 or 12)

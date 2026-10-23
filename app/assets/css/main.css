@@ -13,6 +13,39 @@
   --color-header-sky: #4494da;
   --color-header-mist: #ced4da;
   --color-header-steel: #a8b4c1;
+
+  /* Bootstrap 4 breakpoints, used by the Modern Campus components (bs-lg: is Bootstrap's lg, 992px) */
+  --breakpoint-bs-sm: 576px;
+  --breakpoint-bs-md: 768px;
+  --breakpoint-bs-lg: 992px;
+  --breakpoint-bs-xl: 1200px;
+
+  /* Modern Campus components (values from usu.edu/assets/bs4/css bootstrap.min.css, main.css, modular.css) */
+  --color-usu-primary: #00263a;
+  --color-usu-slate: #384660;
+  --color-usu-navy: #0f2439;
+  --color-usu-blue-dark: #2f3a50;
+  --color-usu-info: #226baa;
+  --color-usu-info-dark: #15436a;
+  --color-usu-bright-light: #4494da;
+  --color-usu-blend: #2472b5;
+  --color-usu-success: #588038;
+  --color-usu-warning: #ae6002;
+  --color-usu-danger: #a6260d;
+  --color-usu-dark: #343a40;
+  --color-usu-green: #7d9c3a;
+  --color-usu-green-dark: #577f35;
+  --color-usu-sage: #6b9e85;
+  --color-usu-sand: #d1cbbd;
+  --color-usu-gray-dark: #838898;
+  --color-usu-gray-darker: #495057;
+  --color-usu-text: #212529;
+  --color-usu-muted: #6c757d;
+  --color-usu-gray-100: #f8f9fa;
+  --color-usu-gray-200: #e9ecef;
+  --color-usu-gray-300: #dee2e6;
+  --color-usu-gray-400: #ced4da;
+  --color-usu-line: #e6e6e6;
 }
 
 :root {

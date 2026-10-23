@@ -1,0 +1,897 @@
+[
+  {
+    "name": "moca-accordion",
+    "display_name": "MC Accordion / Tabs",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "display": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Accordion",
+            "value": "accordion"
+          },
+          {
+            "name": "Tabs",
+            "value": "tabs"
+          },
+          {
+            "name": "Pills",
+            "value": "pills"
+          }
+        ],
+        "default_value": "accordion"
+      },
+      "panels": {
+        "pos": 1,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-accordion-panel"
+        ],
+        "maximum": 15
+      }
+    }
+  },
+  {
+    "name": "moca-accordion-panel",
+    "display_name": "MC Accordion Panel",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "title": {
+        "pos": 0,
+        "type": "text"
+      },
+      "content": {
+        "pos": 1,
+        "type": "richtext"
+      }
+    }
+  },
+  {
+    "name": "moca-button",
+    "display_name": "MC Button",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "text": {
+        "pos": 0,
+        "type": "text",
+        "required": true
+      },
+      "link": {
+        "pos": 1,
+        "type": "multilink",
+        "allow_target_blank": true
+      },
+      "type": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "White",
+            "value": "btn-white"
+          },
+          {
+            "name": "Primary",
+            "value": "btn-primary"
+          },
+          {
+            "name": "Info",
+            "value": "btn-info"
+          },
+          {
+            "name": "Success",
+            "value": "btn-success"
+          },
+          {
+            "name": "Warning",
+            "value": "btn-warning"
+          },
+          {
+            "name": "Danger",
+            "value": "btn-danger"
+          },
+          {
+            "name": "Secondary",
+            "value": "btn-secondary"
+          },
+          {
+            "name": "Light",
+            "value": "btn-light"
+          },
+          {
+            "name": "Dark",
+            "value": "btn-dark"
+          },
+          {
+            "name": "Link",
+            "value": "btn-link"
+          },
+          {
+            "name": "Blue",
+            "value": "btn-blue"
+          },
+          {
+            "name": "Bright Light",
+            "value": "btn-bright-light"
+          },
+          {
+            "name": "Green",
+            "value": "btn-green"
+          },
+          {
+            "name": "Sage",
+            "value": "btn-sage"
+          },
+          {
+            "name": "Sand",
+            "value": "btn-sand"
+          },
+          {
+            "name": "Blue Dark",
+            "value": "btn-blue-dark"
+          }
+        ],
+        "default_value": "btn-white"
+      },
+      "outline": {
+        "pos": 3,
+        "type": "boolean"
+      },
+      "size": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "Small",
+            "value": "btn-sm"
+          },
+          {
+            "name": "Large",
+            "value": "btn-lg"
+          }
+        ]
+      },
+      "centered": {
+        "pos": 5,
+        "type": "boolean"
+      }
+    }
+  },
+  {
+    "name": "moca-accent-card",
+    "display_name": "MC Card - Accent Color",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "color": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": "None"
+          },
+          {
+            "name": "Primary",
+            "value": "Primary"
+          },
+          {
+            "name": "Info",
+            "value": "Info"
+          },
+          {
+            "name": "Success",
+            "value": "Success"
+          },
+          {
+            "name": "Warning",
+            "value": "Warning"
+          },
+          {
+            "name": "Gray",
+            "value": "Gray"
+          }
+        ],
+        "default_value": "None"
+      },
+      "title": {
+        "pos": 1,
+        "type": "text"
+      },
+      "body": {
+        "pos": 2,
+        "type": "richtext"
+      },
+      "button": {
+        "pos": 3,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-button"
+        ],
+        "maximum": 1
+      }
+    }
+  },
+  {
+    "name": "moca-alert-card",
+    "display_name": "MC Card - Alert",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "color": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Success",
+            "value": "success"
+          },
+          {
+            "name": "Warning",
+            "value": "warning"
+          },
+          {
+            "name": "Danger",
+            "value": "danger"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          }
+        ],
+        "default_value": "primary"
+      },
+      "header": {
+        "pos": 1,
+        "type": "text"
+      },
+      "body": {
+        "pos": 2,
+        "type": "richtext"
+      },
+      "button_text": {
+        "pos": 3,
+        "type": "text"
+      },
+      "button_link": {
+        "pos": 4,
+        "type": "multilink",
+        "allow_target_blank": true
+      }
+    }
+  },
+  {
+    "name": "moca-card",
+    "display_name": "MC Card",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "color": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "bg-primary"
+          },
+          {
+            "name": "Info",
+            "value": "bg-info"
+          },
+          {
+            "name": "Success",
+            "value": "bg-success"
+          },
+          {
+            "name": "Warning",
+            "value": "bg-warning"
+          },
+          {
+            "name": "Danger",
+            "value": "bg-danger"
+          },
+          {
+            "name": "Dark",
+            "value": "bg-dark"
+          },
+          {
+            "name": "Gray Dark",
+            "value": "bg-gray-dark"
+          },
+          {
+            "name": "Gray Darker",
+            "value": "bg-gray-darker"
+          },
+          {
+            "name": "Light",
+            "value": "bg-light"
+          },
+          {
+            "name": "Secondary",
+            "value": "bg-secondary"
+          }
+        ]
+      },
+      "header": {
+        "pos": 1,
+        "type": "text"
+      },
+      "image": {
+        "pos": 2,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "image_location": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "Top",
+            "value": "card-img-top"
+          },
+          {
+            "name": "Bottom",
+            "value": "card-img-bottom"
+          }
+        ],
+        "default_value": "card-img-top"
+      },
+      "image_link": {
+        "pos": 4,
+        "type": "multilink",
+        "allow_target_blank": true
+      },
+      "body": {
+        "pos": 5,
+        "type": "richtext"
+      },
+      "button": {
+        "pos": 6,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-button"
+        ],
+        "maximum": 1
+      }
+    }
+  },
+  {
+    "name": "moca-icon-card",
+    "display_name": "MC Card - Font Awesome Icon",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "color": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default (white)",
+            "value": "default"
+          },
+          {
+            "name": "Primary",
+            "value": "bg-primary"
+          },
+          {
+            "name": "Info",
+            "value": "bg-info"
+          },
+          {
+            "name": "Success",
+            "value": "bg-success"
+          },
+          {
+            "name": "Warning",
+            "value": "bg-warning"
+          },
+          {
+            "name": "Danger",
+            "value": "bg-danger"
+          },
+          {
+            "name": "Dark",
+            "value": "bg-dark"
+          },
+          {
+            "name": "Gray Dark",
+            "value": "bg-gray-dark"
+          },
+          {
+            "name": "Gray Darker",
+            "value": "bg-gray-darker"
+          },
+          {
+            "name": "Light",
+            "value": "bg-light"
+          },
+          {
+            "name": "Secondary",
+            "value": "bg-secondary"
+          }
+        ],
+        "default_value": "default"
+      },
+      "icon": {
+        "pos": 1,
+        "type": "text",
+        "description": "Font Awesome classes, e.g. fa-solid fa-house"
+      },
+      "icon_size": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "1x",
+            "value": "1"
+          },
+          {
+            "name": "2x",
+            "value": "2"
+          },
+          {
+            "name": "3x",
+            "value": "3"
+          },
+          {
+            "name": "4x",
+            "value": "4"
+          },
+          {
+            "name": "5x",
+            "value": "5"
+          }
+        ],
+        "default_value": "3"
+      },
+      "sr_only": {
+        "pos": 3,
+        "type": "text",
+        "description": "Screen reader text for the icon"
+      },
+      "header": {
+        "pos": 4,
+        "type": "text"
+      },
+      "body": {
+        "pos": 5,
+        "type": "textarea"
+      },
+      "button_text": {
+        "pos": 6,
+        "type": "text"
+      },
+      "button_link": {
+        "pos": 7,
+        "type": "multilink",
+        "allow_target_blank": true
+      }
+    }
+  },
+  {
+    "name": "moca-nav-card",
+    "display_name": "MC Card - Navigation",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "color": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": "None"
+          },
+          {
+            "name": "Primary",
+            "value": "Primary"
+          },
+          {
+            "name": "Info",
+            "value": "Info"
+          }
+        ],
+        "default_value": "None"
+      },
+      "title": {
+        "pos": 1,
+        "type": "text"
+      },
+      "body": {
+        "pos": 2,
+        "type": "richtext"
+      },
+      "button": {
+        "pos": 3,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-button"
+        ],
+        "maximum": 1
+      }
+    }
+  },
+  {
+    "name": "moca-font-awesome",
+    "display_name": "MC Font Awesome Icon",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "icon": {
+        "pos": 0,
+        "type": "text",
+        "required": true,
+        "description": "Font Awesome classes, e.g. fa-solid fa-house"
+      },
+      "link": {
+        "pos": 1,
+        "type": "multilink",
+        "allow_target_blank": true
+      },
+      "link_title": {
+        "pos": 2,
+        "type": "text",
+        "description": "Link title; External Link when empty"
+      },
+      "sr_only": {
+        "pos": 3,
+        "type": "text",
+        "description": "Screen reader text when there is no link"
+      }
+    }
+  },
+  {
+    "name": "moca-hero-banner",
+    "display_name": "MC Hero Banner",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "background_image": {
+        "pos": 0,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "partial_background": {
+        "pos": 1,
+        "type": "boolean",
+        "description": "Darken only a bar behind bottom-left text"
+      },
+      "text_location": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "Bottom left",
+            "value": "jumbotron-content-bottom-left"
+          },
+          {
+            "name": "Center",
+            "value": "jumbotron-content-center"
+          },
+          {
+            "name": "Top left",
+            "value": "jumbotron-content-top-left"
+          }
+        ],
+        "default_value": "jumbotron-content-bottom-left"
+      },
+      "height": {
+        "pos": 3,
+        "type": "text",
+        "default_value": "300px",
+        "description": "CSS length, e.g. 300px or 50vh"
+      },
+      "container_width": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Narrow",
+            "value": "narrow"
+          }
+        ],
+        "default_value": "default"
+      },
+      "header": {
+        "pos": 5,
+        "type": "text"
+      },
+      "subheader": {
+        "pos": 6,
+        "type": "text"
+      },
+      "content": {
+        "pos": 7,
+        "type": "richtext"
+      },
+      "button": {
+        "pos": 8,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-button"
+        ],
+        "maximum": 1
+      }
+    }
+  },
+  {
+    "name": "moca-image-overlay",
+    "display_name": "MC Image with Text Overlay",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "image": {
+        "pos": 0,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "link": {
+        "pos": 1,
+        "type": "multilink",
+        "allow_target_blank": true
+      },
+      "text": {
+        "pos": 2,
+        "type": "text"
+      },
+      "text_location": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "Over the image",
+            "value": "over"
+          },
+          {
+            "name": "Top",
+            "value": "top"
+          },
+          {
+            "name": "Bottom",
+            "value": "bottom"
+          }
+        ],
+        "default_value": "over"
+      },
+      "text_color": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          }
+        ],
+        "default_value": "default"
+      }
+    }
+  },
+  {
+    "name": "moca-inline-alert",
+    "display_name": "MC Inline Alert",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "color": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Success",
+            "value": "success"
+          },
+          {
+            "name": "Warning",
+            "value": "warning"
+          },
+          {
+            "name": "Danger",
+            "value": "danger"
+          }
+        ],
+        "default_value": "default"
+      },
+      "icon": {
+        "pos": 1,
+        "type": "text",
+        "description": "Font Awesome classes, e.g. fa-solid fa-circle-info"
+      },
+      "title": {
+        "pos": 2,
+        "type": "text"
+      },
+      "body": {
+        "pos": 3,
+        "type": "richtext"
+      },
+      "size": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": "Default"
+          },
+          {
+            "name": "Large",
+            "value": "Large"
+          }
+        ],
+        "default_value": "Default"
+      }
+    }
+  },
+  {
+    "name": "moca-quote",
+    "display_name": "MC Quote Block",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "style": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Bars",
+            "value": "bars"
+          }
+        ],
+        "default_value": "default"
+      },
+      "quote": {
+        "pos": 1,
+        "type": "textarea",
+        "required": true
+      },
+      "author": {
+        "pos": 2,
+        "type": "text"
+      }
+    }
+  },
+  {
+    "name": "moca-step-guide",
+    "display_name": "MC Step Guide",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "heading_level": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "H2",
+            "value": "h2"
+          },
+          {
+            "name": "H3",
+            "value": "h3"
+          }
+        ],
+        "default_value": "h2"
+      },
+      "steps": {
+        "pos": 1,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-step"
+        ]
+      }
+    }
+  },
+  {
+    "name": "moca-step",
+    "display_name": "MC Step",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "header": {
+        "pos": 0,
+        "type": "text"
+      },
+      "content": {
+        "pos": 1,
+        "type": "richtext"
+      }
+    }
+  },
+  {
+    "name": "moca-video-banner",
+    "display_name": "MC Video Banner (YouTube)",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "url": {
+        "pos": 0,
+        "type": "text",
+        "required": true,
+        "description": "YouTube video URL"
+      },
+      "aspect_ratio": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "16:9",
+            "value": "16by9"
+          },
+          {
+            "name": "21:9",
+            "value": "21by9"
+          },
+          {
+            "name": "4:3",
+            "value": "4by3"
+          },
+          {
+            "name": "1:1",
+            "value": "1by1"
+          }
+        ],
+        "default_value": "16by9"
+      }
+    }
+  },
+  {
+    "name": "moca-youtube",
+    "display_name": "MC YouTube Embed",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "url": {
+        "pos": 0,
+        "type": "text",
+        "required": true,
+        "description": "YouTube video URL"
+      }
+    }
+  }
+]
