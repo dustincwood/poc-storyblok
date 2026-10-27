@@ -25,7 +25,8 @@
 </script>
 
 <template>
-  <Grid v-editable="blok" :blok="{ cols: blok.cols, columns: [] }">
+  <!-- py-8 matches the page header's spacing above -->
+  <Grid v-editable="blok" :blok="{ cols: blok.cols, columns: [] }" class="py-8">
     <!-- The whole card is the link -->
     <NuxtLink
       v-for="story in cards"
