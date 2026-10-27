@@ -71,6 +71,9 @@ async function upload(sourceUrl) {
 
   const download = await fetch(sourceUrl)
   if (!download.ok) throw new Error(`Download ${sourceUrl} -> ${download.status}`)
+  // A missing file on usu.edu redirects to an HTML "not found" page with a 200; that isn't the asset
+  const type = download.headers.get('content-type') ?? ''
+  if (!/^(image|video|audio)\/|^application\/pdf/.test(type)) throw new Error(`Download ${sourceUrl} -> ${type || 'no content type'} from ${download.url}, not a media file`)
   const file = Buffer.from(await download.arrayBuffer())
   const filename = decodeURIComponent(new URL(sourceUrl).pathname.split('/').pop())
 
