@@ -1,0 +1,46 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/exploratory/focus-banner.jpg": {
+      "id": 235275701778485,
+      "filename": "https://a.storyblok.com/f/294787985525525/25edc0bc59/focus-banner.jpg"
+    },
+    "https://www.usu.edu/advising/integrated-studies/images/business-communication.jpg": {
+      "id": 235275708098615,
+      "filename": "https://a.storyblok.com/f/294787985525525/930d8582f0/business-communication.jpg"
+    },
+    "https://www.usu.edu/advising/integrated-studies/images/social-sciences-human-services.jpg": {
+      "id": 235275713464376,
+      "filename": "https://a.storyblok.com/f/294787985525525/bf972c6910/social-sciences-human-services.jpg"
+    },
+    "https://www.usu.edu/advising/integrated-studies/images/humanities-arts.jpg": {
+      "id": 235275717888057,
+      "filename": "https://a.storyblok.com/f/294787985525525/6e0b7e0729/humanities-arts.jpg"
+    },
+    "https://www.usu.edu/advising/integrated-studies/images/agriculture.jpg": {
+      "id": 235275722422331,
+      "filename": "https://a.storyblok.com/f/294787985525525/2124d83dfe/agriculture.jpg"
+    },
+    "https://www.usu.edu/advising/integrated-studies/images/physical-sciences.jpg": {
+      "id": 235275726915644,
+      "filename": "https://a.storyblok.com/f/294787985525525/db91c66d1b/physical-sciences.jpg"
+    },
+    "https://www.usu.edu/advising/integrated-studies/images/health-sciences.jpg": {
+      "id": 235275731261501,
+      "filename": "https://a.storyblok.com/f/294787985525525/0bf81c35f5/health-sciences.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/exploratory": 233989525293694
+  },
+  "story": {
+    "id": 235275740377806,
+    "parentId": 233989525293694,
+    "full_slug": "advising-migration-test/advising/exploratory/majors-courses"
+  }
+}

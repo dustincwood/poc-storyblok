@@ -137,6 +137,8 @@ function toLink(url) {
   if (!url) return undefined
   // An href from the HTML still has its entities (&amp;); the link field holds the plain URL
   url = decode(url)
+  // usu.edu serves page.php at page too; one form keeps links to the same page matchable to its story
+  if (url.startsWith(publishedOrigin)) url = url.replace(/(\/index)?\.php(?=[?#]|$)/, m => m.startsWith('/index') ? '/' : '')
   if (url.startsWith(published)) internalLinks.add(url)
   return url.startsWith('mailto:')
     // An empty ?subject= says nothing and would show in the editor's email field
@@ -186,6 +188,9 @@ function convertComponent(id, data, context) {
   const fields = {}
   const button = {}
   const raw = (hash) => data[hash] ?? ''
+  // The title lets resolveComponentTag find this component on the published page
+  const titleHash = Object.keys(def.fields).find(h => ['header', 'title', 'name'].includes(def.fields[h]?.split(':')[0]))
+  context = { ...context, title: titleHash ? clean(raw(titleHash)) : '' }
 
   const assign = (target, value) => {
     const [targetPath, type] = target.split(':')
@@ -244,8 +249,22 @@ function convertComponent(id, data, context) {
 // Tags inside component data have no link text to match; use what's known about the published page
 function resolveComponentTag(tag, targetPath, context) {
   if (context.component === '3338' && targetPath === 'background_image.filename' && heroImage) return heroImage
+  const found = context.title && fromPublishedCard(context.title, targetPath)
+  if (found) return found
   report.unresolved.push({ tag, near: `component ${context.component} field ${targetPath}` })
   return ''
+}
+
+// The component as rendered on the published page: the smallest .card holding its title. An image field
+// takes the card's image, a button link its .btn, any other link its first link.
+function fromPublishedCard(title, targetPath) {
+  const key = norm(title)
+  const card = findAll(publishedDoc, n => isEl(n) && hasClass(n, 'card') && norm(text(n)).includes(key))
+    .sort((a, b) => text(a).length - text(b).length)[0]
+  if (!card) return undefined
+  if (targetPath.endsWith('filename')) return find(card, n => isEl(n, 'img'))?.attributes.src
+  if (targetPath.startsWith('button.')) return find(card, n => isEl(n, 'a') && hasClass(n, 'btn'))?.attributes.href
+  return find(card, n => isEl(n, 'a'))?.attributes.href
 }
 
 // ---------- Hand-written HTML ----------

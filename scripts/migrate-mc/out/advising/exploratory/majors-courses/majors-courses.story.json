@@ -1,0 +1,779 @@
+{
+  "story": {
+    "name": "Choose a Major: Exploratory Focus Areas & Career Paths",
+    "slug": "majors-courses",
+    "is_startpage": false,
+    "content": {
+      "_uid": "be096851-c11d-48b5-a934-6bd837fbc080",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "c2bc0545-2d16-4002-bbf4-04bc172e4ec9",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/exploratory/focus-banner.jpg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "300px",
+          "container_width": "default",
+          "header": "Exploratory Focus Areas"
+        },
+        {
+          "_uid": "0f2aab67-7626-4383-9071-847a97dbf687",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "dcba0fc6-bb55-4a2a-a05d-08ebc617b9cb",
+              "component": "moca-column",
+              "width": "12",
+              "order": "",
+              "order_lg": "",
+              "margin_top": "",
+              "margin_bottom": "",
+              "stretch": false,
+              "display": "",
+              "align_self": "",
+              "text_align": "",
+              "overlap": false,
+              "content": [
+                {
+                  "_uid": "443bf4a7-9442-44ef-8721-7afc38429389",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "columns": [
+                    {
+                      "_uid": "ec5d62f1-aa4a-44d7-897b-4893b27a6fb2",
+                      "component": "moca-column",
+                      "width_lg": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "e0a629c6-82dc-4da3-9f30-82e5c338fe57",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 2,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Focus Areas, Exploratory Tracks and Common Majors and Courses"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "67ebcac8-483d-4680-8fa6-71a32bb462ea",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "A focus area is a starting point for your academic exploration. These distinct collections of programs and courses allow you to investigate your interests in order to guide you to the major that aligns most closely with your future goals. You are assigned an advisor within your focus area who can help you explore majors and courses at USU. "
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "You can click on each of these broad focus areas to discover the tracks you can explore. Some tracks and majors are considered to be within multiple focus areas."
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "aafe327e-ee3c-4d7f-b23d-f95a73e49fd5",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "",
+                          "columns": [
+                            {
+                              "_uid": "9c50ea6e-e3ea-4847-ba15-a94944be6911",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "4b7a54a9-d8e4-40ad-a4d9-06c3e1aa34ea",
+                                  "component": "moca-card",
+                                  "header": "Communication, Organizations, and Influence",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Connect & Collaborate"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Values interpersonal connections, teamwork, clarity, empathy, leadership, and innovation. Enjoys engaging in dialogue, public speaking, conflict resolution, managing, writing, content creation, and media analysis. Apt to be articulate, empathetic, creative, detail-oriented, culturally aware, and thrives in dynamic, interactive settings. Driven to lead or manage others to meet organizational goals or create economic growth."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=103",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Schedule an appointment"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image": {
+                                    "filename": "https://www.usu.edu/advising/integrated-studies/images/business-communication.jpg",
+                                    "alt": "Business people gathered around a table",
+                                    "fieldtype": "asset"
+                                  },
+                                  "image_location": "card-img-top",
+                                  "button": [
+                                    {
+                                      "_uid": "b00c2ef2-2b1b-4302-9912-100a85009201",
+                                      "component": "moca-button",
+                                      "text": "Learn More",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-primary",
+                                      "outline": false,
+                                      "centered": true,
+                                      "size": ""
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "6bdfbb07-0211-4207-8a28-07a5f5ac3fcf",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "11d98d8b-2b4b-4483-980e-3837a712b855",
+                                  "component": "moca-card",
+                                  "header": "Social Sciences & Human Services",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Helping Others"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Values supporting, nurturing, and caring for others with a strong focus on interpersonal skills. Thrives in social settings and derives deep personal fulfillment from meaningful interactions. Demonstrates qualities of being agreeable, cooperative, friendly, warm, patient, tactful, and responsible, consistently fostering positive relationships and achieving success through teamwork."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=105",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Schedule an appointment "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image": {
+                                    "filename": "https://www.usu.edu/advising/integrated-studies/images/social-sciences-human-services.jpg",
+                                    "alt": "Social Sciences & Human Services",
+                                    "fieldtype": "asset"
+                                  },
+                                  "image_location": "card-img-top",
+                                  "button": [
+                                    {
+                                      "_uid": "2ee49366-543a-4a90-bb60-7cd19b3dc054",
+                                      "component": "moca-button",
+                                      "text": "Learn More",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-primary",
+                                      "outline": false,
+                                      "centered": true,
+                                      "size": ""
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "a20b2436-1e89-4960-bbcc-5eb56be77cc2",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "c7c00308-32de-43db-8836-7fd5624d2de8",
+                                  "component": "moca-card",
+                                  "header": "Humanities & Arts",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Expressing Creativity"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Values independence, self-expression, unstructured methods, and aesthetic beauty. Utilizes creativity, imagination, intuition, and writing to appreciate and critically analyze the work of others in museums, theater, and books. Demonstrates a strong interest in languages and world cultures, which enriches understanding and appreciation of diverse perspectives."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=106",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Schedule an appointment"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image": {
+                                    "filename": "https://www.usu.edu/advising/integrated-studies/images/humanities-arts.jpg",
+                                    "alt": "Humanities & Arts",
+                                    "fieldtype": "asset"
+                                  },
+                                  "image_location": "card-img-top",
+                                  "button": [
+                                    {
+                                      "_uid": "764c02b0-bba9-4e92-8e36-02d594bacee3",
+                                      "component": "moca-button",
+                                      "text": "Learn More",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-primary",
+                                      "outline": false,
+                                      "centered": true,
+                                      "size": ""
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "af8c5f35-a71d-4acc-b31b-03e65bfa70f9",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "4c966c77-df2e-4a1a-bf7d-13b42dcad4e9",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "220507a4-1ffe-47e1-b659-8f4d8cb7566f",
+                                  "component": "moca-card",
+                                  "header": "Agriculture, Natural Resources and Environmental Sciences",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Assess & Apply"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Values observation, inquiry, and analysis. Seeks practical outcomes and enjoys outdoor exploration. Enthusiastic about understanding natural processes and predicting outcomes. Enjoys studying living organisms and natural resources, with a focus on opportunities in research, teaching, or industry. Concerned with the impact of science on the environment and living beings. Apt to be thoughtful, investigative, observant, and analytical."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=104",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Schedule an appointment"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image": {
+                                    "filename": "https://www.usu.edu/advising/integrated-studies/images/agriculture.jpg",
+                                    "alt": "Agriculture & Natural Resources",
+                                    "fieldtype": "asset"
+                                  },
+                                  "image_location": "card-img-top",
+                                  "button": [
+                                    {
+                                      "_uid": "46498488-9995-4724-a4ab-9fee3e6aa8c8",
+                                      "component": "moca-button",
+                                      "text": "Learn More",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-primary",
+                                      "outline": false,
+                                      "centered": true,
+                                      "size": ""
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "18acf450-1ae5-4fb6-8fa1-05f7ac592231",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "c065e684-0377-464f-a5b4-9fde998d4136",
+                                  "component": "moca-card",
+                                  "header": "Physical Sciences, Engineering and Technology",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Analyzing"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Values intellectual effort, scientific inquiry, and mathematics. Aims to understand and predict physical and biological phenomena and practices. Enjoys working with theories, conducting research, and designing and testing ideas and systems. Apt to be analytical, cautious, independent, curious, introspective, critical, and studious."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=107",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Schedule an appointment"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image": {
+                                    "filename": "https://www.usu.edu/advising/integrated-studies/images/physical-sciences.jpg",
+                                    "alt": "Physical Sciences, Engineering, Math",
+                                    "fieldtype": "asset"
+                                  },
+                                  "image_location": "card-img-top",
+                                  "button": [
+                                    {
+                                      "_uid": "8211db49-1161-465d-9410-182758558c8e",
+                                      "component": "moca-button",
+                                      "text": "Learn More",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-primary",
+                                      "outline": false,
+                                      "centered": true,
+                                      "size": ""
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "26fefcc6-fbe8-42a7-981f-b9b515f6c1cc",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "89f34d8a-c3c6-4519-9dd8-4e0a9199d671",
+                                  "component": "moca-card",
+                                  "header": "Applied & Clinical Health Sciences ",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Dedicated and Compassionate"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Values applying scientific principles to promote human health and wellness. May be interested in diagnosing, treating, and managing health conditions, working in a laboratory or clinical setting, and cultivating positive health choices. Many students interested in this focus area may consider themselves to be dedicated, intelligent, compassionate, and curious."
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://studentappts.usu.edu/ramonline/BookAppt?C=C&T=P&P=835",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Schedule an appointment"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image": {
+                                    "filename": "https://www.usu.edu/advising/integrated-studies/images/health-sciences.jpg",
+                                    "alt": "Girl in a lab with a microscope",
+                                    "fieldtype": "asset"
+                                  },
+                                  "image_location": "card-img-top",
+                                  "button": [
+                                    {
+                                      "_uid": "46b30b99-9b03-4012-af48-f2cdf6d21ec2",
+                                      "component": "moca-button",
+                                      "text": "Learn More",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-primary",
+                                      "outline": false,
+                                      "centered": true,
+                                      "size": ""
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
