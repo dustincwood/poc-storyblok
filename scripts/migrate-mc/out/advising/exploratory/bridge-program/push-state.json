@@ -1,0 +1,34 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/exploratory/bridge-banner.jpeg": {
+      "id": 233995109906552,
+      "filename": "https://a.storyblok.com/f/294787985525525/27b388b338/bridge-banner.jpeg"
+    },
+    "https://www.usu.edu/advising/images/advisors/roholt-kaylee.jpg": {
+      "id": 233999499987169,
+      "filename": "https://a.storyblok.com/f/294787985525525/ac76cf9e87/roholt-kaylee.jpg"
+    },
+    "https://www.usu.edu/advising/images/advisors/shanda-thompson-2025.jpg": {
+      "id": 233999507396834,
+      "filename": "https://a.storyblok.com/f/294787985525525/9f729acbc6/shanda-thompson-2025.jpg"
+    },
+    "https://www.usu.edu/advising/images/advisors/ziegler-alex.png": {
+      "id": 233999513999587,
+      "filename": "https://a.storyblok.com/f/294787985525525/018b37582b/ziegler-alex.png"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/exploratory": 233989525293694
+  },
+  "story": {
+    "id": 233995125420230,
+    "parentId": 233989525293694,
+    "full_slug": "advising-migration-test/advising/exploratory/bridge-program"
+  }
+}

@@ -1,0 +1,1839 @@
+{
+  "story": {
+    "name": "Explore Business, Communication & Leadership Majors",
+    "slug": "focus-area-business-communication",
+    "is_startpage": false,
+    "content": {
+      "_uid": "e44128df-f88b-4a10-9a03-63fc61a55c0e",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "35fba42f-8234-4a11-9082-3848808b3f22",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "2c85e7d7-b2f3-46e9-8313-68298a92f77f",
+              "component": "moca-box",
+              "margin_top": "5",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "0afe1eb7-0849-4bae-ba7d-2d3abe866bf8",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "columns": [
+                    {
+                      "_uid": "58d9ba41-108b-4079-9fa8-1d3e3d688be8",
+                      "component": "moca-column",
+                      "width": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "155d564c-cbf8-4424-b9ad-ba4161264fb8",
+                          "component": "moca-heading",
+                          "text": "Communication, Organizations, & Influence Focus Area",
+                          "level": "h1",
+                          "color": "",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "1fcf1035-bd4b-4ef8-bd97-a9f6e4697403",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": " "
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "1af5902b-6521-475a-b2e4-afb5bdfffc66",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "3",
+                          "content": [
+                            {
+                              "_uid": "81d790e8-55fb-465e-9526-369aa8abb2c4",
+                              "component": "moca-button",
+                              "text": "Schedule an Appointment - Communication, Organizations, & Influence Focus Area",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=103",
+                                "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=103",
+                                "fieldtype": "multilink",
+                                "target": "_self"
+                              },
+                              "type": "btn-green",
+                              "size": "",
+                              "centered": false,
+                              "outline": false,
+                              "block": "true"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "65d702c8-69a8-47e7-8aeb-b5820cfe52cd",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "The Communication, Organization & Influence Focus Area is for students who work well with others, have effective communication skills, make decisions easily, lead effectively, and can solve problems. Students in this focus area may value interpersonal connections, teamwork, clarity, empathy, leadership, and innovation.  They may enjoy engaging in dialogue, public speaking, conflict resolution, managing, writing, content creation, and media analysis. They may consider themselves to be articulate, empathetic, creative, detail-oriented and culturally aware.  They often thrive in dynamic, interactive settings and could tend to lead or manage others to meet organizational goals or create economic growth."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "324b7010-28ff-4264-83df-71c3a270531d",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "We recommend USU 1010- University Connections for students in their first semester of college. Every student will need to complete the "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://catalog.usu.edu/pages/NFsYhFKHElZgu9CKB8ts",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "general education requirements"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "a5e777e6-db84-4694-8399-c1a06570eae0",
+                          "component": "moca-titled-box",
+                          "title": "On This Page",
+                          "title_color": "info",
+                          "title_bold": true,
+                          "border_color": "",
+                          "margin_top": "5",
+                          "margin_bottom": "5",
+                          "content": [
+                            {
+                              "_uid": "e6a625cb-2380-4198-b500-3d73f80203c5",
+                              "component": "moca-row",
+                              "justify": "center",
+                              "align": "",
+                              "padding_y": "",
+                              "columns": [
+                                {
+                                  "_uid": "4dcbc6b6-a453-4459-920a-5b85cb3e0005",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "71ade9b8-ae5f-4043-beb9-7be1ef50d01b",
+                                      "component": "moca-button",
+                                      "text": "Communication & Influence Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#communication",
+                                        "cached_url": "#communication",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "68d3a30d-d700-424f-903b-ac64990c9bf8",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "b01052f1-e23f-4d62-affd-4c828150c575",
+                                      "component": "moca-button",
+                                      "text": "Economic Systems Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#economic",
+                                        "cached_url": "#economic",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "7dea8715-0bfd-4894-af35-052aaab06a46",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "9a3c106c-f42e-4608-bb73-22c168f66903",
+                                      "component": "moca-button",
+                                      "text": "Business Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#business",
+                                        "cached_url": "#business",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "ae44d62a-7574-46b2-968a-e00fb0488a53",
+                          "component": "moca-heading",
+                          "text": "Communication & Influence Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "communication"
+                        },
+                        {
+                          "_uid": "882c5742-fe0b-4a01-8470-69f1869eb196",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "You may be interested in a communication focused major if you value working with people, facilitating connections, critical and creative thinking, writing, information gathering, influence and public relations."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "This is a pathway for individuals with aptitude for communication, creative thinking, decisiveness, and leadership. Many students in this area enjoy working with people and may consider themselves to be energetic, inventive, persuasive, and self-assured."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "All majors will require a math course, please talk to your academic advisor to know which course you should take and when you should take it."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "0beabd13-6940-4bb4-aa72-1348e29ed744",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "cd6adfba-5259-419d-98c3-57b1933032cf",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "6017f26a-574b-4d5b-95b6-62884f727ac7",
+                                  "component": "moca-card",
+                                  "header": "Common Majors",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/CMST-CMST_BA-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Communication Studies"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/ENGL-ENGL_BA-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "English"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/GLCO-GLCO_BA-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Global Communication"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/JOUR-JOUR_BA-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Journalism and Communication"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/TPPC-TPPC_BA-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Technical Communication and Rhetoric"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "8210890e-42bc-4c1b-981d-20ac57ec8628",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "77d763ec-7335-4544-869b-baab33ec6edf",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploration Courses",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/WbQTvXtMRnT4WsdJzuxj",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "CIVC 1800"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Disagree Better (BSS)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/EqnGdOwJQZAvodLM6W7A",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "CIVC 1810"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Leader From Where You Are (BSS)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/IiCXHrodj9XGbeEdsfRs",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "CIVC 1830"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Pathways to Intercultural Understanding (BSS)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/CMST1020",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "CMST 1020"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Public Speaking (BHU) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/CMST1330",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "CMST 1330"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Intro to Global Communication (BSS) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/CMST2110",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "CMST 2110"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Interpersonal Communication (BHU/HR) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/ENGL2020",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ENGL 2020"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Professional Communication (CL2)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/ENGL2220",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ENGL 2220"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Introduction to Fiction (BHU)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/ENGL2230",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ENGL 2230"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Introduction to Film (BHU)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/ENGL2600",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ENGL 2600"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Literary Analysis"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/JCOM1500",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "JCOM 1500"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Introduction to Mass Communication (BSS) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/JCOM2010",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "JCOM 2010"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Media Literacy (BSS) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/JCOM2030",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "JCOM 2030"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Multimedia (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/ikVyCsyhuE3narMuekiI",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "PI 2010"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Intro to Peacebuilding & Transformative Conflict"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/TCR2100",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "TCR 2100"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Introduction to Technical Communication (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/TCR2110/course-overview-aoYks",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "TCR 2110"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Digital Writing Technologies"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/TCR3120/course-overview-aoYks",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "TCR 3120"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Rhetorical Theory"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "bbc5efa6-9927-4540-879e-18ca5cefbfa8",
+                          "component": "moca-heading",
+                          "text": "Economic Systems Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "economic"
+                        },
+                        {
+                          "_uid": "3f575950-3fef-46b9-be40-f390bf7603b8",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "This pathway is for individuals with aptitude for problem-solving, practicality, leadership, pattern recognition, and communication. Most students in this area may consider themselves to be decisive, curious, ambitious, and observant."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "33ba023d-e78e-4dc0-a4e1-a4010d00afde",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "6d26a0dd-2d6e-46e0-a72a-024ebc71ac08",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "ecb7b4fc-bd49-4fd3-a7e3-4f83e7893cb2",
+                                  "component": "moca-card",
+                                  "header": "Common Majors",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/APEC-APEC_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Applied Economics"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/ECON-ECON_BU_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Economics"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "abfef79e-cd70-4352-aee7-c1f09565e2df",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "61ddd858-0d2b-4230-a733-f3ec30c37d37",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploration Courses",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "For "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/APEC-APEC_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Applied Economics"
+                                          },
+                                          {
+                                            "type": "hard_break",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/APEC1600",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "APEC 1600"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Natural Resources & American Economic Institutions (BAI) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/APEC2010",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "APEC 2010"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Introduction to Microeconomics (BSS)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "For "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/ECON-ECON_BU_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Economics"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/aZaNpXncgPRkFfEMMzeU",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ECON 2020"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Intro to Economic Institutions, History, & Principles (BAI) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/Q2OYp0Dk1XNNevY6wgAF",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ECON 2010"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Intro to Microeconomics (BSS) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/DATA1100",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "DATA 1100"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Excel for Business Analysis (1 credit)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/DATA2100",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "DATA 2100"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Data and Information in Business (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/DATA3100",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "DATA 3100"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Making Decisions with Data"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/nH6l0SbtxSxJWeZqXvmE",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "CIVC 1220"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": “Promote the General Welfare”: The American Economy"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "2fc00f34-728e-4b26-b117-f55199fd5263",
+                          "component": "moca-heading",
+                          "text": "Business Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "business"
+                        },
+                        {
+                          "_uid": "22ecf22b-7c7b-4e52-b42c-2654e22e6a0e",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "This is a pathway for people with an aptitude for communication, creative thinking, decisiveness, leadership, math, and data. Many students in this area may consider themselves to be energetic, inventive, persuasive, and self-assured."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "If you are interested in a business major, even if you are not sure which one, please contact the Huntsman School of Business.  "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Business: Undecided"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": " will allow you to be part of the Huntsman School of Business from day one as you discover a major you are passionate about. "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://huntsman.usu.edu/advising/majors/business-undecided.php",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "Learn More about Business Undecided."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "8368e292-3fb2-4f50-8a7f-f236e783137a",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "24eb002d-7e46-4e92-b0a9-17d43c2e89db",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "47eae9c8-8409-4c3b-9225-cbb03ce1478d",
+                                  "component": "moca-card",
+                                  "header": "Common Majors",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/ACCT-ACCT_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Accounting"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/AGBU-AGBU_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Agribusiness"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/DATA-DATA_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Data Analytics"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/FINA-FINA_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Finance"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/INSY-INSY_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Information Systems"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/D9NT9YGDNlxRUPcAwYak/program-overview-aoYks",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Management"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/programs/MARK-MARK_BS-MAJOR",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Marketing"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "3b086f51-9dff-447a-836b-8f5416845430",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "50ebbabf-1359-4045-8206-b94dc0237daf",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploration Courses",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/ACCT2010",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ACCT 2010"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Financial Accounting Principles (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/DATA1100",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "DATA 1100"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Excel for Business Analysis (1 credit)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/DATA2100",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "DATA 2100"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Data and Information in Business (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/aZaNpXncgPRkFfEMMzeU",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ECON 2020"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Intro to Economics Institutions, History, & Principles (BAI) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/Q2OYp0Dk1XNNevY6wgAF",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ECON 2010"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Intro to Microeconomics (BSS) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "For Agribusiness:"
+                                          },
+                                          {
+                                            "type": "hard_break",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/APEC1600",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "APEC 1600"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Natural Resources and American Economic Institutions (BAI) (3 credits)"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/courses/APEC2010",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "APEC 2010"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ": Introduction to Microeconomics (BSS) (3 credits)"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/exploratory/index-banner.jpg": {
+      "id": 233989490878532,
+      "filename": "https://a.storyblok.com/f/294787985525525/2ec525a119/index-banner.jpg"
+    },
+    "https://www.usu.edu/advising/images/exploratory/advising.jpg": {
+      "id": 233989508163653,
+      "filename": "https://a.storyblok.com/f/294787985525525/1b20477a06/advising.jpg"
+    },
+    "https://www.usu.edu/advising/images/exploratory/peer-advising.jpg": {
+      "id": 233989514631238,
+      "filename": "https://a.storyblok.com/f/294787985525525/b4fbcc13df/peer-advising.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/exploratory": 233989525293694
+  },
+  "story": {
+    "id": 233989528226431,
+    "parentId": 233989525293694,
+    "full_slug": "advising-migration-test/advising/exploratory/"
+  }
+}

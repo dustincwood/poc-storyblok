@@ -159,6 +159,16 @@
       "centered": {
         "pos": 5,
         "type": "boolean"
+      },
+      "block": {
+        "pos": 6,
+        "type": "boolean",
+        "description": "Full width (btn-block)"
+      },
+      "fill_height": {
+        "pos": 7,
+        "type": "boolean",
+        "description": "Fill the column height with the label centered, so a row of buttons stays even when labels wrap"
       }
     }
   },
@@ -555,6 +565,38 @@
         "pos": 3,
         "type": "text",
         "description": "Screen reader text when there is no link"
+      },
+      "size": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "From icon classes",
+            "value": ""
+          },
+          {
+            "name": "1x",
+            "value": "1"
+          },
+          {
+            "name": "2x",
+            "value": "2"
+          },
+          {
+            "name": "3x",
+            "value": "3"
+          },
+          {
+            "name": "4x",
+            "value": "4"
+          },
+          {
+            "name": "5x",
+            "value": "5"
+          }
+        ],
+        "default_value": "",
+        "description": "fa-{n}x; overrides a size class in Icon"
       }
     }
   },
@@ -840,6 +882,33 @@
       "content": {
         "pos": 1,
         "type": "richtext"
+      },
+      "header_color": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Primary (navy)",
+            "value": "primary"
+          },
+          {
+            "name": "Blue",
+            "value": "blue"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Bright light",
+            "value": "bright-light"
+          }
+        ]
+      },
+      "blocks": {
+        "pos": 3,
+        "type": "bloks",
+        "description": "Layout blocks after the text (rows, cards, buttons)"
       }
     }
   },
@@ -891,6 +960,1877 @@
         "type": "text",
         "required": true,
         "description": "YouTube video URL"
+      }
+    }
+  },
+  {
+    "name": "moca-contact-block",
+    "display_name": "MC Contact Block",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "name": {
+        "pos": 0,
+        "type": "text"
+      },
+      "description": {
+        "pos": 1,
+        "type": "text",
+        "description": "Job title or role, shown under the name"
+      },
+      "orientation": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "Horizontal",
+            "value": "horizontal"
+          },
+          {
+            "name": "Vertical",
+            "value": "vertical"
+          }
+        ],
+        "default_value": "horizontal"
+      },
+      "image": {
+        "pos": 3,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "image_style": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "Rounded",
+            "value": "rounded"
+          },
+          {
+            "name": "Circle",
+            "value": "rounded-circle"
+          },
+          {
+            "name": "Thumbnail",
+            "value": "img-thumbnail"
+          }
+        ],
+        "default_value": ""
+      },
+      "location": {
+        "pos": 5,
+        "type": "text",
+        "description": "Office location"
+      },
+      "phone": {
+        "pos": 6,
+        "type": "text"
+      },
+      "fax": {
+        "pos": 7,
+        "type": "text"
+      },
+      "email": {
+        "pos": 8,
+        "type": "text"
+      },
+      "address_name": {
+        "pos": 9,
+        "type": "text",
+        "description": "Mailing address: name"
+      },
+      "address_line1": {
+        "pos": 10,
+        "type": "text"
+      },
+      "address_line2": {
+        "pos": 11,
+        "type": "text"
+      },
+      "city": {
+        "pos": 12,
+        "type": "text"
+      },
+      "state": {
+        "pos": 13,
+        "type": "text"
+      },
+      "zip": {
+        "pos": 14,
+        "type": "text"
+      },
+      "schedule": {
+        "pos": 15,
+        "type": "multilink",
+        "allow_target_blank": true,
+        "description": "Appointment link; shows a Schedule an Appointment button"
+      }
+    }
+  },
+  {
+    "name": "moca-info-block",
+    "display_name": "MC Info Block with Image",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "image": {
+        "pos": 0,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "image_location": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ],
+        "default_value": "left"
+      },
+      "header": {
+        "pos": 2,
+        "type": "text"
+      },
+      "body": {
+        "pos": 3,
+        "type": "richtext"
+      },
+      "button": {
+        "pos": 4,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-button"
+        ],
+        "maximum": 1
+      }
+    }
+  },
+  {
+    "name": "moca-text",
+    "display_name": "MC Text",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "text": {
+        "pos": 0,
+        "type": "richtext"
+      },
+      "style": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Lead",
+            "value": "lead"
+          }
+        ],
+        "default_value": ""
+      },
+      "table_style": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "Table",
+            "value": "plain"
+          },
+          {
+            "name": "Striped table",
+            "value": "striped"
+          }
+        ],
+        "default_value": "",
+        "description": "Bootstrap table styling for tables in the text"
+      }
+    }
+  },
+  {
+    "name": "moca-container",
+    "display_name": "MC Container",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "width": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": "default"
+          },
+          {
+            "name": "Narrow",
+            "value": "narrow"
+          },
+          {
+            "name": "Full width",
+            "value": "fluid"
+          }
+        ],
+        "default_value": "default"
+      },
+      "margin_y": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space above and below"
+      },
+      "padding_y": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Padding above and below"
+      },
+      "content": {
+        "pos": 3,
+        "type": "bloks"
+      }
+    }
+  },
+  {
+    "name": "moca-band",
+    "display_name": "MC Background Band",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "background": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Primary (navy)",
+            "value": "bg-primary"
+          },
+          {
+            "name": "Info (blue)",
+            "value": "bg-info"
+          },
+          {
+            "name": "Dark",
+            "value": "bg-dark"
+          },
+          {
+            "name": "Blue dark",
+            "value": "bg-blue-dark"
+          },
+          {
+            "name": "Light",
+            "value": "bg-light"
+          },
+          {
+            "name": "Gray 200",
+            "value": "bg-gray-200"
+          },
+          {
+            "name": "White",
+            "value": "bg-white"
+          }
+        ],
+        "default_value": "bg-light"
+      },
+      "padding_y": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Padding above and below"
+      },
+      "pattern": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "Topographic lines",
+            "value": "topographic"
+          }
+        ],
+        "default_value": ""
+      },
+      "content": {
+        "pos": 4,
+        "type": "bloks"
+      }
+    }
+  },
+  {
+    "name": "moca-row",
+    "display_name": "MC Row",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "columns": {
+        "pos": 0,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-column"
+        ]
+      },
+      "justify": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Start",
+            "value": "start"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "End",
+            "value": "end"
+          },
+          {
+            "name": "Space between",
+            "value": "between"
+          },
+          {
+            "name": "Space around",
+            "value": "around"
+          }
+        ],
+        "default_value": ""
+      },
+      "align": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "Stretch (default)",
+            "value": ""
+          },
+          {
+            "name": "Top",
+            "value": "start"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Bottom",
+            "value": "end"
+          }
+        ],
+        "default_value": ""
+      },
+      "padding_y": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Padding above and below"
+      }
+    }
+  },
+  {
+    "name": "moca-column",
+    "display_name": "MC Column",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "width": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "Inherit",
+            "value": ""
+          },
+          {
+            "name": "Auto (equal share)",
+            "value": "auto"
+          },
+          {
+            "name": "Fit content",
+            "value": "content"
+          },
+          {
+            "name": "1/12",
+            "value": "1"
+          },
+          {
+            "name": "2/12",
+            "value": "2"
+          },
+          {
+            "name": "3/12",
+            "value": "3"
+          },
+          {
+            "name": "4/12",
+            "value": "4"
+          },
+          {
+            "name": "5/12",
+            "value": "5"
+          },
+          {
+            "name": "6/12",
+            "value": "6"
+          },
+          {
+            "name": "7/12",
+            "value": "7"
+          },
+          {
+            "name": "8/12",
+            "value": "8"
+          },
+          {
+            "name": "9/12",
+            "value": "9"
+          },
+          {
+            "name": "10/12",
+            "value": "10"
+          },
+          {
+            "name": "11/12",
+            "value": "11"
+          },
+          {
+            "name": "12/12",
+            "value": "12"
+          }
+        ],
+        "description": "All screens"
+      },
+      "width_sm": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Inherit",
+            "value": ""
+          },
+          {
+            "name": "Auto (equal share)",
+            "value": "auto"
+          },
+          {
+            "name": "Fit content",
+            "value": "content"
+          },
+          {
+            "name": "1/12",
+            "value": "1"
+          },
+          {
+            "name": "2/12",
+            "value": "2"
+          },
+          {
+            "name": "3/12",
+            "value": "3"
+          },
+          {
+            "name": "4/12",
+            "value": "4"
+          },
+          {
+            "name": "5/12",
+            "value": "5"
+          },
+          {
+            "name": "6/12",
+            "value": "6"
+          },
+          {
+            "name": "7/12",
+            "value": "7"
+          },
+          {
+            "name": "8/12",
+            "value": "8"
+          },
+          {
+            "name": "9/12",
+            "value": "9"
+          },
+          {
+            "name": "10/12",
+            "value": "10"
+          },
+          {
+            "name": "11/12",
+            "value": "11"
+          },
+          {
+            "name": "12/12",
+            "value": "12"
+          }
+        ],
+        "description": "576px and up"
+      },
+      "width_md": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "Inherit",
+            "value": ""
+          },
+          {
+            "name": "Auto (equal share)",
+            "value": "auto"
+          },
+          {
+            "name": "Fit content",
+            "value": "content"
+          },
+          {
+            "name": "1/12",
+            "value": "1"
+          },
+          {
+            "name": "2/12",
+            "value": "2"
+          },
+          {
+            "name": "3/12",
+            "value": "3"
+          },
+          {
+            "name": "4/12",
+            "value": "4"
+          },
+          {
+            "name": "5/12",
+            "value": "5"
+          },
+          {
+            "name": "6/12",
+            "value": "6"
+          },
+          {
+            "name": "7/12",
+            "value": "7"
+          },
+          {
+            "name": "8/12",
+            "value": "8"
+          },
+          {
+            "name": "9/12",
+            "value": "9"
+          },
+          {
+            "name": "10/12",
+            "value": "10"
+          },
+          {
+            "name": "11/12",
+            "value": "11"
+          },
+          {
+            "name": "12/12",
+            "value": "12"
+          }
+        ],
+        "description": "768px and up"
+      },
+      "width_lg": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "Inherit",
+            "value": ""
+          },
+          {
+            "name": "Auto (equal share)",
+            "value": "auto"
+          },
+          {
+            "name": "Fit content",
+            "value": "content"
+          },
+          {
+            "name": "1/12",
+            "value": "1"
+          },
+          {
+            "name": "2/12",
+            "value": "2"
+          },
+          {
+            "name": "3/12",
+            "value": "3"
+          },
+          {
+            "name": "4/12",
+            "value": "4"
+          },
+          {
+            "name": "5/12",
+            "value": "5"
+          },
+          {
+            "name": "6/12",
+            "value": "6"
+          },
+          {
+            "name": "7/12",
+            "value": "7"
+          },
+          {
+            "name": "8/12",
+            "value": "8"
+          },
+          {
+            "name": "9/12",
+            "value": "9"
+          },
+          {
+            "name": "10/12",
+            "value": "10"
+          },
+          {
+            "name": "11/12",
+            "value": "11"
+          },
+          {
+            "name": "12/12",
+            "value": "12"
+          }
+        ],
+        "description": "992px and up"
+      },
+      "width_xl": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "Inherit",
+            "value": ""
+          },
+          {
+            "name": "Auto (equal share)",
+            "value": "auto"
+          },
+          {
+            "name": "Fit content",
+            "value": "content"
+          },
+          {
+            "name": "1/12",
+            "value": "1"
+          },
+          {
+            "name": "2/12",
+            "value": "2"
+          },
+          {
+            "name": "3/12",
+            "value": "3"
+          },
+          {
+            "name": "4/12",
+            "value": "4"
+          },
+          {
+            "name": "5/12",
+            "value": "5"
+          },
+          {
+            "name": "6/12",
+            "value": "6"
+          },
+          {
+            "name": "7/12",
+            "value": "7"
+          },
+          {
+            "name": "8/12",
+            "value": "8"
+          },
+          {
+            "name": "9/12",
+            "value": "9"
+          },
+          {
+            "name": "10/12",
+            "value": "10"
+          },
+          {
+            "name": "11/12",
+            "value": "11"
+          },
+          {
+            "name": "12/12",
+            "value": "12"
+          }
+        ],
+        "description": "1200px and up"
+      },
+      "order": {
+        "pos": 5,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "First",
+            "value": "first"
+          },
+          {
+            "name": "Last",
+            "value": "last"
+          },
+          {
+            "name": "1",
+            "value": "1"
+          },
+          {
+            "name": "2",
+            "value": "2"
+          },
+          {
+            "name": "3",
+            "value": "3"
+          }
+        ]
+      },
+      "order_lg": {
+        "pos": 6,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "First",
+            "value": "first"
+          },
+          {
+            "name": "Last",
+            "value": "last"
+          },
+          {
+            "name": "1",
+            "value": "1"
+          },
+          {
+            "name": "2",
+            "value": "2"
+          },
+          {
+            "name": "3",
+            "value": "3"
+          }
+        ],
+        "description": "992px and up"
+      },
+      "margin_top": {
+        "pos": 7,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space above"
+      },
+      "margin_bottom": {
+        "pos": 8,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space below"
+      },
+      "stretch": {
+        "pos": 9,
+        "type": "boolean",
+        "description": "Let a card fill the column height (d-flex)"
+      },
+      "display": {
+        "pos": 11,
+        "type": "option",
+        "options": [
+          {
+            "name": "Always",
+            "value": ""
+          },
+          {
+            "name": "Only from 992px",
+            "value": "lg-up"
+          },
+          {
+            "name": "Only under 992px",
+            "value": "below-lg"
+          }
+        ],
+        "default_value": ""
+      },
+      "align_self": {
+        "pos": 12,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Top",
+            "value": "start"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Bottom",
+            "value": "end"
+          }
+        ],
+        "default_value": ""
+      },
+      "text_align": {
+        "pos": 13,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          }
+        ],
+        "default_value": ""
+      },
+      "overlap": {
+        "pos": 14,
+        "type": "boolean",
+        "description": "Overlap neighboring columns (mx-n5), e.g. arrows between cards"
+      },
+      "content": {
+        "pos": 15,
+        "type": "bloks"
+      }
+    }
+  },
+  {
+    "name": "moca-tier1-card",
+    "display_name": "MC Tier 1 Card",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "image": {
+        "pos": 0,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "link": {
+        "pos": 1,
+        "type": "multilink",
+        "allow_target_blank": true
+      },
+      "title": {
+        "pos": 2,
+        "type": "text"
+      },
+      "icon": {
+        "pos": 3,
+        "type": "text",
+        "description": "Font Awesome classes, e.g. fa-solid fa-magnifying-glass"
+      },
+      "ratio": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default (300px tall)",
+            "value": ""
+          },
+          {
+            "name": "1:1",
+            "value": "1x1"
+          },
+          {
+            "name": "2:3",
+            "value": "2x3"
+          },
+          {
+            "name": "3:4",
+            "value": "3x4"
+          },
+          {
+            "name": "4:3",
+            "value": "4x3"
+          },
+          {
+            "name": "3:2",
+            "value": "3x2"
+          }
+        ],
+        "default_value": ""
+      },
+      "shadow": {
+        "pos": 5,
+        "type": "boolean"
+      },
+      "text": {
+        "pos": 6,
+        "type": "textarea",
+        "description": "Optional text under the title"
+      }
+    }
+  },
+  {
+    "name": "moca-titled-box",
+    "display_name": "MC Titled Box",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "title": {
+        "pos": 0,
+        "type": "text"
+      },
+      "title_color": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Info (blue)",
+            "value": "info"
+          },
+          {
+            "name": "Primary (navy)",
+            "value": "primary"
+          },
+          {
+            "name": "Slate",
+            "value": "slate"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          }
+        ],
+        "default_value": "info"
+      },
+      "title_bold": {
+        "pos": 2,
+        "type": "boolean"
+      },
+      "border_color": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "Light gray",
+            "value": ""
+          },
+          {
+            "name": "Bright light",
+            "value": "bright-light"
+          },
+          {
+            "name": "Info",
+            "value": "info"
+          },
+          {
+            "name": "Primary",
+            "value": "primary"
+          }
+        ],
+        "default_value": ""
+      },
+      "margin_top": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space above"
+      },
+      "margin_bottom": {
+        "pos": 5,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space below"
+      },
+      "content": {
+        "pos": 6,
+        "type": "bloks"
+      }
+    }
+  },
+  {
+    "name": "moca-heading",
+    "display_name": "MC Heading",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "text": {
+        "pos": 0,
+        "type": "text"
+      },
+      "level": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "H1 (page title, only when there is no hero)",
+            "value": "h1"
+          },
+          {
+            "name": "H2",
+            "value": "h2"
+          },
+          {
+            "name": "H3",
+            "value": "h3"
+          },
+          {
+            "name": "H4",
+            "value": "h4"
+          }
+        ],
+        "default_value": "h2"
+      },
+      "color": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Primary (navy)",
+            "value": "primary"
+          },
+          {
+            "name": "Blue (slate)",
+            "value": "blue"
+          },
+          {
+            "name": "Blue dark",
+            "value": "blue-dark"
+          },
+          {
+            "name": "Info (blue)",
+            "value": "info"
+          },
+          {
+            "name": "Bright light",
+            "value": "bright-light"
+          },
+          {
+            "name": "Success",
+            "value": "success"
+          },
+          {
+            "name": "Warning",
+            "value": "warning"
+          },
+          {
+            "name": "Danger",
+            "value": "danger"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          }
+        ],
+        "default_value": ""
+      },
+      "align": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "Left",
+            "value": ""
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          }
+        ],
+        "default_value": ""
+      },
+      "bold": {
+        "pos": 4,
+        "type": "boolean"
+      },
+      "rules": {
+        "pos": 5,
+        "type": "boolean",
+        "description": "Lines on both sides of the heading"
+      },
+      "margin_bottom": {
+        "pos": 6,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space below"
+      },
+      "anchor": {
+        "pos": 7,
+        "type": "text",
+        "description": "ID for in-page links: a link to #this-id jumps here (letters, numbers and dashes)"
+      }
+    }
+  },
+  {
+    "name": "moca-link-card",
+    "display_name": "MC Link Card",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "title": {
+        "pos": 0,
+        "type": "text"
+      },
+      "link": {
+        "pos": 1,
+        "type": "multilink",
+        "allow_target_blank": true
+      },
+      "text": {
+        "pos": 2,
+        "type": "textarea"
+      },
+      "icon": {
+        "pos": 3,
+        "type": "text",
+        "description": "Font Awesome classes, e.g. fa-solid fa-calendar fa-2x"
+      },
+      "icon_position": {
+        "pos": 4,
+        "type": "option",
+        "options": [
+          {
+            "name": "Right of the title",
+            "value": "right"
+          },
+          {
+            "name": "Left column",
+            "value": "left"
+          }
+        ],
+        "default_value": "right"
+      },
+      "background": {
+        "pos": 5,
+        "type": "option",
+        "options": [
+          {
+            "name": "Blue blend",
+            "value": "color-blend"
+          },
+          {
+            "name": "Info (blue)",
+            "value": "info"
+          },
+          {
+            "name": "Primary (navy)",
+            "value": "primary"
+          }
+        ],
+        "default_value": "color-blend"
+      },
+      "title_size": {
+        "pos": 6,
+        "type": "option",
+        "options": [
+          {
+            "name": "H3",
+            "value": "h3"
+          },
+          {
+            "name": "H4",
+            "value": "h4"
+          }
+        ],
+        "default_value": "h3"
+      }
+    }
+  },
+  {
+    "name": "moca-bar-card",
+    "display_name": "MC Bar Card",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "title": {
+        "pos": 0,
+        "type": "text"
+      },
+      "title_color": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Slate",
+            "value": ""
+          },
+          {
+            "name": "Primary (navy)",
+            "value": "primary"
+          },
+          {
+            "name": "Blue (slate)",
+            "value": "blue"
+          },
+          {
+            "name": "Blue dark",
+            "value": "blue-dark"
+          },
+          {
+            "name": "Info (blue)",
+            "value": "info"
+          },
+          {
+            "name": "Bright light",
+            "value": "bright-light"
+          },
+          {
+            "name": "Success",
+            "value": "success"
+          },
+          {
+            "name": "Warning",
+            "value": "warning"
+          },
+          {
+            "name": "Danger",
+            "value": "danger"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          }
+        ],
+        "default_value": ""
+      },
+      "body": {
+        "pos": 2,
+        "type": "richtext"
+      },
+      "bar_color": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "Primary (navy)",
+            "value": "primary"
+          },
+          {
+            "name": "Blue (slate)",
+            "value": "blue"
+          },
+          {
+            "name": "Blue dark",
+            "value": "blue-dark"
+          },
+          {
+            "name": "Info (blue)",
+            "value": "info"
+          },
+          {
+            "name": "Bright light",
+            "value": "bright-light"
+          },
+          {
+            "name": "Success",
+            "value": "success"
+          },
+          {
+            "name": "Warning",
+            "value": "warning"
+          },
+          {
+            "name": "Danger",
+            "value": "danger"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "White",
+            "value": "white"
+          }
+        ],
+        "default_value": "",
+        "description": "Bar along the bottom edge"
+      }
+    }
+  },
+  {
+    "name": "moca-box",
+    "display_name": "MC Box",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "margin_top": {
+        "pos": 0,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space above"
+      },
+      "margin_bottom": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space below"
+      },
+      "text_align": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ],
+        "default_value": ""
+      },
+      "content": {
+        "pos": 3,
+        "type": "bloks"
+      }
+    }
+  },
+  {
+    "name": "moca-list-card",
+    "display_name": "MC List Card",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "title": {
+        "pos": 0,
+        "type": "text"
+      },
+      "header_color": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "Primary (navy)",
+            "value": "primary"
+          },
+          {
+            "name": "Blue (slate)",
+            "value": "blue"
+          },
+          {
+            "name": "Blue dark",
+            "value": "blue-dark"
+          },
+          {
+            "name": "Info (blue)",
+            "value": "info"
+          },
+          {
+            "name": "Bright light",
+            "value": "bright-light"
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          }
+        ],
+        "default_value": "primary"
+      },
+      "body": {
+        "pos": 2,
+        "type": "richtext",
+        "description": "A bulleted list; each item becomes a row"
+      }
+    }
+  },
+  {
+    "name": "moca-profile-card",
+    "display_name": "MC Profile Card",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "image": {
+        "pos": 0,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "name": {
+        "pos": 1,
+        "type": "text"
+      },
+      "title": {
+        "pos": 2,
+        "type": "text",
+        "description": "Job title"
+      },
+      "department": {
+        "pos": 3,
+        "type": "text",
+        "description": "Department or assignment, shown under the title"
+      },
+      "phone": {
+        "pos": 4,
+        "type": "text"
+      },
+      "email": {
+        "pos": 5,
+        "type": "text"
+      },
+      "schedule": {
+        "pos": 6,
+        "type": "multilink",
+        "description": "Appointment link; shown as a Schedule an Appointment button"
+      }
+    }
+  },
+  {
+    "name": "moca-image",
+    "display_name": "MC Image",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "image": {
+        "pos": 0,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ],
+        "required": true
+      },
+      "image_style": {
+        "pos": 1,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "Rounded",
+            "value": "rounded"
+          },
+          {
+            "name": "Circle",
+            "value": "rounded-circle"
+          },
+          {
+            "name": "Thumbnail",
+            "value": "img-thumbnail"
+          }
+        ],
+        "default_value": ""
+      },
+      "full_width": {
+        "pos": 2,
+        "type": "boolean",
+        "description": "Stretch to the column width; otherwise the image keeps its own size, never wider than the column"
+      },
+      "margin_bottom": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space below"
       }
     }
   }

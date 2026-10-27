@@ -1,0 +1,338 @@
+{
+  "$comment": [
+    "Modern Campus component instance (~[com[ID ...{json}]]~) -> Storyblok blok, for the migration script.",
+    "Field hashes are Modern Campus field IDs (not derivable from names); mapped from sample values across C:/development/mc-sites and checked against published usu.edu pages where marked.",
+    "Target conventions: 'button.*' builds one nested moca-button blok; ':html' converts HTML to rich text; ':bool' converts 'true'/'false'; ':link' builds a multilink from a URL or {{f:/a:}} dependency tag; null = known field, not migrated.",
+    "Each entry's 'unknown' lists hashes seen only empty, so they can't be identified yet."
+  ],
+  "5887": {
+    "name": "Card - Alert (BS4)",
+    "component": "moca-alert-card",
+    "fields": {
+      "6148b62994afe9ae4492824459a19f85": "header",
+      "16c13f9b4bd18143f7678ef24b9bf281": "color",
+      "224ca159708fd486e78273e8273bc65c": "body:html",
+      "c564ff18b2ef9c3ada87b8823cd0b44c": "button_text",
+      "8b0e14581456d085b248cff497d6de76": "button_link:link",
+      "d2062171a535c87bf3c5925d7b8a6d90": "button_link.target"
+    },
+    "unknown": ["4cd43772d4847c568a9553782c65070e", "580eb0e1a731cc38faf1373b671afce8"]
+  },
+  "3862": {
+    "name": "Card (BS4)",
+    "component": "moca-card",
+    "fields": {
+      "941a033dccdcfd4842f668eddf0ed6a7": "header",
+      "8dc4edcdee292ba59a619566b270ec7b": "color",
+      "c6d68518a0d9a3a5064bbc6ac1353dbc": "body:html",
+      "ab56a4c7d94cadd7a7509ffc0cb25267": "image.filename:link",
+      "e11d7278cd844cc2ed6d0d4311be7814": "image.alt",
+      "122216766bb1e8f0ed9663a38f9693a0": "image_location",
+      "45bbf6098893804dcf9c46618e7d035c": "button.text",
+      "4afe26451eaa6e586a5e113fede70459": "button.link:link",
+      "09806758d7df0018b63cf3ae8636796b": "button.type",
+      "67794f88d33297152b7abe0faf04f548": "button.link.target",
+      "35573d29011cf3dce9a3c3d84f24330b": "button.outline:bool"
+    },
+    "confirmed": {
+      "fields": "Labeled sample from the Modern Campus form confirms image, alt text, title, body, button text, card link (button URL), button type and image location",
+      "35573d29011cf3dce9a3c3d84f24330b": "btn-type/@style (outline): defaults to false in the component config and is false in 63 of 64 instances",
+      "67794f88d33297152b7abe0faf04f548": "Button a/@target: Info Block with Image (1855) shares this hash and its config has no image link or target, only the button's"
+    },
+    "values": {
+      "8dc4edcdee292ba59a619566b270ec7b": { "White": "" }
+    },
+    "fixed": {
+      "$comment": "Set in the component config and not stored per instance; the migration applies these",
+      "button.centered": true,
+      "button.size": "",
+      "button.classes": "btn-wrap"
+    },
+    "unknown": ["dcfdcfa8e36065a2f9de67086c412dfb", "1e4d218c558df923c169f49974180b78", "4d5aa9ad7e31a81028005573c0ed6bef", "8438e34172a610139b76e12ebc45fbb9"],
+    "notes": ["The config's img/@href (image link) is probably one of the unknown hashes; none is ever filled in"]
+  },
+  "3651": {
+    "name": "Button (BS4)",
+    "component": "moca-button",
+    "fields": {
+      "f06223dd224a13899db6ef2108fc4d7b": "text",
+      "f252377e233a6483bed1d52cec8eefb7": "link:link",
+      "9b832e293b41d11c32e2225250d69743": "link.target",
+      "6ac8b28abd20d5ed5c9d2d4da3b87403": "type",
+      "103806f94f4e5e04508db02833acca28": "size",
+      "dbad9896e5926945319e9ccfa77a8a15": "centered:bool",
+      "e87502d1288d09ba6402ea55c86dd652": "outline:bool",
+      "8541ff406765d1649002a77449c3e49b": "block"
+    },
+    "values": {
+      "8541ff406765d1649002a77449c3e49b": { "btn-block": true, "btn": false }
+    },
+    "confirmed": {
+      "dbad9896e5926945319e9ccfa77a8a15": "true renders inside <div class=\"text-center\"> (advising/advisors/peer-advising/training)",
+      "e87502d1288d09ba6402ea55c86dd652": "true renders as btn-outline-bright-light (advising/general-studies/apply-for-graduation)"
+    },
+    "notes": [
+      "size: 'btn' means no size class; map to ''",
+      "Component config fields: btn-text, a/@href, a/@target (_self), btn-type, btn-type/@style (false), btn-type/@size (btn), classes (btn-wrap,btn), centered (false); all mapped",
+      "classes holds btn or btn-block (21 of 81); block needs a matching moca-button field, which doesn't exist yet"
+    ],
+    "obsolete": {
+      "$comment": "Always empty and not in the component config; probably fields from an older version",
+      "fields": ["57633abe7348f42afded19e25e34b48b", "8cdfe41e9f07bc33181ee637e68ef342"]
+    }
+  },
+  "3338": {
+    "name": "Hero Banner (BS4)",
+    "component": "moca-hero-banner",
+    "fields": {
+      "6a297d6e24cab0d2e76201a95285d384": "background_image.filename:link",
+      "ae7b1535d491db3c47abd5a1b7e5e727": "partial_background:bool",
+      "4841bc11f96ecabf80611a04a363b57d": "text_location",
+      "21a5e03807aff6a7ae369d0b5f7fd5f4": "height",
+      "c04cafb77424d07c9f1e3f98e467044f": "container_width",
+      "9c601a932f404b49ac8db00d01a269ef": "header",
+      "0fb1ab537e3b235e1d4d6014d82edeb5": "subheader",
+      "e30a8474d90b2a6bab329343f4a2b871": "content:html",
+      "5b5b45c7425664db62db24c137704da2": "button.type",
+      "876bcc150d073d2952c3a81d14dc307a": "button.block",
+      "4fcb98c986eb4966a3ea010141db7a85": "button.link.target",
+      "97c3ba28c718a884b5572bb15b2dc732": "button.outline:bool"
+    },
+    "values": {
+      "876bcc150d073d2952c3a81d14dc307a": { "btn-block": true, "btn": false }
+    },
+    "fixed": {
+      "$comment": "Config default, never stored per instance (no hero holds btn-lg); the migration applies it",
+      "button.size": "btn-lg"
+    },
+    "confirmed": {
+      "ae7b1535d491db3c47abd5a1b7e5e727": "true renders .jumbotron-title-bottom (advising home)",
+      "6a297d6e24cab0d2e76201a95285d384": "{{f:48515813}} renders as /advising/images/home-banner.jpg (advising home)",
+      "876bcc150d073d2952c3a81d14dc307a": "classes (config default 'btn-wrap, btn'): holds btn in 36 of 37 heroes, the way Button (3651) stores its classes"
+    },
+    "inferred": {
+      "e30a8474d90b2a6bab329343f4a2b871": "Only one sample ('July 28 & 29, 2026'); jumbotron-content, as subheader is 0fb1ab53",
+      "97c3ba28c718a884b5572bb15b2dc732": "The only stored boolean, but the config has two (btn-type/@style and centered, both false); the one true sample has no button text, so it couldn't be checked"
+    },
+    "unknown": ["738b765a7bc47c617ca141a9b03d0666", "04d358ed074dd58c262ec981b923cd90", "8f1630a7c4a15fc0f7ad2c71ab8dab7a", "195df6de7687d649b8dd780942769102", "0d220049191974c1edc37825ba722e63", "5b35887f207dd0fbc8718d9e11aed062", "3f53d47a578381472c7dc97ece1b57a0"],
+    "notes": [
+      "Config fields: height (200px), container-width (default), text-location (bottom-left), header, subheader, jumbotron-content, background-color, background-image, partial-background, and a button: btn-text, a/@href, a/@target (_self), btn-type (btn-primary), @style (false), @size (btn-lg), classes, centered (false)",
+      "background-color is not migrated: the staging components.xsl never uses it (only color-blend when there is no image)",
+      "The unknown keys include background-color, button text and button link URL; no hero in mc-sites has button text yet"
+    ]
+  },
+  "1884": {
+    "name": "Card - Accent Color (BS4)",
+    "component": "moca-accent-card",
+    "fields": {
+      "132a907d3a2f0860d693772209ab78f9": "color",
+      "ac7d328eeb04bd07b54714f64e6ab04e": "title",
+      "4429acb11ad553f08bb3856598758c37": "body:html",
+      "4ad7f65b799f7097f3186484580e5ed7": "button.text",
+      "f459e5d17db4d320f081f70c36c7eb71": "button.link:link",
+      "11f0231b45502864908dfefd743f574f": "button.link.target"
+    },
+    "derived": {
+      "$comment": "Target filled from another field's value",
+      "button.type": "132a907d3a2f0860d693772209ab78f9"
+    },
+    "values": {
+      "$comment": "Keyed by target: card color names become moca-button type options",
+      "button.type": { "Primary": "btn-primary", "Info": "btn-info", "Success": "btn-success", "Warning": "btn-warning", "Gray": "btn-white", "None": "btn-white", "": "btn-white" }
+    },
+    "fixed": {
+      "$comment": "Config defaults, never stored per instance; the migration applies these",
+      "button.outline": false,
+      "button.size": "",
+      "button.centered": false
+    },
+    "confirmed": {
+      "component": "Renders card shadow mb-3 w-100 with card-footer bg-info, the accent card (advising/advisors/peer-advising/training)",
+      "button.type": "The button takes the card color: color Info renders btn-info (advising/exploratory/for-faculty-staff). mocaButtonClass() maps the legacy names Info/Primary/Success/Warning, and anything else to btn-white"
+    },
+    "notes": [
+      "Config fields: color, card-title, card-body, and a button: btn-text, a/@href, a/@target (_self), btn-type (empty), @style (false), @size (btn), classes (btn-wrap,btn), centered (false). Only 7 hashes are stored"
+    ],
+    "unknown": ["a5c789946f0062616eed8cf2c5d3101e"],
+    "$unknown": "Always empty; probably btn-type, whose config default is empty and which the card color stands in for"
+  },
+  "3894": {
+    "name": "Font Awesome Icon (BS4)",
+    "component": "moca-font-awesome",
+    "fields": {
+      "c04b81c16a8fb4e4df4befb60685e3eb": "icon",
+      "e7ba96a939c43723065df478a31fa456": "link:link",
+      "24435c30ad9f580b3080b06a662a8d97": "link_title",
+      "d294daec5ea09b8139d26eb668b4fd3f": "sr_only"
+    },
+    "fallbacks": {
+      "$comment": "Used when the mapped field is empty",
+      "sr_only": ["67eeafe29ee52f4c150a6e4c2bed7f05"]
+    },
+    "confirmed": {
+      "fields": "Config has exactly a (icon HTML + @href), sronly and fa-link-title; the usage example in font-awesome-icon-bs4.md has icon fa-house, link {{f:81897302}}, link title 'home' and sronly 'house icon' on these hashes"
+    },
+    "notes": ["icon holds an escaped <i class=\"...\"> tag; faIconName() in app/utils/moca.ts already accepts that"],
+    "obsolete": {
+      "$comment": "Not in the component config",
+      "fields": ["d055fe19d3b16bde6a4a55150602240d", "67eeafe29ee52f4c150a6e4c2bed7f05"],
+      "67eeafe29ee52f4c150a6e4c2bed7f05": "2 samples ('Calendar icon'); probably an older screen-reader field, kept as a fallback for sr_only"
+    }
+  },
+  "4677": {
+    "name": "Quote Block (BS4)",
+    "component": "moca-quote",
+    "fields": {
+      "93455942351c43dc6d09141b96316099": "quote",
+      "8c6394ee4f98910d77a55a93e05c2b56": "style",
+      "15a9368bf3f8420256de96f61bfe6e9a": "author"
+    },
+    "confirmed": {
+      "fields": "Config has exactly @style (default), quote and author; values match (bars, student quotes, author titles)"
+    },
+    "notes": [
+      "quote is plain text but double-escaped in the source (&amp;#39;); decode entities fully",
+      "Used twice, both on advising/integrated-studies/index.pcf"
+    ],
+    "obsolete": {
+      "$comment": "Always empty and not in the component config",
+      "fields": ["c88ee9f8444331ca530fe40ab11b0934", "90d23e87bfa3dc2857b14ad43c85634a"]
+    }
+  },
+  "3296": {
+    "name": "Gallery (BS4)",
+    "component": null,
+    "deferred": "Not used on real advising pages (only _qa-dmc/galleries.pcf). Its images live in a Modern Campus gallery asset ({{a:...}}), not in the site files, so migrating it needs those assets exported; no Storyblok carousel/lightbox component yet",
+    "fields": {
+      "15c4f78ea732eee0a5a8584725bc06b2": "type",
+      "0cd2d0cfcc7cfc496b08e2969003099b": "lightbox_columns",
+      "4178d6610018fdb3193746811cd84d12": "asset:link",
+      "d99e4bf0653720eb772c85b3141ceeaf": "quotes_no_image"
+    },
+    "notes": [
+      "Config: <component-gallery type=\"BootstrapCarousel\" quotes-no-image=\"\" lightbox-columns=\"default\"><asset/></component-gallery>",
+      "type values: BootstrapCarousel, LightBoxImageGallery",
+      "components.xsl renders asset/gallery with the gallery type, quotes-no-image and lightbox-columns as parameters"
+    ]
+  },
+  "4171": {
+    "name": "USU Calendar Feed (BS4)",
+    "component": null,
+    "deferred": "Not used on real advising pages (only _qa-dmc/feeds.pcf). A client-side widget: usu.edu's init.js loads {path}?embedded={type}&path={path}&rows={rows} into the div (rows defaults to 5). Port later as a Vue component that fetches the same URL",
+    "fields": {
+      "9ad797cb2b3f027b99e103445110607b": "path",
+      "4a1c81d5430999b60ab17211070278ce": "type",
+      "6e1fe9f49aeeeada2af4e997f6e27f78": "rows"
+    },
+    "notes": [
+      "Config: <div class=\"embedded-calendar\" data-type=\"4\" data-path=\"\" data-rows=\"1\"></div>",
+      "Only one instance: path /calendar, type 4, rows 3; mapped by attribute order and value",
+      "usu.edu/calendar sends Access-Control-Allow-Origin: *, so the browser can fetch it directly; https://www.usu.edu/calendar/?embedded=4&rows=3 returned the full calendar page in testing, not a fragment, so the embedded view needs more investigation"
+    ],
+    "obsolete": {
+      "$comment": "Always empty and not in the component config",
+      "fields": ["c74d3ec846b1659dd2b5838c6cccc694"]
+    }
+  },
+  "3457": {
+    "name": "CP Feed (BS4)",
+    "component": null,
+    "deferred": "Not used on real advising pages (only _qa-dmc/feeds.pcf). Custom Modern Campus <cpfeed> development like the directory feed (950), listing tagged content; needs its own data source in Storyblok",
+    "fields": {
+      "612db65f471e4c5fff0c7c24e7c7876b": "tag-list",
+      "3cce394a642f86727feaa0562c0e0bb5": "style",
+      "7afda21a6a67bbff684ccead870e412f": "carousel-style",
+      "20a4c2b3c97a49ca1e0c517715a56c05": "show-images:bool",
+      "f0489594a0850677fb7964dda848d669": "feed-length"
+    },
+    "inferred": {
+      "f0489594a0850677fb7964dda848d669": "Holds 4 in the only instance; feed-length or breakpoint. The other is one of the unknown hashes"
+    },
+    "notes": [
+      "Config: <cpfeed feed-length=\"\" tag-list=\"\" sitenames=\"\" style=\"oneColumn\" carousel-style=\"none\" breakpoint=\"\" show-images=\"true\" />",
+      "7 hashes for 7 config attributes, so none are obsolete"
+    ],
+    "unknown": ["cf2bcacb3f4aa34fb0f3617e1675e325", "3477b8f8c110c94d3235f14b24ea598c"],
+    "$unknown": "sitenames and one of feed-length/breakpoint"
+  },
+  "1855": {
+    "name": "Info Block with Image (All Sites)",
+    "component": "moca-info-block",
+    "usage": "Used once on a real page: advising/advisors/index.pcf (component-thumbnail in components.xsl)",
+    "fields": {
+      "941a033dccdcfd4842f668eddf0ed6a7": "header",
+      "c6d68518a0d9a3a5064bbc6ac1353dbc": "body:html",
+      "ab56a4c7d94cadd7a7509ffc0cb25267": "image.filename:link",
+      "e11d7278cd844cc2ed6d0d4311be7814": "image.alt",
+      "7dbfa859bc35c915f1f57c473b804190": "image_location",
+      "eaec1155bd31b2c0776adac84b46696b": "button.type",
+      "67794f88d33297152b7abe0faf04f548": "button.link.target"
+    },
+    "fixed": {
+      "$comment": "Config defaults, never stored per instance; the migration applies these",
+      "button.centered": true
+    },
+    "confirmed": {
+      "fields": "Shares header, body, image, alt and button target hashes with Card (3862); the rest match by value (location left, btn-primary)"
+    },
+    "notes": [
+      "Config: img (src, alt, location left), content-header, content-body, and a button: btn-text, a/@href, a/@target (_self), btn-type (btn-primary), classes (btn-wrap), centered (true). 11 fields, 11 hashes",
+      "image_location: left (image first) or right",
+      "The template only renders the button when both btn-text and a/@href are set; the only instance has neither"
+    ],
+    "unknown": ["f377e613193152d59004805973c88cbb", "46695600004f1e3fa67862b38a6c16f6", "4c1c2eae217a3836dc943407f842934f", "14ebf68966c198cff6729fc1c15c57b0"],
+    "$unknown": "Button text and link URL are two of these; the others are probably classes and centered"
+  },
+  "950": {
+    "name": "CP Directory Feed (All Sites)",
+    "component": null,
+    "deferred": "Custom Modern Campus development: renders <cpfeed> from tagged directory profiles. Needs its own data source in Storyblok (e.g. tagged person stories or the directory API); address later",
+    "fields": {
+      "8467d97e0d0f14013d16a8006e976a2e": "tag-list",
+      "b79d814b4e4d6e05b038a86946ab6f06": "style",
+      "4a9b4d20da58a8a26945ad0764b460a5": "feed-length",
+      "a357ff25175d6cfc26385be5b99818d5": "breakpoint"
+    },
+    "notes": [
+      "Config: <cpfeed feed-length=\"\" tag-list=\"\" sitenames=\"\" style=\"directoryHorizontal\" breakpoint=\"1\"/>",
+      "style values: directoryHorizontal, directoryVertical; feed-length 100 probably means all",
+      "breakpoint holds 3, 4 or 6 in real data (default 1); probably items per row"
+    ],
+    "unknown": ["d474397feaf7374b1b4a5706ff4a61f0", "b7aa54965ad8734f24e63fd61ea31fd6", "7e39fa20538e2c1bf226a1806c4a3aa5"],
+    "$unknown": "One of these is sitenames; always empty in mc-sites"
+  },
+  "3831": {
+    "name": "Contact Block",
+    "component": "moca-contact-block",
+    "fields": {
+      "01c987ab8d460f595076865996b3b8ff": "name",
+      "d669be11bce23735d38295fc0f8b7944": "email",
+      "34f127fe4b07ed7fc257b073ef99d32e": "phone",
+      "08b410d4b397d879b6f16c5d803d5e53": "location",
+      "6242059e05b2ea331b2510aa29c878b5": "description",
+      "f93d5cc964b3048cdbfd110e856cbfd4": "schedule:link",
+      "946a387239305cae970cc5561e7340ae": "image.filename:link",
+      "69ad36fd88b8534ea5610bdc4cf5644e": "image.alt",
+      "ee1f40a2a10bc75189e35ba091de01e6": "orientation",
+      "cd5e58a49c669b9248356b5f868ecc75": "image_style"
+    },
+    "values": {
+      "cd5e58a49c669b9248356b5f868ecc75": { "false": "" }
+    },
+    "fallbacks": {
+      "$comment": "Used when the mapped field is empty",
+      "schedule": ["917a9044cb7cb31567fe1bb1a9c1d8ac"]
+    },
+    "confirmed": {
+      "fields": "Rendering matches the published advising/integrated-studies/team page (name, description, photo column, location, phone, email, Schedule an Appointment button)"
+    },
+    "notes": [
+      "Field names from component-contact-block in z_XSL_staging/_resources/xsl/_shared/components.xsl",
+      "917a9044cb7cb31567fe1bb1a9c1d8ac holds appointment URLs only where f93d5cc9 is empty (2 copies of the chiropractic guide); an older schedule field",
+      "image_style (img/@class) is false in all 36 instances, which means no class",
+      "image is a {{f:}} tag or a full URL (statewide.usu.edu)"
+    ],
+    "unknown": ["8822e943e1a7fd7014c1c807d8b03b75", "f944f404e9a17a434e83dc04b6c3485e", "288948ccdcf9941202f83f4e9cdbde62", "a6ef06b1228288b458002eddc1077165", "16541c4b9fa506dab838f5ebe0b97111", "d9abb72d07edb8cc679ac3e04d805ee7", "76244419b4298e90ff9f588ba6ca0d99", "670a7ae27eb7eebe440d07d65eae8393", "32a6f7c9382cbe66d79ceb6d52b0464f"],
+    "$unknown": "Always empty; most are fax and the address fields (address_name, address_line1, address_line2, city, state, zip). Not needed for the advising migration"
+  }
+}

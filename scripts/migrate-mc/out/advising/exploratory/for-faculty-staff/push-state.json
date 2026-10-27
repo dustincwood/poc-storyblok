@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/faculty-staff-banner.jpg": {
+      "id": 234971184216674,
+      "filename": "https://a.storyblok.com/f/294787985525525/6f9bb5a866/faculty-staff-banner.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/exploratory": 233989525293694
+  },
+  "story": {
+    "id": 234971194246105,
+    "parentId": 233989525293694,
+    "full_slug": "advising-migration-test/advising/exploratory/for-faculty-staff"
+  }
+}

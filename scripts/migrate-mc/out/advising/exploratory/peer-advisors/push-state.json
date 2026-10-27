@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/erik-marchant.png": {
+      "id": 234973286464347,
+      "filename": "https://a.storyblok.com/f/294787985525525/ae0647973e/erik-marchant.png"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/exploratory": 233989525293694
+  },
+  "story": {
+    "id": 234973296480869,
+    "parentId": 233989525293694,
+    "full_slug": "advising-migration-test/advising/exploratory/peer-advisors"
+  }
+}

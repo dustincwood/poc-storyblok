@@ -14,6 +14,11 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  // Light only, like usu.edu: with color mode on, a visitor's dark-mode preference switched Nuxt UI's
+  // text to its light dark-mode color while main.css keeps the background white
+  ui: {
+    colorMode: false,
+  },
   devServer: {
     https: true,
   },

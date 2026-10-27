@@ -1,0 +1,1776 @@
+{
+  "story": {
+    "name": "Major Exploration",
+    "slug": "index",
+    "is_startpage": true,
+    "content": {
+      "_uid": "d44899ad-c742-440a-9349-4492b7f8320b",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "f07541b1-8624-4096-bf16-643b385cf486",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/exploratory/index-banner.jpg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "300px",
+          "container_width": "default",
+          "header": "Exploratory Advising"
+        },
+        {
+          "_uid": "4c6963e6-f1a1-46a7-961a-27657bd6d59c",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "",
+          "padding_y": "4",
+          "content": [
+            {
+              "_uid": "82a76d3b-de45-47d6-857d-1f26a60765c7",
+              "component": "moca-row",
+              "justify": "",
+              "align": "center",
+              "columns": [
+                {
+                  "_uid": "f22e4e9a-98b7-4d12-8067-8081564de6f4",
+                  "component": "moca-column",
+                  "width_lg": "8",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "bcd567e8-52ff-4db9-8a40-3691a3f5a566",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Exploratory Advising is the home for students who are exploring their interests and options before they declare a major."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "style": "lead"
+                    },
+                    {
+                      "_uid": "c9ffbfee-6b50-40a0-9259-4e649944ec4c",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Not sure what to major in? You’re not alone—and you’re in the right place. Exploratory Advising at Utah State University is here to support students who are still deciding on a major or considering a change. Whether you have a few thoughts or no clue where to start, we’re here to help you discover your strengths, explore your interests, and connect you to a meaningful academic path."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "style": "lead"
+                    }
+                  ]
+                },
+                {
+                  "_uid": "b0f3640f-fbc4-4023-8621-d409600c84ad",
+                  "component": "moca-column",
+                  "width_lg": "4",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "861d7d1b-f5e7-4a1b-a898-6a3f078a0151",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "content": [
+                        {
+                          "_uid": "23321bcf-a188-4b57-b395-a15166b3eb05",
+                          "component": "moca-link-card",
+                          "title": "Do you feel ready to register?",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/registrar/registration/banner-help.php",
+                            "cached_url": "https://www.usu.edu/registrar/registration/banner-help.php",
+                            "fieldtype": "multilink"
+                          },
+                          "text": "Check out these short videos that explain how to perform various function throughout the Banner registration system",
+                          "icon": "fa-solid fa-calendar fa-2x",
+                          "icon_position": "right",
+                          "background": "color-blend",
+                          "title_size": "h3"
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "558a7d61-b63f-49af-a80d-cb3589e0e542",
+                      "component": "moca-link-card",
+                      "title": "Canvas Exploration Station",
+                      "link": {
+                        "linktype": "url",
+                        "url": "https://usu.instructure.com/enroll/KMKL4G",
+                        "cached_url": "https://usu.instructure.com/enroll/KMKL4G",
+                        "fieldtype": "multilink"
+                      },
+                      "text": "The Exploration Station is your go-to Canvas resource for exploring academic programs, career paths, and course options that align with your interests and goals.",
+                      "icon": "fa-solid fa-magnifying-glass fa-2x",
+                      "icon_position": "right",
+                      "background": "color-blend",
+                      "title_size": "h3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "4a36378a-e3a1-43d9-8231-437777d6f475",
+          "component": "moca-band",
+          "background": "bg-primary",
+          "padding_y": "",
+          "pattern": "topographic",
+          "content": [
+            {
+              "_uid": "b8757c5f-2452-4d73-95b9-4433e524574f",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "5",
+              "content": [
+                {
+                  "_uid": "506cea93-a634-4f1f-8e19-405dcc86577f",
+                  "component": "moca-row",
+                  "justify": "center",
+                  "align": "",
+                  "columns": [
+                    {
+                      "_uid": "7b36f1c9-3909-49ab-81b3-c8b5a59c9456",
+                      "component": "moca-column",
+                      "width_lg": "10",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "6374ac7d-f581-4340-9a7f-1dcd74774c40",
+                          "component": "moca-heading",
+                          "text": "Chat With Someone",
+                          "level": "h2",
+                          "color": "white",
+                          "align": "center",
+                          "bold": true,
+                          "margin_bottom": "",
+                          "rules": true
+                        },
+                        {
+                          "_uid": "ab3fb971-b21e-45e5-9a0f-17c000bd7cf0",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "columns": [
+                            {
+                              "_uid": "0bf24cee-8015-4197-a0ac-6a3a8b72c0bd",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "2",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "962da943-b95f-4a9d-a685-b9c951e1b37e",
+                                  "component": "moca-box",
+                                  "margin_top": "",
+                                  "margin_bottom": "4",
+                                  "content": [
+                                    {
+                                      "_uid": "3bfe5f2a-cedf-439f-94b3-cd7e7b5ab48a",
+                                      "component": "moca-tier1-card",
+                                      "image": {
+                                        "filename": "https://www.usu.edu/advising/images/exploratory/advising.jpg",
+                                        "alt": "student hiking",
+                                        "fieldtype": "asset"
+                                      },
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/find-your-advisor.php",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/find-your-advisor.php",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "title": "Academic Advisor",
+                                      "text": "Advisors will align your strengths and interests with majors and courses. Schedule an appointment with an advisor at your location.",
+                                      "icon": "",
+                                      "ratio": "3x2",
+                                      "shadow": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "11f28d5b-383c-4903-a099-c3adf81493f6",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "2",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "c1d3ef99-860e-4772-8368-c7311d825330",
+                                  "component": "moca-box",
+                                  "margin_top": "",
+                                  "margin_bottom": "4",
+                                  "content": [
+                                    {
+                                      "_uid": "38e543ec-679a-4a5f-8999-5d7a58bdfb52",
+                                      "component": "moca-tier1-card",
+                                      "image": {
+                                        "filename": "https://www.usu.edu/advising/images/exploratory/peer-advising.jpg",
+                                        "alt": "",
+                                        "fieldtype": "asset"
+                                      },
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://www.usu.edu/advising/exploratory/peer-advisors.php",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/peer-advisors.php",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "title": "Peer Advisor",
+                                      "text": "This is a no-pressure way to get help from someone who’s been in your shoes. They can help you plan your classes, understand Degree Works and Banner, and share real advice about professors, majors, and campus life.",
+                                      "icon": "",
+                                      "ratio": "3x2",
+                                      "shadow": true
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "b97d88ef-b295-413e-981c-5e207d87d4b4",
+          "component": "moca-band",
+          "background": "bg-white",
+          "padding_y": "",
+          "pattern": "",
+          "content": [
+            {
+              "_uid": "ca8f911a-cf03-42d4-bf71-7d9cff62b02b",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "5",
+              "content": [
+                {
+                  "_uid": "89d1285f-27e3-4330-ae33-83a587ec43ce",
+                  "component": "moca-text",
+                  "text": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "heading",
+                        "attrs": {
+                          "level": 2,
+                          "textAlign": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Explore Focus Areas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "_uid": "c6399365-fb84-4294-9557-9eda2ad84918",
+                  "component": "moca-text",
+                  "text": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "textAlign": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Focus Areas are groups of majors that guide your major exploration. Explore pathways and courses aligned with your interests."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "style": "lead"
+                },
+                {
+                  "_uid": "cd3a3b9c-c1f3-4093-819c-b6fae89008e5",
+                  "component": "moca-row",
+                  "justify": "center",
+                  "align": "",
+                  "columns": [
+                    {
+                      "_uid": "8ba0f446-72c0-4689-a4a2-e3d2f86e2e6b",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "b06491c7-3b92-48de-a2ca-7984ed484268",
+                          "component": "moca-link-card",
+                          "title": "Communication, Organizations, and Influence",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication.php",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication.php",
+                            "fieldtype": "multilink"
+                          },
+                          "text": "",
+                          "icon": "fa-solid fa-users fa-2x",
+                          "icon_position": "left",
+                          "background": "info",
+                          "title_size": "h4"
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "fc0465c8-91b1-438e-b153-81b344858365",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "df0e6746-b779-4e4d-bcc9-1781799770b1",
+                          "component": "moca-link-card",
+                          "title": "Social Sciences & Human Services",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services.php",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services.php",
+                            "fieldtype": "multilink"
+                          },
+                          "text": "",
+                          "icon": "fa-solid fa-hands-helping fa-2x",
+                          "icon_position": "left",
+                          "background": "info",
+                          "title_size": "h4"
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "db4b579d-c5e1-4f9d-80be-4582ef3ecb2e",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "3b435885-8a45-4cb9-aa7d-de3ddaf5e17d",
+                          "component": "moca-link-card",
+                          "title": "Humanities & Arts",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts.php",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts.php",
+                            "fieldtype": "multilink"
+                          },
+                          "text": "",
+                          "icon": "fa-solid fa-palette fa-2x",
+                          "icon_position": "left",
+                          "background": "info",
+                          "title_size": "h4"
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "32025c63-008b-4f7a-92f3-6717a7a1e5b0",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "e7926320-3c38-4e98-9dfc-14858ec6d451",
+                          "component": "moca-link-card",
+                          "title": "Agriculture, Natural Resources, and Environmental Sciences",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources.php",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources.php",
+                            "fieldtype": "multilink"
+                          },
+                          "text": "",
+                          "icon": "fa-solid fa-leaf fa-2x",
+                          "icon_position": "left",
+                          "background": "info",
+                          "title_size": "h4"
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "c7cb03fe-8cc8-4ae0-aa1e-c74a69a98abb",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "0f65ea88-ec11-4885-aae5-ac85b39869de",
+                          "component": "moca-link-card",
+                          "title": "Physical Sciences, Engineering and Technology",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math.php",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math.php",
+                            "fieldtype": "multilink"
+                          },
+                          "text": "",
+                          "icon": "fa-solid fa-atom fa-2x",
+                          "icon_position": "left",
+                          "background": "info",
+                          "title_size": "h4"
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "ca24da59-d8dd-4e44-af0e-a34e52ea9e26",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "ca0bede2-98f8-438c-b2cb-724dc923c557",
+                          "component": "moca-link-card",
+                          "title": "Applied & Clinical Health Sciences",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences.php",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences.php",
+                            "fieldtype": "multilink"
+                          },
+                          "text": "",
+                          "icon": "fa-solid fa-stethoscope fa-2x",
+                          "icon_position": "left",
+                          "background": "info",
+                          "title_size": "h4"
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "03d590cf-9847-4251-8447-aa63becf7443",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "2",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "e920166d-a062-4a51-86fa-81f23b5bb8ef",
+                          "component": "moca-button",
+                          "text": "Explore All Focus Areas",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                            "fieldtype": "multilink"
+                          },
+                          "type": "btn-primary",
+                          "outline": true,
+                          "size": "btn-lg",
+                          "block": true,
+                          "centered": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "672023d9-a2f0-41f0-8647-75f64bb42e68",
+          "component": "moca-band",
+          "background": "bg-light",
+          "padding_y": "",
+          "pattern": "",
+          "content": [
+            {
+              "_uid": "2a97c8c6-7baa-40ee-adf6-d6253eb8fba4",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "5",
+              "content": [
+                {
+                  "_uid": "a733c11c-89bf-41d4-b3ab-86e07feba1d0",
+                  "component": "moca-text",
+                  "text": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "heading",
+                        "attrs": {
+                          "level": 2,
+                          "textAlign": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Deciding your major can feel like a big decision"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "_uid": "806e83ae-cecb-4db3-a80f-01099c44797d",
+                  "component": "moca-text",
+                  "text": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "attrs": {
+                          "textAlign": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Here are some steps to help you get started."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "style": "lead"
+                },
+                {
+                  "_uid": "2f3223a9-bdcd-4d10-90bb-b634d23e6c8f",
+                  "component": "moca-box",
+                  "margin_top": "4",
+                  "margin_bottom": "",
+                  "content": [
+                    {
+                      "_uid": "60c0b3a9-e9ac-4ea1-9c66-12718f6f86d5",
+                      "component": "moca-row",
+                      "justify": "center",
+                      "align": "",
+                      "columns": [
+                        {
+                          "_uid": "335eb257-f9ca-47db-a0da-9e73cc8ed9c1",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "2",
+                          "stretch": true,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "8ffb4957-87fa-4bb1-89fc-4e3a42c547d2",
+                              "component": "moca-bar-card",
+                              "title": "Discover More About You!",
+                              "title_color": "primary",
+                              "body": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Not sure where to start? Exploratory Advising is here to help you identify your strengths, values, and goals."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Take the "
+                                              },
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "/career-design-center/students/focus2",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Focus2 assessment"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " and meet with a "
+                                              },
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://usu.joinhandshake.com/appointments/new",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Career Design Center"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " or "
+                                              },
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://studentappts.usu.edu/ramonline/BookAppt?C=C&T=P&P=834",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Academic Advisor"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " to discuss the results."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Enroll in "
+                                              },
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://www.usu.edu/career-design-center/students/courses/careerseriescourses.php",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "USU 1400: Exploring Majors and Careers"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " to connect your interests with real-world opportunities."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "bar_color": "primary"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "203e0a1f-178f-4cb8-86df-310cb114f768",
+                          "component": "moca-column",
+                          "width_lg": "auto",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "lg-up",
+                          "align_self": "center",
+                          "text_align": "center",
+                          "overlap": true,
+                          "content": [
+                            {
+                              "_uid": "fec3a203-58a5-4091-a8fb-2a4c8c799033",
+                              "component": "moca-font-awesome",
+                              "icon": "fa-solid fa-circle-chevron-right fa-4x"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "ab0fae07-55d1-4f0a-a7d4-e6b137483cbe",
+                          "component": "moca-column",
+                          "width_lg": "auto",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "2",
+                          "stretch": false,
+                          "display": "below-lg",
+                          "align_self": "",
+                          "text_align": "center",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "783a0019-7baf-4d56-94b2-7560333d596a",
+                              "component": "moca-font-awesome",
+                              "icon": "fa-solid fa-circle-chevron-down fa-2x"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "74ff1eca-8654-49e8-abae-1bf95f44d770",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "2",
+                          "stretch": true,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "27cab705-59fd-4f21-9011-1b2192d24e76",
+                              "component": "moca-bar-card",
+                              "title": "Explore Majors and Careers",
+                              "title_color": "blue",
+                              "body": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Tools to learn about your options:"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "/degrees/",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Degree Finder"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " – Search and compare all USU majors and careers."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Focus Areas"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " – Narrow your interests by common career paths."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://usu.instructure.com/enroll/KMKL4G",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Exploration Station Canvas Course"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " – Find programs aligned with your goals."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Use the "
+                                              },
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://usu.box.com/s/930gjxmdfu3475du2af0onej6bz3eqab",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Gathering Information Worksheet"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " to guide conversations with advisors and faculty."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Use a "
+                                              },
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://www.usu.edu/advising/files/decision-making-matrix.pdf",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "decision-making matrix"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " to compare and evaluate options."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Use these to create a list of questions you can ask your Exploratory Advisor!"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "bar_color": "blue"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "3a3e1f9c-8496-42fd-bbff-d98a016d6ce7",
+                          "component": "moca-column",
+                          "width_lg": "auto",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "lg-up",
+                          "align_self": "center",
+                          "text_align": "center",
+                          "overlap": true,
+                          "content": [
+                            {
+                              "_uid": "0b6efa1c-a309-467f-9585-873804330a01",
+                              "component": "moca-font-awesome",
+                              "icon": "fa-solid fa-circle-chevron-right fa-4x"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "2270fb8e-b19f-4ec5-aba5-d564929c27f2",
+                          "component": "moca-column",
+                          "width_lg": "auto",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "2",
+                          "stretch": false,
+                          "display": "below-lg",
+                          "align_self": "",
+                          "text_align": "center",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "0501f13a-7637-41ae-a7f2-ece4fe000361",
+                              "component": "moca-font-awesome",
+                              "icon": "fa-solid fa-circle-chevron-down fa-2x"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "4239b02f-18d0-4bf7-99fb-48b5445d4b97",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "2",
+                          "stretch": true,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "5d9cd8c3-bfc8-4ec7-993c-54ee6851dfa2",
+                              "component": "moca-bar-card",
+                              "title": "Create an Action Plan With Your Exploratory Advisor",
+                              "title_color": "info",
+                              "body": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "It’s time to make a move:"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Build a timeline with specific short- and long-term steps."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Understand deadlines and meet with "
+                                              },
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "/advisors/",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "your desired major's advisor"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": "."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Be flexible and ready to revise as needed."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Talk through your ideas with your Exploratory Advisor."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "bar_color": "info"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "7cc5e814-28b5-4851-8715-273092e1ae80",
+                          "component": "moca-column",
+                          "width_lg": "auto",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "lg-up",
+                          "align_self": "center",
+                          "text_align": "center",
+                          "overlap": true,
+                          "content": [
+                            {
+                              "_uid": "0e5cfde3-499c-45ce-afb6-b0c971a8f6c1",
+                              "component": "moca-font-awesome",
+                              "icon": "fa-solid fa-circle-chevron-right fa-4x"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "9ca0136c-8b9b-4eaa-9a2d-c8080a994c1d",
+                          "component": "moca-column",
+                          "width_lg": "auto",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "2",
+                          "stretch": false,
+                          "display": "below-lg",
+                          "align_self": "",
+                          "text_align": "center",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "9b5bc51f-34ae-4d6a-9656-f0239f608a71",
+                              "component": "moca-font-awesome",
+                              "icon": "fa-solid fa-circle-chevron-down fa-2x"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "2b49bc0a-6561-4500-9341-623f64f4fcb7",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "2",
+                          "stretch": true,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "6c78a79e-f161-4b3f-9c40-49417a28e9c4",
+                              "component": "moca-bar-card",
+                              "title": "Ready to Declare Your Major?",
+                              "title_color": "bright-light",
+                              "body": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "If you've found your major, meet with the "
+                                      },
+                                      {
+                                        "type": "text",
+                                        "marks": [
+                                          {
+                                            "type": "link",
+                                            "attrs": {
+                                              "href": "/advisors/",
+                                              "uuid": null,
+                                              "anchor": null,
+                                              "target": null,
+                                              "linktype": "url",
+                                              "custom": {}
+                                            }
+                                          }
+                                        ],
+                                        "text": "program advisor"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": " to make it official and start your path forward. They’ll help you understand the details and guide you through the major declaration process."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "bar_color": "bright-light"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "a20f0a53-8066-418c-b917-c88a0ab71f48",
+          "component": "moca-band",
+          "background": "bg-primary",
+          "padding_y": "3",
+          "pattern": "",
+          "content": [
+            {
+              "_uid": "922b56cb-27f8-4571-80a5-f44b42fa7f67",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "5",
+              "padding_y": "",
+              "content": [
+                {
+                  "_uid": "bd82ca82-c6ae-4f03-8f4b-acf392659437",
+                  "component": "moca-titled-box",
+                  "title": "Student Resources",
+                  "title_color": "white",
+                  "title_bold": false,
+                  "border_color": "bright-light",
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "content": [
+                    {
+                      "_uid": "af629a41-3f29-47f3-819f-f5c4b6b8d378",
+                      "component": "moca-row",
+                      "justify": "center",
+                      "align": "",
+                      "columns": [
+                        {
+                          "_uid": "01ea284e-9994-4e5b-952d-72a2b6cb6357",
+                          "component": "moca-column",
+                          "width_lg": "4",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "87c94f8f-2110-417a-839a-95e50026a155",
+                              "component": "moca-heading",
+                              "text": "Major Exploration",
+                              "level": "h3",
+                              "color": "white",
+                              "align": "center",
+                              "bold": false,
+                              "margin_bottom": "4"
+                            },
+                            {
+                              "_uid": "2eb62367-0cfa-434c-80e6-dd18d91b3dcf",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "ae094df8-444f-49b5-892f-9822605acf4c",
+                                  "component": "moca-button",
+                                  "text": "Exploration Station",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://usu.instructure.com/enroll/KMKL4G",
+                                    "cached_url": "https://usu.instructure.com/enroll/KMKL4G",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "8efc7e3f-7900-4f13-919b-ac5afd20e3af",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "453c4a79-6553-43a2-b6d9-75682820b849",
+                                  "component": "moca-button",
+                                  "text": "Focus Areas",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                                    "cached_url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "c7c5ae64-e5cb-467c-a9a7-64c89d9f1233",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "e179ccc0-accf-4995-b6e9-7a116d9183b4",
+                                  "component": "moca-button",
+                                  "text": "Degree Finder",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://www.usu.edu/degrees-majors/",
+                                    "cached_url": "https://www.usu.edu/degrees-majors/",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "fe74ce14-3d05-4137-a6b7-ee99a7679c28",
+                          "component": "moca-column",
+                          "width_lg": "4",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "87d7450d-29f1-48d1-9a53-05de8421e604",
+                              "component": "moca-heading",
+                              "text": "Career Exploration",
+                              "level": "h3",
+                              "color": "white",
+                              "align": "center",
+                              "bold": false,
+                              "margin_bottom": "4"
+                            },
+                            {
+                              "_uid": "fd64bb87-2d62-48df-aa75-412cdf667775",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "636ebb3c-18fe-47b0-956b-833055e9cf76",
+                                  "component": "moca-button",
+                                  "text": "Career Design Center",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://usu.joinhandshake.com/appointments/new",
+                                    "cached_url": "https://usu.joinhandshake.com/appointments/new",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "94f482f1-ed79-4e79-870a-c23c1451f1bc",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "83f9723b-37b0-4ab9-9d69-b8a96196a01e",
+                                  "component": "moca-button",
+                                  "text": "Focus Assessment",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://www.usu.edu/career-design-center/students/focus2.php",
+                                    "cached_url": "https://www.usu.edu/career-design-center/students/focus2.php",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "d302e322-25c5-4cac-a392-2d93ea7dc845",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "ce6eefef-61be-4a45-b963-cc8727c95276",
+                                  "component": "moca-button",
+                                  "text": "Occupational Outlook Handbook",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "http://www.bls.gov/ooh/",
+                                    "cached_url": "http://www.bls.gov/ooh/",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "e388fed6-fd85-40af-8134-2f47619654a2",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "5e1eb585-141c-41bb-8000-016f40869779",
+                                  "component": "moca-button",
+                                  "text": "O*Net Online",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "http://www.onetonline.org/",
+                                    "cached_url": "http://www.onetonline.org/",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "17b66f01-0a09-4f4d-ae39-41c9afe25698",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "ca57e987-c517-4748-852d-a1da0079f1c6",
+                                  "component": "moca-button",
+                                  "text": "Career Courses",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://www.usu.edu/career-design-center/students/courses/index.php",
+                                    "cached_url": "https://www.usu.edu/career-design-center/students/courses/index.php",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "1ad6a172-8d08-48e1-8fb3-9526d87e198b",
+                          "component": "moca-column",
+                          "width_lg": "4",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "7db00c52-8ea3-4603-ba7c-2f59a4dd9fcc",
+                              "component": "moca-heading",
+                              "text": "Course Planning",
+                              "level": "h3",
+                              "color": "white",
+                              "align": "center",
+                              "bold": false,
+                              "margin_bottom": "4"
+                            },
+                            {
+                              "_uid": "0ee2f1f4-eb36-4703-9ecc-0eae0d0e5460",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "1c977d0b-824c-45aa-b54a-24c2f25dec63",
+                                  "component": "moca-button",
+                                  "text": "GPA Calculator",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://www.usu.edu/advising/advisors/calculator/GPACalculatorExcel2012Revised1.htm",
+                                    "cached_url": "https://www.usu.edu/advising/advisors/calculator/GPACalculatorExcel2012Revised1.htm",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "c1cd4721-7996-4137-a384-6bd28145427a",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "text_align": "",
+                              "content": [
+                                {
+                                  "_uid": "d42381fc-ca27-463e-b69e-f1fd55fc7204",
+                                  "component": "moca-button",
+                                  "text": "Degree Works",
+                                  "link": {
+                                    "linktype": "url",
+                                    "url": "https://www.usu.edu/registrar/degreeworks/index.php",
+                                    "cached_url": "https://www.usu.edu/registrar/degreeworks/index.php",
+                                    "fieldtype": "multilink"
+                                  },
+                                  "type": "btn-white",
+                                  "outline": false,
+                                  "size": "",
+                                  "block": true,
+                                  "centered": false
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

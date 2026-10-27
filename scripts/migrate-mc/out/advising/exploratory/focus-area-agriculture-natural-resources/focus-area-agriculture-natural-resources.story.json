@@ -1,0 +1,2547 @@
+{
+  "story": {
+    "name": "Explore Agriculture, Environmental Science & Natural Resources Majors",
+    "slug": "focus-area-agriculture-natural-resources",
+    "is_startpage": false,
+    "content": {
+      "_uid": "9c0bccaf-3d2a-4620-8fc8-e481df8ad098",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "542597a8-96cd-4404-a5ff-8186f412381e",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "63c11d2d-758e-4933-8140-93a72d42422e",
+              "component": "moca-box",
+              "margin_top": "5",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "9bef46a0-a34d-4a50-bf6f-161d4d816da0",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "columns": [
+                    {
+                      "_uid": "231c9bb8-0524-4bad-8f64-4340db10ae98",
+                      "component": "moca-column",
+                      "width": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "4a098594-3309-40bd-875d-82b49b23408c",
+                          "component": "moca-heading",
+                          "text": "Agriculture, Natural Resources & Environmental Sciences",
+                          "level": "h1",
+                          "color": "",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "4",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "e308c64b-9a6d-4d4b-89f7-17aab3e987b9",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "3",
+                          "content": [
+                            {
+                              "_uid": "0fbabb60-9e53-4722-bb9f-61a1b0826149",
+                              "component": "moca-button",
+                              "text": "Schedule an Appointment - Agriculture & Natural Resources",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://studentappts.usu.edu/ramonline/BookAppt?C=C&T=P&P=104",
+                                "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?C=C&T=P&P=104",
+                                "fieldtype": "multilink",
+                                "target": "_self"
+                              },
+                              "type": "btn-green",
+                              "size": "",
+                              "centered": false,
+                              "outline": false,
+                              "block": "true"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "45854ef8-ffb8-4288-bb7e-8f76b061d430",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "The Agriculture, Natural Resources & Environmental Sciences focus area offers a variety of majors that emphasize practical applications of science.  Many students in this focus area are interested in being outdoors and preserving the natural environment for future generations. These majors are ideal if you are motivated by seeing tangible results, enjoy understanding and predicting physical and biological phenomena, and appreciate the hands-on, outdoor aspects of your work."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "611567a9-460f-4ad1-bb81-331a1a8f102b",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "You should consider taking ENGL 1010 (or ENGL 2010 if you have credit for 1010) in your first semester. We also recommend USU 1010 for students in their first semester of college. For many majors, it is also important that you take a math class early to put you on the correct math track - see your advisor if you have any questions. "
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "e13b2d42-7dce-42e4-a6c1-545e33cee16f",
+                          "component": "moca-titled-box",
+                          "title": "On This Page",
+                          "title_color": "info",
+                          "title_bold": true,
+                          "border_color": "",
+                          "margin_top": "5",
+                          "margin_bottom": "5",
+                          "content": [
+                            {
+                              "_uid": "2c251674-84e0-42a3-a222-7839889f66c3",
+                              "component": "moca-row",
+                              "justify": "center",
+                              "align": "",
+                              "padding_y": "",
+                              "columns": [
+                                {
+                                  "_uid": "680d7926-f39b-4470-8808-b8c7a7957aff",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "f5b5e095-41f8-450e-945b-f1fe14580c3c",
+                                      "component": "moca-button",
+                                      "text": "Plants & Animals Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#plant-animal",
+                                        "cached_url": "#plant-animal",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "3abf2288-fefa-46b6-8d9a-d7e171a73f96",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "d2150e62-8c9d-487d-a31a-2f1c533952e0",
+                                      "component": "moca-button",
+                                      "text": "Business & Education Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#business-education",
+                                        "cached_url": "#business-education",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "901c5753-7504-4689-95da-3de7ef242031",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "f8ed71e7-d2cb-4966-9d9d-beb118701c66",
+                                      "component": "moca-button",
+                                      "text": "Design & Aviation Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#design-aviation",
+                                        "cached_url": "#design-aviation",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "d4507dc0-e81d-4edf-af0a-3676f97651e3",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "0c565afb-0ad2-4490-88f7-9f303f2bfc8b",
+                                      "component": "moca-button",
+                                      "text": "Environment & Sustainability Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#environment",
+                                        "cached_url": "#environment",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "7f85c701-80d5-4c2f-977e-0a981106b07f",
+                          "component": "moca-heading",
+                          "text": "Plants & Animals Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "plant-animal"
+                        },
+                        {
+                          "_uid": "fcbfffe0-850c-4b15-b90a-846318fe7faa",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "ddf6637f-8845-4e2d-be08-a3038babe51a",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "a4c594e9-2839-4ebe-8a70-65253c015d00",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/animal-and-dairy-science_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Animal and Dairy Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biology_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biology"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS, BA)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/forest-ecology-and-management_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Forest Ecology and Management"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/freshwater-and-marine-ecology_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Freshwater and Marine Ecology"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/plant-science_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Plant Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/veterinary-science_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Veterinary Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/wildlife-ecology-and-management_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Wildlife Ecology and Management"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "ebcbe181-bae8-468a-abef-b8426ba7940b",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "7547ec0f-5c98-40de-916a-93b23e108cc1",
+                                  "component": "moca-card",
+                                  "header": "Common Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/ADVS1110",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ADVS 1110"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Animal Science (BLS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1610",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1610"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1615",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1615"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology I (3 credits) + Biology I Laboratory (1 credit) (Fall only) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1620",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1620"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1625",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1625"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology II (3 credits) + Biology II Laboratory (1 credit) (Spring only) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/PSC1800",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "PSC 1800"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Horticulture (BLS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1210",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1210"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1215",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1215"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Principles of Chemistry I (4 credits) + Chemical Principles Laboratory (1 credit) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/WATS2220",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "WATS 2220"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": General Ecology (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/WATS2500",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "WATS 2500"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Marine Biology (BLS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "b143ff56-1b27-4487-9c84-8fa97f98d6c9",
+                          "component": "moca-heading",
+                          "text": "Business & Education Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "business-education"
+                        },
+                        {
+                          "_uid": "7eb2b090-9821-41cd-be09-3b249c795de9",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "f4ac7524-746b-4074-870a-4ccac7ac16ed",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "895f930d-7a0c-42b9-8f36-f7b6be75e716",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/agribusiness_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Agribusiness"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/applied-economics_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Applied Economics"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/agricultural-education_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Agriculture Education"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biological-science-composite-teaching_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biological Science (Composite Teaching)"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": "(BS, BA)"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/earth-science-teaching_ba_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Earth Science Teaching"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BA, BS)"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/natural-resource-economics_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Natural Resource Economics"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/recreation-administration_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Recreation Administration"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/ranch-economics-and-management_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Ranch Economics and Management"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "0586e585-4949-4216-8d16-f7d4e5c50d08",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "d5271ba7-17e7-43a8-be36-d2c46845ad41",
+                                  "component": "moca-card",
+                                  "header": "Common Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/RAM1000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "RAM 1000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Recreation Services (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/APEC1600",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "APEC 1600"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Natural Resources and American Economic Institutions (BAI) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/ACCT2010",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ACCT 2010"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Financial Accounting Principles (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/RAM1500",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "RAM 1500"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Leisure and Human Behavior (BSS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/MATH1050",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "MATH 1050"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": College Algebra (QL) (4 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "b5a1f973-9a21-405f-96eb-0f72b88483d5",
+                          "component": "moca-heading",
+                          "text": "Design & Aviation Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "design-aviation"
+                        },
+                        {
+                          "_uid": "ce8ae028-9c0f-4629-8cd2-0eaa0d531bfd",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "8f51e73e-50be-4476-ab94-7adced5f47b5",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "c82f672c-e174-44b1-b671-3d6a104c5bb0",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/aviation-technology-professional-pilot_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Aviation Technology"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": "  "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/environmental-planning_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Environmental Planning"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/landscape-architecture_bla",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Landscape Architecture"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/outdoor-product-design-and-development_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Outdoor Product Design and Development"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/planning-and-design-technologies_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Planning and Design Technologies"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/residential-landscape-design-and-construction_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Residential Landscape Design and Construction"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/technology-systems_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Technology Systems"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "2fe883d6-0882-4a8f-83f7-3c42d50807f2",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "7237c703-ed1a-4b68-ada3-8a9da2679014",
+                                  "component": "moca-card",
+                                  "header": "Common Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/AV1100",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "AV 1100"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": The Aviation Profession (1 credit) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/LAEP1040",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "LAEP 1040"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Environmental Planning and Sustainable Development (BLS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/SMZiVGuQ8qSGdgss10jq",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CIVC 1610"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Design Thinking (BCA) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/LAEP1030",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "LAEP 1030"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Landscape Architecture (BCS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/TESY1000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "TESY 1000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Technology and Design (2 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/LAEP1200",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "LAEP 1200"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Graphics and Illustration (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "965c146b-f794-465f-8298-db3ae8e13554",
+                          "component": "moca-heading",
+                          "text": "Environment & Sustainability Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "environment"
+                        },
+                        {
+                          "_uid": "ff06088d-5095-43e9-b066-367ad93f56ae",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "ca90bf1d-11dd-4f1c-9f4a-87af38b367c7",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "d03740dd-8f99-440f-aa35-e89a4ed8e501",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biology_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biology"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS, BA)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/conservation-and-restoration-ecology_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Conservation and Restoration Ecology"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/environmental-science-and-sustainability_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Environmental Science and Sustainability"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/environmental-studies_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Environmental Studies"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/geography_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Geography"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/rangeland-ecology-and-management_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Rangeland Ecology and Management"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/soils-and-sustainable-land-systems_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Soils and Sustainable Land Systems"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "c25c2ae1-704e-43ac-a424-63c308c5ad54",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "f84dbab5-5cb5-4289-9ae4-c143e8804414",
+                                  "component": "moca-card",
+                                  "header": "Common Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/ENVS2340",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ENVS 2340"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Natural Resources and Society (BSS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/GEOG1300",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "GEOG 1300"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": World Geography: Human and Environmental Dynamics (BSS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/GEOG1000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "GEOG 1000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Physical Geography (BPS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/WILD2200",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "WILD 2200"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Ecology of Our Changing World (BLS) (3 credits) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1610",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1610"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1615",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1615"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology I (3 credits) + Biology I Laboratory (1 credit) (Fall only) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1620",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1620"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1625",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1625"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology II (3 credits) + Biology II Laboratory (1 credit) (Spring only) "
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/ENVS1350",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ENVS 1350"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Environmental Science (BLS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

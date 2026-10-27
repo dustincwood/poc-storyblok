@@ -18,6 +18,9 @@
     "vue-router": "^5.4.0"
   },
   "devDependencies": {
+    "@storyblok/richtext": "^5.3.3",
+    "entities": "^7.0.1",
+    "ultrahtml": "^1.7.0",
     "vite-plugin-mkcert": "^2.1.0"
   }
 }

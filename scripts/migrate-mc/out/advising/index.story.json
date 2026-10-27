@@ -1,0 +1,569 @@
+{
+  "story": {
+    "name": "Pre-Health & Health Professions Advising",
+    "slug": "index",
+    "is_startpage": true,
+    "content": {
+      "_uid": "3f472cbb-edb3-4f01-b70c-86a27394983b",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "4d769cd5-3c44-42c8-8f03-84051dad72d6",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/home-banner.jpg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "500px",
+          "container_width": "default",
+          "header": "Advising",
+          "subheader": "Our advisors would love to meet with you!"
+        },
+        {
+          "_uid": "72a31307-d0c9-4f31-b60b-f29da75194f7",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "2ac666ac-cfde-48b2-8461-674884f8430f",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "In our visit we hope to learn about your strengths, interests, and values. We will build on your goals and experiences while working together to design an individualized semester-by-semester plan. Your personalized plan will help you see a path from where you are now on to graduation. Even if you are unsure of the major you would like to pursue, we can help with resources and ideas."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "d6c8986c-a433-4513-a8b7-371997f30cd0",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "columns": [
+                {
+                  "_uid": "a4a0f255-fa68-472e-8009-0cb38fe1c65b",
+                  "component": "moca-column",
+                  "width_lg": "6",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "3",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "58904b91-fbb8-41d1-8568-5eba7f610b0a",
+                      "component": "moca-tier1-card",
+                      "image": {
+                        "filename": "https://www.usu.edu/advising/images/241010-lo-fall-students-52a8003.jpg",
+                        "alt": "",
+                        "fieldtype": "asset"
+                      },
+                      "link": {
+                        "linktype": "url",
+                        "url": "https://www.usu.edu/advisors/",
+                        "cached_url": "https://www.usu.edu/advisors/",
+                        "fieldtype": "multilink"
+                      },
+                      "title": "Find My Advisor by Major",
+                      "text": "",
+                      "icon": "fas fa-university",
+                      "ratio": "4x3",
+                      "shadow": true
+                    }
+                  ]
+                },
+                {
+                  "_uid": "8b8740c2-d9b4-46e0-b04d-cbb77df4cf84",
+                  "component": "moca-column",
+                  "width_lg": "6",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "3",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "1b810ab6-1a10-4635-883c-b004c5e00892",
+                      "component": "moca-tier1-card",
+                      "image": {
+                        "filename": "https://www.usu.edu/advising/images/200616-ar-wind-caves-c4a1343.jpg",
+                        "alt": "",
+                        "fieldtype": "asset"
+                      },
+                      "link": {
+                        "linktype": "url",
+                        "url": "https://www.usu.edu/advising/exploratory/index.php",
+                        "cached_url": "https://www.usu.edu/advising/exploratory/index.php",
+                        "fieldtype": "multilink"
+                      },
+                      "title": "Exploratory Advising",
+                      "text": "",
+                      "icon": "fas fa-search",
+                      "ratio": "4x3",
+                      "shadow": true
+                    }
+                  ]
+                },
+                {
+                  "_uid": "7a0acc37-e547-4d8f-a70a-5c9c245f1cdc",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "3",
+                  "margin_bottom": "3",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "a98de802-d615-4474-9e92-820b499b8ccf",
+                      "component": "moca-button",
+                      "text": "Pre-Health Advising",
+                      "link": {
+                        "linktype": "url",
+                        "url": "https://www.usu.edu/advising/health-professions/index.php",
+                        "cached_url": "https://www.usu.edu/advising/health-professions/index.php",
+                        "fieldtype": "multilink"
+                      },
+                      "type": "btn-info",
+                      "outline": false,
+                      "size": "btn-lg",
+                      "block": true,
+                      "centered": false
+                    }
+                  ]
+                },
+                {
+                  "_uid": "c5d61b1c-5d9a-44e3-8565-43d52f76b623",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "3",
+                  "margin_bottom": "3",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "b285117a-2057-4b99-89f7-197ce9e2712b",
+                      "component": "moca-button",
+                      "text": "Eastern Campus Advising",
+                      "link": {
+                        "linktype": "url",
+                        "url": "https://eastern.usu.edu/advising/index.php",
+                        "cached_url": "https://eastern.usu.edu/advising/index.php",
+                        "fieldtype": "multilink"
+                      },
+                      "type": "btn-info",
+                      "outline": false,
+                      "size": "btn-lg",
+                      "block": true,
+                      "centered": false
+                    }
+                  ]
+                },
+                {
+                  "_uid": "ac95a0fa-49d9-4042-b3c5-278bf3107372",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "3",
+                  "margin_bottom": "3",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "5930d319-6c8d-4ea9-aecf-51d8c73ef8a5",
+                      "component": "moca-button",
+                      "text": "Blanding Campus Advising",
+                      "link": {
+                        "linktype": "url",
+                        "url": "https://statewide.usu.edu/blanding/advising/index.php",
+                        "cached_url": "https://statewide.usu.edu/blanding/advising/index.php",
+                        "fieldtype": "multilink"
+                      },
+                      "type": "btn-info",
+                      "outline": false,
+                      "size": "btn-lg",
+                      "block": true,
+                      "centered": false
+                    }
+                  ]
+                },
+                {
+                  "_uid": "32115bbd-fbc8-4748-a53b-251bb64ef1ba",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "3",
+                  "margin_bottom": "3",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "fd84b472-c512-4ae4-9842-3b862908c52d",
+                      "component": "moca-button",
+                      "text": "Graduate Program Advising",
+                      "link": {
+                        "linktype": "url",
+                        "url": "https://gradschool.usu.edu/resources/gpc",
+                        "cached_url": "https://gradschool.usu.edu/resources/gpc",
+                        "fieldtype": "multilink"
+                      },
+                      "type": "btn-info",
+                      "outline": false,
+                      "size": "btn-lg",
+                      "block": true,
+                      "centered": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "0ea96954-5ec1-496c-b5c3-83619b211dbd",
+          "component": "moca-band",
+          "background": "bg-primary",
+          "padding_y": "3",
+          "pattern": "",
+          "content": [
+            {
+              "_uid": "b5b29724-8039-4f2e-a814-131b251f68af",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "5",
+              "padding_y": "",
+              "content": [
+                {
+                  "_uid": "2a8ba344-4555-4543-9a04-4b3cab86ea69",
+                  "component": "moca-titled-box",
+                  "title": "Student Resources",
+                  "title_color": "white",
+                  "title_bold": false,
+                  "border_color": "bright-light",
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "content": [
+                    {
+                      "_uid": "22eb67f9-f0e5-4d93-87fa-29ffe1a99929",
+                      "component": "moca-row",
+                      "justify": "center",
+                      "align": "",
+                      "columns": [
+                        {
+                          "_uid": "86d4758d-dee1-4085-8d22-633087c9cbcf",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "50ce3104-2f91-46ef-940d-14134414ae7d",
+                              "component": "moca-button",
+                              "text": "Prepare for an Appointment",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://www.usu.edu/advising/integrated-studies/preparing-for-visit.php",
+                                "cached_url": "https://www.usu.edu/advising/integrated-studies/preparing-for-visit.php",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "8c350942-4f47-41a8-bb5c-5f660dad2348",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "82adfb45-3e77-482a-b46c-7b0cf3bc6504",
+                              "component": "moca-button",
+                              "text": "Degree Works",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://www.usu.edu/registrar/degreeworks/",
+                                "cached_url": "https://www.usu.edu/registrar/degreeworks/",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "e893fcd4-8980-44fc-95d8-ef6c0a1515fa",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "891197c0-6a03-47fc-9a06-a44ab83d1895",
+                              "component": "moca-button",
+                              "text": "Degree Finder",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://www.usu.edu/degrees-majors/",
+                                "cached_url": "https://www.usu.edu/degrees-majors/",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "5cd30cb5-1528-446b-a907-826a242bfe58",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "338a5778-a32f-43cc-8097-be6eb5360fed",
+                              "component": "moca-button",
+                              "text": "GPA Calculator",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://www.usu.edu/advising/advisors/calculator/GPACalculatorExcel2012Revised1.htm",
+                                "cached_url": "https://www.usu.edu/advising/advisors/calculator/GPACalculatorExcel2012Revised1.htm",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "eb6ad062-726b-4ec0-9748-541c6bd193db",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "5da25d84-17a5-4198-9fa8-11f8d6649d47",
+                              "component": "moca-button",
+                              "text": "Registration Calendar",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://www.usu.edu/registrar/registration/deadlines",
+                                "cached_url": "https://www.usu.edu/registrar/registration/deadlines",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "b994494d-79f2-4b1e-982d-f7ca8d6a0026",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "8ca455a1-aedc-446a-bfac-66e09881f347",
+                              "component": "moca-button",
+                              "text": "Take an Academic Break",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://www.usu.edu/retention/nol/",
+                                "cached_url": "https://www.usu.edu/retention/nol/",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "a57a7b5f-53b1-4c20-bf13-8adf1cc8f4f7",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "8a69f9ad-bf01-4a32-9aad-387d64a86c06",
+                              "component": "moca-button",
+                              "text": "Enter Graduate School",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://gradschool.usu.edu",
+                                "cached_url": "https://gradschool.usu.edu",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "18377845-d63e-453e-bdea-ec37011248fa",
+                          "component": "moca-column",
+                          "width_lg": "3",
+                          "width_md": "12",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "4",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "d08bb7f5-fcb4-4bee-bc27-d484c176d908",
+                              "component": "moca-button",
+                              "text": "Advisor Guide",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://www.usu.edu/advising/advisors/advising-guide.php",
+                                "cached_url": "https://www.usu.edu/advising/advisors/advising-guide.php",
+                                "fieldtype": "multilink"
+                              },
+                              "type": "btn-white",
+                              "outline": false,
+                              "size": "",
+                              "block": true,
+                              "centered": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

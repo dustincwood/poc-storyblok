@@ -1,0 +1,1631 @@
+{
+  "story": {
+    "name": "Bridge Program",
+    "slug": "bridge-program",
+    "is_startpage": false,
+    "content": {
+      "_uid": "80a9e1a8-19f6-4a46-b9d5-1a7920d198e7",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "e5b436d4-8e95-4fbf-8898-a0deff78a0f8",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/exploratory/bridge-banner.jpeg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "300px",
+          "container_width": "default",
+          "header": "Bridge Program"
+        },
+        {
+          "_uid": "b43e2abe-51ef-4d39-9848-86a1f28e0154",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "73ab69e9-36ef-4c52-88a3-890aaf217c9d",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "columns": [
+                {
+                  "_uid": "f5b4c7bd-3425-4cf5-b060-903675f817e2",
+                  "component": "moca-column",
+                  "width_lg": "12",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "6e682ca0-9112-4bc9-b308-f008ce7190cd",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The Bridge Program at Utah State University prepares students for entrance in a major through reviewing transcripts and making recommendations for utilizing Academic Record Adjustment or Academic Renewal, individualized academic advising that identifies specific courses and the grades needed to achieve the student's semester GPA goals, and referrals to university resources. The Bridge Program was developed to serve students who:"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "style": "lead"
+                    },
+                    {
+                      "_uid": "93918fa9-627d-409f-a0a7-d217ce1e7a2f",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "bullet_list",
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "New and returning students who do not meet major admission requirements. "
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Students returning from Academic Pause (Suspension).  "
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Declaring Your Major"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "To declare your major and graudate from the Exploratory Advising Bridge Program, students must meet the entry requirements for their intended major and meet with the major advisor to declare their major. To find the requirements for your intended major, explore "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "/degrees/",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "Degree Finder"
+                              },
+                              {
+                                "type": "text",
+                                "text": ". To find the advisor of your intended major, use the "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "/advisors/",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "Find My Advisor Tool"
+                              },
+                              {
+                                "type": "text",
+                                "text": "."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_uid": "569ef2c5-9e08-4108-bb1c-623c25e575f4",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "columns": [
+                {
+                  "_uid": "ac82a42d-a2e7-441c-a578-50e9b9b26808",
+                  "component": "moca-column",
+                  "width_lg": "6",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": true,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "538b4979-2940-43bf-a3fc-097c04d8d3ca",
+                      "component": "moca-card",
+                      "header": "Student Expectations",
+                      "color": "bg-primary",
+                      "body": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Attend an initial advising appointment to co-design a success plan for the semester.  You and your advisor will work together to identify courses and minimum grades required to meet your GPA goals. "
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "text",
+                                "text": "Advisors will explain eligibility for the Academic Record Adjustment and Academic Renewal policies.  Advisors answer any questions, comments, or concerns you may have. "
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "text",
+                                "text": "Schedule and attend an Advising Appointment with your Bridge advisor each semester."
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "text",
+                                "text": "Students will earn a 2.0 Term GPA each semester while in the Bridge Program."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "image_location": "card-img-bottom"
+                    }
+                  ]
+                },
+                {
+                  "_uid": "ad4155c8-e0fe-4b86-81b7-07f869aea8b6",
+                  "component": "moca-column",
+                  "width_lg": "6",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": true,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "fab46f61-02c8-4e00-9247-610d971a29cc",
+                      "component": "moca-card",
+                      "header": "Advisor Expectations",
+                      "color": "bg-primary",
+                      "body": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Provide accurate information, related to curriculum, graduation requirements, and university policies and procedures. "
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "text",
+                                "text": "Create semester-by-semester graduation plan in Degree Works and monitor student's progress toward their declared major. "
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "text",
+                                "text": "Provide information and strategies to utilize available campus resources and services."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "image_location": "card-img-bottom"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "d839a1c4-a849-490b-a0f0-c64b05da3c1a",
+          "component": "moca-band",
+          "background": "bg-light",
+          "padding_y": "",
+          "pattern": "",
+          "content": [
+            {
+              "_uid": "3869e724-beba-475c-89bf-36eb1404087f",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "3",
+              "content": [
+                {
+                  "_uid": "7ff5544b-3e75-45b7-aa9b-a36c620109f9",
+                  "component": "moca-text",
+                  "text": {
+                    "type": "doc",
+                    "content": [
+                      {
+                        "type": "heading",
+                        "attrs": {
+                          "level": 2,
+                          "textAlign": null
+                        },
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Are you a new student?"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "_uid": "c3f45918-931b-4f55-b414-d983099e6c72",
+                  "component": "moca-box",
+                  "margin_top": "3",
+                  "margin_bottom": "",
+                  "content": [
+                    {
+                      "_uid": "03efefa6-0023-4540-9080-6ce92a483e39",
+                      "component": "moca-step-guide",
+                      "heading_level": "h3",
+                      "steps": [
+                        {
+                          "_uid": "386e84c1-f962-4478-997d-871035f28e6b",
+                          "component": "moca-step",
+                          "header": "Meet with an Academic Advisor",
+                          "header_color": "bright-light",
+                          "content": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Academic advisors work with students to develop a semester-by-semester Academic Recovery Plan to be ready to declare a major. You can "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://usu.app.box.com/s/te1034pwv6nsync8ng908t4owq7g9uqt",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "download the Academic Recovery Plan Template"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": " to learn more or schedule an appointment below."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "blocks": [
+                            {
+                              "_uid": "7bc1fddf-77af-4491-9663-90fc295bde4e",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "[Modern Campus component 950 (CP Directory Feed (All Sites)) not migrated]"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "_uid": "b894c14c-e0d6-443b-b9d1-8650a10cc496",
+                              "component": "moca-row",
+                              "justify": "",
+                              "align": "",
+                              "columns": [
+                                {
+                                  "_uid": "dc9219e9-f866-4b2a-87c4-4f996ce86b9e",
+                                  "component": "moca-column",
+                                  "width": "12",
+                                  "width_md": "6",
+                                  "width_lg": "4",
+                                  "margin_bottom": "4",
+                                  "content": [
+                                    {
+                                      "_uid": "694085c9-3138-48ce-967e-7c96733cd74f",
+                                      "component": "moca-profile-card",
+                                      "image": {
+                                        "fieldtype": "asset",
+                                        "filename": "https://www.usu.edu/advising/images/advisors/roholt-kaylee.jpg",
+                                        "alt": "Kaylee Roholt"
+                                      },
+                                      "name": "Kaylee Roholt",
+                                      "title": "Advisor Development Specialist",
+                                      "department": "University and Exploratory, Bridge Program - Logan and out-of-state (Last names A-F)",
+                                      "phone": "",
+                                      "email": "kaylee.roholt@usu.edu",
+                                      "schedule": {
+                                        "fieldtype": "multilink",
+                                        "linktype": "url",
+                                        "url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299",
+                                        "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "aa685c90-ef22-4028-9994-4a01984d0e8f",
+                                  "component": "moca-column",
+                                  "width": "12",
+                                  "width_md": "6",
+                                  "width_lg": "4",
+                                  "margin_bottom": "4",
+                                  "content": [
+                                    {
+                                      "_uid": "d678ddbe-27e9-44df-9447-f505d411bcda",
+                                      "component": "moca-profile-card",
+                                      "image": {
+                                        "fieldtype": "asset",
+                                        "filename": "https://www.usu.edu/advising/images/advisors/shanda-thompson-2025.jpg",
+                                        "alt": "Shanda Thompson"
+                                      },
+                                      "name": "Shanda Thompson",
+                                      "title": "Bridge Program, Statewide",
+                                      "department": "Academic Advisor",
+                                      "phone": "",
+                                      "email": "shanda.thompson@usu.edu",
+                                      "schedule": {
+                                        "fieldtype": "multilink",
+                                        "linktype": "url",
+                                        "url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=786&P=89&AU=0&AG=786&D=-5000",
+                                        "cached_url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=786&P=89&AU=0&AG=786&D=-5000"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "b721cf74-58d1-4633-adbb-a5afdf4392f1",
+                                  "component": "moca-column",
+                                  "width": "12",
+                                  "width_md": "6",
+                                  "width_lg": "4",
+                                  "margin_bottom": "4",
+                                  "content": [
+                                    {
+                                      "_uid": "bf971f87-ba50-4b60-ac3f-021a31540ae5",
+                                      "component": "moca-profile-card",
+                                      "image": {
+                                        "fieldtype": "asset",
+                                        "filename": "https://www.usu.edu/advising/images/advisors/ziegler-alex.png",
+                                        "alt": "Alex Ziegler"
+                                      },
+                                      "name": "Alex Ziegler",
+                                      "title": "Academic Advisor",
+                                      "department": "Integrated Studies, Bridge Program - Logan and out-of-state (Last names G-Z)",
+                                      "phone": "(435) 797-8320",
+                                      "email": "alex.ziegler@usu.edu",
+                                      "schedule": {
+                                        "fieldtype": "multilink",
+                                        "linktype": "url",
+                                        "url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=218&P=89&C=G&T=P&AU=0&AG=0&D=-5000",
+                                        "cached_url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=218&P=89&C=G&T=P&AU=0&AG=0&D=-5000"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "7acb6ada-6712-4400-89aa-1f5cfa0552be",
+                          "component": "moca-step",
+                          "header": "Utilize key university resources",
+                          "header_color": "bright-light",
+                          "content": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                }
+                              }
+                            ]
+                          },
+                          "blocks": [
+                            {
+                              "_uid": "1d0e6aa7-ff1a-42d2-8536-8f002a0521f6",
+                              "component": "moca-row",
+                              "justify": "",
+                              "align": "",
+                              "columns": [
+                                {
+                                  "_uid": "fd11d724-c8eb-4251-99ac-c31f5626b842",
+                                  "component": "moca-column",
+                                  "width_lg": "6",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "d7d6607a-2e7a-4d46-8e24-6ec8b65780a1",
+                                      "component": "moca-text",
+                                      "text": {
+                                        "type": "doc",
+                                        "content": [
+                                          {
+                                            "type": "heading",
+                                            "attrs": {
+                                              "level": 4,
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Academic Planning"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "bullet_list",
+                                            "content": [
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Follow the plan created by you and your academic advisor. Course recommendations can be found in "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://degreeworks.usu.edu/dashboard/worksheets",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Degree Works"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": "."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Enroll in a Math Course your first semester which corresponds to the score you received from the "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "/mathprep/aleks-ppl",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "ALEKS Preparation Placement Exam"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": "."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Meet with the advisor of your intended major to co-develop a Degree Works Plan identifying required courses for your desired major."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Explore with your advisor the degree requirements and benefits of applying for the Associate of Science/Art in General Studies Degree."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "heading",
+                                            "attrs": {
+                                              "level": 4,
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Academic Recovery "
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "bullet_list",
+                                            "content": [
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Petition for "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://www.usu.edu/registrar/records/update/petition/",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Academic Record Adjustment"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": " (ARA)"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Petition for an "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://www.usu.edu/registrar/files/forms/petition-for-academic-renewal.pdf",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Academic Renewal of USU course"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": " after earning a 2.5 GPA in 12 credits."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Repeat Courses"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Register for pre-major courses"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Maintain a determined semester/USU/Overall GPA "
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "5190c7ef-5354-4158-ab9b-acd2364c41c2",
+                                  "component": "moca-column",
+                                  "width_lg": "6",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "f9e9f08f-ef4a-447b-9f78-70892b286676",
+                                      "component": "moca-text",
+                                      "text": {
+                                        "type": "doc",
+                                        "content": [
+                                          {
+                                            "type": "heading",
+                                            "attrs": {
+                                              "level": 4,
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Academic Support"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "bullet_list",
+                                            "content": [
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Schedule an appointment"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": " with an Academic Coach. All sessions are completely free and confidential."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Enroll in one or more of the six "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "/academic-support/courses",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Habits of Mind Courses"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": ". Discuss this option with your advisor."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Familiarize yourself with the "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "/academic-support/index",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "USU Ready resources"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://www.usu.edu/able/tutoring/",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Meet with a tutor"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Apply for "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://www.usu.edu/able/sss/",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Student Support Services"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": " (Logan or Blanding)"
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "heading",
+                                            "attrs": {
+                                              "level": 4,
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Major & Career Exploration"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "bullet_list",
+                                            "content": [
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Utilize the major/career exploration tools found on the "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://www.usu.edu/advising/exploratory/index.php",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Exploratory Advising"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": " website to identify a minimum of three (3) majors of interest."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Register for USU 1400: Exploring Majors & Careers."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "list_item",
+                                                "content": [
+                                                  {
+                                                    "type": "paragraph",
+                                                    "attrs": {
+                                                      "textAlign": null
+                                                    },
+                                                    "content": [
+                                                      {
+                                                        "type": "text",
+                                                        "text": "Advance your major and career exploration by completing the "
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "marks": [
+                                                          {
+                                                            "type": "link",
+                                                            "attrs": {
+                                                              "href": "https://career-services.usu.edu/students/focus_2",
+                                                              "uuid": null,
+                                                              "anchor": null,
+                                                              "target": null,
+                                                              "linktype": "url",
+                                                              "custom": {}
+                                                            }
+                                                          }
+                                                        ],
+                                                        "text": "Focus2 Assessment"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "text": " and scheduling an appointment with a Career Coach from Career Services."
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "ed9ada84-c10f-4591-9ba0-32c50cb1aa76",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "306e593c-6bca-4711-a2c2-c88c669b2db8",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "columns": [
+                {
+                  "_uid": "34ec792e-f20c-43ca-95b0-ed801de8dcf9",
+                  "component": "moca-column",
+                  "width": "auto",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "4f904764-004f-4e10-a4b3-0b431d3e5a4b",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Frequently Asked Questions"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "09b10962-7e0c-4644-8705-70dff7e92261",
+                      "component": "moca-heading",
+                      "text": "What is an Academic Recovery Plan?",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": ""
+                    },
+                    {
+                      "_uid": "52255057-527d-4b15-931e-718666ecbe1e",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://usu.box.com/s/te1034pwv6nsync8ng908t4owq7g9uqt",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "The Academic Recovery Plan"
+                              },
+                              {
+                                "type": "text",
+                                "text": " (ARP) is intended to develop a pathway toward students improving their GPA in order to be in "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://catalog.usu.edu/pages/lQJutuPtydBVIMKyEVkF",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "Good Standing"
+                              },
+                              {
+                                "type": "text",
+                                "text": " and enter into a major at Utah State University."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "8494c57b-ed98-4065-b101-58ba11b4256a",
+                      "component": "moca-heading",
+                      "text": "When can I declare my Major?",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": ""
+                    },
+                    {
+                      "_uid": "8a38021a-5872-49fa-a3f1-da93d77559b6",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Students must meet the entry requirements for their intended major and meet with the major advisor to declare their major. Strategies to meet the entry requirements can be co-designed with your Bridge Program Advisor."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "82d8a6c4-30cf-41f9-94c4-0b5d1175e5fa",
+                      "component": "moca-heading",
+                      "text": "What is Academic Renewal?",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": ""
+                    },
+                    {
+                      "_uid": "6a6fd8fe-6752-44a9-9635-838f3e628b79",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Undergraduate students who have been admitted to Utah State University after an interruption in their collegiate education of at least one year may petition to have certain credits that are older than five years removed from the calculation of the GPA and credits earned. The renewal procedure allows the student’s academic records to be reviewed for the purpose of eliminating from grade point average computation all grades of D+ or below that were entered on the academic transcript five or more calendar years prior to the request, only USU credits are eligible for renewal. However, upon request, selected grades of D+ or below may remain on the student’s record. Petition forms are available in the Office of the Registrar and online. A $25 processing fee will be assessed."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "82d7e753-018e-432f-b4c5-29b96f1baf0a",
+                      "component": "moca-heading",
+                      "text": "What is an Academic Record Adjustment?",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": ""
+                    },
+                    {
+                      "_uid": "44310cce-ebb9-46a6-9655-54e3e902a2fd",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The record adjustment provides the opportunity for you to petition for changes to your academic transcript (credit adjustment, course addition, withdrawal with \"W\" notation, etc.). A “W” (withdrawal notification) is a registration status and is not calculated into your GPA."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The request for refund allows you to petition for a refund of tuition and fees or for a forgiveness of debt owed outside of normal refund deadlines."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Petitions are only reviewed if a student:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "bullet_list",
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Demonstrates extenuating circumstances beyond the student’s control"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Demonstrates the extenuating circumstance occurred during the semester for which the student is petitioning"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Includes all supporting documentation in the petition"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "66cf8bd3-c128-48c1-b1f9-ca4d152b3212",
+                      "component": "moca-heading",
+                      "text": "It's been a long time since I was Last in School, Where do I start?",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": ""
+                    },
+                    {
+                      "_uid": "02b43ace-3c62-4edc-9d1d-5671e2b24265",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "How exciting that you are thinking of returning to complete your degree! Your first step is to meet with a Bridge Program advisor. We will be able to answer your questions where you were when you left off, how to apply to USU, and discuss major options that best meet your career goals."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "d7c38478-ea45-427e-a83f-cd416353b903",
+                      "component": "moca-heading",
+                      "text": "I was Suspended from USU and I want to come back, Where do I start?",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": ""
+                    },
+                    {
+                      "_uid": "e962705b-0deb-4555-983b-c08493e56764",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Your first step is to schedule an appointment with a Bridge Program advisor to discuss your specific situation and plan out your next steps to get started again. Students who are placed on semester GPA warning, academic warning, or academic probation should immediately seek assistance in academic improvement from such sources as academic advisors, instructors, and the Academic Success Programs."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "a75e2e22-b3b3-4d57-a283-36cc726650ba",
+                      "component": "moca-heading",
+                      "text": "I had a Change In Standing, What do I do Now?",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": ""
+                    },
+                    {
+                      "_uid": "164c24d2-cc50-480f-8949-57a539b6016f",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Students with a semester or USU GPA below 2.0 have a change in standing in accordance with "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://catalog.usu.edu/pages/lQJutuPtydBVIMKyEVkF",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "USU’s Academic Standing Policy"
+                              },
+                              {
+                                "type": "text",
+                                "text": ". Students who are placed on semester GPA warning, academic warning, or academic probation should immediately seek assistance in academic improvement from such sources as academic advisors, instructors, and the Academic Success Programs."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Students can experience academic distress for a variety of reasons, and no matter where students are in their journey, we intend to support all our students with campus and community resources. Students experiencing academic distress can often be left feeling frustrated, confused, angry, and isolated. But know that you are not alone. At USU, we know that students experiencing academic distress can benefit from campus and community support."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

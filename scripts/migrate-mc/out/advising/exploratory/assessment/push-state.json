@@ -1,0 +1,30 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/exploratory/assessment/table1.jpg": {
+      "id": 233991899129949,
+      "filename": "https://a.storyblok.com/f/294787985525525/6b57f779af/table1.jpg"
+    },
+    "https://www.usu.edu/advising/images/exploratory/assessment/table2.jpg": {
+      "id": 233991906801758,
+      "filename": "https://a.storyblok.com/f/294787985525525/755aa21b3f/table2.jpg"
+    },
+    "https://www.usu.edu/advising/images/exploratory/assessment/chart1.jpg": {
+      "id": 233991914281055,
+      "filename": "https://a.storyblok.com/f/294787985525525/ca5c0aed3d/chart1.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/exploratory": 233989525293694
+  },
+  "story": {
+    "id": 233991925426824,
+    "parentId": 233989525293694,
+    "full_slug": "advising-migration-test/advising/exploratory/assessment"
+  }
+}

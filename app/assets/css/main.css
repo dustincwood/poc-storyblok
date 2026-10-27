@@ -50,5 +50,6 @@
 
 :root {
   --ui-bg: #fff;
+  --ui-text: var(--color-usu-text); /* #212529, Bootstrap's body color on usu.edu */
   --ui-container: 85rem; /* var(--container-7xl) */
 }

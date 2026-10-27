@@ -1,0 +1,3015 @@
+{
+  "story": {
+    "name": "Explore Engineering, Science & Technology Majors",
+    "slug": "focus-area-physical-sciences-engineering-math",
+    "is_startpage": false,
+    "content": {
+      "_uid": "87b4fa1a-d6ee-4336-a9bc-9d1f1d8521ef",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "51c41002-a09a-45eb-a965-786d380b483a",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "3e750ff3-c983-490d-bd6a-477b7d7b0e4e",
+              "component": "moca-box",
+              "margin_top": "5",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "3b29f57f-6986-47df-b095-85960818436a",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "columns": [
+                    {
+                      "_uid": "5f22af36-c6bd-4213-9aa6-45b9fb25dc04",
+                      "component": "moca-column",
+                      "width": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "25c05975-1f6e-480a-897c-73fe75fe411f",
+                          "component": "moca-heading",
+                          "text": "Physical Sciences, Engineering, and Technology",
+                          "level": "h1",
+                          "color": "",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "4",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "d9b3da01-7841-4748-82fc-8bbc44005f35",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "3",
+                          "content": [
+                            {
+                              "_uid": "9297159d-bf2b-4e89-b7ea-c79d9076e5ae",
+                              "component": "moca-button",
+                              "text": "Schedule an Appointment - Physical Sciences, Engineering & Math",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=107",
+                                "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?C=G&T=P&P=107",
+                                "fieldtype": "multilink",
+                                "target": "_self"
+                              },
+                              "type": "btn-green",
+                              "size": "",
+                              "centered": false,
+                              "outline": false,
+                              "block": "true"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "355e5f8c-0b3a-4a84-8b13-89c3ef1e3eb1",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "You may be interested in the Physical Sciences, Engineering, & Technology focus area if you value intellectual effort, scientific inquiry, and math. You may have a desire to understand and predict physical and biological phenomena and practices. You may like to work with theories, do research, or design and test ideas and systems. You may be apt to be analytical, cautious, independent, curious, introspective, critical, studious."
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "dbf15d79-8e4b-4bf4-8b52-be0586c3c866",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "We recommend "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "USU 1010 - University Connections"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": " for students in their first semester. As students explore course options, keep in mind that they will also need to complete their "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://catalog.usu.edu/pages/NFsYhFKHElZgu9CKB8ts",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "general education requirements"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": ". "
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "c6ae9112-37f9-41c6-9105-cf86f3935985",
+                          "component": "moca-titled-box",
+                          "title": "On This Page",
+                          "title_color": "info",
+                          "title_bold": true,
+                          "border_color": "",
+                          "margin_top": "5",
+                          "margin_bottom": "5",
+                          "content": [
+                            {
+                              "_uid": "8c25edb1-da34-424d-955a-9e1f713cc17d",
+                              "component": "moca-row",
+                              "justify": "center",
+                              "align": "",
+                              "padding_y": "",
+                              "columns": [
+                                {
+                                  "_uid": "6b0a208e-f682-4b77-bbc7-d14c434ebbc8",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "bd4eebcb-c8e7-46b3-84b1-6120fde0664d",
+                                      "component": "moca-button",
+                                      "text": "Math & Statistics Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#math",
+                                        "cached_url": "#math",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "a22795dd-872b-42e5-b709-4791ab3e6df0",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "ae789c8a-b64c-4679-b59e-43cfac77daca",
+                                      "component": "moca-button",
+                                      "text": "Engineering & Technology Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#engineering",
+                                        "cached_url": "#engineering",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "d0f8b5a2-e80e-4c8e-bff6-89a290f39c0d",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "c829b3b7-4766-449b-99c9-05d694972448",
+                                      "component": "moca-button",
+                                      "text": "Science Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#science",
+                                        "cached_url": "#science",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "11cd93e0-fe15-4ce3-a9c1-a5846890dcc5",
+                          "component": "moca-heading",
+                          "text": "Math & Statistics Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "math"
+                        },
+                        {
+                          "_uid": "76317f9f-f606-49c3-bb2a-e09ee7f486c3",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "styled",
+                                        "attrs": {
+                                          "class": "s1"
+                                        }
+                                      }
+                                    ],
+                                    "text": "This is a pathway for individuals with an aptitude for observation, evaluation, investigation, problem solving, and exploration. Many students in this area may consider themselves to be logical, scientific, methodical, and persistent."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "0b20782f-bb35-41f5-b8bb-925d5c033fbf",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "d9a4f13f-11b8-43c8-965e-fcbcebde243b",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "c664a92b-0499-4bea-af9a-0c9f5563452f",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/DASC-DASC_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Data Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/MATH-MATH_BA-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Mathematics"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/MAST-MAST_BA-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Mathematics and Statistics (Composite)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/MAED-MAED_BA-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Mathematics Education"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/STAT-STAT_BA-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Statistics"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "678603e3-0b20-4eaa-b51a-1c6c18ad7d16",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "1c10cd41-374b-4cf1-89d3-72688269cfe3",
+                                  "component": "moca-card",
+                                  "header": "Common Exploratory Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CS1400",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CS 1400"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Introduction to Computer Science–CS 1 (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/MATH1210",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "MATH 1210"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Calculus I (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/MATH1220",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "MATH 1220"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Calculus II (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/MATH2210",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "MATH 2210"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Multivariable Calculus (QI) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/STAT1080",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "STAT 1080:"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " Foundations of Data Science (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/STAT3000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "STAT 3000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Statistics for Scientists (QI) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CIVC1010",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CIVC 1010"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Data and the Stories They Tell (QL) (3 credits)"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "Before registering for any MATH or STAT course you will need to meet the prerequisite requirements or earn the required score on the "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://artsci.usu.edu/math-stats/undergraduate/aleks-ppl.php",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "93f7c82d-37dd-4d6a-9ff3-4ab446b656be"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ALEKS Placement Exam"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (some exceptions apply - contact your academic advisor for more information)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "4e290155-6aed-4710-844e-fc54bd97961d",
+                          "component": "moca-heading",
+                          "text": "Engineering & Technology Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "engineering"
+                        },
+                        {
+                          "_uid": "a7234d03-fed5-40ab-b57f-80bd04ffe061",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "styled",
+                                        "attrs": {
+                                          "class": "s1"
+                                        }
+                                      }
+                                    ],
+                                    "text": "This is a pathway for individuals with an aptitude for observation, evaluation, investigation, problem solving, and exploration. Many students in this area may consider themselves to be logical, scientific, methodical, and persistent. Engineering involves a large component of design and working with computers and technology. "
+                                  },
+                                  {
+                                    "type": "hard_break",
+                                    "marks": [
+                                      {
+                                        "type": "styled",
+                                        "attrs": {
+                                          "class": "s1"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "styled",
+                                        "attrs": {
+                                          "class": "s1"
+                                        }
+                                      }
+                                    ],
+                                    "text": "Exploratory: Science and Engineering is a track in the Physical Sciences, Engineering & Math and Biological & Environmental Sciences focus areas. More information on "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "/advising/exploratory/majors-courses",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {
+                                            "tabindex": "-1"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "type": "styled",
+                                        "attrs": {
+                                          "class": "s1"
+                                        }
+                                      }
+                                    ],
+                                    "text": "Focus Areas"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "styled",
+                                        "attrs": {
+                                          "class": "s1"
+                                        }
+                                      }
+                                    ],
+                                    "text": " is available. "
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "fb39cdd4-0d5b-4e23-aeda-5f92ce442d77",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "c60ffc13-b888-4f58-915f-432e770288cf",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "d4337475-3a88-4fd4-ab85-d8dc4d4e2cff",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "Engineering: ("
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biological-engineering_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "64bc6aa8-b3c5-4bdd-80ec-41bf37748c19"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biological"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ", "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/civil-engineering_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "881e67b6-334f-410c-ace9-f3a7aa93b9db"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Civil"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ", "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/computer-engineering_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "d78dfd37-f9c7-43ef-a475-4d2b760b849b"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Computer"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ", "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/electrical-engineering_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "9f812537-5f03-43bd-9087-50fba17a8fba"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Electrical"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ", "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/mechanical-engineering_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "3d3cbcdb-ca22-4676-a2b9-650f54908357"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Mechanical"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ")"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/engineering-technology_bas",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "a9160b49-740c-43a3-a0a4-32087447d056"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Engineering Technology"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/computer-science_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "690bf0f0-cdb2-48dd-8914-4afaa9c6742f"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Computer Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/technology-and-engineering-education_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "94c7faf0-b89e-4dd3-8523-3dd857449d41"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Technology Systems"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (multiple emphases)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/technology-and-engineering-education_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "fa038be5-2f99-4780-bafb-4943df89a318"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Technology and Engineering Education"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/aviation-technology-aviation-management_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "d7a51a33-69e4-43db-9b8e-9f294e83f44a"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Aviation Technology"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (management)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/aviation-technology-maintenance-management_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "68844486-7cb8-46f2-ac30-32bbc8f97bf7"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Aviation Technology - Maintenance"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/aviation-technology-professional-pilot_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "e11868d5-c1e6-4a2b-a7d8-0baf8fadaeb6"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Aviation Technology - Professional Pilot"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/landscape-architecture_bla",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "315e24c9-d2ed-41a3-b94a-4c84fe5987db"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Landscape Architecture"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/outdoor-product-design-and-development_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "303b4e2e-26af-4a25-93c2-6cb36baaf155"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Outdoor Product Design"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "f82d4ce8-bd71-4047-984a-46abd352566b",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "c0e855c8-7a05-4b13-8f5e-b0ebc45514b9",
+                                  "component": "moca-card",
+                                  "header": "Common Exploratory Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/SMZiVGuQ8qSGdgss10jq",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "2f2add0b-59bb-4bd6-aeca-2e98bdcf29b6"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CIVC 1610"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " - Design Thinking (BCA)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/ENGR1010",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "a1670bde-42f5-4024-ac71-50f9e5ac4c8e"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ENGR 1010"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " - Engineering Exploration (no math pre-req)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/ETEC1000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "e42743d7-0b8d-4520-bfd7-c72c719fc07b"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ETEC 1000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " - Intro to Engineering Technology (1 cr)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/AV1100",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "8390ec10-d895-497f-ac39-bb859b4456ac"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "AV 1100"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " - The Aviation Profession (1 cr)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/OPDD1000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "7e2a8ece-c142-4a54-b661-81bb46dc4f41"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "OPDD 1000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/OPDD1000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "title": "https://catalog.usu.edu/courses/OPDD1000",
+                                                            "data-outlook-id": "da76d3f9-ab73-41be-8f28-af4d5da7837b"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": " "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": "- Product Concept Sketching"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CS1400",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "26305694-97f8-415c-8434-bbb305b16165"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "CS 1400"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "*"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Introduction to Computer Science–CS 1 (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "MATH 1050*"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "MATH 1060*"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "MATH 1210"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "PHYS  1010, 1200, 2010 or 2210  (BPS)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "*Specific pre-requisites are required, and some have additional lab sections - consult an advisor for more information)"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "66d02b2c-5220-4b59-8d15-4879a276f952",
+                          "component": "moca-heading",
+                          "text": "Science Systems Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "science"
+                        },
+                        {
+                          "_uid": "47c41b10-7391-464e-afae-0991d1989681",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "This is a pathway for individuals with an aptitude for independent work, problem-solving, active, or hands-on participation, and practicality. Most students in this area may consider themselves to be curious, ambitious, observant, and interested in the hands-on applications of technology."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "1277bede-85a3-4c0e-9bce-9700d50905dc",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "da2a93db-5ee1-4d9b-b59e-cd7575406187",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "3f57a531-3137-469d-bc8b-41967b2dce78",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/AGBU-AGBU_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Agribusiness"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "Agricultural Education ("
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/AGED-AGED_COBA_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Community Based"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " or "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/AGED-AGED_SCBA_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "School-Based"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ")"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/ASTA-ASTA_BS-MAJOR/program-overview-aoYks",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Agriculture Systems Technology"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/ATMM-ATMM_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Aviation Technology - Maintenance Management"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/ATPP-ATPP_FDWG_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Aviation Technology - Professional Pilot, Fixed Wing"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/ATPP-ATPP_RTCT_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Aviation Technology - Professional Pilot, Rotorcraft"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/OPDD-OPDD_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Outdoor Product Design and Development"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/TESY-TESY_BS-MAJOR",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "tabindex": "-1"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Technology Systems"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (multiple emphases)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biochemistry_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "class": "link-dash",
+                                                            "data-outlook-id": "111da451-8ee8-4aef-8669-a166ea5633ed"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biochemistry"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biology_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "class": "link-dash",
+                                                            "data-outlook-id": "da020ff3-cf5f-4569-9231-ad3a53cd9f8d"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biology"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS, BA)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/physics_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Physics"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS, BA)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/chemistry_ba_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "class": "link-dash",
+                                                            "data-outlook-id": "7a9667df-cb92-451f-8455-c575bcfeb554"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Chemistry"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BA, BS)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/geology_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "class": "link-dash",
+                                                            "data-outlook-id": "9ce634c8-ee6d-4821-80ee-33852cf8cc2e"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "Geology"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS, BA)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/public-health_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "class": "link-dash",
+                                                            "data-outlook-id": "ca501fdf-e272-4383-8515-ba22d6dfa7e6"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Public Health"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (BS)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "4c458eec-e3fe-4c14-bc64-da2dfe82976f",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "206b72d9-2cb6-4a0e-b68a-cc8f9021314b",
+                                  "component": "moca-card",
+                                  "header": "Common Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/APEC1600",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "APEC 1600"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Natural Resources & American Economic Institutions (BAI) (3 credits)"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/AV1100",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "AV 1100"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": The Aviation Profession (1 credit)"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/aZaNpXncgPRkFfEMMzeU/course-overview-aoYks",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "ECN 2020"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Introduction to Macroeconomics (BAI) (3 credits)"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/USU1350",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "USU 1350"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Integrated Life Science (BLS) (3 credits)"
+                                                  },
+                                                  {
+                                                    "type": "hard_break"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/APEC2010",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "APEC 2010"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Microeconomics (BSS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1610",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "1885963f-cff3-4607-aa0d-9a48d5020397"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1610"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1615",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "1cdc373f-26e9-4748-9a50-83f28abc423e"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "1615"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology I and Biology I Laboratory (3 credits) (Fall only)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1620",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "5338580c-8f9d-47dd-b0c1-de0dcc023b43"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1620"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1625",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "ba2588c9-0bfc-4ca6-8486-ab74d8659735"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "1625"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology II and Biology II Laboratory (BLS) (3 credits) (Spring only)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1210",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "9e73f03a-c002-4b8e-aa74-d1acbfc813e0"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1210"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1215",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "77d6e4cd-6dcf-4889-924e-d653c5f1cf46"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1215"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Principles of Chemistry I (4 credits) + Chemical Principles Laboratory (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1220",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "ed87fe8e-803e-4175-ad69-c49522dc9b56"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1220"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1225",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "2d5a66eb-72a1-4373-a20a-457c50eae5a6"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1225"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Principles of Chemistry II (BPS) (4 credits) + Chemical Principles Laboratory II (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CS1400",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "95d349db-d571-4762-8994-49f182d2b52f"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "CS 1400"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Introduction to Computer Science–CS 1 (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/GEO1110",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "e5a05ea0-ca3b-42ab-a341-d0eba26658a9"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "GEO 1110"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/GEO1115",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "0da3d173-1c91-46d2-8b8c-11f206d9e0f4"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "GEO 1115"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Physical Geology (BPS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/PHYS2210",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "2f78a032-77b4-4a6e-bd78-a0b37dda1266"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "PHYS 2210"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/PHYS2215",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {
+                                                            "data-outlook-id": "501d8d7b-2807-41a5-bcc8-75ad93df7fa6"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "underline"
+                                                      }
+                                                    ],
+                                                    "text": "PHYS 2215"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Physics for Scientists and Engineers I (BPS/QI) (4 credits) + Physics for Scientists and Engineer Lab I (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

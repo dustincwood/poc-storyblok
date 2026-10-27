@@ -58,7 +58,39 @@ export function faIconName(value?: string) {
   }
   // A bare icon name such as "house"
   if (!name && classes.length === 1 && /^[a-z0-9-]+$/.test(classes[0]!)) name = classes[0]!
+  name = faRenamed[name] ?? name
   return name ? `i-${set}-${name}` : ''
+}
+
+// Font Awesome 5 names still used in content, renamed in version 6 (the Iconify sets have only the new names)
+const faRenamed: Record<string, string> = {
+  'university': 'building-columns',
+  'search': 'magnifying-glass',
+  'home': 'house',
+  'calendar-alt': 'calendar-days',
+  'external-link-alt': 'up-right-from-square',
+  'info-circle': 'circle-info',
+  'exclamation-triangle': 'triangle-exclamation',
+  'exclamation-circle': 'circle-exclamation',
+  'check-circle': 'circle-check',
+  'question-circle': 'circle-question',
+  'times': 'xmark',
+  'map-marker-alt': 'location-dot',
+  'phone-alt': 'phone',
+  'user-friends': 'user-group',
+  'file-alt': 'file-lines',
+  'edit': 'pen-to-square',
+  'chevron-circle-right': 'circle-chevron-right',
+  'arrow-circle-right': 'circle-arrow-right',
+  'hands-helping': 'handshake-angle',
+}
+
+// Font Awesome size class (fa-2x ... fa-10x, fa-lg) in an icon field -> CSS font-size, or undefined
+export function faIconSize(value?: string) {
+  const decoded = (value ?? '').replace(/&quot;/g, '"').replace(/&amp;/g, '&')
+  const multiplier = decoded.match(/\bfa-(\d+)x\b/)?.[1]
+  if (multiplier) return `${multiplier}em`
+  return /\bfa-lg\b/.test(decoded) ? '1.333em' : undefined
 }
 
 // Video ID from any common YouTube URL form (watch?v=, youtu.be/, embed/, shorts/) or a bare ID
@@ -92,6 +124,21 @@ export const mocaCard = {
   header: 'px-5 py-3 mb-0 border-b border-black/[.125] first:rounded-t-[calc(.25rem-1px)]',
   body: 'flex-auto min-h-px p-5',
   footer: 'px-5 py-3 border-t border-black/[.125] last:rounded-b-[calc(.25rem-1px)]',
+}
+
+// usu.edu color names (text-primary, text-blue, ...) used by migrated headings, titles and bars.
+// Text colors are !important like Bootstrap's, so they beat the heading color.
+export const mocaColors: Record<string, { text: string, bg: string }> = {
+  'primary': { text: 'text-usu-primary!', bg: 'bg-usu-primary' },
+  'blue': { text: 'text-usu-slate!', bg: 'bg-usu-slate' },
+  'blue-dark': { text: 'text-usu-blue-dark!', bg: 'bg-usu-blue-dark' },
+  'info': { text: 'text-usu-info!', bg: 'bg-usu-info' },
+  'bright-light': { text: 'text-usu-bright-light!', bg: 'bg-usu-bright-light' },
+  'success': { text: 'text-usu-success!', bg: 'bg-usu-success' },
+  'warning': { text: 'text-usu-warning!', bg: 'bg-usu-warning' },
+  'danger': { text: 'text-usu-danger!', bg: 'bg-usu-danger' },
+  'dark': { text: 'text-usu-dark!', bg: 'bg-usu-dark' },
+  'white': { text: 'text-white!', bg: 'bg-white' },
 }
 
 // Bootstrap .bg-* classes used as card colors (!important, as in Bootstrap, so they beat the card's white)
@@ -149,7 +196,8 @@ const legacyBtnTypes: Record<string, string> = { Info: 'btn-info', Primary: 'btn
 
 // Port of the component-button class logic: `outline` switches to .btn-outline-* when one exists
 // (never for secondary, light, link or white), and unknown types fall back to .btn-white.
-export function mocaButtonClass(type = 'btn-white', outline = false, size = '') {
+// `block` is .btn-block (full width).
+export function mocaButtonClass(type = 'btn-white', outline = false, size = '', block = false) {
   const btnType = type.includes('btn') ? type : (legacyBtnTypes[type] ?? 'btn-white')
   const short = btnType.replace(/^btn-/, '')
   const canOutline = outline && !/secondary|link|white/.test(short) && btnType !== 'btn-light' && !!btnVariants[`outline-${short}`]
@@ -157,10 +205,119 @@ export function mocaButtonClass(type = 'btn-white', outline = false, size = '') 
   const { box, text } = btnSizes[size] ?? btnSizes['']!
 
   return [
-    'inline-block align-middle text-center select-none border font-condensed leading-normal no-underline cursor-pointer',
+    block ? 'block w-full' : 'inline-block',
+    'align-middle text-center select-none border font-condensed leading-normal no-underline cursor-pointer',
     'transition-colors duration-150 ease-in-out focus:underline focus:outline-none',
     box,
     variant.big ? 'text-[1.167rem] font-bold' : `${text} font-normal`,
     variant.cls,
   ].join(' ')
 }
+
+// Bootstrap 4 grid column widths (.col-{bp}-{n}, .col-{bp} = auto, .col-{bp}-auto = content), as flex-basis like Bootstrap.
+// Breakpoint keys: '' (none), sm, md, lg, xl. Written out in full for Tailwind.
+export const mocaColumnWidths: Record<string, Record<string, string>> = {
+  '': {
+    auto: 'basis-0 grow max-w-full',
+    content: 'basis-auto grow-0 w-auto max-w-full',
+    '1': 'basis-[8.333333%] grow-0 shrink-0 max-w-[8.333333%]',
+    '2': 'basis-[16.666667%] grow-0 shrink-0 max-w-[16.666667%]',
+    '3': 'basis-[25%] grow-0 shrink-0 max-w-[25%]',
+    '4': 'basis-[33.333333%] grow-0 shrink-0 max-w-[33.333333%]',
+    '5': 'basis-[41.666667%] grow-0 shrink-0 max-w-[41.666667%]',
+    '6': 'basis-[50%] grow-0 shrink-0 max-w-[50%]',
+    '7': 'basis-[58.333333%] grow-0 shrink-0 max-w-[58.333333%]',
+    '8': 'basis-[66.666667%] grow-0 shrink-0 max-w-[66.666667%]',
+    '9': 'basis-[75%] grow-0 shrink-0 max-w-[75%]',
+    '10': 'basis-[83.333333%] grow-0 shrink-0 max-w-[83.333333%]',
+    '11': 'basis-[91.666667%] grow-0 shrink-0 max-w-[91.666667%]',
+    '12': 'basis-[100%] grow-0 shrink-0 max-w-[100%]',
+  },
+  'sm': {
+    auto: 'bs-sm:basis-0 bs-sm:grow bs-sm:max-w-full',
+    content: 'bs-sm:basis-auto bs-sm:grow-0 bs-sm:w-auto bs-sm:max-w-full',
+    '1': 'bs-sm:basis-[8.333333%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[8.333333%]',
+    '2': 'bs-sm:basis-[16.666667%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[16.666667%]',
+    '3': 'bs-sm:basis-[25%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[25%]',
+    '4': 'bs-sm:basis-[33.333333%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[33.333333%]',
+    '5': 'bs-sm:basis-[41.666667%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[41.666667%]',
+    '6': 'bs-sm:basis-[50%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[50%]',
+    '7': 'bs-sm:basis-[58.333333%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[58.333333%]',
+    '8': 'bs-sm:basis-[66.666667%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[66.666667%]',
+    '9': 'bs-sm:basis-[75%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[75%]',
+    '10': 'bs-sm:basis-[83.333333%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[83.333333%]',
+    '11': 'bs-sm:basis-[91.666667%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[91.666667%]',
+    '12': 'bs-sm:basis-[100%] bs-sm:grow-0 bs-sm:shrink-0 bs-sm:max-w-[100%]',
+  },
+  'md': {
+    auto: 'bs-md:basis-0 bs-md:grow bs-md:max-w-full',
+    content: 'bs-md:basis-auto bs-md:grow-0 bs-md:w-auto bs-md:max-w-full',
+    '1': 'bs-md:basis-[8.333333%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[8.333333%]',
+    '2': 'bs-md:basis-[16.666667%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[16.666667%]',
+    '3': 'bs-md:basis-[25%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[25%]',
+    '4': 'bs-md:basis-[33.333333%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[33.333333%]',
+    '5': 'bs-md:basis-[41.666667%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[41.666667%]',
+    '6': 'bs-md:basis-[50%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[50%]',
+    '7': 'bs-md:basis-[58.333333%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[58.333333%]',
+    '8': 'bs-md:basis-[66.666667%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[66.666667%]',
+    '9': 'bs-md:basis-[75%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[75%]',
+    '10': 'bs-md:basis-[83.333333%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[83.333333%]',
+    '11': 'bs-md:basis-[91.666667%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[91.666667%]',
+    '12': 'bs-md:basis-[100%] bs-md:grow-0 bs-md:shrink-0 bs-md:max-w-[100%]',
+  },
+  'lg': {
+    auto: 'bs-lg:basis-0 bs-lg:grow bs-lg:max-w-full',
+    content: 'bs-lg:basis-auto bs-lg:grow-0 bs-lg:w-auto bs-lg:max-w-full',
+    '1': 'bs-lg:basis-[8.333333%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[8.333333%]',
+    '2': 'bs-lg:basis-[16.666667%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[16.666667%]',
+    '3': 'bs-lg:basis-[25%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[25%]',
+    '4': 'bs-lg:basis-[33.333333%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[33.333333%]',
+    '5': 'bs-lg:basis-[41.666667%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[41.666667%]',
+    '6': 'bs-lg:basis-[50%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[50%]',
+    '7': 'bs-lg:basis-[58.333333%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[58.333333%]',
+    '8': 'bs-lg:basis-[66.666667%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[66.666667%]',
+    '9': 'bs-lg:basis-[75%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[75%]',
+    '10': 'bs-lg:basis-[83.333333%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[83.333333%]',
+    '11': 'bs-lg:basis-[91.666667%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[91.666667%]',
+    '12': 'bs-lg:basis-[100%] bs-lg:grow-0 bs-lg:shrink-0 bs-lg:max-w-[100%]',
+  },
+  'xl': {
+    auto: 'bs-xl:basis-0 bs-xl:grow bs-xl:max-w-full',
+    content: 'bs-xl:basis-auto bs-xl:grow-0 bs-xl:w-auto bs-xl:max-w-full',
+    '1': 'bs-xl:basis-[8.333333%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[8.333333%]',
+    '2': 'bs-xl:basis-[16.666667%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[16.666667%]',
+    '3': 'bs-xl:basis-[25%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[25%]',
+    '4': 'bs-xl:basis-[33.333333%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[33.333333%]',
+    '5': 'bs-xl:basis-[41.666667%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[41.666667%]',
+    '6': 'bs-xl:basis-[50%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[50%]',
+    '7': 'bs-xl:basis-[58.333333%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[58.333333%]',
+    '8': 'bs-xl:basis-[66.666667%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[66.666667%]',
+    '9': 'bs-xl:basis-[75%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[75%]',
+    '10': 'bs-xl:basis-[83.333333%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[83.333333%]',
+    '11': 'bs-xl:basis-[91.666667%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[91.666667%]',
+    '12': 'bs-xl:basis-[100%] bs-xl:grow-0 bs-xl:shrink-0 bs-xl:max-w-[100%]',
+  },
+}
+
+// Bootstrap image classes (.rounded, .rounded-circle, .img-thumbnail) by their option value.
+// .rounded-circle is a 50% radius: a circle on a square photo, an ellipse otherwise.
+export const mocaImageStyles: Record<string, string> = {
+  'rounded': 'rounded',
+  'rounded-circle': 'rounded-[50%]',
+  'img-thumbnail': 'p-1 bg-white border border-usu-gray-300 rounded',
+}
+
+// Bootstrap 4 spacers 0-5 (0, .25, .5, 1, 1.5, 3rem) as Tailwind classes, per property
+export const mocaSpacing: Record<string, Record<string, string>> = {
+  'mt': { '0': 'mt-0', '1': 'mt-1', '2': 'mt-2', '3': 'mt-4', '4': 'mt-6', '5': 'mt-12' },
+  'mb': { '0': 'mb-0', '1': 'mb-1', '2': 'mb-2', '3': 'mb-4', '4': 'mb-6', '5': 'mb-12' },
+  'my': { '0': 'my-0', '1': 'my-1', '2': 'my-2', '3': 'my-4', '4': 'my-6', '5': 'my-12' },
+  'py': { '0': 'py-0', '1': 'py-1', '2': 'py-2', '3': 'py-4', '4': 'py-6', '5': 'py-12' },
+  'p': { '0': 'p-0', '1': 'p-1', '2': 'p-2', '3': 'p-4', '4': 'p-6', '5': 'p-12' },
+}
+
+// Spacing field value ('' or '0'-'5') -> class
+export function mocaSpace(property: keyof typeof mocaSpacing, value?: string) {
+  return value ? mocaSpacing[property]?.[value] ?? '' : ''
+}
+

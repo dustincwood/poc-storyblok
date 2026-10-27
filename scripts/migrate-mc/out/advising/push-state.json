@@ -1,0 +1,29 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/home-banner.jpg": {
+      "id": 233908595323972,
+      "filename": "https://a.storyblok.com/f/294787985525525/3421316231/home-banner.jpg"
+    },
+    "https://www.usu.edu/advising/images/241010-lo-fall-students-52a8003.jpg": {
+      "id": 233908601807941,
+      "filename": "https://a.storyblok.com/f/294787985525525/28467a0fc9/241010-lo-fall-students-52a8003.jpg"
+    },
+    "https://www.usu.edu/advising/images/200616-ar-wind-caves-c4a1343.jpg": {
+      "id": 233908610905158,
+      "filename": "https://a.storyblok.com/f/294787985525525/b8f9ab8636/200616-ar-wind-caves-c4a1343.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957
+  },
+  "story": {
+    "id": 233908622406526,
+    "parentId": 233908621144957,
+    "full_slug": "advising-migration-test/advising/"
+  }
+}

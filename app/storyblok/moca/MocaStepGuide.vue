@@ -8,7 +8,11 @@ const props = defineProps<{
     steps?: {
       _uid: string
       header?: string
+      // mocaColors name; slate when empty
+      header_color?: string
       content?: any
+      // Layout blocks after the text (a row of columns, a component)
+      blocks?: any[]
     }[]
   }
 }>()
@@ -24,11 +28,12 @@ const headingTag = computed(() => props.blok.heading_level === 'h3' ? 'h3' : 'h2
       >
         {{ i + 1 }}
       </div>
-      <div>
-        <component :is="headingTag" :class="[mocaHeading[headingTag], headingTag === 'h3' ? 'mb-1' : 'mb-0']">
+      <div class="min-w-0 grow">
+        <MocaHeadingTag :tag="headingTag" :class="[mocaHeading[headingTag], headingTag === 'h3' ? 'mb-1' : 'mb-0', mocaColors[step.header_color ?? '']?.text]">
           {{ step.header }}
-        </component>
+        </MocaHeadingTag>
         <MocaRichText :doc="step.content" />
+        <StoryblokComponent v-for="child in step.blocks" :key="child._uid" :blok="child" />
       </div>
       <!-- The connector to the next step; none after the last -->
       <div

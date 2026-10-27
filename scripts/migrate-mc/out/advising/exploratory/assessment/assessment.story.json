@@ -1,0 +1,1371 @@
+{
+  "story": {
+    "name": "Exploratory Assessment",
+    "slug": "assessment",
+    "is_startpage": false,
+    "content": {
+      "_uid": "5b04d40c-3f89-4d5b-9be1-1275e38f7951",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "3ad820d7-300c-4217-94f2-86fa369d1ca0",
+          "component": "moca-hero-banner",
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "200px",
+          "container_width": "default",
+          "header": "Exploratory Advising Assessment"
+        },
+        {
+          "_uid": "f0e0e777-8313-4e1c-a403-ae246349975a",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "b1e243a0-296a-4681-ab50-c6d1c4f8ccd2",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "columns": [
+                {
+                  "_uid": "22951dbf-cd76-4e3d-80eb-642a99682552",
+                  "component": "moca-column",
+                  "width": "auto",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "fadcb813-83ca-4a9b-874b-eb436a918306",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Mission Statement"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Exploratory Advising (EA), a division of Student Affairs, assists students in actively exploring and identifying majors to match their career interests. EA strives to help facilitate a smooth transition to the appropriate Departmental Advising Office. This is accomplished through assistance in major/career exploration, individual and group advising sessions and workshops as well as with assistance from our highly skilled student Advising Aides."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Goals and Learning Outcomes"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "To assist in the academic success of Exploratory, Aggie Prep, Pre-Business, and Pre-Health students, Exploratory Advising will:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "bullet_list",
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Promote the purpose of general education."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Provide opportunities for critical self-reflection."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Facilitate major and career exploration by directing students to appropriate tools."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Coordinate the Exploratory Advising Bridge Program and Aggie Prep Program."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Collaborate with Division of Student Affairs personnel to provide fitting referral services."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "debc6347-3249-4cd5-9252-74bbf68aa465",
+                      "component": "moca-row",
+                      "justify": "",
+                      "align": "",
+                      "columns": [
+                        {
+                          "_uid": "cc7b1168-9b71-46e9-9bd4-03fd82128195",
+                          "component": "moca-column",
+                          "width_lg": "8",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "6e8e46c1-edcc-4250-8bcb-72ab9a731b81",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "heading",
+                                    "attrs": {
+                                      "level": 2,
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Foundational Documents"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Exploratory Advising adheres to the guidelines identified by the National Academic Advising Association (NACADA) and the Council for the Advancement of Standards (CAS) Advising Standards. As such, Exploratory Advising endorses the core values of responsible academic advising."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "As a department within the Division of Student Affairs, Exploratory Advising abides by the professional competencies established by the National Association of Student Personnel Administrators (NASPA)."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "1bc4086e-5a1c-489e-bdb2-ecd6608f5d66",
+                          "component": "moca-column",
+                          "width_lg": "4",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "4",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "ad77bd8b-80cd-4f53-96b2-ebf8538c4939",
+                              "component": "moca-box",
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "content": [
+                                {
+                                  "_uid": "3e7d2788-039b-41f7-b29f-e896474a1d17",
+                                  "component": "moca-list-card",
+                                  "title": "Resources",
+                                  "header_color": "primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://nacada.ksu.edu/Resources/Clearinghouse/View-Articles/Core-values-of-academic-advising.aspx",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Core Values of Academic Advising"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://nacada.ksu.edu/Resources/Clearinghouse/View-Articles/CAS-Advising-Standards.aspx",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CAS Advising Standards"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/advising/files/professional-competencies.pdf",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Professional Competiencies"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "527c7ddc-c36c-400f-95bd-09c87418f13f",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": " Assessment Plan 2017 - 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "b8a21e5a-f035-41dd-aa70-b0d9a5961f5e",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "table",
+                            "content": [
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Goals"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Assessment Tool"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Data Source Documentation"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Timeline"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Responsible Persons"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Map to Division Goals"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Implement revisions to the process "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "for students with less than good academic "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "standing. The revisions include a shortened "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "academic standing acknowledgment, "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "positive nudges to aid in student success, "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "mandatory advising appointments, and "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "providing appropriate resources."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Secondary data review."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Argos reports using Banner data."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "One to three months after end of term academic standing processing."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Niki Weight, Stephanie Hamblin"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Student Affairs Goals 1, 6, and 8"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Develop an understanding of high credit "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Exploratory students in an effort to reduce "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "the number of students in Exploratory with "
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "more than 45 earned credits. This will be accomplished by:"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "Identifying number of students with over 45 credits for each semester beginning Fall 2015 (semester center was renamed Exploratory Advising)."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "text": "Surveying students with 45 or more earned credits to determine why they are still Exploratory"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Secondary data review and student survey. "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Argos reports using Banner data."
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Students with 45 or more earned credits."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "One to three months after end-of-term."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Niki Weight"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "Stephanie Hamblin "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Student Affairs Goals 1, 6, and 8"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "table_style": "striped"
+                    },
+                    {
+                      "_uid": "8c479aad-caa9-4938-92fa-5e878f79dfd9",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Outcomes Data"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "For 2016-2017, Exploratory Advising examined the graduation and retention rates of Exploratory (formerly Undeclared) students compared to students who entered the university with a declared major. Using the Fall 2011 first-time, first semester freshman cohort attending the Logan campus for the review, it was found that students who start as Undeclared had lower retention and graduation rates compared to students with a declared major. This data prompted additional analysis into tracking retention and graduation based on the time when Undeclared students declared their major. We found that Undeclared students who declared a major within their first year had graduation rates for a Bachelor's degree comparable to the overall cohort graduation rate. See Table 1."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "As part of this analysis, we learned that students who began at the university as Undeclared changed their major less often compared to students who entered the university with a declared major. See Table 2."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Based on these findings, we conducted anaylsis of Exploratory students who met with an advisor in Exploratory Advising during the 2016-2017 academic year to identify why they were Exploratory. After these appointments, advisors provided data regarding why the student was Exploratory. These responses were categorized into eleven unique areas. See Chart 1. These results sparked a learning objective for the 2017-2018 academic year to develop an understanding of high credit Exploratory students in an effort to reduce the number of students in Exploratory with more than 45 earned credits."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "d24c8f22-fbc5-4201-af5e-66eba123f91b",
+                      "component": "moca-row",
+                      "justify": "",
+                      "align": "",
+                      "columns": [
+                        {
+                          "_uid": "c6cf034f-e65d-4d42-a420-7b5c627088c9",
+                          "component": "moca-column",
+                          "width_lg": "4",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "194d8aa2-208f-4395-be06-e02124a4a577",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    }
+                                  },
+                                  {
+                                    "type": "image",
+                                    "attrs": {
+                                      "id": null,
+                                      "src": "https://www.usu.edu/advising/images/exploratory/assessment/table1.jpg",
+                                      "alt": "Table 1: A bar graph of the graduation rates of 201140 cohort students that started college as an undeclared major. Section one compares the 4yr associate degree graduation rate (based on 1yr retention cohort) with 26.77% still undeclared after one year, 15.94% declared after one year, and 13.83% cohort graduation rate. Section two compares the 4 yr bachelor degree graduation rate (based on 1 yr retention cohort) with 24.75% still undeclared after one year, 41.55% declared after one year, and 43.06% cohort graduation rate.",
+                                      "title": null,
+                                      "source": null,
+                                      "copyright": null,
+                                      "meta_data": null
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "b6639473-75bb-4145-abcc-8292943e65b5",
+                          "component": "moca-column",
+                          "width_lg": "4",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "efcd1a13-1c91-4a03-8bb5-efcb5a8a00ce",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    }
+                                  },
+                                  {
+                                    "type": "image",
+                                    "attrs": {
+                                      "id": null,
+                                      "src": "https://www.usu.edu/advising/images/exploratory/assessment/table2.jpg",
+                                      "alt": "Table 2: A stacked bar graph of the comparision of major changes between students that start declared vs undeclared (based on students from 201140 cohort first year retention cohort that graduated in 4 years). Section one compares the population that started declared with 43.79% stayed the same major and 56.21% changed major at least 1 time. Section two compares the population that started undeclared with 74.07% stayed the same major and 25.93% changed major at least 1 time.",
+                                      "title": null,
+                                      "source": null,
+                                      "copyright": null,
+                                      "meta_data": null
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "71b3883f-0402-46c7-abd2-eb50a737fb40",
+                          "component": "moca-column",
+                          "width_lg": "4",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "6b99088b-c768-45c1-a420-3a21e127965d",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    }
+                                  },
+                                  {
+                                    "type": "image",
+                                    "attrs": {
+                                      "id": null,
+                                      "src": "https://www.usu.edu/advising/images/exploratory/assessment/chart1.jpg",
+                                      "alt": "Table 3: A pie chart of the reasons why students are exploratory (2967 student interactions). This factors out students who were admitted into Aggie Prep Program, met for Academic Standing, who are taking an LDA, or whose appt was non-applicable to major exploration. 12% knew the major they want and need to declare. 19% knew the major they want but need to take prereqs, raise GPA, or other requirements first. 4% narrowed down ideas to 2 majors, trying to decide. 8% had a general idea of an area of interest but trying to decide for sure. 2% had lots of interests but with some direction. 32% had no specific direction and were very open. 11% were admitted into the bridge program. 2% were pursuing an associate degree. 5% were prospective students. 2% were transferring to another school. 3% gave the reason as “other”.",
+                                      "title": null,
+                                      "source": null,
+                                      "copyright": null,
+                                      "meta_data": null
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "772002ec-2446-460c-8933-005a08a07924",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Continuous Improvement"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "In the 2016-2017 academic year, the Aggie Prep Program coordinated by the Exploratory Advising Center implemented several programmatic changes to better implement the program goals and assist students in achieving success. These changes included"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "bullet_list",
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Passing grades for the required courses were clearly defined as:"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "English 1010: C- or higher"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "USU 1010/1730: C- or higher"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Math/Stats course: C- or higher unless a general math course in which a D is considered passing"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Students admitted into the program after Fall 2016, were required to maintain a 2.0 USU overall GPA to continue in the program."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "The two-semester mandatory advising appointment was only required for students if they received below a 2.5 GPA semester GPA during their first semester."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "The notation “Mid-semester Check-in” used for the mandatory advising appointment was renamed to “Aggie Prep Advising Appointment.”"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Admission into the Aggie Prep Program was restricted to new freshman or students transferring with less than 24 credits."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Students will no longer be transferred from the Aggie Prep Program into the Exploratory program."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

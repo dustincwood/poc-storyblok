@@ -1,0 +1,2727 @@
+{
+  "story": {
+    "name": "Explore Healthcare & Health Science Majors",
+    "slug": "focus-area-applied-clinical-health-sciences",
+    "is_startpage": false,
+    "content": {
+      "_uid": "ca1d4411-4c3d-41ed-b8bd-e88ded9690cd",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "4755cc46-26e6-496c-ac3e-2aae59d29884",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "d07b7842-ac49-4fce-aa7d-b2a5f2f7098c",
+              "component": "moca-box",
+              "margin_top": "5",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "c15853bd-bbcb-4e25-9c09-6c6260d08724",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "columns": [
+                    {
+                      "_uid": "15e6c186-37f3-4ed9-ac66-23d3d8af42dc",
+                      "component": "moca-column",
+                      "width": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "9c0f08d9-49dc-442e-bcb6-8f9731a62d97",
+                          "component": "moca-heading",
+                          "text": "Applied & Clinical Health Sciences",
+                          "level": "h1",
+                          "color": "",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "4",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "37c3b1c6-1c74-4f75-8e8a-a8c1bffcd8a7",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "3",
+                          "content": [
+                            {
+                              "_uid": "00df7cf8-690b-47fc-b0bb-51a309cdf8e6",
+                              "component": "moca-button",
+                              "text": "Schedule an Appointment - Applied & Clinical Health Sciences",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://studentappts.usu.edu/ramonline/BookAppt?C=C&T=P&P=835",
+                                "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?C=C&T=P&P=835",
+                                "fieldtype": "multilink",
+                                "target": "_self"
+                              },
+                              "type": "btn-green",
+                              "size": "",
+                              "centered": false,
+                              "outline": false,
+                              "block": "true"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "1ac19d6f-2838-4c2a-b002-dfdce6aaaeb4",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "You may be interested in the Applied & Clinical Health Sciences focus area if you have an aptitude for applying scientific principles to enhance human health and wellness, diagnosing, treating and managing health conditions, working in a laboratory or clinical setting, and promoting positive health choices. Many students interested in this focus area may consider themselves to be dedicated, intelligent, compassionate, and curious."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "f95a85fa-2635-4c0b-8a71-44e199789553",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "We recommend USU 1010- University Connections for students in their first semester of college. Every student will need to complete the "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://catalog.usu.edu/pages/NFsYhFKHElZgu9CKB8ts",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "general education requirements"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "e169b187-ae0d-48b5-a20c-7eadba6ac3ed",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "We also recommend that you visit our "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://www.usu.edu/advising/health-professions/index.php",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "Health Professions Advising Page"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "ccd12cac-dfab-461a-9b04-5ac35264c6a0",
+                          "component": "moca-titled-box",
+                          "title": "On This Page",
+                          "title_color": "info",
+                          "title_bold": true,
+                          "border_color": "",
+                          "margin_top": "5",
+                          "margin_bottom": "5",
+                          "content": [
+                            {
+                              "_uid": "ad765eb8-d1a1-42fb-b175-523e97dba050",
+                              "component": "moca-row",
+                              "justify": "center",
+                              "align": "",
+                              "padding_y": "",
+                              "columns": [
+                                {
+                                  "_uid": "41c13254-b732-451f-aeae-458942576fbc",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "2e168574-6ac9-406b-b07d-e0497290492b",
+                                      "component": "moca-button",
+                                      "text": "Pre-Health and Professional Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#phealth",
+                                        "cached_url": "#phealth",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "7aca5981-9da1-476b-9c89-c3bce4d263dc",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "4575eb59-7780-4fee-a738-cb243e6bdf89",
+                                      "component": "moca-button",
+                                      "text": "Movement Science Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#move",
+                                        "cached_url": "#move",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "adfd97e1-cd65-4397-bfc3-6793b9a12dce",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "fedc7d3b-bcc7-4958-8d56-701b376c57b0",
+                                      "component": "moca-button",
+                                      "text": "Prevention and Education Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#prevent",
+                                        "cached_url": "#prevent",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "f73bee41-08ca-495d-b986-f069a0fe7f14",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "09e21d3c-d366-4be6-b300-1dd023a27a9f",
+                                      "component": "moca-button",
+                                      "text": "Mental and Behavioral Health Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#mental",
+                                        "cached_url": "#mental",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                },
+                                {
+                                  "_uid": "49fe50fc-d2fa-4257-b553-c9b7c3462e46",
+                                  "component": "moca-column",
+                                  "width_lg": "auto",
+                                  "width_md": "12",
+                                  "order": "",
+                                  "order_lg": "",
+                                  "margin_top": "",
+                                  "margin_bottom": "2",
+                                  "stretch": false,
+                                  "display": "",
+                                  "align_self": "",
+                                  "text_align": "",
+                                  "overlap": false,
+                                  "content": [
+                                    {
+                                      "_uid": "edf189aa-8a4c-434c-ac8d-bd34cd1b9888",
+                                      "component": "moca-button",
+                                      "text": "Clinical Care Track",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "#clinical",
+                                        "cached_url": "#clinical",
+                                        "fieldtype": "multilink"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "block": true,
+                                      "fill_height": true,
+                                      "centered": false
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "d5b6567e-b8bf-48d7-9890-3448af561991",
+                          "component": "moca-heading",
+                          "text": "Pre-Health and Professional School Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "phealth"
+                        },
+                        {
+                          "_uid": "7bc375b9-36d4-4f12-9261-6f9ca35ae888",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "fbe1fc64-7e3a-4f0f-a6eb-310fd02e3b78",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "f94d9306-12da-4481-942e-62ef6a972887",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Medical graduate programs do not require or favor ANY specific major. We encourage you to consider a major that interests you and one that will provide you an alternate pathway if you change your mind about medicine as a career. Here are some common majors that include many of the professional school prerequisite courses."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biology_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biology"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/biochemistry_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Biochemistry"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/kinesiology_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Kinesiology - Pre-physical Therapy"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/communicative-disorders_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Communicative Disorders"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/nutrition-science_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Nutrition Science (BS)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "27cb6bf6-a3f5-43ad-b747-2e4d0a0a1e14",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "baad93fc-4ed2-47cc-8985-e354ace5da01",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploratory Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1610",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1610"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1615",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1615"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology I and Biology I Laboratory (3 credits) (Fall only)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1620",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1620"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1625",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1625"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology II and Biology II Laboratory (BLS) (3 credits) (Spring only)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1210",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1210"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1215",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1215"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Principles of Chemistry I (4 credits) + Chemical Principles Laboratory (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1220",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1220"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1225",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1225"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Principles of Chemistry II (BPS) (4 credits) + Chemical Principles Laboratory II (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL2420",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 2420"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Human Physiology (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL2320",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 2320"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Human Anatomy (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1060",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1060"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Prehealth Professions (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/KIN2000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "KIN 2000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Kinesiology (2 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/NDFS1020",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "NDFS 1020"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Science & Application of Human Nutrition (BLS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "14a88759-d778-4403-b290-7e1fe817cb65",
+                          "component": "moca-heading",
+                          "text": "Movement Science Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "move"
+                        },
+                        {
+                          "_uid": "39cda630-1393-4afd-93ba-395db75bd281",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "e3b0b6f2-e8ca-4430-be81-62d2af5c4bd7",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "3a6fec13-122b-456f-8146-08d006f9d282",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/kinesiology_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Kinesiology - Exercise Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/nutrition-science_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Nutrition Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/physical-education-teaching_minor",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Physical Education Teaching (minor)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/YOST",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Yoga Studies (minor)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "41891e77-c12a-4920-993a-fe64aff9eae3",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "dedafa5e-6fee-4d40-9976-5612932105c5",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploratory Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/KIN2000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "KIN 2000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Kinesiology (2 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/KIN3000",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "KIN 3000"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Principles of Health and Fitness (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/NDFS1020",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "NDFS 1020"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Science & Application of Human Nutrition (BLS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/KIN3011",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "KIN 3011"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Yoga Studies (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "6516c10f-cf9a-4c6f-9679-ccb2d9da0b6f",
+                          "component": "moca-heading",
+                          "text": "Prevention and Education Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "prevent"
+                        },
+                        {
+                          "_uid": "c4d5cd6b-27ab-4c08-928e-842db19c0bbd",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "18554d1b-2511-4f4c-a8bc-6c7fdb29a2b2",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "66f341ed-f8a5-4499-b8f2-5335f8d251c0",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/public-health_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Public Health"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/public-health-health-promotion_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Public Health - Health Promotion"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/human-development-and-family-studies_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Human Development and Family Studies"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/nutrition-science_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Nutrition Science"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "9ea9705b-ce90-47fd-a8e0-f7c196af8710",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "7506c3c2-fde0-45c0-b369-cb880b671565",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploratory Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/HEP2500",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "HEP 2500"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Health and Wellness (2 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/NDFS1020",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "NDFS 1020"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Science & Application of Human Nutrition (BLS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1610",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1610"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": "+ "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1615",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1615"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology I (3 credits) + Biology I Laboratory (1 credit) (Fall only)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1620",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1620"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1625",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1625"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology II (3 credits) + Biology II Laboratory (1 credit) (Spring only)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/CHEM1110",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1110"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": General Chemistry I (BPS) (4 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/HDFS1500",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "HDFS 1500"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Human Development Across the Lifespan (BSS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/HEP3600",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "HEP 3600"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Functions of Community and Public Health (CI) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "b05afd7b-207c-4e07-a645-d5c190633df9",
+                          "component": "moca-heading",
+                          "text": "Mental and Behavioral Health Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "mental"
+                        },
+                        {
+                          "_uid": "2345c85f-e71c-4548-8bb7-b0c31d535ea1",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "42c465a2-11cc-4730-bc1a-7cd0ea98d905",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "99831541-5dc4-4ee2-beeb-629041ff00c8",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/psychology_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Psychology"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/social-work_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Social Work"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/public-health_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Public Health"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/MHAA",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Mental Health Advocacy and Awareness (minor)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/programs/DISS",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Disability Studies (minor)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "e4f7ac5e-df5a-4999-a62b-5c066e840183",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "795cf571-acf2-4707-884d-67e2c18c9309",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploratory Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/PSY1010",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "PSY 1010"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": General Psychology (BSS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/HEP1500",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "HEP 1500"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Global Health (BSS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/HEP2500",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "HEP 2500"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Health and Wellness (2 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/PUBH3120",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "PUBH 3120"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Family and Community Health (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/HDFS1500",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "HDFS 1500"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Human Development Across the Lifespan (BSS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/SW1010",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "SW 1010"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Social Welfare (BSS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/SOC3330",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "SOC 3330"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Medical Sociology (DSS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "15018878-519d-4a9d-9e03-f8eddf9bfa56",
+                          "component": "moca-heading",
+                          "text": "Clinical Care Track",
+                          "level": "h2",
+                          "color": "bright-light",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": "clinical"
+                        },
+                        {
+                          "_uid": "a8c1fbdc-67b2-4468-9099-ed25cad38ba8",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "85fb66db-bdd0-4fbf-8f61-84be2fdd08ee",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "632572a7-0ee0-4d20-8d1c-462da9304837",
+                                  "component": "moca-card",
+                                  "header": "Common Majors:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/nursing_bsn",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Nursing"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/dietetics_bs",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Dietetics"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/degrees-majors/communicative-disorders_bs_ba",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Communicative Disorders"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "c382f4bd-acc7-4d66-b5d2-d6d7a88dc65f",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "e59ba876-ed81-46a7-8cad-9d44a01c8bc1",
+                                  "component": "moca-card",
+                                  "header": "Common General Education and Exploratory Courses:",
+                                  "color": "bg-primary",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/BIOL1010",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "BIOL 1010"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Biology and the Citizen (BLS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/L7SNabBAKyN9CNt7LCiE",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "CHEM 1130"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " + "
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/tkESdrs1nTaYlb9GMAMk",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "1135"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": General, Organic, and Biological Chemistry (4 credits) + General, Organic, and Biological Chemistry Lab (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/NDFS1020",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "NDFS 1020"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Principles and Application of Human Nutrition (BLS) (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/NDFS1030",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "NDFS 1030"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Dietetics and Nutrition Science (1 credit)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/HEAL1008",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "HEAL 1008"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Medical Terminology (2 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://catalog.usu.edu/courses/wOY03jDxJokJaS72eKgX",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "SHS 2600"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": ": Intro to Communicative Disorders (3 credits)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "image_location": "card-img-bottom"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

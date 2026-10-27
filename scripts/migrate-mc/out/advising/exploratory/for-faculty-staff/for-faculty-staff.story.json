@@ -1,0 +1,248 @@
+{
+  "story": {
+    "name": "Focus Areas Master List",
+    "slug": "for-faculty-staff",
+    "is_startpage": false,
+    "content": {
+      "_uid": "ee1b4775-9517-47b3-b7c9-e84a6d933842",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "12b55bb6-cd18-42cb-a701-3025820499f7",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/faculty-staff-banner.jpg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "300px",
+          "container_width": "default",
+          "header": "Promote Your Program with Exploratory Advising"
+        },
+        {
+          "_uid": "df06220e-f489-49c5-894b-44049a1745dc",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "e9e8a3e6-e8d9-4924-b936-9047dfe36a42",
+              "component": "moca-column",
+              "width": "12",
+              "order": "",
+              "order_lg": "",
+              "margin_top": "",
+              "margin_bottom": "",
+              "stretch": false,
+              "display": "",
+              "align_self": "",
+              "text_align": "",
+              "overlap": false,
+              "content": [
+                {
+                  "_uid": "9bb0af91-82f6-43c4-bfd9-c4f0cea30db1",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "columns": [
+                    {
+                      "_uid": "8ef58fdf-a3c7-4c20-9944-4f9c1c8ee810",
+                      "component": "moca-column",
+                      "width_lg": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "baf7639c-1a6e-4e9f-b42f-b501638cdd44",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 2,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Increase awareness of your major, minor, or certificate"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "c004b311-70e9-4597-afbc-2ba93adf3b48",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "columns": [
+                            {
+                              "_uid": "9d18ba50-1178-4da9-8e00-707f787472b3",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "ee4f5ae7-c768-455f-8430-2924c2728f65",
+                                  "component": "moca-accent-card",
+                                  "color": "Info",
+                                  "title": "Meet with Exploratory Advisors",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "To share information about your program with Exploratory Advisors, contact Ruth Jensen ("
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "mailto:ruth.jensen@usu.edu?subject=",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ruth.jensen@usu.edu"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": "). Exploratory Advisors meet Tuesdays at 9-10 am."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "button": [
+                                    {
+                                      "_uid": "1763384d-cb8a-4dec-971b-19f79d0be9db",
+                                      "component": "moca-button",
+                                      "text": "Contact Ruth",
+                                      "link": {
+                                        "linktype": "email",
+                                        "email": "ruth.jensen@usu.edu",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "centered": false
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "2d699a05-3b8d-4890-b9e0-f0431a67ec31",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": true,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "370cb55a-68f8-41da-a940-eaac4d212880",
+                                  "component": "moca-accent-card",
+                                  "color": "Info",
+                                  "title": "Social Media and MyUSU Highlight",
+                                  "body": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Exploratory Advising will highlight your program on our social media and MyUSU group."
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          },
+                                          {
+                                            "type": "hard_break"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "button": [
+                                    {
+                                      "_uid": "18a7663e-4cba-43ce-8dc5-2304cad27e34",
+                                      "component": "moca-button",
+                                      "text": "Highlight Form",
+                                      "link": {
+                                        "linktype": "url",
+                                        "url": "https://usu.co1.qualtrics.com/jfe/form/SV_88JcNoKET1gjK2q",
+                                        "cached_url": "https://usu.co1.qualtrics.com/jfe/form/SV_88JcNoKET1gjK2q",
+                                        "fieldtype": "multilink",
+                                        "target": "_self"
+                                      },
+                                      "type": "btn-info",
+                                      "outline": false,
+                                      "size": "",
+                                      "centered": false
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

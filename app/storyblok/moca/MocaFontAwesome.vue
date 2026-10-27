@@ -7,6 +7,8 @@ const props = defineProps<{
     // Link title; "External Link" when empty
     link_title?: string
     sr_only?: string
+    // fa-{n}x multiplier; overrides a size class in icon
+    size?: string
   }
 }>()
 
@@ -24,10 +26,10 @@ const title = computed(() => props.blok.link_title || 'External Link')
     :aria-label="title"
     class="text-usu-info hover:text-usu-info-dark"
   >
-    <MocaFaIcon :icon="blok.icon" />
+    <MocaFaIcon :icon="blok.icon" :size="blok.size" />
   </NuxtLink>
   <span v-else v-editable="blok">
-    <MocaFaIcon :icon="blok.icon" />
+    <MocaFaIcon :icon="blok.icon" :size="blok.size" />
     <span v-if="blok.sr_only" class="sr-only">{{ blok.sr_only }}</span>
   </span>
 </template>
