@@ -77,6 +77,7 @@ const faRenamed: Record<string, string> = {
   'times': 'xmark',
   'map-marker-alt': 'location-dot',
   'phone-alt': 'phone',
+  'mobile-alt': 'mobile-screen-button',
   'user-friends': 'user-group',
   'file-alt': 'file-lines',
   'edit': 'pen-to-square',

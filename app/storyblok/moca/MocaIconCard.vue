@@ -10,6 +10,8 @@ const props = defineProps<{
     sr_only?: string
     header?: string
     body?: string
+    // Makes the body a link that covers the whole card (.stretched-link), e.g. a map, tel: or mailto: link
+    body_link?: SbLink
     button_text?: string
     button_link?: SbLink
   }
@@ -28,7 +30,17 @@ const iconSize = computed(() => Number(props.blok.icon_size) > 0 ? `${Number(pro
       <span class="my-6" :style="{ fontSize: iconSize }"><MocaFaIcon :icon="blok.icon" /></span>
       <span v-if="blok.sr_only" class="sr-only">{{ blok.sr_only }}</span>
       <h2 v-if="blok.header" :class="[mocaHeading.h3, 'my-4', textColor]">{{ blok.header }}</h2>
-      <p v-if="blok.body" class="mb-4 text-xl font-light">{{ blok.body }}</p>
+      <a
+        v-if="blok.body && mocaLinkHref(blok.body_link)"
+        :href="mocaLinkHref(blok.body_link)"
+        :target="blok.body_link?.target"
+        :class="[
+          'text-xl font-light text-inherit after:absolute after:inset-0 after:z-1 after:content-[\'\']',
+          // usu.edu underlines content links, but not phone numbers
+          !mocaLinkHref(blok.body_link).startsWith('tel:') && 'underline',
+        ]"
+      >{{ blok.body }}</a>
+      <p v-else-if="blok.body" class="mb-4 text-xl font-light">{{ blok.body }}</p>
     </div>
 
     <div v-if="blok.button_text" :class="['px-5 pt-3 pb-6 rounded-b-[calc(.25rem-1px)]', cardColor]">

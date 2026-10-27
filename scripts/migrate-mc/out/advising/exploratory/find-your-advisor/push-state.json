@@ -1,0 +1,78 @@
+{
+  "assets": {
+    "https://statewide.usu.edu/directory/olivia-lee-2024.jpg": {
+      "id": 235280803572088,
+      "filename": "https://a.storyblok.com/f/294787985525525/12bd442f09/olivia-lee-2024.jpg"
+    },
+    "https://statewide.usu.edu/directory/shanda-thompson.jpg": {
+      "id": 235280808548729,
+      "filename": "https://a.storyblok.com/f/294787985525525/1230c989b7/shanda-thompson.jpg"
+    },
+    "https://statewide.usu.edu/directory/tylan-dee-2022.jpg": {
+      "id": 235280812996986,
+      "filename": "https://a.storyblok.com/f/294787985525525/027c3dceac/tylan-dee-2022.jpg"
+    },
+    "https://statewide.usu.edu/directory/anne-cannon-square-2026.jpg": {
+      "id": 235280817547643,
+      "filename": "https://a.storyblok.com/f/294787985525525/e415177597/anne-cannon-square-2026.jpg"
+    },
+    "https://www.usu.edu/advising/images/advisors/bergholtz-pia.png": {
+      "id": 235280891156860,
+      "filename": "https://a.storyblok.com/f/294787985525525/3bc7770a58/bergholtz-pia.png"
+    },
+    "https://www.usu.edu/advising/images/advisors/USU_Placeholder_Directory.png": {
+      "id": 235280897952125,
+      "filename": "https://a.storyblok.com/f/294787985525525/8ad737b996/usu_placeholder_directory.png"
+    },
+    "https://www.usu.edu/advising/images/advisors/faamoe-quianna.png": {
+      "id": 235280903195006,
+      "filename": "https://a.storyblok.com/f/294787985525525/95dbee94b6/faamoe-quianna.png"
+    },
+    "https://www.usu.edu/advising/images/advisors/erik-mcfadden.png": {
+      "id": 235280912218495,
+      "filename": "https://a.storyblok.com/f/294787985525525/cf174205ae/erik-mcfadden.png"
+    },
+    "https://www.usu.edu/advising/images/advisors/pinkham-jordan.png": {
+      "id": 235280919210369,
+      "filename": "https://a.storyblok.com/f/294787985525525/26059c6f6b/pinkham-jordan.png"
+    },
+    "https://www.usu.edu/advising/images/advisors/petersen-annette.jpg": {
+      "id": 235280924109186,
+      "filename": "https://a.storyblok.com/f/294787985525525/5895915f2f/petersen-annette.jpg"
+    },
+    "https://eastern.usu.edu/directory/madysen-probst-square-2025.jpg": {
+      "id": 235280929298819,
+      "filename": "https://a.storyblok.com/f/294787985525525/278aee335e/madysen-probst-square-2025.jpg"
+    },
+    "https://cehhs.usu.edu/nursing/images/directory/lyndsay-reid-2022.jpg": {
+      "id": 235280934013316,
+      "filename": "https://a.storyblok.com/f/294787985525525/eb694ba24d/lyndsay-reid-2022.jpg"
+    },
+    "https://eastern.usu.edu/directory/kelsey-kaiser-sqare-2023.jpg": {
+      "id": 235280938523013,
+      "filename": "https://a.storyblok.com/f/294787985525525/b6cb982fa6/kelsey-kaiser-sqare-2023.jpg"
+    },
+    "https://eastern.usu.edu/directory/jessica-barker-square-2025.jpg": {
+      "id": 235280944036230,
+      "filename": "https://a.storyblok.com/f/294787985525525/70a0267818/jessica-barker-square-2025.jpg"
+    },
+    "https://eastern.usu.edu/directory/kevin-butler-square-2026.jpg": {
+      "id": 235280948504967,
+      "filename": "https://a.storyblok.com/f/294787985525525/c55ed050f7/kevin-butler-square-2026.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/exploratory": 233989525293694
+  },
+  "story": {
+    "id": 235280957361226,
+    "parentId": 233989525293694,
+    "full_slug": "advising-migration-test/advising/exploratory/find-your-advisor"
+  }
+}

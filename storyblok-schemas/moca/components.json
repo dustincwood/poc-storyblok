@@ -485,13 +485,18 @@
         "type": "textarea"
       },
       "button_text": {
-        "pos": 6,
+        "pos": 7,
         "type": "text"
       },
       "button_link": {
-        "pos": 7,
+        "pos": 8,
         "type": "multilink",
         "allow_target_blank": true
+      },
+      "body_link": {
+        "pos": 6,
+        "type": "multilink",
+        "description": "Optional: makes the body text a link covering the whole card (map, phone or email)"
       }
     }
   },
@@ -2831,6 +2836,206 @@
           }
         ],
         "description": "Space below"
+      }
+    }
+  },
+  {
+    "name": "moca-advisor",
+    "display_name": "MC Advisor",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "name": {
+        "pos": 0,
+        "type": "text"
+      },
+      "image": {
+        "pos": 1,
+        "type": "asset",
+        "filetypes": [
+          "images"
+        ]
+      },
+      "phone": {
+        "pos": 2,
+        "type": "text"
+      },
+      "email": {
+        "pos": 3,
+        "type": "text"
+      },
+      "appointment_link": {
+        "pos": 4,
+        "type": "multilink",
+        "description": "Shown as the Schedule an Appointment button"
+      },
+      "locations": {
+        "pos": 5,
+        "type": "text",
+        "description": "Comma-separated, exactly as in the finder's Locations list (e.g. Logan, Out of State)"
+      },
+      "focus_area": {
+        "pos": 6,
+        "type": "text",
+        "description": "One entry of the finder's Focus areas list; empty when the location doesn't ask for one"
+      },
+      "last_name_range": {
+        "pos": 7,
+        "type": "text",
+        "description": "e.g. A-J; students pick from the ranges of the matching advisors. Empty when not needed"
+      }
+    }
+  },
+  {
+    "name": "moca-advisor-finder",
+    "display_name": "MC Advisor Finder",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "location_label": {
+        "pos": 0,
+        "type": "text",
+        "default_value": "Where Will You Be Taking Classes?"
+      },
+      "locations": {
+        "pos": 1,
+        "type": "textarea",
+        "description": "One location per line, in dropdown order"
+      },
+      "focus_area_label": {
+        "pos": 2,
+        "type": "text",
+        "default_value": "Select the Focus Area that interests you"
+      },
+      "focus_areas": {
+        "pos": 3,
+        "type": "textarea",
+        "description": "One per line. Asked when a location has several advisors and any of them has a focus area"
+      },
+      "last_name_label": {
+        "pos": 4,
+        "type": "text",
+        "default_value": "Last Name"
+      },
+      "advisors": {
+        "pos": 5,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-advisor"
+        ]
+      },
+      "undecided_option": {
+        "pos": 6,
+        "type": "text",
+        "default_value": "Undecided",
+        "description": "The focus area that shows the list below instead of one advisor"
+      },
+      "undecided_title": {
+        "pos": 7,
+        "type": "text",
+        "default_value": "To Schedule an Appointment, Choose an Advisor"
+      },
+      "undecided": {
+        "pos": 8,
+        "type": "richtext",
+        "description": "One paragraph per advisor; each shows as a card"
+      },
+      "error_message": {
+        "pos": 9,
+        "type": "text",
+        "default_value": "No Advisors Found"
+      },
+      "button_text": {
+        "pos": 10,
+        "type": "text",
+        "default_value": "Schedule an Appointment"
+      }
+    }
+  },
+  {
+    "name": "moca-form-field",
+    "display_name": "MC Form Field",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "label": {
+        "pos": 0,
+        "type": "text"
+      },
+      "name": {
+        "pos": 1,
+        "type": "text",
+        "description": "The field name the receiving end expects"
+      },
+      "type": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "Text",
+            "value": "text"
+          },
+          {
+            "name": "Email",
+            "value": "email"
+          },
+          {
+            "name": "Phone",
+            "value": "tel"
+          },
+          {
+            "name": "Text area",
+            "value": "textarea"
+          }
+        ],
+        "default_value": "text"
+      },
+      "required": {
+        "pos": 3,
+        "type": "boolean"
+      },
+      "placeholder": {
+        "pos": 4,
+        "type": "text"
+      }
+    }
+  },
+  {
+    "name": "moca-form",
+    "display_name": "MC Form",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "action": {
+        "pos": 0,
+        "type": "text",
+        "default_value": "https://ouresources.usu.edu/_assets/forms/forms.php",
+        "description": "Where submissions are posted"
+      },
+      "hidden_fields": {
+        "pos": 1,
+        "type": "textarea",
+        "description": "name=value, one per line, sent with every submission (Modern Campus forms: asset_id, form_uuid, site_name)"
+      },
+      "fields": {
+        "pos": 2,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "moca-form-field"
+        ]
+      },
+      "submit_text": {
+        "pos": 3,
+        "type": "text",
+        "default_value": "Submit"
+      },
+      "honeypot": {
+        "pos": 4,
+        "type": "boolean",
+        "default_value": true,
+        "description": "A hidden field that catches spam bots"
       }
     }
   }

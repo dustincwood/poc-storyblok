@@ -95,8 +95,14 @@ function resolveTextTags(html) {
     const plain = s => collapse(s.replace(/<[^>]*>/g, ''))
     const before = plain(html.slice(Math.max(0, offset - 300), offset)).slice(-40)
     const after = plain(html.slice(offset + tag.length, offset + tag.length + 300)).slice(0, 40)
-    const found = publishedText.match(new RegExp(`${escapeRe(before)}(.{1,200}?)${escapeRe(after)}`))?.[1]
+    // Without words on both sides the match has nothing to stop at (a tag standing alone, like a form asset)
+    const anchored = before.trim().length >= 8 && after.trim().length >= 8
+    const found = anchored ? publishedText.match(new RegExp(`${escapeRe(before)}(.{1,200}?)${escapeRe(after)}`))?.[1] : undefined
     if (found === undefined) {
+      if (!anchored) {
+        lost('Assets', `${tag} stands on its own (not inside text), so it's a whole asset such as a form; it was left as a placeholder`)
+        return `[Modern Campus asset ${tag.slice(2, -2)} not migrated]`
+      }
       report.unresolved.push({ tag, near: `text "…${before.trim()} ${tag} ${after.trim()}…"` })
       return tag
     }
@@ -428,6 +434,62 @@ function convertBarCard(card) {
   }))
 }
 
+// ---------- Form assets ----------
+
+// The form a Modern Campus form asset renders on the published page (it carries its asset_id)
+const publishedForm = id => find(publishedDoc, n => isEl(n, 'form')
+  && !!find(n, m => isEl(m, 'input') && m.attributes.name === 'asset_id' && m.attributes.value === id))
+
+// The published form -> moca-form: each .form-group's label (a leading * marks it required) and control,
+// its hidden inputs, and its submit button. ouforms.js posts these to forms.php.
+function convertForm(id) {
+  const form = publishedForm(id)
+  const fields = findAll(form, n => isEl(n) && hasClass(n, 'form-group')).map(group => {
+    const label = find(group, n => isEl(n, 'label'))
+    const control = find(group, n => (isEl(n, 'input') || isEl(n, 'textarea') || isEl(n, 'select')) && n.attributes.name)
+    if (control && isEl(control, 'select')) lost('Form fields', `"${clean(text(label ?? control))}" is a dropdown, which moca-form doesn't have yet; it became a text field`)
+    return control && blok('moca-form-field', {
+      label: clean(text(label ?? control)).replace(/^\*\s*/, ''),
+      name: control.attributes.name,
+      type: isEl(control, 'textarea') ? 'textarea' : ['email', 'tel'].includes(control.attributes.type) ? control.attributes.type : 'text',
+      required: !!(label && find(label, n => isEl(n) && hasClass(n, 'required'))),
+      placeholder: control.attributes.placeholder ?? '',
+    })
+  }).filter(Boolean)
+  const hidden = findAll(form, n => isEl(n, 'input') && n.attributes.type === 'hidden' && n.attributes.name)
+  report.notes.push(`Form asset ${id} became a moca-form posting to Modern Campus (forms.php) with its asset_id and form_uuid; submissions keep going wherever that form sends them, for as long as Modern Campus runs`)
+  return blok('moca-form', {
+    action: 'https://ouresources.usu.edu/_assets/forms/forms.php',
+    hidden_fields: hidden.map(i => `${i.attributes.name}=${decode(i.attributes.value ?? '')}`).join('\n'),
+    fields,
+    submit_text: clean(text(find(form, n => isEl(n, 'button') && n.attributes.type === 'submit') ?? { type: TEXT_NODE, value: 'Submit' })),
+    honeypot: !!find(form, n => isEl(n) && /^hp/.test(classes(n)[0] ?? '')),
+  })
+}
+
+// <div class="card bg-primary text-center"><div class="card-body"><span class="fa-3x"><i class="fas fa-..."></i></span>
+// <span class="sr-only">..</span><h2 class="h3">Title</h2><a class="stretched-link lead" href="..">text</a></div></div>
+const isIconCard = node => hasClass(node, 'card') && !!find(node, n => isEl(n) && classes(n).some(c => /^fa-\dx$/.test(c)) && !!find(n, m => isEl(m, 'i')))
+
+function convertIconCard(card) {
+  const sizer = find(card, n => isEl(n) && classes(n).some(c => /^fa-\dx$/.test(c)))
+  const heading = find(card, n => isEl(n) && isHeading(n))
+  const link = find(card, n => isEl(n, 'a'))
+  const href = link && (isTag(link.attributes.href) ? resolveTag(link.attributes.href, { linkText: text(link) }) : link.attributes.href)
+  lostClasses('Icon card classes', card, ['card', /^bg-/, 'text-center', 'w-100', 'h-100', /^m[tby]-[0-5]$/])
+  return boxIfSpaced(card, blok('moca-icon-card', {
+    color: classes(card).find(c => Object.hasOwn(iconCardColors, c)) ?? 'default',
+    icon: iconIcon(find(sizer, n => isEl(n, 'i'))),
+    icon_size: classes(sizer).map(c => c.match(/^fa-(\d)x$/)?.[1]).find(Boolean) ?? '',
+    sr_only: clean(text(find(card, n => isEl(n) && hasClass(n, 'sr-only')) ?? { type: TEXT_NODE, value: '' })),
+    header: heading ? clean(text(heading)) : '',
+    body: link ? clean(text(link)) : '',
+    body_link: href ? toLink(absolute(href)) : undefined,
+  }))
+}
+// moca-icon-card's color options
+const iconCardColors = { 'bg-primary': 1, 'bg-info': 1, 'bg-success': 1, 'bg-warning': 1, 'bg-danger': 1, 'bg-dark': 1, 'bg-gray-dark': 1, 'bg-gray-darker': 1, 'bg-light': 1, 'bg-secondary': 1 }
+
 // <div class="card"><hN class="card-header bg-primary ...">Title</hN><ul class="list-group ...">...</ul></div>
 const isListCard = node => hasClass(node, 'card')
   && (node.children ?? []).some(n => isEl(n) && hasClass(n, 'card-header'))
@@ -665,6 +727,8 @@ function convertNodes(nodes) {
     else if (isEl(node, 'a') && cls.includes('btn')) { flush(); out.push(convertButton(node)) }
     else if (cls.includes('step-guide')) { flush(); out.push(convertStepGuide(node)) }
     else if (cls.includes('card-tier1')) { flush(); out.push(convertTier1Card(node)) }
+    else if (node.name === 'mc-form') { flush(); out.push(convertForm(node.attributes['data-asset'])) }
+    else if (isIconCard(node)) { flush(); out.push(convertIconCard(node)) }
     else if (isListCard(node)) { flush(); out.push(convertListCard(node)) }
     else if (isBarCard(node)) { flush(); out.push(convertBarCard(node)) }
     else if (isEl(node, 'table')) { flush(); out.push(convertTable(node)) }
@@ -734,6 +798,8 @@ const contentHtml = (pcf.match(/<content>([\s\S]*?)<\/content>/)?.[1] ?? '')
   .replace(/<ouc:editor[^>]*\/>/g, '')
   .replace(/<ouc:div[^>]*>/g, '').replace(/<\/ouc:div>/g, '')
   .replace(/<nocontainer\s*\/>/g, '')
+  // A form asset placed on its own ({{a:N}} outside an attribute) whose form is on the published page
+  .replace(/(?<![="'])\{\{a:(\d+)\}\}/g, (tag, id) => publishedForm(id) ? `<mc-form data-asset="${id}"></mc-form>` : tag)
 
 // Without <nocontainer /> the page template puts the content in a .container
 const converted = convertNodes(parse(contentHtml).children)
