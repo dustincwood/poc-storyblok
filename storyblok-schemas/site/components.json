@@ -1,0 +1,26 @@
+[
+  {
+    "name": "page-title",
+    "display_name": "Page Title",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "title": { "pos": 0, "type": "text", "required": true }
+    }
+  },
+  {
+    "name": "story-list",
+    "display_name": "Story List",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "cols": {
+        "pos": 0,
+        "type": "number",
+        "display_name": "Number of Columns",
+        "default_value": "3",
+        "description": "Cards per row (1-6). Lists every story in the space except this page, each linking to it"
+      }
+    }
+  }
+]
