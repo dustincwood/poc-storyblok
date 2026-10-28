@@ -31,9 +31,8 @@ Output: `scripts\migrate-mc\out\advising\exploratory\index.story.json` (nothing 
 
 ## Lost (not representable in the target blocks)
 
-- **Row classes:** <div class="row py-3 align-items-center">: py-3; <div class="row p-3">: p-3
+- **Row classes:** <div class="row p-3">: p-3
 - **Rich text formatting:** `class` "pl-3" on `<ul>` can not be transformed to rich text.
-- **Button classes:** "Exploration Station": h-100 d-flex justify-content-center align-items-center; "Focus Areas": h-100 d-flex justify-content-center align-items-center; "Degree Finder": h-100 d-flex justify-content-center align-items-center; "Career Design Center": h-100 d-flex justify-content-center align-items-center; "Focus Assessment": h-100 d-flex justify-content-center align-items-center; "Occupational Outlook Handbook": h-100 d-flex justify-content-center align-items-center; "O*Net Online": h-100 d-flex justify-content-center align-items-center; "Career Courses": h-100 d-flex justify-content-center align-items-center; "GPA Calculator": h-100 d-flex justify-content-center align-items-center; "Degree Works": h-100 d-flex justify-content-center align-items-center
 
 
 
@@ -47,13 +46,13 @@ Output: `scripts\migrate-mc\out\advising\exploratory\index.story.json` (nothing 
 
 ## Links into this site (kept as URLs; should become story links)
 
-- https://www.usu.edu/advising/exploratory/find-your-advisor.php
-- https://www.usu.edu/advising/exploratory/peer-advisors.php
-- https://www.usu.edu/advising/exploratory/focus-area-business-communication.php
-- https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services.php
-- https://www.usu.edu/advising/exploratory/focus-area-humanities-arts.php
-- https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources.php
-- https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math.php
-- https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences.php
-- https://www.usu.edu/advising/exploratory/majors-courses.php
+- https://www.usu.edu/advising/exploratory/find-your-advisor
+- https://www.usu.edu/advising/exploratory/peer-advisors
+- https://www.usu.edu/advising/exploratory/focus-area-business-communication
+- https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services
+- https://www.usu.edu/advising/exploratory/focus-area-humanities-arts
+- https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources
+- https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math
+- https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences
+- https://www.usu.edu/advising/exploratory/majors-courses
 

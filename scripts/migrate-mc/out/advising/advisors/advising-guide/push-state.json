@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/old-main-sunset.jpg": {
+      "id": 235586362967710,
+      "filename": "https://a.storyblok.com/f/294787985525525/57a563c0e8/old-main-sunset.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/advisors": 235586372513735
+  },
+  "story": {
+    "id": 235586375262152,
+    "parentId": 235586372513735,
+    "full_slug": "advising-migration-test/advising/advisors/advising-guide"
+  }
+}

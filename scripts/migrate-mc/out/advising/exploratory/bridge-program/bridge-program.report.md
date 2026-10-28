@@ -15,20 +15,17 @@ Output: `scripts\migrate-mc\out\advising\exploratory\bridge-program\bridge-progr
 
 - `moca-hero-banner` × 1
 - `moca-container` × 3
-- `moca-row` × 4
-- `moca-column` × 6
+- `moca-row` × 5
+- `moca-column` × 9
 - `moca-text` × 14
 - `moca-card` × 2
 - `moca-band` × 1
 - `moca-box` × 1
 - `moca-step-guide` × 1
 - `moca-step` × 2
+- `moca-profile-card` × 3
 - `moca-heading` × 7
 
-
-## Lost (not representable in the target blocks)
-
-- **Row classes:** <div class="row py-3">: py-3
 
 
 
@@ -40,5 +37,12 @@ Output: `scripts\migrate-mc\out\advising\exploratory\bridge-program\bridge-progr
 ## Assets to upload
 
 - https://www.usu.edu/advising/images/exploratory/bridge-banner.jpeg
+- https://www.usu.edu/advising/images/advisors/roholt-kaylee.jpg
+- https://www.usu.edu/advising/images/advisors/shanda-thompson-2025.jpg
+- https://www.usu.edu/advising/images/advisors/ziegler-alex.png
 
 
+
+## Other notes
+
+- Directory feed 1: its 3 people were copied from the published page as moca-profile-cards (name and photo no longer link to the directory); they won't update when the directory does

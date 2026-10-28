@@ -9,6 +9,9 @@ const props = defineProps<{
     align?: '' | 'start' | 'center' | 'end'
     // Bootstrap spacer 0-5 above and below (.py-*)
     padding_y?: string
+    // .border / .rounded around the row, e.g. a two-column comparison panel
+    border?: boolean
+    rounded?: boolean
   }
 }>()
 
@@ -19,7 +22,7 @@ const alignClasses: Record<string, string> = { start: 'items-start', center: 'it
 </script>
 
 <template>
-  <div v-editable="blok" :class="['flex flex-wrap -mx-[15px]', justifyClasses[blok.justify ?? ''], alignClasses[blok.align ?? ''], mocaSpace('py', blok.padding_y)]">
+  <div v-editable="blok" :class="['flex flex-wrap -mx-[15px]', justifyClasses[blok.justify ?? ''], alignClasses[blok.align ?? ''], mocaSpace('py', blok.padding_y), blok.border && 'border border-usu-gray-300', blok.rounded && 'rounded overflow-hidden']">
     <StoryblokComponent v-for="b in blok.columns" :key="b._uid" :blok="b" />
   </div>
 </template>

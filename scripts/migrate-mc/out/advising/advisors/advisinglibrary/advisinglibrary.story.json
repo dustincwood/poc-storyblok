@@ -1,0 +1,531 @@
+{
+  "story": {
+    "name": "Advising Resource Library",
+    "slug": "advisinglibrary",
+    "is_startpage": false,
+    "content": {
+      "_uid": "f9124d95-7c06-4dfa-9bae-369a7f819b29",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "bcd7db36-8f42-4970-b93d-e7ddc614a781",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/library-hero.jpg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "300px",
+          "container_width": "default",
+          "header": "University Advising Resource Library"
+        },
+        {
+          "_uid": "dffce52b-ae30-4da6-a613-8f35da18d303",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "fd9c73dc-be0b-4ad0-9954-8cb01a016eec",
+              "component": "moca-box",
+              "margin_top": "",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "bbc95100-7ce9-4ecb-bd00-9616001ad304",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
+                  "columns": [
+                    {
+                      "_uid": "fa20b5c6-5824-4cda-a3bc-818db8987a13",
+                      "component": "moca-column",
+                      "width": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "8fa19a99-55ad-40ba-9599-e0c73d0797fb",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 2,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Foundational Advising Books"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "In 2022, Joao Bueno-Native American Serving Nontribal Institutions (NASNTI) Grant Director and University Advising applied for a grant to engage professionals in development opportunities to help USU enhance programs that foster students’ sense of belonging and implement services to help students complete degree programs. Through the grant, foundational books for academic advisors from NACADA: The Global Community for Academic Advising are available through Utah State University's library and at advising locations in Logan and Statewide Campuses."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 3,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "E-Books"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=4038953",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "The New Advisor Guidebook: Mastering the Art of Academic Advising"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=1343439",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Advising Approaches: Strategies That Teach Students to Make the Most of College"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=4662355",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Beyond Foundations: Developing as a Master Advisor"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 3,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Logan Campus"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Books are located in college advising centers. Books may also be borrowed at University Advising located in the "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://www.usu.edu/map/index.cfm?id=53",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "Taggart Student Center (TSC) 302"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 3,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Statewide Campuses"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Statewide Campus regions have the set of foundational books. "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://statewide.usu.edu/directory/index.php",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "Contact the Director of Students"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": " to access the books."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 3,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Additional E-Books"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=5359144",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Academic Advising and the First College Year"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=30190339",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Academic Recovery: Supporting Students on Academic Probation"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=6691353",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Advising Lesbian Gay, Bisexual, Transgender, and Queer College Students"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=6579126",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "At the Intersection: Understanding and Supporting First-Generation Students"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=5540454",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Building Transfer Student Pathways for College and Career Success"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.taylorfrancis.com/books/edit/10.4324/9781003443551/comprehensive-advisor-training-development-jennifer-bloom-karen-archambault-rebecca-hapes",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Comprehensive Advisor Training and Development, Practices That Deliver"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://ebookcentral-proquest-com.dist.lib.usu.edu/lib/usu/detail.action?docID=2058740",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Undecided College Student: An Academic and Career Advising Challenge"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

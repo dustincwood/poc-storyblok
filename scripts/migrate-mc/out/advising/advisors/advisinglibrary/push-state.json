@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/library-hero.jpg": {
+      "id": 235590443108235,
+      "filename": "https://a.storyblok.com/f/294787985525525/986de012b1/library-hero.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/advisors": 235586372513735
+  },
+  "story": {
+    "id": 235590453815730,
+    "parentId": 235586372513735,
+    "full_slug": "advising-migration-test/advising/advisors/advisinglibrary"
+  }
+}

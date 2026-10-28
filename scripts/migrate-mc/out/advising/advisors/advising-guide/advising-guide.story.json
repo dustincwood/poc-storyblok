@@ -1,0 +1,3272 @@
+{
+  "story": {
+    "name": "Advising Guide",
+    "slug": "advising-guide",
+    "is_startpage": false,
+    "content": {
+      "_uid": "921bd90c-6f0d-4929-97d4-a0b043a0760c",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "f52febcc-1601-4d51-a608-d6a8bbcd5bbc",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/old-main-sunset.jpg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "500px",
+          "container_width": "default",
+          "header": "Advising Guide"
+        },
+        {
+          "_uid": "881e43df-4406-4fc6-a3bd-0b6f07a7b484",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "447e9801-6cbe-49a6-adba-d381bde6e3f9",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Utah State University academic advisors provide an inclusive environment in which the advisor assists undergraduate students in making responsible and informed decisions about educational plans, professional, and life goals consistent with the student's strengths, values, abilities, and interests."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "31b99591-52b6-47d0-85b2-ded29e72ae79",
+              "component": "moca-titled-box",
+              "title": "On This Page",
+              "title_color": "info",
+              "title_bold": true,
+              "border_color": "",
+              "margin_top": "5",
+              "margin_bottom": "",
+              "content": [
+                {
+                  "_uid": "80608e36-48b6-41b1-880b-4f963c73ba1b",
+                  "component": "moca-row",
+                  "justify": "center",
+                  "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
+                  "columns": [
+                    {
+                      "_uid": "d6110845-2a7b-4d7c-af88-e8b882494197",
+                      "component": "moca-column",
+                      "width_lg": "auto",
+                      "width_md": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "bf7c9dd9-20e9-423b-aa9a-ec74864373e9",
+                          "component": "moca-button",
+                          "text": "Role of Academic Advisors",
+                          "link": {
+                            "linktype": "url",
+                            "url": "#role",
+                            "cached_url": "#role",
+                            "fieldtype": "multilink"
+                          },
+                          "type": "btn-info",
+                          "outline": false,
+                          "size": "",
+                          "block": true,
+                          "fill_height": true,
+                          "centered": false
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "c7558f40-f988-496d-b25e-24481f7e02dc",
+                      "component": "moca-column",
+                      "width_lg": "auto",
+                      "width_md": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "ec4441d2-2643-49de-ab16-4cb7c4d53466",
+                          "component": "moca-button",
+                          "text": "Responsibilities",
+                          "link": {
+                            "linktype": "url",
+                            "url": "#responsibilities",
+                            "cached_url": "#responsibilities",
+                            "fieldtype": "multilink"
+                          },
+                          "type": "btn-info",
+                          "outline": false,
+                          "size": "",
+                          "block": true,
+                          "fill_height": true,
+                          "centered": false
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "f924706d-75e1-4fa2-bdf6-e6d02ecb5c95",
+                      "component": "moca-column",
+                      "width_lg": "auto",
+                      "width_md": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "3e5a40d1-e1df-477d-8c7b-9937eadc9d66",
+                          "component": "moca-button",
+                          "text": "Services Provided",
+                          "link": {
+                            "linktype": "url",
+                            "url": "#services",
+                            "cached_url": "#services",
+                            "fieldtype": "multilink"
+                          },
+                          "type": "btn-info",
+                          "outline": false,
+                          "size": "",
+                          "block": true,
+                          "fill_height": true,
+                          "centered": false
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "acdf9576-d6e4-4641-adaf-3ffecb4de8d8",
+                      "component": "moca-column",
+                      "width_lg": "auto",
+                      "width_md": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "38a8d532-7ca7-4625-9199-8e90413a057c",
+                          "component": "moca-button",
+                          "text": "Advising Timeline",
+                          "link": {
+                            "linktype": "url",
+                            "url": "#timeline",
+                            "cached_url": "#timeline",
+                            "fieldtype": "multilink"
+                          },
+                          "type": "btn-info",
+                          "outline": false,
+                          "size": "",
+                          "block": true,
+                          "fill_height": true,
+                          "centered": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "eda2b4c9-744a-44a6-bfd0-c820260402e9",
+          "component": "moca-band",
+          "background": "bg-light",
+          "padding_y": "5",
+          "pattern": "",
+          "content": [
+            {
+              "_uid": "f324cf97-21d7-4ae9-886a-7c5d9d01c78e",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "",
+              "content": [
+                {
+                  "_uid": "25caa09b-443a-4daa-89b1-c43014fd79b9",
+                  "component": "moca-heading",
+                  "text": "Role of Academic Advisors",
+                  "level": "h2",
+                  "color": "",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "",
+                  "margin_bottom": "4",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "990c1603-8a2f-402f-ac72-c35cc1d4a8ff",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
+                  "columns": [
+                    {
+                      "_uid": "d395567b-5322-4ef4-95f4-53391983f2a1",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "3553225c-0669-4fb6-b843-7907d857fa93",
+                          "component": "moca-icon-card",
+                          "color": "bg-primary",
+                          "icon": "fa-solid fa-circle-info",
+                          "icon_size": "4",
+                          "sr_only": "info",
+                          "header": "Academic Guidance",
+                          "body": "Provide accurate information, related to curriculum, graduation requirements, and university policies and procedures."
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "dc42d864-86d3-4194-b9c0-57b00b8e1601",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "85798c07-6194-47a4-b491-c3c2509c9213",
+                          "component": "moca-icon-card",
+                          "color": "bg-primary",
+                          "icon": "fa-solid fa-ballot-check",
+                          "icon_size": "4",
+                          "sr_only": "checklist",
+                          "header": "Degree Planning",
+                          "body": "Create semester-by-semester graduation plan in Degree Works and monitor student's progress toward their declared major."
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "cb908e0a-6b1e-4adc-8108-df3b594d0087",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "2",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "ffa2f033-dae5-4e0b-993f-57e36cb5f81b",
+                          "component": "moca-icon-card",
+                          "color": "bg-primary",
+                          "icon": "fa-solid fa-map-location-dot",
+                          "icon_size": "4",
+                          "sr_only": "map",
+                          "header": "Campus Resources",
+                          "body": "Provide information and strategies to utilize available campus resources and services."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "857c0a25-9b00-4908-b009-37c8394a42ab",
+                  "component": "moca-box",
+                  "margin_top": "3",
+                  "margin_bottom": "",
+                  "padding_y": "",
+                  "padding": "4",
+                  "background": "bg-white",
+                  "border": true,
+                  "rounded": true,
+                  "text_white": false,
+                  "full_height": false,
+                  "text_align": "",
+                  "content": [
+                    {
+                      "_uid": "2383f4d8-d201-4d88-9692-b532b5c4ab52",
+                      "component": "moca-heading",
+                      "text": "How Do I Schedule an Appointment?",
+                      "level": "h3",
+                      "color": "info",
+                      "align": "center",
+                      "bold": false,
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
+                    },
+                    {
+                      "_uid": "65068665-ffa1-4f8b-a07f-ad311a51fec6",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "You can meet with your advisor by Zoom, phone, or in-person. Type your major in the search bar in "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://www.usu.edu/degrees/",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "Degree Finder"
+                              },
+                              {
+                                "type": "text",
+                                "text": " to find your advisor and schedule an appointment. Students attending at Statewide Campuses can find their "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://www.usu.edu/advisors/",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "advisor by location"
+                              },
+                              {
+                                "type": "text",
+                                "text": "."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "43b60707-81da-4def-afb3-5c7205981270",
+          "component": "moca-box",
+          "margin_top": "",
+          "margin_bottom": "",
+          "padding_y": "5",
+          "padding": "",
+          "background": "",
+          "border": false,
+          "rounded": false,
+          "text_white": false,
+          "full_height": false,
+          "text_align": "",
+          "content": [
+            {
+              "_uid": "2e1c0bd5-7da7-4f61-9b2e-a782a5b48f3a",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "",
+              "content": [
+                {
+                  "_uid": "411b807a-8bce-43a2-85be-bffd8620e8f7",
+                  "component": "moca-heading",
+                  "text": "Responsibilities",
+                  "level": "h2",
+                  "color": "",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "",
+                  "margin_bottom": "4",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "88bebbd9-0e43-40d3-a3ce-e177ae350fb2",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
+                  "columns": [
+                    {
+                      "_uid": "ef4ddc5a-1f5d-4f7c-8f80-124fbe6c7986",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "eb9260df-038f-4984-a6de-f70a3a58903c",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "3",
+                          "content": [
+                            {
+                              "_uid": "93b7ba3d-4ee8-430f-be0a-a43341093067",
+                              "component": "moca-bar-card",
+                              "title": "Student Responsibilities",
+                              "title_color": "",
+                              "body": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "ordered_list",
+                                    "attrs": {
+                                      "order": 1
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://www.usu.edu/advisors/",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Schedule an appointment"
+                                              },
+                                              {
+                                                "type": "text",
+                                                "text": " with your academic advisor each semester."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Review your semester-by-semester plan in DegreeWorks before your appointment."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Arrive at your advising appointment prepared to discuss your strengths, interests, and goals.  Share your experiences outside the classroom that are informing your academic experience.  Reflect on your responsibilities and be realistic about what you can balance."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Keep your advisor informed about your strengths, goals, and any issues that are impacting your ability to reach your academic goals."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Read emails from your advisor."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Take an active role in your education. Be prepared to engage in discussions about your education plans, professional goals, and life aspirations."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Become knowledgeable about college programs, policies, and procedures."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Keep your important advising materials organized."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Follow-through on your plan designed with your advisor.  Keep your advisor updated on barriers you encounter as you're delivering on your plan."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "bar_color": "info"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "9d88624e-24e0-4e36-8266-13649c6c69cb",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "cbc2e1dc-08de-4142-801f-f71ff9d9f968",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "3",
+                          "content": [
+                            {
+                              "_uid": "ad286f5e-0cbc-4361-823e-ac688f4cba8f",
+                              "component": "moca-bar-card",
+                              "title": "Advisor Responsibilities",
+                              "title_color": "",
+                              "body": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "ordered_list",
+                                    "attrs": {
+                                      "order": 1
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Be accessible to meet in person, by phone, or communicate by email."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Provide accurate information, related to curriculum, graduation requirements, and university policies and procedures."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Create semester-by-semester graduation plan in DegreeWorks and monitor student's progress toward their declared major."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Provide information and strategies to utilize available campus resources and services."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Maintain confidentiality."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Assist students in making responsible and informed decisions impacting academic progress."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Encourage and guide students as they define and develop realistic goals."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Assist students to understand the purpose of higher education and the impact on life goals."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Discuss the benefits of building a learning community, network and support system among peers, professors and mentors."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "bar_color": "info"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "a53b55bb-a977-4f64-9309-83f10f84ad32",
+          "component": "moca-band",
+          "background": "bg-light",
+          "padding_y": "5",
+          "pattern": "",
+          "content": [
+            {
+              "_uid": "97c8d157-10b8-41f8-8e2e-f74d3c1803fa",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "",
+              "content": [
+                {
+                  "_uid": "5ed93605-546a-4c52-b034-75ae252d4ab8",
+                  "component": "moca-heading",
+                  "text": "Services Provided",
+                  "level": "h2",
+                  "color": "",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "",
+                  "margin_bottom": "4",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "f887e1f6-f0b8-4c94-85dd-8b503aee3b7b",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
+                  "columns": [
+                    {
+                      "_uid": "6601cc42-eca5-412c-a477-dbf10357bde2",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "69b7a983-2350-4908-ab1d-938271f5ba4e",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "padding_y": "",
+                          "padding": "3",
+                          "background": "bg-info",
+                          "border": true,
+                          "rounded": true,
+                          "text_white": true,
+                          "full_height": true,
+                          "text_align": "",
+                          "content": [
+                            {
+                              "_uid": "09ba4f82-4c95-43e1-9334-4776e3e0ff25",
+                              "component": "moca-heading",
+                              "text": "Services Provided by Academic Advisors",
+                              "level": "h3",
+                              "color": "white",
+                              "align": "",
+                              "bold": false,
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "anchor": ""
+                            },
+                            {
+                              "_uid": "3cf73748-a42d-4d39-9564-618b4bce8856",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Provide advising on degree/major requirements"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Co-create semester-by-semester graduation plans (or plans to declare a major)"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Evaluate and approve graduation applications"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Provide students with college or departmental information (scholarships, seminars, internship opportunities)"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Sign academic forms (Change of Matriculation, Registration Options, Request for Graduation Application, etc.)"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Provide referrals to campus and community resources"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "10a5eb74-5079-4a93-9433-f3aa4ff69339",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "dcbbe5b0-cc16-497f-bb30-c8000ef63726",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "padding_y": "",
+                          "padding": "3",
+                          "background": "bg-info",
+                          "border": true,
+                          "rounded": true,
+                          "text_white": true,
+                          "full_height": true,
+                          "text_align": "",
+                          "content": [
+                            {
+                              "_uid": "613bd6a5-afc5-4fde-863f-f99f4a70976e",
+                              "component": "moca-heading",
+                              "text": "Services Provided by Faculty Mentors",
+                              "level": "h3",
+                              "color": "white",
+                              "align": "",
+                              "bold": false,
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "anchor": ""
+                            },
+                            {
+                              "_uid": "0a6c56d1-2c33-4547-b38e-ebdba0e8c052",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Career mentoring"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Internship identification and preparation"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Letters of recommendation"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Research opportunities"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Departmental jobs (teaching assistant or lab positions)"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Articulation of transfer credits"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Graduate school information and advising"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "Post-Bachelor experience suggestions"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "2c92bfbd-3689-4259-9058-0ea1abfae10c",
+                      "component": "moca-column",
+                      "width_lg": "4",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "stretch": true,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "da2db066-fc66-4aae-ba93-717a7e80593d",
+                          "component": "moca-box",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "padding_y": "",
+                          "padding": "3",
+                          "background": "bg-info",
+                          "border": true,
+                          "rounded": true,
+                          "text_white": true,
+                          "full_height": true,
+                          "text_align": "",
+                          "content": [
+                            {
+                              "_uid": "b1f1080d-a629-4246-a3dd-398bc509d1b0",
+                              "component": "moca-heading",
+                              "text": "Partners in Student Success",
+                              "level": "h3",
+                              "color": "white",
+                              "align": "",
+                              "bold": false,
+                              "margin_top": "",
+                              "margin_bottom": "3",
+                              "anchor": ""
+                            },
+                            {
+                              "_uid": "a8ab512b-3c1c-4a82-a865-330ca795514b",
+                              "component": "moca-text",
+                              "text": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "While advisors do not help students manage emotions, navigate interpersonal skills, provide tutoring or accommodations, or provide therapy, they connect students with the appropriate resources for their needs. Students needing these resources should access the following resources:"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://usu.edu/drc",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Disability Resource Center"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://usu.edu/supplemental-instruction",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Supplemental Instruction"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://www.usu.edu/aggiewellness/caps/",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Counseling and Psychological Services"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://www.usu.edu/able/academic-success-coaches",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Academic Success Coaches"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "marks": [
+                                                  {
+                                                    "type": "link",
+                                                    "attrs": {
+                                                      "href": "https://www.usu.edu/career-design-center/",
+                                                      "uuid": null,
+                                                      "anchor": null,
+                                                      "target": null,
+                                                      "linktype": "url",
+                                                      "custom": {}
+                                                    }
+                                                  }
+                                                ],
+                                                "text": "Career Desgin Center"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_uid": "3e14d2f7-8bc1-45e7-9b00-63b8c91aed99",
+          "component": "moca-box",
+          "margin_top": "",
+          "margin_bottom": "",
+          "padding_y": "5",
+          "padding": "",
+          "background": "",
+          "border": false,
+          "rounded": false,
+          "text_white": false,
+          "full_height": false,
+          "text_align": "",
+          "content": [
+            {
+              "_uid": "93a9d007-3d1c-445a-832b-408b127a68e8",
+              "component": "moca-container",
+              "width": "default",
+              "margin_y": "",
+              "padding_y": "",
+              "content": [
+                {
+                  "_uid": "bb328165-61b2-4d3d-902b-f141caa045b7",
+                  "component": "moca-heading",
+                  "text": "Advising Timeline",
+                  "level": "h2",
+                  "color": "",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "",
+                  "margin_bottom": "4",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "769f260b-739f-4e5f-bad3-a24add39e6dc",
+                  "component": "moca-heading",
+                  "text": "Before School Starts",
+                  "level": "h3",
+                  "color": "info",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "1b77516b-6d6c-49a8-86da-a43238d4158d",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": true,
+                  "rounded": true,
+                  "columns": [
+                    {
+                      "_uid": "d59a44fa-d463-46de-9cef-6c29015862f1",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "a019d1d4-8a2e-4445-af67-e27c7dad9e2a",
+                          "component": "moca-heading",
+                          "text": "Student",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "d8436996-bd35-4bd4-bfe9-b605776d8026",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Attend "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/orientation/",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Aggie Orientation"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Take the "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/mathprep/aleks-ppl",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "ALEKS"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": " math assessment (if needed)."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "In July and August, take advantage of resources like:"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/degrees/",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": " Degree Finder"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ", "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "USU General Catalog"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ", "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://usu.joinhandshake.com/login",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Aggie Handshake"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ", "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://my.usu.edu/dashboard",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "USU student portal"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ", "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/financialaid/",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "financial aid"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ", "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/asp/",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Academic Success Center"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": " and other student resources."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Familiarize yourself with USU policies and important "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://catalog.usu.edu/pages/DZQpsTMeRJJdcNtwBig6",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "fall semester dates"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ". "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Have a complete academic record to the Admissions Office including results of AP exams and grades of concurrent enrollment courses."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "1ae7463a-69a3-468a-84e5-f021c69abca1",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "bg-light",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "c54dfce3-c2c2-42f9-b178-4adfefa419d5",
+                          "component": "moca-heading",
+                          "text": "Advisor",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "896394e1-dcfa-494c-b6df-26e5b3af51c8",
+                          "component": "moca-heading",
+                          "text": "At Aggie Orientation",
+                          "level": "h5",
+                          "color": "info",
+                          "align": "",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "e36e514a-78da-4306-ae64-1ef14e0c2ad5",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Advisor will answer general questions about the program, major, department, university and registration."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "_uid": "b4a9bf15-ddce-4537-830e-ca4b63c4f4fb",
+                          "component": "moca-heading",
+                          "text": "After Aggie Orientation",
+                          "level": "h5",
+                          "color": "info",
+                          "align": "",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "693c6344-c0fb-4e1b-89ef-0275cec2763e",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "The advisor will be available for "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "http://advising.usu.edu/",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "appointments"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": " during the summer at should you have questions. You should be set for fall semester before it starts."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "41dbca9f-d9b8-4a78-af12-cd07c11845b1",
+                  "component": "moca-heading",
+                  "text": "Freshman Fall Semester",
+                  "level": "h3",
+                  "color": "info",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "62046931-a3c8-4063-af66-3e8438c06633",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": true,
+                  "rounded": true,
+                  "columns": [
+                    {
+                      "_uid": "b23669d9-31a6-4073-9bf9-b4646e234ff5",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "bb84fb80-1a6b-4adb-9caf-bca2c40404d9",
+                          "component": "moca-heading",
+                          "text": "Student",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "44f33c41-20e1-45b3-baa1-28a36f2fc817",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Make a tentative semester-by-semester graduation plan"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Schedule Aggie Orientation follow-up appointment with advisor and/or peer advisor"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Get involved in a Departmental or USU Student Club"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Take advantage of student resources"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Follow up with other advisors (minor, etc. as needed)"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Complete required student trainings (e.g. "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/equity/trainings/student-prevention",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Sexual Assault Prevention Training"
+                                          },
+                                          {
+                                            "type": "text",
+                                            "text": ")"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "7a122149-c6a1-4206-af8d-7b4707ac1a91",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "bg-light",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "83044554-d624-4fff-9246-2d8ad3b27c2f",
+                          "component": "moca-heading",
+                          "text": "Advisor",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "53754d5a-5d0d-45ab-b1c2-0fe7845b51a6",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help develop and finalize a sample four-year plan"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help plan for spring classes"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Identify prerequisites and reorder courses if required"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help understand Degree Works"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Direct students to campus resources as needed"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "95704e32-928f-48bd-bbef-af3c3b5f8adc",
+                  "component": "moca-heading",
+                  "text": "Freshman Spring Semester",
+                  "level": "h3",
+                  "color": "info",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "372d7650-76bf-4b15-a55e-9ba33263a121",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": true,
+                  "rounded": true,
+                  "columns": [
+                    {
+                      "_uid": "d90c47f4-35a0-4549-a0d3-531cc2400e77",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "d31283f6-2eaa-408e-be1f-3fe2c4565eca",
+                          "component": "moca-heading",
+                          "text": "Student",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "6b4c69a5-44e8-4a3f-b9ef-702e5e1d1018",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Meet with major advisor as needed for fall courses. Also meet with other advisors (minor, etc. as needed) and update plan."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Continue to explore career options and make use of the "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/career-design-center/",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "Career Desgin Center"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Consider study abroad and other opportunities for learning outside the classroom."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "28c73843-6f5f-484e-ba17-9d895fb2c33c",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "bg-light",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "d6f15582-c38e-415f-b1bd-6d59acfc7889",
+                          "component": "moca-heading",
+                          "text": "Advisor",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "58328f6e-773b-4da9-afdb-f825ef4a6eab",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help with course selection and plan updates"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Assist with individual advising needs"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help with major exploration"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Identify if current major matches student's interests"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Assist with change of major if needed"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "f97f0e61-156e-40f2-9432-5ea1e4e75d74",
+                  "component": "moca-heading",
+                  "text": "Sophomore Year",
+                  "level": "h3",
+                  "color": "info",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "832c40b0-4650-42a6-a5e3-4176b05625ed",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": true,
+                  "rounded": true,
+                  "columns": [
+                    {
+                      "_uid": "6960ea70-195b-4689-a679-083d4a9b586a",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "6f95e97b-9a56-4a0d-bfad-98399d4dab66",
+                          "component": "moca-heading",
+                          "text": "Student",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "6ad33831-98ed-499f-b13d-a8e00123b993",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Visit academic advisor each semester to revise academic plan"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Avail yourself of honors or research opportunities with faculty members"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Make connections with students and faculty within your major"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "d43633c0-4bdf-491b-a00d-c4f82c1da0e3",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "bg-light",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "a9d94625-5eb6-4876-b581-98f3aaa9d3ab",
+                          "component": "moca-heading",
+                          "text": "Advisor",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "f98ad127-4e4b-440d-870b-46c2e4aeec56",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help with course selection and plan updates"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Assist with individual advising needs"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Direct students to minors, study abroad, internships, or research opportunities"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "b04a2e49-bdcb-43cf-9123-b183bcb0750e",
+                  "component": "moca-heading",
+                  "text": "Junior Year",
+                  "level": "h3",
+                  "color": "info",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "bf48dd69-9522-43c2-903e-e97fbdb5f318",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": true,
+                  "rounded": true,
+                  "columns": [
+                    {
+                      "_uid": "8ca13b4a-1760-402d-ad48-626fb3c60328",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "9c3a9edb-00e2-4ce2-a7dd-3e85583951e7",
+                          "component": "moca-heading",
+                          "text": "Student",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "401bbf65-55f6-4e5b-b114-aae28865a6d9",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Visit academic advisor each semester to revise academic plan"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Meet with your career coach to update your resume and apply for internships"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Continue making post graduate plans and developing marketable skills"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "9e8f5756-0c89-47bf-a04d-6c3d0540baa6",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "bg-light",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "c094515c-e83c-4035-9618-0f36cad4edd0",
+                          "component": "moca-heading",
+                          "text": "Advisor",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "7ba1ac48-a848-4b60-abf5-ba1092be549b",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help with course selection and plan updates"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Assist with individual advising needs"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Provide information regarding post graduate plans"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Discuss options for higher education within the major"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "a37f250e-8aef-470d-8994-ddb8c0db15b0",
+                  "component": "moca-heading",
+                  "text": "Senior Year",
+                  "level": "h3",
+                  "color": "info",
+                  "align": "center",
+                  "bold": false,
+                  "margin_top": "5",
+                  "margin_bottom": "",
+                  "anchor": ""
+                },
+                {
+                  "_uid": "1ed705e7-96bd-4a3a-a4cb-4e00bbde9a3a",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": true,
+                  "rounded": true,
+                  "columns": [
+                    {
+                      "_uid": "1be0ede3-d95f-4187-bf42-a07c0d066454",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "a5e404d8-207e-43b3-9182-f39acf69db85",
+                          "component": "moca-heading",
+                          "text": "Student",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "8de6f7d5-de0c-4acd-baa9-05d08438ff2b",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Meet with major advisor to plan for graduation and "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://www.usu.edu/registrar/graduation/",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "apply for graduation"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Apply for graduate school"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Continue working toward career/post-graduation plans"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Meet with your advisor each semester to double-check your graduation application"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "c4bd53c9-964b-4d39-aa4c-324c43ade902",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "bg-light",
+                      "padding": "3",
+                      "content": [
+                        {
+                          "_uid": "6fde1ec8-dc0d-459c-8995-645dcd5ea416",
+                          "component": "moca-heading",
+                          "text": "Advisor",
+                          "level": "h4",
+                          "color": "",
+                          "align": "center",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "23a6e279-3cf1-4de1-87f4-81049b66190f",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Help complete graduation application"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Prepare student for graduation"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

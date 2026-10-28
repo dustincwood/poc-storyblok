@@ -4,11 +4,11 @@
     "slug": "index",
     "is_startpage": true,
     "content": {
-      "_uid": "d44899ad-c742-440a-9349-4492b7f8320b",
+      "_uid": "223448a0-d290-4ed3-a682-0052bdf2709a",
       "component": "page",
       "body": [
         {
-          "_uid": "f07541b1-8624-4096-bf16-643b385cf486",
+          "_uid": "97cc490b-3afe-41d7-a1ab-8c2b4d88797f",
           "component": "moca-hero-banner",
           "background_image": {
             "filename": "https://www.usu.edu/advising/images/exploratory/index-banner.jpg",
@@ -22,20 +22,23 @@
           "header": "Exploratory Advising"
         },
         {
-          "_uid": "4c6963e6-f1a1-46a7-961a-27657bd6d59c",
+          "_uid": "c3f7713b-0c68-499f-b473-76f04c60b298",
           "component": "moca-container",
           "width": "default",
           "margin_y": "",
           "padding_y": "4",
           "content": [
             {
-              "_uid": "82a76d3b-de45-47d6-857d-1f26a60765c7",
+              "_uid": "332a2600-bfad-497c-b070-9b98fe3e3f73",
               "component": "moca-row",
               "justify": "",
               "align": "center",
+              "padding_y": "3",
+              "border": false,
+              "rounded": false,
               "columns": [
                 {
-                  "_uid": "f22e4e9a-98b7-4d12-8067-8081564de6f4",
+                  "_uid": "5d6bd0de-ef25-4a34-8dc8-3df0ea896867",
                   "component": "moca-column",
                   "width_lg": "8",
                   "order": "",
@@ -47,9 +50,11 @@
                   "align_self": "",
                   "text_align": "",
                   "overlap": false,
+                  "background": "",
+                  "padding": "",
                   "content": [
                     {
-                      "_uid": "bcd567e8-52ff-4db9-8a40-3691a3f5a566",
+                      "_uid": "bd29101a-94d9-47e4-ac61-19e029247598",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -71,7 +76,7 @@
                       "style": "lead"
                     },
                     {
-                      "_uid": "c9ffbfee-6b50-40a0-9259-4e649944ec4c",
+                      "_uid": "7c69ff4c-a623-4a8f-84d8-bc0e2a321932",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -95,7 +100,7 @@
                   ]
                 },
                 {
-                  "_uid": "b0f3640f-fbc4-4023-8621-d409600c84ad",
+                  "_uid": "f0c05b3c-950b-440a-8025-5c2e73b5a629",
                   "component": "moca-column",
                   "width_lg": "4",
                   "order": "",
@@ -107,21 +112,23 @@
                   "align_self": "",
                   "text_align": "",
                   "overlap": false,
+                  "background": "",
+                  "padding": "",
                   "content": [
                     {
-                      "_uid": "861d7d1b-f5e7-4a1b-a898-6a3f078a0151",
+                      "_uid": "4f883f7b-1851-47bf-b277-00511cff368f",
                       "component": "moca-box",
                       "margin_top": "",
                       "margin_bottom": "2",
                       "content": [
                         {
-                          "_uid": "23321bcf-a188-4b57-b395-a15166b3eb05",
+                          "_uid": "b5be39ef-4f6f-44a7-9ab8-f6f2d0f45d56",
                           "component": "moca-link-card",
                           "title": "Do you feel ready to register?",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/registrar/registration/banner-help.php",
-                            "cached_url": "https://www.usu.edu/registrar/registration/banner-help.php",
+                            "url": "https://www.usu.edu/registrar/registration/banner-help",
+                            "cached_url": "https://www.usu.edu/registrar/registration/banner-help",
                             "fieldtype": "multilink"
                           },
                           "text": "Check out these short videos that explain how to perform various function throughout the Banner registration system",
@@ -133,7 +140,7 @@
                       ]
                     },
                     {
-                      "_uid": "558a7d61-b63f-49af-a80d-cb3589e0e542",
+                      "_uid": "1b3f7cdb-9058-4944-a859-444ecb25623f",
                       "component": "moca-link-card",
                       "title": "Canvas Exploration Station",
                       "link": {
@@ -155,27 +162,30 @@
           ]
         },
         {
-          "_uid": "4a36378a-e3a1-43d9-8231-437777d6f475",
+          "_uid": "34c56fc4-a1ba-44ef-ae71-0ccc1194c678",
           "component": "moca-band",
           "background": "bg-primary",
           "padding_y": "",
           "pattern": "topographic",
           "content": [
             {
-              "_uid": "b8757c5f-2452-4d73-95b9-4433e524574f",
+              "_uid": "94069bfd-dd3e-4787-88e5-ee0fd8465f59",
               "component": "moca-container",
               "width": "default",
               "margin_y": "",
               "padding_y": "5",
               "content": [
                 {
-                  "_uid": "506cea93-a634-4f1f-8e19-405dcc86577f",
+                  "_uid": "16be879f-ef31-4b9c-a5cb-dcfd7f40a010",
                   "component": "moca-row",
                   "justify": "center",
                   "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
                   "columns": [
                     {
-                      "_uid": "7b36f1c9-3909-49ab-81b3-c8b5a59c9456",
+                      "_uid": "2d3125a9-8bd3-48d4-bdc9-a19f89caae14",
                       "component": "moca-column",
                       "width_lg": "10",
                       "order": "",
@@ -187,26 +197,33 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "6374ac7d-f581-4340-9a7f-1dcd74774c40",
+                          "_uid": "47cebcdb-35bd-4dc4-a42d-7b95e26cd45b",
                           "component": "moca-heading",
                           "text": "Chat With Someone",
                           "level": "h2",
                           "color": "white",
                           "align": "center",
                           "bold": true,
+                          "margin_top": "",
                           "margin_bottom": "",
+                          "anchor": "",
                           "rules": true
                         },
                         {
-                          "_uid": "ab3fb971-b21e-45e5-9a0f-17c000bd7cf0",
+                          "_uid": "b770012b-7041-4450-a1e2-d6fe379b4d24",
                           "component": "moca-row",
                           "justify": "",
                           "align": "",
+                          "padding_y": "",
+                          "border": false,
+                          "rounded": false,
                           "columns": [
                             {
-                              "_uid": "0bf24cee-8015-4197-a0ac-6a3a8b72c0bd",
+                              "_uid": "5665648a-028b-4368-8937-e072b72d6ad2",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -218,15 +235,17 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "962da943-b95f-4a9d-a685-b9c951e1b37e",
+                                  "_uid": "f00d11da-267d-4393-8c2e-4b7e07ea9ee8",
                                   "component": "moca-box",
                                   "margin_top": "",
                                   "margin_bottom": "4",
                                   "content": [
                                     {
-                                      "_uid": "3bfe5f2a-cedf-439f-94b3-cd7e7b5ab48a",
+                                      "_uid": "35755732-924a-4e39-962b-6502adb0e86e",
                                       "component": "moca-tier1-card",
                                       "image": {
                                         "filename": "https://www.usu.edu/advising/images/exploratory/advising.jpg",
@@ -235,8 +254,8 @@
                                       },
                                       "link": {
                                         "linktype": "url",
-                                        "url": "https://www.usu.edu/advising/exploratory/find-your-advisor.php",
-                                        "cached_url": "https://www.usu.edu/advising/exploratory/find-your-advisor.php",
+                                        "url": "https://www.usu.edu/advising/exploratory/find-your-advisor",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/find-your-advisor",
                                         "fieldtype": "multilink"
                                       },
                                       "title": "Academic Advisor",
@@ -250,7 +269,7 @@
                               ]
                             },
                             {
-                              "_uid": "11f28d5b-383c-4903-a099-c3adf81493f6",
+                              "_uid": "a45ba480-3ff2-40c5-82c4-1925a431ea99",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -262,15 +281,17 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "c1d3ef99-860e-4772-8368-c7311d825330",
+                                  "_uid": "82f8d0fc-4117-4334-a0d4-340dca85af4d",
                                   "component": "moca-box",
                                   "margin_top": "",
                                   "margin_bottom": "4",
                                   "content": [
                                     {
-                                      "_uid": "38e543ec-679a-4a5f-8999-5d7a58bdfb52",
+                                      "_uid": "f7242811-7831-40e0-9f85-0c3c7a71cc96",
                                       "component": "moca-tier1-card",
                                       "image": {
                                         "filename": "https://www.usu.edu/advising/images/exploratory/peer-advising.jpg",
@@ -279,8 +300,8 @@
                                       },
                                       "link": {
                                         "linktype": "url",
-                                        "url": "https://www.usu.edu/advising/exploratory/peer-advisors.php",
-                                        "cached_url": "https://www.usu.edu/advising/exploratory/peer-advisors.php",
+                                        "url": "https://www.usu.edu/advising/exploratory/peer-advisors",
+                                        "cached_url": "https://www.usu.edu/advising/exploratory/peer-advisors",
                                         "fieldtype": "multilink"
                                       },
                                       "title": "Peer Advisor",
@@ -304,21 +325,21 @@
           ]
         },
         {
-          "_uid": "b97d88ef-b295-413e-981c-5e207d87d4b4",
+          "_uid": "f3e4eb69-db02-4bf2-b393-e683764db6f1",
           "component": "moca-band",
           "background": "bg-white",
           "padding_y": "",
           "pattern": "",
           "content": [
             {
-              "_uid": "ca8f911a-cf03-42d4-bf71-7d9cff62b02b",
+              "_uid": "53bd2ef7-c673-4e04-af54-03bd64f5a2ad",
               "component": "moca-container",
               "width": "default",
               "margin_y": "",
               "padding_y": "5",
               "content": [
                 {
-                  "_uid": "89d1285f-27e3-4330-ae33-83a587ec43ce",
+                  "_uid": "3c526dc9-a4cc-4fa8-8217-bb280effa00c",
                   "component": "moca-text",
                   "text": {
                     "type": "doc",
@@ -340,7 +361,7 @@
                   }
                 },
                 {
-                  "_uid": "c6399365-fb84-4294-9557-9eda2ad84918",
+                  "_uid": "653033b6-4afd-469c-bb45-d5b0647a7c50",
                   "component": "moca-text",
                   "text": {
                     "type": "doc",
@@ -362,13 +383,16 @@
                   "style": "lead"
                 },
                 {
-                  "_uid": "cd3a3b9c-c1f3-4093-819c-b6fae89008e5",
+                  "_uid": "5ac16c04-4362-4f13-9267-42bdb6d403d6",
                   "component": "moca-row",
                   "justify": "center",
                   "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
                   "columns": [
                     {
-                      "_uid": "8ba0f446-72c0-4689-a4a2-e3d2f86e2e6b",
+                      "_uid": "916c474d-7729-446d-b578-044f5c577a8b",
                       "component": "moca-column",
                       "width_lg": "4",
                       "order": "",
@@ -380,15 +404,17 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "b06491c7-3b92-48de-a2ca-7984ed484268",
+                          "_uid": "8c70f02f-29a9-4683-9537-1294a4ab7eb8",
                           "component": "moca-link-card",
                           "title": "Communication, Organizations, and Influence",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication.php",
-                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication.php",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-business-communication",
                             "fieldtype": "multilink"
                           },
                           "text": "",
@@ -400,7 +426,7 @@
                       ]
                     },
                     {
-                      "_uid": "fc0465c8-91b1-438e-b153-81b344858365",
+                      "_uid": "da712624-db2f-430a-9156-608c232b364c",
                       "component": "moca-column",
                       "width_lg": "4",
                       "order": "",
@@ -412,15 +438,17 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "df0e6746-b779-4e4d-bcc9-1781799770b1",
+                          "_uid": "98a1769c-0708-4aee-9d0f-87379e896699",
                           "component": "moca-link-card",
                           "title": "Social Sciences & Human Services",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services.php",
-                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services.php",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-social-sciences-human-services",
                             "fieldtype": "multilink"
                           },
                           "text": "",
@@ -432,7 +460,7 @@
                       ]
                     },
                     {
-                      "_uid": "db4b579d-c5e1-4f9d-80be-4582ef3ecb2e",
+                      "_uid": "79b562f8-1885-4fdb-a6ec-13167848fce9",
                       "component": "moca-column",
                       "width_lg": "4",
                       "order": "",
@@ -444,15 +472,17 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "3b435885-8a45-4cb9-aa7d-de3ddaf5e17d",
+                          "_uid": "b324febd-c681-4cbc-b5ea-7917ff5fd392",
                           "component": "moca-link-card",
                           "title": "Humanities & Arts",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts.php",
-                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts.php",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-humanities-arts",
                             "fieldtype": "multilink"
                           },
                           "text": "",
@@ -464,7 +494,7 @@
                       ]
                     },
                     {
-                      "_uid": "32025c63-008b-4f7a-92f3-6717a7a1e5b0",
+                      "_uid": "b6077cfd-4c0e-487e-a334-85e13a91c2f0",
                       "component": "moca-column",
                       "width_lg": "4",
                       "order": "",
@@ -476,15 +506,17 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "e7926320-3c38-4e98-9dfc-14858ec6d451",
+                          "_uid": "894e18bf-f696-493e-8455-cd7a8ba04fe6",
                           "component": "moca-link-card",
                           "title": "Agriculture, Natural Resources, and Environmental Sciences",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources.php",
-                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources.php",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-agriculture-natural-resources",
                             "fieldtype": "multilink"
                           },
                           "text": "",
@@ -496,7 +528,7 @@
                       ]
                     },
                     {
-                      "_uid": "c7cb03fe-8cc8-4ae0-aa1e-c74a69a98abb",
+                      "_uid": "00240333-49a2-414b-af9e-c7e8b9199ebd",
                       "component": "moca-column",
                       "width_lg": "4",
                       "order": "",
@@ -508,15 +540,17 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "0f65ea88-ec11-4885-aae5-ac85b39869de",
+                          "_uid": "751abad9-1345-46f0-98e8-85c0d87cb2e1",
                           "component": "moca-link-card",
                           "title": "Physical Sciences, Engineering and Technology",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math.php",
-                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math.php",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-physical-sciences-engineering-math",
                             "fieldtype": "multilink"
                           },
                           "text": "",
@@ -528,7 +562,7 @@
                       ]
                     },
                     {
-                      "_uid": "ca24da59-d8dd-4e44-af0e-a34e52ea9e26",
+                      "_uid": "0f081dbf-e610-44d0-bbb6-d887c06a549f",
                       "component": "moca-column",
                       "width_lg": "4",
                       "order": "",
@@ -540,15 +574,17 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "ca0bede2-98f8-438c-b2cb-724dc923c557",
+                          "_uid": "f53b4958-a348-474f-a561-67531ed6966e",
                           "component": "moca-link-card",
                           "title": "Applied & Clinical Health Sciences",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences.php",
-                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences.php",
+                            "url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/focus-area-applied-clinical-health-sciences",
                             "fieldtype": "multilink"
                           },
                           "text": "",
@@ -560,7 +596,7 @@
                       ]
                     },
                     {
-                      "_uid": "03d590cf-9847-4251-8447-aa63becf7443",
+                      "_uid": "ba49fb46-f6df-43bd-a83b-9c15400b7723",
                       "component": "moca-column",
                       "width_lg": "6",
                       "order": "",
@@ -572,21 +608,24 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "e920166d-a062-4a51-86fa-81f23b5bb8ef",
+                          "_uid": "01fa1444-e7ad-4609-82cd-3863ad567537",
                           "component": "moca-button",
                           "text": "Explore All Focus Areas",
                           "link": {
                             "linktype": "url",
-                            "url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
-                            "cached_url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                            "url": "https://www.usu.edu/advising/exploratory/majors-courses",
+                            "cached_url": "https://www.usu.edu/advising/exploratory/majors-courses",
                             "fieldtype": "multilink"
                           },
                           "type": "btn-primary",
                           "outline": true,
                           "size": "btn-lg",
                           "block": true,
+                          "fill_height": false,
                           "centered": false
                         }
                       ]
@@ -598,21 +637,21 @@
           ]
         },
         {
-          "_uid": "672023d9-a2f0-41f0-8647-75f64bb42e68",
+          "_uid": "b1fa45cf-287f-40f5-ba94-f29568372658",
           "component": "moca-band",
           "background": "bg-light",
           "padding_y": "",
           "pattern": "",
           "content": [
             {
-              "_uid": "2a97c8c6-7baa-40ee-adf6-d6253eb8fba4",
+              "_uid": "59e81127-bda3-4d37-9cee-5903d6bfcc52",
               "component": "moca-container",
               "width": "default",
               "margin_y": "",
               "padding_y": "5",
               "content": [
                 {
-                  "_uid": "a733c11c-89bf-41d4-b3ab-86e07feba1d0",
+                  "_uid": "731a7c6b-063a-4dc1-8247-15a4d8984f2f",
                   "component": "moca-text",
                   "text": {
                     "type": "doc",
@@ -634,7 +673,7 @@
                   }
                 },
                 {
-                  "_uid": "806e83ae-cecb-4db3-a80f-01099c44797d",
+                  "_uid": "8ed6e63c-6ebe-49de-8d6d-bd39cd03b670",
                   "component": "moca-text",
                   "text": {
                     "type": "doc",
@@ -656,19 +695,22 @@
                   "style": "lead"
                 },
                 {
-                  "_uid": "2f3223a9-bdcd-4d10-90bb-b634d23e6c8f",
+                  "_uid": "f4e92f07-24a6-43bf-9e88-e8dd0c3db550",
                   "component": "moca-box",
                   "margin_top": "4",
                   "margin_bottom": "",
                   "content": [
                     {
-                      "_uid": "60c0b3a9-e9ac-4ea1-9c66-12718f6f86d5",
+                      "_uid": "5d56d6ae-e5b4-4bb9-9256-d5a4efd6124c",
                       "component": "moca-row",
                       "justify": "center",
                       "align": "",
+                      "padding_y": "",
+                      "border": false,
+                      "rounded": false,
                       "columns": [
                         {
-                          "_uid": "335eb257-f9ca-47db-a0da-9e73cc8ed9c1",
+                          "_uid": "19754b4e-198f-4940-8670-2274ee34b4d2",
                           "component": "moca-column",
                           "width_lg": "3",
                           "width_md": "12",
@@ -681,9 +723,11 @@
                           "align_self": "",
                           "text_align": "",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "8ffb4957-87fa-4bb1-89fc-4e3a42c547d2",
+                              "_uid": "b3662e16-30c8-40fd-8425-c7d998e79acc",
                               "component": "moca-bar-card",
                               "title": "Discover More About You!",
                               "title_color": "primary",
@@ -724,7 +768,7 @@
                                                   {
                                                     "type": "link",
                                                     "attrs": {
-                                                      "href": "/career-design-center/students/focus2",
+                                                      "href": "https://www.usu.edu/career-design-center/students/focus2",
                                                       "uuid": null,
                                                       "anchor": null,
                                                       "target": null,
@@ -804,7 +848,7 @@
                                                   {
                                                     "type": "link",
                                                     "attrs": {
-                                                      "href": "https://www.usu.edu/career-design-center/students/courses/careerseriescourses.php",
+                                                      "href": "https://www.usu.edu/career-design-center/students/courses/careerseriescourses",
                                                       "uuid": null,
                                                       "anchor": null,
                                                       "target": null,
@@ -832,7 +876,7 @@
                           ]
                         },
                         {
-                          "_uid": "203e0a1f-178f-4cb8-86df-310cb114f768",
+                          "_uid": "fc163978-7409-4234-aee1-3a489096b87d",
                           "component": "moca-column",
                           "width_lg": "auto",
                           "width_md": "12",
@@ -845,16 +889,18 @@
                           "align_self": "center",
                           "text_align": "center",
                           "overlap": true,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "fec3a203-58a5-4091-a8fb-2a4c8c799033",
+                              "_uid": "b1b73822-88f4-4a44-9376-55aa2a49abcf",
                               "component": "moca-font-awesome",
                               "icon": "fa-solid fa-circle-chevron-right fa-4x"
                             }
                           ]
                         },
                         {
-                          "_uid": "ab0fae07-55d1-4f0a-a7d4-e6b137483cbe",
+                          "_uid": "711146bc-4c64-4871-aff8-212afcc44f96",
                           "component": "moca-column",
                           "width_lg": "auto",
                           "width_md": "12",
@@ -867,16 +913,18 @@
                           "align_self": "",
                           "text_align": "center",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "783a0019-7baf-4d56-94b2-7560333d596a",
+                              "_uid": "db103269-e84e-4514-a735-6e56efdbf4d3",
                               "component": "moca-font-awesome",
                               "icon": "fa-solid fa-circle-chevron-down fa-2x"
                             }
                           ]
                         },
                         {
-                          "_uid": "74ff1eca-8654-49e8-abae-1bf95f44d770",
+                          "_uid": "db4bd6a1-63f1-473a-bd1d-45636886b5c3",
                           "component": "moca-column",
                           "width_lg": "3",
                           "width_md": "12",
@@ -889,9 +937,11 @@
                           "align_self": "",
                           "text_align": "",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "27cab705-59fd-4f21-9011-1b2192d24e76",
+                              "_uid": "c030ec61-59e3-4851-a3dd-67eb53d4697a",
                               "component": "moca-bar-card",
                               "title": "Explore Majors and Careers",
                               "title_color": "blue",
@@ -928,7 +978,7 @@
                                                   {
                                                     "type": "link",
                                                     "attrs": {
-                                                      "href": "/degrees/",
+                                                      "href": "https://www.usu.edu/degrees/",
                                                       "uuid": null,
                                                       "anchor": null,
                                                       "target": null,
@@ -962,7 +1012,7 @@
                                                   {
                                                     "type": "link",
                                                     "attrs": {
-                                                      "href": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                                                      "href": "https://www.usu.edu/advising/exploratory/majors-courses",
                                                       "uuid": null,
                                                       "anchor": null,
                                                       "target": null,
@@ -1112,7 +1162,7 @@
                           ]
                         },
                         {
-                          "_uid": "3a3e1f9c-8496-42fd-bbff-d98a016d6ce7",
+                          "_uid": "a31cb6c5-0069-4261-a079-7935421bb8f0",
                           "component": "moca-column",
                           "width_lg": "auto",
                           "width_md": "12",
@@ -1125,16 +1175,18 @@
                           "align_self": "center",
                           "text_align": "center",
                           "overlap": true,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "0b6efa1c-a309-467f-9585-873804330a01",
+                              "_uid": "bd223754-72b5-4828-bcd4-da8ddab45db5",
                               "component": "moca-font-awesome",
                               "icon": "fa-solid fa-circle-chevron-right fa-4x"
                             }
                           ]
                         },
                         {
-                          "_uid": "2270fb8e-b19f-4ec5-aba5-d564929c27f2",
+                          "_uid": "6af1e84d-91da-4c6b-8b88-e32e21ef7352",
                           "component": "moca-column",
                           "width_lg": "auto",
                           "width_md": "12",
@@ -1147,16 +1199,18 @@
                           "align_self": "",
                           "text_align": "center",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "0501f13a-7637-41ae-a7f2-ece4fe000361",
+                              "_uid": "05a198b6-71b3-48bb-8466-11f619b905a8",
                               "component": "moca-font-awesome",
                               "icon": "fa-solid fa-circle-chevron-down fa-2x"
                             }
                           ]
                         },
                         {
-                          "_uid": "4239b02f-18d0-4bf7-99fb-48b5445d4b97",
+                          "_uid": "d22f4c4d-3de4-4fab-8182-2ea56e06e0a7",
                           "component": "moca-column",
                           "width_lg": "3",
                           "width_md": "12",
@@ -1169,9 +1223,11 @@
                           "align_self": "",
                           "text_align": "",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "5d9cd8c3-bfc8-4ec7-993c-54ee6851dfa2",
+                              "_uid": "f2bdf9cd-197f-4df9-b640-1781827e9a90",
                               "component": "moca-bar-card",
                               "title": "Create an Action Plan With Your Exploratory Advisor",
                               "title_color": "info",
@@ -1229,7 +1285,7 @@
                                                   {
                                                     "type": "link",
                                                     "attrs": {
-                                                      "href": "/advisors/",
+                                                      "href": "https://www.usu.edu/advisors/",
                                                       "uuid": null,
                                                       "anchor": null,
                                                       "target": null,
@@ -1291,7 +1347,7 @@
                           ]
                         },
                         {
-                          "_uid": "7cc5e814-28b5-4851-8715-273092e1ae80",
+                          "_uid": "b55b0447-04be-4cdd-90f5-fec1226284d0",
                           "component": "moca-column",
                           "width_lg": "auto",
                           "width_md": "12",
@@ -1304,16 +1360,18 @@
                           "align_self": "center",
                           "text_align": "center",
                           "overlap": true,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "0e5cfde3-499c-45ce-afb6-b0c971a8f6c1",
+                              "_uid": "f6b3800c-b43d-4cf0-bcfd-ba156fd1fedb",
                               "component": "moca-font-awesome",
                               "icon": "fa-solid fa-circle-chevron-right fa-4x"
                             }
                           ]
                         },
                         {
-                          "_uid": "9ca0136c-8b9b-4eaa-9a2d-c8080a994c1d",
+                          "_uid": "9f0d557b-9979-4d3c-941f-9ec239436579",
                           "component": "moca-column",
                           "width_lg": "auto",
                           "width_md": "12",
@@ -1326,16 +1384,18 @@
                           "align_self": "",
                           "text_align": "center",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "9b5bc51f-34ae-4d6a-9656-f0239f608a71",
+                              "_uid": "f310a270-a9c3-4daf-aa4b-8baa480bf2e1",
                               "component": "moca-font-awesome",
                               "icon": "fa-solid fa-circle-chevron-down fa-2x"
                             }
                           ]
                         },
                         {
-                          "_uid": "2b49bc0a-6561-4500-9341-623f64f4fcb7",
+                          "_uid": "3d4963d9-e789-4f89-bc19-7c7c4c94216e",
                           "component": "moca-column",
                           "width_lg": "3",
                           "width_md": "12",
@@ -1348,9 +1408,11 @@
                           "align_self": "",
                           "text_align": "",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "6c78a79e-f161-4b3f-9c40-49417a28e9c4",
+                              "_uid": "babc1a38-7377-4b53-92f7-3873d791d3f4",
                               "component": "moca-bar-card",
                               "title": "Ready to Declare Your Major?",
                               "title_color": "bright-light",
@@ -1373,7 +1435,7 @@
                                           {
                                             "type": "link",
                                             "attrs": {
-                                              "href": "/advisors/",
+                                              "href": "https://www.usu.edu/advisors/",
                                               "uuid": null,
                                               "anchor": null,
                                               "target": null,
@@ -1405,21 +1467,21 @@
           ]
         },
         {
-          "_uid": "a20f0a53-8066-418c-b917-c88a0ab71f48",
+          "_uid": "4a686f30-c27a-436c-949b-c71985c3f219",
           "component": "moca-band",
           "background": "bg-primary",
           "padding_y": "3",
           "pattern": "",
           "content": [
             {
-              "_uid": "922b56cb-27f8-4571-80a5-f44b42fa7f67",
+              "_uid": "f98a0fbd-8337-4385-b6a6-08370566f2b3",
               "component": "moca-container",
               "width": "default",
               "margin_y": "5",
               "padding_y": "",
               "content": [
                 {
-                  "_uid": "bd82ca82-c6ae-4f03-8f4b-acf392659437",
+                  "_uid": "8f98d0b7-65b3-4bbe-8885-2962888b15bf",
                   "component": "moca-titled-box",
                   "title": "Student Resources",
                   "title_color": "white",
@@ -1429,13 +1491,16 @@
                   "margin_bottom": "",
                   "content": [
                     {
-                      "_uid": "af629a41-3f29-47f3-819f-f5c4b6b8d378",
+                      "_uid": "05e00627-c3ee-4bf0-b5c2-c7efc9aab29a",
                       "component": "moca-row",
                       "justify": "center",
                       "align": "",
+                      "padding_y": "",
+                      "border": false,
+                      "rounded": false,
                       "columns": [
                         {
-                          "_uid": "01ea284e-9994-4e5b-952d-72a2b6cb6357",
+                          "_uid": "11c3fdf5-bd5c-46a0-80f8-8a47dfb93a96",
                           "component": "moca-column",
                           "width_lg": "4",
                           "order": "",
@@ -1447,26 +1512,37 @@
                           "align_self": "",
                           "text_align": "",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "87c94f8f-2110-417a-839a-95e50026a155",
+                              "_uid": "1cfdb9a8-a76b-471d-8409-432357c8f5de",
                               "component": "moca-heading",
                               "text": "Major Exploration",
                               "level": "h3",
                               "color": "white",
                               "align": "center",
                               "bold": false,
-                              "margin_bottom": "4"
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "anchor": ""
                             },
                             {
-                              "_uid": "2eb62367-0cfa-434c-80e6-dd18d91b3dcf",
+                              "_uid": "261d67cc-7654-43b1-b95b-4a71181287de",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "ae094df8-444f-49b5-892f-9822605acf4c",
+                                  "_uid": "453b4687-76c6-4ef2-baf3-d946ef43d149",
                                   "component": "moca-button",
                                   "text": "Exploration Station",
                                   "link": {
@@ -1479,44 +1555,60 @@
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
                             },
                             {
-                              "_uid": "8efc7e3f-7900-4f13-919b-ac5afd20e3af",
+                              "_uid": "404d1494-f0e6-4e25-b7c8-aaaa7ae7a6fe",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "453c4a79-6553-43a2-b6d9-75682820b849",
+                                  "_uid": "c9745895-e87d-4b3c-9cbe-323f1a6af8ca",
                                   "component": "moca-button",
                                   "text": "Focus Areas",
                                   "link": {
                                     "linktype": "url",
-                                    "url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
-                                    "cached_url": "https://www.usu.edu/advising/exploratory/majors-courses.php",
+                                    "url": "https://www.usu.edu/advising/exploratory/majors-courses",
+                                    "cached_url": "https://www.usu.edu/advising/exploratory/majors-courses",
                                     "fieldtype": "multilink"
                                   },
                                   "type": "btn-white",
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
                             },
                             {
-                              "_uid": "c7c5ae64-e5cb-467c-a9a7-64c89d9f1233",
+                              "_uid": "053c6cca-6f87-4cb6-8f98-7f16f6424cde",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "e179ccc0-accf-4995-b6e9-7a116d9183b4",
+                                  "_uid": "425ebb63-3b79-4075-8bfb-c084a35d80ac",
                                   "component": "moca-button",
                                   "text": "Degree Finder",
                                   "link": {
@@ -1529,6 +1621,7 @@
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
@@ -1536,7 +1629,7 @@
                           ]
                         },
                         {
-                          "_uid": "fe74ce14-3d05-4137-a6b7-ee99a7679c28",
+                          "_uid": "7279caed-0c2b-4595-9ef0-562c34ce01ae",
                           "component": "moca-column",
                           "width_lg": "4",
                           "order": "",
@@ -1548,76 +1641,103 @@
                           "align_self": "",
                           "text_align": "",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "87d7450d-29f1-48d1-9a53-05de8421e604",
+                              "_uid": "a7e311d6-02dd-4cfb-a217-0d60061904ce",
                               "component": "moca-heading",
                               "text": "Career Exploration",
                               "level": "h3",
                               "color": "white",
                               "align": "center",
                               "bold": false,
-                              "margin_bottom": "4"
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "anchor": ""
                             },
                             {
-                              "_uid": "fd64bb87-2d62-48df-aa75-412cdf667775",
+                              "_uid": "6cf6ebfd-5dc3-4466-86ae-443f216c37f1",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "636ebb3c-18fe-47b0-956b-833055e9cf76",
+                                  "_uid": "d22c2f38-dfc6-4de7-a015-b578fa487920",
                                   "component": "moca-button",
                                   "text": "Career Design Center",
                                   "link": {
                                     "linktype": "url",
-                                    "url": "https://usu.joinhandshake.com/appointments/new",
-                                    "cached_url": "https://usu.joinhandshake.com/appointments/new",
+                                    "url": "https://www.usu.edu/career-design-center/students/resources-by-college/exploratory/",
+                                    "cached_url": "https://www.usu.edu/career-design-center/students/resources-by-college/exploratory/",
                                     "fieldtype": "multilink"
                                   },
                                   "type": "btn-white",
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
                             },
                             {
-                              "_uid": "94f482f1-ed79-4e79-870a-c23c1451f1bc",
+                              "_uid": "d5bcd037-aaa5-476b-9db3-74ca9fbc4226",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "83f9723b-37b0-4ab9-9d69-b8a96196a01e",
+                                  "_uid": "6d5171ed-38df-430b-beeb-1aced18cb775",
                                   "component": "moca-button",
                                   "text": "Focus Assessment",
                                   "link": {
                                     "linktype": "url",
-                                    "url": "https://www.usu.edu/career-design-center/students/focus2.php",
-                                    "cached_url": "https://www.usu.edu/career-design-center/students/focus2.php",
+                                    "url": "https://www.usu.edu/career-design-center/students/focus2",
+                                    "cached_url": "https://www.usu.edu/career-design-center/students/focus2",
                                     "fieldtype": "multilink"
                                   },
                                   "type": "btn-white",
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
                             },
                             {
-                              "_uid": "d302e322-25c5-4cac-a392-2d93ea7dc845",
+                              "_uid": "2d613a58-fb56-411e-add0-ea71d3539088",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "ce6eefef-61be-4a45-b963-cc8727c95276",
+                                  "_uid": "37d68c54-e846-4154-9039-3e28acd45c19",
                                   "component": "moca-button",
                                   "text": "Occupational Outlook Handbook",
                                   "link": {
@@ -1630,19 +1750,27 @@
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
                             },
                             {
-                              "_uid": "e388fed6-fd85-40af-8134-2f47619654a2",
+                              "_uid": "f2ec48ec-7e50-4023-9d84-0a6673423326",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "5e1eb585-141c-41bb-8000-016f40869779",
+                                  "_uid": "22cd7bd4-a03a-4faf-8697-624bcf7df982",
                                   "component": "moca-button",
                                   "text": "O*Net Online",
                                   "link": {
@@ -1655,31 +1783,40 @@
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
                             },
                             {
-                              "_uid": "17b66f01-0a09-4f4d-ae39-41c9afe25698",
+                              "_uid": "b311e751-d97c-40e6-8ec7-e91cb6cc8f50",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "ca57e987-c517-4748-852d-a1da0079f1c6",
+                                  "_uid": "ace5fd7d-1b74-430f-8f19-bb4b46f55f91",
                                   "component": "moca-button",
                                   "text": "Career Courses",
                                   "link": {
                                     "linktype": "url",
-                                    "url": "https://www.usu.edu/career-design-center/students/courses/index.php",
-                                    "cached_url": "https://www.usu.edu/career-design-center/students/courses/index.php",
+                                    "url": "https://www.usu.edu/career-design-center/students/courses/",
+                                    "cached_url": "https://www.usu.edu/career-design-center/students/courses/",
                                     "fieldtype": "multilink"
                                   },
                                   "type": "btn-white",
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
@@ -1687,7 +1824,7 @@
                           ]
                         },
                         {
-                          "_uid": "1ad6a172-8d08-48e1-8fb3-9526d87e198b",
+                          "_uid": "1732b62c-72e8-433e-a021-797c9603b4e5",
                           "component": "moca-column",
                           "width_lg": "4",
                           "order": "",
@@ -1699,26 +1836,37 @@
                           "align_self": "",
                           "text_align": "",
                           "overlap": false,
+                          "background": "",
+                          "padding": "",
                           "content": [
                             {
-                              "_uid": "7db00c52-8ea3-4603-ba7c-2f59a4dd9fcc",
+                              "_uid": "4209f28a-d6f6-492f-a8f6-25522ec84502",
                               "component": "moca-heading",
                               "text": "Course Planning",
                               "level": "h3",
                               "color": "white",
                               "align": "center",
                               "bold": false,
-                              "margin_bottom": "4"
+                              "margin_top": "",
+                              "margin_bottom": "4",
+                              "anchor": ""
                             },
                             {
-                              "_uid": "0ee2f1f4-eb36-4703-9ecc-0eae0d0e5460",
+                              "_uid": "254c1788-6b70-4d08-a6ec-733d7ac85586",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "1c977d0b-824c-45aa-b54a-24c2f25dec63",
+                                  "_uid": "bd35db7a-d7cc-437e-828f-e13acbde789d",
                                   "component": "moca-button",
                                   "text": "GPA Calculator",
                                   "link": {
@@ -1731,31 +1879,40 @@
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]
                             },
                             {
-                              "_uid": "c1cd4721-7996-4137-a384-6bd28145427a",
+                              "_uid": "2d440fa0-d087-4cac-b2b2-33f655d5c861",
                               "component": "moca-box",
                               "margin_top": "",
                               "margin_bottom": "4",
+                              "padding_y": "",
+                              "padding": "",
+                              "background": "",
+                              "border": false,
+                              "rounded": false,
+                              "text_white": false,
+                              "full_height": false,
                               "text_align": "",
                               "content": [
                                 {
-                                  "_uid": "d42381fc-ca27-463e-b69e-f1fd55fc7204",
+                                  "_uid": "ddcb7cc9-67d4-4646-9bcf-fb2b16302fd7",
                                   "component": "moca-button",
                                   "text": "Degree Works",
                                   "link": {
                                     "linktype": "url",
-                                    "url": "https://www.usu.edu/registrar/degreeworks/index.php",
-                                    "cached_url": "https://www.usu.edu/registrar/degreeworks/index.php",
+                                    "url": "https://www.usu.edu/registrar/degreeworks/",
+                                    "cached_url": "https://www.usu.edu/registrar/degreeworks/",
                                     "fieldtype": "multilink"
                                   },
                                   "type": "btn-white",
                                   "outline": false,
                                   "size": "",
                                   "block": true,
+                                  "fill_height": true,
                                   "centered": false
                                 }
                               ]

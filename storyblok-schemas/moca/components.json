@@ -1497,6 +1497,15 @@
           }
         ],
         "description": "Padding above and below"
+      },
+      "border": {
+        "pos": 4,
+        "type": "boolean"
+      },
+      "rounded": {
+        "pos": 5,
+        "type": "boolean",
+        "description": "Rounded corners"
       }
     }
   },
@@ -2042,6 +2051,96 @@
       "content": {
         "pos": 15,
         "type": "bloks"
+      },
+      "background": {
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "bg-white",
+            "value": "bg-white"
+          },
+          {
+            "name": "bg-light",
+            "value": "bg-light"
+          },
+          {
+            "name": "bg-secondary",
+            "value": "bg-secondary"
+          },
+          {
+            "name": "bg-primary",
+            "value": "bg-primary"
+          },
+          {
+            "name": "bg-info",
+            "value": "bg-info"
+          },
+          {
+            "name": "bg-success",
+            "value": "bg-success"
+          },
+          {
+            "name": "bg-warning",
+            "value": "bg-warning"
+          },
+          {
+            "name": "bg-danger",
+            "value": "bg-danger"
+          },
+          {
+            "name": "bg-dark",
+            "value": "bg-dark"
+          },
+          {
+            "name": "bg-gray-dark",
+            "value": "bg-gray-dark"
+          },
+          {
+            "name": "bg-gray-darker",
+            "value": "bg-gray-darker"
+          }
+        ],
+        "default_value": "",
+        "pos": 15
+      },
+      "padding": {
+        "pos": 16,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space inside on all sides, replacing the 15px gutter"
       }
     }
   },
@@ -2279,6 +2378,14 @@
           {
             "name": "H4",
             "value": "h4"
+          },
+          {
+            "name": "H5",
+            "value": "h5"
+          },
+          {
+            "name": "H6",
+            "value": "h6"
           }
         ],
         "default_value": "h2"
@@ -2394,9 +2501,44 @@
         "description": "Space below"
       },
       "anchor": {
-        "pos": 7,
+        "pos": 8,
         "type": "text",
         "description": "ID for in-page links: a link to #this-id jumps here (letters, numbers and dashes)"
+      },
+      "margin_top": {
+        "pos": 7,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space above; empty keeps the heading's 1rem"
       }
     }
   },
@@ -2671,7 +2813,7 @@
         "description": "Space below"
       },
       "text_align": {
-        "pos": 2,
+        "pos": 9,
         "type": "option",
         "options": [
           {
@@ -2690,7 +2832,7 @@
         "default_value": ""
       },
       "content": {
-        "pos": 4,
+        "pos": 10,
         "type": "bloks"
       },
       "padding_y": {
@@ -2727,6 +2869,115 @@
           }
         ],
         "description": "Space inside, above and below"
+      },
+      "padding": {
+        "pos": 2,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space inside, on all sides"
+      },
+      "background": {
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "bg-white",
+            "value": "bg-white"
+          },
+          {
+            "name": "bg-light",
+            "value": "bg-light"
+          },
+          {
+            "name": "bg-secondary",
+            "value": "bg-secondary"
+          },
+          {
+            "name": "bg-primary",
+            "value": "bg-primary"
+          },
+          {
+            "name": "bg-info",
+            "value": "bg-info"
+          },
+          {
+            "name": "bg-success",
+            "value": "bg-success"
+          },
+          {
+            "name": "bg-warning",
+            "value": "bg-warning"
+          },
+          {
+            "name": "bg-danger",
+            "value": "bg-danger"
+          },
+          {
+            "name": "bg-dark",
+            "value": "bg-dark"
+          },
+          {
+            "name": "bg-gray-dark",
+            "value": "bg-gray-dark"
+          },
+          {
+            "name": "bg-gray-darker",
+            "value": "bg-gray-darker"
+          }
+        ],
+        "default_value": "",
+        "pos": 4
+      },
+      "border": {
+        "type": "boolean",
+        "pos": 5
+      },
+      "rounded": {
+        "type": "boolean",
+        "description": "Rounded corners",
+        "pos": 6
+      },
+      "text_white": {
+        "type": "boolean",
+        "description": "White text, headings and links",
+        "pos": 7
+      },
+      "full_height": {
+        "type": "boolean",
+        "description": "Fill the column height, so boxes in a row line up",
+        "pos": 8
       }
     }
   },
@@ -2797,8 +3048,8 @@
       },
       "title": {
         "pos": 2,
-        "type": "text",
-        "description": "Job title"
+        "type": "textarea",
+        "description": "Job title; each line shows on its own line"
       },
       "department": {
         "pos": 3,
@@ -2814,9 +3065,14 @@
         "type": "text"
       },
       "schedule": {
-        "pos": 6,
+        "pos": 7,
         "type": "multilink",
         "description": "Appointment link; shown as a Schedule an Appointment button"
+      },
+      "location": {
+        "pos": 6,
+        "type": "text",
+        "description": "Office location"
       }
     }
   },

@@ -23,6 +23,10 @@ const props = defineProps<{
     text_align?: '' | 'center'
     // .mx-n5 with z-index 3: overlaps its neighbors, e.g. arrows between step cards
     overlap?: boolean
+    // A Bootstrap background class (mocaBg), e.g. bg-light for a shaded half of a bordered row
+    background?: string
+    // Bootstrap spacer 0-5 on all sides (.p-*), replacing the 15px gutter
+    padding?: string
     content?: any[]
   }
 }>()
@@ -36,7 +40,9 @@ const orders: Record<string, Record<string, string>> = {
 }
 
 const columnClass = computed(() => [
-  'relative w-full px-[15px]',
+  'relative w-full',
+  props.blok.padding ? mocaSpace('p', props.blok.padding) : 'px-[15px]',
+  mocaBg[props.blok.background ?? ''],
   mocaColumnWidths['']![props.blok.width ?? ''],
   mocaColumnWidths.sm![props.blok.width_sm ?? ''],
   mocaColumnWidths.md![props.blok.width_md ?? ''],

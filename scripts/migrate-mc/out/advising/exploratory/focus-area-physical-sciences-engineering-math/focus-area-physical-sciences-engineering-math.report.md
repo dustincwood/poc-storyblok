@@ -26,6 +26,7 @@ Output: `scripts\migrate-mc\out\advising\exploratory\focus-area-physical-science
 
 ## Lost (not representable in the target blocks)
 
+- **Component paragraph classes:** <p class="lead">: lead
 - **Rich text formatting:** `class` "p1" on `<p>` can not be transformed to rich text.; `tabindex` "-1" on `<p>` can not be transformed to rich text.; `tabindex` "-1" on `<span>` can not be transformed to rich text.; `tabindex` "-1" on `<ul>` can not be transformed to rich text.; `tabindex` "-1" on `<li>` can not be transformed to rich text.; `role` "presentation" on `<div>` can not be transformed to rich text.; `tabindex` "-1" on `<br>` can not be transformed to rich text.; `data-editing-info` "{" on `<ul>` can not be transformed to rich text.; `applyliststylefromlevel` "" on `<ul>` can not be transformed to rich text.; `:true` "" on `<ul>` can not be transformed to rich text.; `unorderedstyletype` "" on `<ul>` can not be transformed to rich text.; `:1` "" on `<ul>` can not be transformed to rich text.; `role` "presentation" on `<span>` can not be transformed to rich text.
 
 

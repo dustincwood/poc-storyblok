@@ -4,11 +4,11 @@
     "slug": "bridge-program",
     "is_startpage": false,
     "content": {
-      "_uid": "80a9e1a8-19f6-4a46-b9d5-1a7920d198e7",
+      "_uid": "48cb8ff6-b531-4acf-8cb8-242e1faebc00",
       "component": "page",
       "body": [
         {
-          "_uid": "e5b436d4-8e95-4fbf-8898-a0deff78a0f8",
+          "_uid": "e7ffa48b-c18b-46dd-89a4-67201374815f",
           "component": "moca-hero-banner",
           "background_image": {
             "filename": "https://www.usu.edu/advising/images/exploratory/bridge-banner.jpeg",
@@ -22,20 +22,23 @@
           "header": "Bridge Program"
         },
         {
-          "_uid": "b43e2abe-51ef-4d39-9848-86a1f28e0154",
+          "_uid": "7183935c-f418-4a8d-b538-344fca568c53",
           "component": "moca-container",
           "width": "default",
           "margin_y": "5",
           "padding_y": "",
           "content": [
             {
-              "_uid": "73ab69e9-36ef-4c52-88a3-890aaf217c9d",
+              "_uid": "6a3837ee-a657-49db-92c4-563919b4e5d3",
               "component": "moca-row",
               "justify": "",
               "align": "",
+              "padding_y": "",
+              "border": false,
+              "rounded": false,
               "columns": [
                 {
-                  "_uid": "f5b4c7bd-3425-4cf5-b060-903675f817e2",
+                  "_uid": "d95432b1-d207-4985-9d31-3448442e669b",
                   "component": "moca-column",
                   "width_lg": "12",
                   "order": "",
@@ -47,9 +50,11 @@
                   "align_self": "",
                   "text_align": "",
                   "overlap": false,
+                  "background": "",
+                  "padding": "",
                   "content": [
                     {
-                      "_uid": "6e682ca0-9112-4bc9-b308-f008ce7190cd",
+                      "_uid": "ec2d869b-e03b-4b7b-a2fb-272b7ef46b13",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -71,7 +76,7 @@
                       "style": "lead"
                     },
                     {
-                      "_uid": "93918fa9-627d-409f-a0a7-d217ce1e7a2f",
+                      "_uid": "e70c53ee-e4fa-483c-9da7-66d7b6171591",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -144,7 +149,7 @@
                                   {
                                     "type": "link",
                                     "attrs": {
-                                      "href": "/degrees/",
+                                      "href": "https://www.usu.edu/degrees/",
                                       "uuid": null,
                                       "anchor": null,
                                       "target": null,
@@ -165,7 +170,7 @@
                                   {
                                     "type": "link",
                                     "attrs": {
-                                      "href": "/advisors/",
+                                      "href": "https://www.usu.edu/advisors/",
                                       "uuid": null,
                                       "anchor": null,
                                       "target": null,
@@ -190,13 +195,16 @@
               ]
             },
             {
-              "_uid": "569ef2c5-9e08-4108-bb1c-623c25e575f4",
+              "_uid": "c31aa0d8-6964-4786-be27-0a842faf544b",
               "component": "moca-row",
               "justify": "",
               "align": "",
+              "padding_y": "3",
+              "border": false,
+              "rounded": false,
               "columns": [
                 {
-                  "_uid": "ac82a42d-a2e7-441c-a578-50e9b9b26808",
+                  "_uid": "1d14463e-ce9b-48eb-b90b-dfe2b4e64629",
                   "component": "moca-column",
                   "width_lg": "6",
                   "order": "",
@@ -208,9 +216,11 @@
                   "align_self": "",
                   "text_align": "",
                   "overlap": false,
+                  "background": "",
+                  "padding": "",
                   "content": [
                     {
-                      "_uid": "538b4979-2940-43bf-a3fc-097c04d8d3ca",
+                      "_uid": "acf88c74-deba-4e18-9a69-45ca6b70103b",
                       "component": "moca-card",
                       "header": "Student Expectations",
                       "color": "bg-primary",
@@ -266,7 +276,7 @@
                   ]
                 },
                 {
-                  "_uid": "ad4155c8-e0fe-4b86-81b7-07f869aea8b6",
+                  "_uid": "07c17896-19f5-4668-97ab-43ef63a17b42",
                   "component": "moca-column",
                   "width_lg": "6",
                   "order": "",
@@ -278,9 +288,11 @@
                   "align_self": "",
                   "text_align": "",
                   "overlap": false,
+                  "background": "",
+                  "padding": "",
                   "content": [
                     {
-                      "_uid": "fab46f61-02c8-4e00-9247-610d971a29cc",
+                      "_uid": "62afc242-6ef1-4344-909f-a9d04542d57d",
                       "component": "moca-card",
                       "header": "Advisor Expectations",
                       "color": "bg-primary",
@@ -330,21 +342,21 @@
           ]
         },
         {
-          "_uid": "d839a1c4-a849-490b-a0f0-c64b05da3c1a",
+          "_uid": "66f0c56d-c080-4e84-ba97-cc8a6fc8d696",
           "component": "moca-band",
           "background": "bg-light",
           "padding_y": "",
           "pattern": "",
           "content": [
             {
-              "_uid": "3869e724-beba-475c-89bf-36eb1404087f",
+              "_uid": "4489ac69-f4d5-4386-8eca-5ad61d29e962",
               "component": "moca-container",
               "width": "default",
               "margin_y": "",
               "padding_y": "3",
               "content": [
                 {
-                  "_uid": "7ff5544b-3e75-45b7-aa9b-a36c620109f9",
+                  "_uid": "9fbe10bc-f557-4f8e-8545-6bb9927568da",
                   "component": "moca-text",
                   "text": {
                     "type": "doc",
@@ -366,18 +378,18 @@
                   }
                 },
                 {
-                  "_uid": "c3f45918-931b-4f55-b414-d983099e6c72",
+                  "_uid": "fa88bc24-ce76-4d83-9e93-748d8e9a4a58",
                   "component": "moca-box",
                   "margin_top": "3",
                   "margin_bottom": "",
                   "content": [
                     {
-                      "_uid": "03efefa6-0023-4540-9080-6ce92a483e39",
+                      "_uid": "e77dab8d-d042-4155-ada2-b93b5fef0897",
                       "component": "moca-step-guide",
                       "heading_level": "h3",
                       "steps": [
                         {
-                          "_uid": "386e84c1-f962-4478-997d-871035f28e6b",
+                          "_uid": "3861ba38-7b5c-44c8-a84c-2c318b65156c",
                           "component": "moca-step",
                           "header": "Meet with an Academic Advisor",
                           "header_color": "bright-light",
@@ -421,7 +433,7 @@
                           },
                           "blocks": [
                             {
-                              "_uid": "7bc1fddf-77af-4491-9663-90fc295bde4e",
+                              "_uid": "209ac7e4-bf96-40c8-86c2-2eb425362652",
                               "component": "moca-text",
                               "text": {
                                 "type": "doc",
@@ -442,97 +454,101 @@
                               }
                             },
                             {
-                              "_uid": "b894c14c-e0d6-443b-b9d1-8650a10cc496",
+                              "_uid": "6b41c28f-e803-46fa-adb0-9e1f908591bf",
                               "component": "moca-row",
                               "justify": "",
                               "align": "",
+                              "padding_y": "",
                               "columns": [
                                 {
-                                  "_uid": "dc9219e9-f866-4b2a-87c4-4f996ce86b9e",
+                                  "_uid": "c07cb971-fede-4e71-b3e6-fb07f93d7b19",
                                   "component": "moca-column",
-                                  "width": "12",
-                                  "width_md": "6",
                                   "width_lg": "4",
+                                  "width_md": "6",
+                                  "width": "12",
                                   "margin_bottom": "4",
                                   "content": [
                                     {
-                                      "_uid": "694085c9-3138-48ce-967e-7c96733cd74f",
+                                      "_uid": "0d67a951-80d4-4fc1-903c-131d909fb5fe",
                                       "component": "moca-profile-card",
                                       "image": {
-                                        "fieldtype": "asset",
                                         "filename": "https://www.usu.edu/advising/images/advisors/roholt-kaylee.jpg",
-                                        "alt": "Kaylee Roholt"
+                                        "alt": "Kaylee Roholt",
+                                        "fieldtype": "asset"
                                       },
                                       "name": "Kaylee Roholt",
                                       "title": "Advisor Development Specialist",
                                       "department": "University and Exploratory, Bridge Program - Logan and out-of-state (Last names A-F)",
                                       "phone": "",
                                       "email": "kaylee.roholt@usu.edu",
+                                      "location": "",
                                       "schedule": {
-                                        "fieldtype": "multilink",
                                         "linktype": "url",
                                         "url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299",
-                                        "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299"
+                                        "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299",
+                                        "fieldtype": "multilink"
                                       }
                                     }
                                   ]
                                 },
                                 {
-                                  "_uid": "aa685c90-ef22-4028-9994-4a01984d0e8f",
+                                  "_uid": "7ee17aba-3661-4594-afc8-3ca8414683b3",
                                   "component": "moca-column",
-                                  "width": "12",
-                                  "width_md": "6",
                                   "width_lg": "4",
+                                  "width_md": "6",
+                                  "width": "12",
                                   "margin_bottom": "4",
                                   "content": [
                                     {
-                                      "_uid": "d678ddbe-27e9-44df-9447-f505d411bcda",
+                                      "_uid": "4d1f7923-17d5-407d-8754-9d5c96ae8a5b",
                                       "component": "moca-profile-card",
                                       "image": {
-                                        "fieldtype": "asset",
                                         "filename": "https://www.usu.edu/advising/images/advisors/shanda-thompson-2025.jpg",
-                                        "alt": "Shanda Thompson"
+                                        "alt": "Shanda Thompson",
+                                        "fieldtype": "asset"
                                       },
                                       "name": "Shanda Thompson",
                                       "title": "Bridge Program, Statewide",
                                       "department": "Academic Advisor",
                                       "phone": "",
                                       "email": "shanda.thompson@usu.edu",
+                                      "location": "",
                                       "schedule": {
-                                        "fieldtype": "multilink",
                                         "linktype": "url",
                                         "url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=786&P=89&AU=0&AG=786&D=-5000",
-                                        "cached_url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=786&P=89&AU=0&AG=786&D=-5000"
+                                        "cached_url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=786&P=89&AU=0&AG=786&D=-5000",
+                                        "fieldtype": "multilink"
                                       }
                                     }
                                   ]
                                 },
                                 {
-                                  "_uid": "b721cf74-58d1-4633-adbb-a5afdf4392f1",
+                                  "_uid": "afc58703-e4c3-4631-88f4-3209045f4252",
                                   "component": "moca-column",
-                                  "width": "12",
-                                  "width_md": "6",
                                   "width_lg": "4",
+                                  "width_md": "6",
+                                  "width": "12",
                                   "margin_bottom": "4",
                                   "content": [
                                     {
-                                      "_uid": "bf971f87-ba50-4b60-ac3f-021a31540ae5",
+                                      "_uid": "816d7b6a-be6d-43d1-9444-41dcbc68d6bd",
                                       "component": "moca-profile-card",
                                       "image": {
-                                        "fieldtype": "asset",
                                         "filename": "https://www.usu.edu/advising/images/advisors/ziegler-alex.png",
-                                        "alt": "Alex Ziegler"
+                                        "alt": "Alex Ziegler",
+                                        "fieldtype": "asset"
                                       },
                                       "name": "Alex Ziegler",
                                       "title": "Academic Advisor",
                                       "department": "Integrated Studies, Bridge Program - Logan and out-of-state (Last names G-Z)",
                                       "phone": "(435) 797-8320",
                                       "email": "alex.ziegler@usu.edu",
+                                      "location": "",
                                       "schedule": {
-                                        "fieldtype": "multilink",
                                         "linktype": "url",
                                         "url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=218&P=89&C=G&T=P&AU=0&AG=0&D=-5000",
-                                        "cached_url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=218&P=89&C=G&T=P&AU=0&AG=0&D=-5000"
+                                        "cached_url": "https://studentappts.usu.edu/ramonline/Appointment?AGID=218&P=89&C=G&T=P&AU=0&AG=0&D=-5000",
+                                        "fieldtype": "multilink"
                                       }
                                     }
                                   ]
@@ -542,7 +558,7 @@
                           ]
                         },
                         {
-                          "_uid": "7acb6ada-6712-4400-89aa-1f5cfa0552be",
+                          "_uid": "413804bf-a8bd-418f-b87e-d252b3e5ce40",
                           "component": "moca-step",
                           "header": "Utilize key university resources",
                           "header_color": "bright-light",
@@ -559,13 +575,16 @@
                           },
                           "blocks": [
                             {
-                              "_uid": "1d0e6aa7-ff1a-42d2-8536-8f002a0521f6",
+                              "_uid": "0c83abf9-2b22-4ba2-8b80-786e15d78f8d",
                               "component": "moca-row",
                               "justify": "",
                               "align": "",
+                              "padding_y": "3",
+                              "border": false,
+                              "rounded": false,
                               "columns": [
                                 {
-                                  "_uid": "fd11d724-c8eb-4251-99ac-c31f5626b842",
+                                  "_uid": "8ad08f67-9f05-4d43-beda-176ae71f61bb",
                                   "component": "moca-column",
                                   "width_lg": "6",
                                   "order": "",
@@ -577,9 +596,11 @@
                                   "align_self": "",
                                   "text_align": "",
                                   "overlap": false,
+                                  "background": "",
+                                  "padding": "",
                                   "content": [
                                     {
-                                      "_uid": "d7d6607a-2e7a-4d46-8e24-6ec8b65780a1",
+                                      "_uid": "0fe64e43-2a4b-4ec1-a88b-6d24141d2f74",
                                       "component": "moca-text",
                                       "text": {
                                         "type": "doc",
@@ -657,7 +678,7 @@
                                                           {
                                                             "type": "link",
                                                             "attrs": {
-                                                              "href": "/mathprep/aleks-ppl",
+                                                              "href": "https://www.usu.edu/mathprep/aleks-ppl",
                                                               "uuid": null,
                                                               "anchor": null,
                                                               "target": null,
@@ -863,7 +884,7 @@
                                   ]
                                 },
                                 {
-                                  "_uid": "5190c7ef-5354-4158-ab9b-acd2364c41c2",
+                                  "_uid": "6e3c2a5f-7ef0-4713-90e7-7c20fb3fcf55",
                                   "component": "moca-column",
                                   "width_lg": "6",
                                   "order": "",
@@ -875,9 +896,11 @@
                                   "align_self": "",
                                   "text_align": "",
                                   "overlap": false,
+                                  "background": "",
+                                  "padding": "",
                                   "content": [
                                     {
-                                      "_uid": "f9e9f08f-ef4a-447b-9f78-70892b286676",
+                                      "_uid": "c6f3997f-3e32-4ada-b2c3-8f263d81e71a",
                                       "component": "moca-text",
                                       "text": {
                                         "type": "doc",
@@ -951,7 +974,7 @@
                                                           {
                                                             "type": "link",
                                                             "attrs": {
-                                                              "href": "/academic-support/courses",
+                                                              "href": "https://www.usu.edu/academic-support/courses",
                                                               "uuid": null,
                                                               "anchor": null,
                                                               "target": null,
@@ -989,7 +1012,7 @@
                                                           {
                                                             "type": "link",
                                                             "attrs": {
-                                                              "href": "/academic-support/index",
+                                                              "href": "https://www.usu.edu/academic-support/index",
                                                               "uuid": null,
                                                               "anchor": null,
                                                               "target": null,
@@ -1109,7 +1132,7 @@
                                                           {
                                                             "type": "link",
                                                             "attrs": {
-                                                              "href": "https://www.usu.edu/advising/exploratory/index.php",
+                                                              "href": "https://www.usu.edu/advising/exploratory/",
                                                               "uuid": null,
                                                               "anchor": null,
                                                               "target": null,
@@ -1203,20 +1226,23 @@
           ]
         },
         {
-          "_uid": "ed9ada84-c10f-4591-9ba0-32c50cb1aa76",
+          "_uid": "5c7d1a2b-71e2-4bde-bb1b-b706c9605797",
           "component": "moca-container",
           "width": "default",
           "margin_y": "5",
           "padding_y": "",
           "content": [
             {
-              "_uid": "306e593c-6bca-4711-a2c2-c88c669b2db8",
+              "_uid": "44a4d320-62ef-4df5-87a2-a0c62854324a",
               "component": "moca-row",
               "justify": "",
               "align": "",
+              "padding_y": "3",
+              "border": false,
+              "rounded": false,
               "columns": [
                 {
-                  "_uid": "34ec792e-f20c-43ca-95b0-ed801de8dcf9",
+                  "_uid": "25c17c56-713f-4792-9553-d0c186536814",
                   "component": "moca-column",
                   "width": "auto",
                   "order": "",
@@ -1228,9 +1254,11 @@
                   "align_self": "",
                   "text_align": "",
                   "overlap": false,
+                  "background": "",
+                  "padding": "",
                   "content": [
                     {
-                      "_uid": "4f904764-004f-4e10-a4b3-0b431d3e5a4b",
+                      "_uid": "ad149370-69af-464f-825d-5359127085f0",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -1252,17 +1280,19 @@
                       }
                     },
                     {
-                      "_uid": "09b10962-7e0c-4644-8705-70dff7e92261",
+                      "_uid": "8aa54183-5266-4ef8-a2d7-5036c83dc42e",
                       "component": "moca-heading",
                       "text": "What is an Academic Recovery Plan?",
                       "level": "h3",
                       "color": "bright-light",
                       "align": "",
                       "bold": false,
-                      "margin_bottom": ""
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
                     },
                     {
-                      "_uid": "52255057-527d-4b15-931e-718666ecbe1e",
+                      "_uid": "20747c34-f8a7-443c-a9a8-298b977b7bdf",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -1321,17 +1351,19 @@
                       }
                     },
                     {
-                      "_uid": "8494c57b-ed98-4065-b101-58ba11b4256a",
+                      "_uid": "ac4bad07-6358-4277-a0c4-ba552c222bf4",
                       "component": "moca-heading",
                       "text": "When can I declare my Major?",
                       "level": "h3",
                       "color": "bright-light",
                       "align": "",
                       "bold": false,
-                      "margin_bottom": ""
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
                     },
                     {
-                      "_uid": "8a38021a-5872-49fa-a3f1-da93d77559b6",
+                      "_uid": "15e6ee96-fd1b-4dc7-a3dd-036b7b9eab9f",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -1352,17 +1384,19 @@
                       }
                     },
                     {
-                      "_uid": "82d8a6c4-30cf-41f9-94c4-0b5d1175e5fa",
+                      "_uid": "e0699c60-7163-4efb-b66f-d00ffe06ee73",
                       "component": "moca-heading",
                       "text": "What is Academic Renewal?",
                       "level": "h3",
                       "color": "bright-light",
                       "align": "",
                       "bold": false,
-                      "margin_bottom": ""
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
                     },
                     {
-                      "_uid": "6a6fd8fe-6752-44a9-9635-838f3e628b79",
+                      "_uid": "08de2a75-aaa3-430a-a8cf-f5628b64fc92",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -1383,17 +1417,19 @@
                       }
                     },
                     {
-                      "_uid": "82d7e753-018e-432f-b4c5-29b96f1baf0a",
+                      "_uid": "3dff4f1f-e8c3-4c0c-ab8a-5d99eef19ba3",
                       "component": "moca-heading",
                       "text": "What is an Academic Record Adjustment?",
                       "level": "h3",
                       "color": "bright-light",
                       "align": "",
                       "bold": false,
-                      "margin_bottom": ""
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
                     },
                     {
-                      "_uid": "44310cce-ebb9-46a6-9655-54e3e902a2fd",
+                      "_uid": "68d155e5-86cb-4c2e-b4c1-af49d6b1f7e0",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -1494,17 +1530,19 @@
                       }
                     },
                     {
-                      "_uid": "66cf8bd3-c128-48c1-b1f9-ca4d152b3212",
+                      "_uid": "e3505a35-710e-472a-b9ef-bff7a7444b79",
                       "component": "moca-heading",
                       "text": "It's been a long time since I was Last in School, Where do I start?",
                       "level": "h3",
                       "color": "bright-light",
                       "align": "",
                       "bold": false,
-                      "margin_bottom": ""
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
                     },
                     {
-                      "_uid": "02b43ace-3c62-4edc-9d1d-5671e2b24265",
+                      "_uid": "802014ec-a357-4f4c-82f3-d539f0f0d1c7",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -1525,17 +1563,19 @@
                       }
                     },
                     {
-                      "_uid": "d7c38478-ea45-427e-a83f-cd416353b903",
+                      "_uid": "b89e67e2-7bee-413e-8718-529d94104237",
                       "component": "moca-heading",
                       "text": "I was Suspended from USU and I want to come back, Where do I start?",
                       "level": "h3",
                       "color": "bright-light",
                       "align": "",
                       "bold": false,
-                      "margin_bottom": ""
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
                     },
                     {
-                      "_uid": "e962705b-0deb-4555-983b-c08493e56764",
+                      "_uid": "4636a84a-cc51-4cb0-b0f4-a5bff60dea38",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",
@@ -1556,17 +1596,19 @@
                       }
                     },
                     {
-                      "_uid": "a75e2e22-b3b3-4d57-a283-36cc726650ba",
+                      "_uid": "49e71755-be0c-43c8-a530-e2d6d73163d9",
                       "component": "moca-heading",
                       "text": "I had a Change In Standing, What do I do Now?",
                       "level": "h3",
                       "color": "bright-light",
                       "align": "",
                       "bold": false,
-                      "margin_bottom": ""
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
                     },
                     {
-                      "_uid": "164c24d2-cc50-480f-8949-57a539b6016f",
+                      "_uid": "18fd270e-3412-4e1f-bb9c-3e4ec0db3339",
                       "component": "moca-text",
                       "text": {
                         "type": "doc",

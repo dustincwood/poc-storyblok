@@ -51,17 +51,24 @@ function decode(value) {
 // ---------- Dependency tags, resolved from the published page ----------
 
 const publishedHtml = await (await fetch(published)).text()
-const publishedDoc = parse(publishedHtml)
+// Browsers read a stray </br> (as in the directory feed's titles) as <br>; the parser drops it
+const publishedDoc = parse(publishedHtml.replace(/<\/br\s*>/gi, '<br>'))
 const publishedOrigin = new URL(published).origin
-const absolute = url => url && url.startsWith('/') ? publishedOrigin + url : url
+// Site-relative (/path) -> absolute; protocol-relative (//host/path) -> https
+const absolute = url => !url ? url : url.startsWith('//') ? `https:${url}` : url.startsWith('/') ? publishedOrigin + url : url
 
-// Published links keyed by link text, images by alt text plus the enclosing link's text
+// Published links keyed by link text (every distinct address with that text), images by alt text plus the
+// enclosing link's text
 const publishedLinks = new Map()
 const publishedImages = new Map()
 function indexPublished(node, linkText = '') {
   if (isEl(node, 'a') && node.attributes.href) {
     const key = norm(text(node))
-    if (key && !publishedLinks.has(key)) publishedLinks.set(key, node.attributes.href)
+    if (key) {
+      const hrefs = publishedLinks.get(key) ?? []
+      if (!hrefs.includes(node.attributes.href)) hrefs.push(node.attributes.href)
+      publishedLinks.set(key, hrefs)
+    }
     linkText = key
   }
   if (isEl(node, 'img') && node.attributes.src) {
@@ -74,10 +81,42 @@ const heroImage = publishedHtml.match(/jumbotron-full[^>]*background-image:\s*ur
 
 const isTag = v => /^\{\{[a-z]:\d+\}\}$/.test(v ?? '')
 
+// Each tag is one file, so a tag resolved once resolves the same everywhere on the page
+const resolvedTags = new Map()
+// Addresses the source itself writes out (not as tags) for a link text: when two published links share a
+// text ("Banner" twice), the one a tag stands for is the address the source doesn't write out
+let literalLinks
+function sourceLiterals(key) {
+  literalLinks ??= (() => {
+    const map = new Map()
+    for (const [, href, inner] of pcf.matchAll(/<a\b[^>]*\bhref="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g)) {
+      if (isTag(href)) continue
+      const k = norm(decode(inner.replace(/<[^>]*>/g, '')))
+      map.set(k, [...map.get(k) ?? [], decode(href)])
+    }
+    return map
+  })()
+  return literalLinks.get(key) ?? []
+}
+
 function resolveTag(tag, { linkText, alt, context }) {
-  const found = linkText !== undefined
-    ? publishedLinks.get(norm(linkText))
-    : publishedImages.get(`${norm(alt)}|${norm(context)}`)
+  let found
+  if (linkText !== undefined) {
+    const key = norm(linkText)
+    const candidates = publishedLinks.get(key) ?? []
+    const same = (a, b) => absolute(decode(a)) === absolute(decode(b))
+    const notWrittenOut = candidates.filter(h => !sourceLiterals(key).some(l => same(l, h)))
+    const known = resolvedTags.get(tag)
+    found = known && candidates.includes(known) ? known
+      : candidates.length === 1 ? candidates[0]
+      : notWrittenOut.length === 1 ? notWrittenOut[0]
+      : candidates[0]
+    if (candidates.length > 1 && notWrittenOut.length !== 1 && !known) {
+      report.approximated.push({ what: `Link "${clean(linkText)}" (${tag})`, as: found, detail: `${candidates.length} published links share this text and none could be ruled out; used the first. Check it` })
+    }
+    if (found) resolvedTags.set(tag, found)
+  }
+  else found = publishedImages.get(`${norm(alt)}|${norm(context)}`)
   if (found) return absolute(found)
   report.unresolved.push({ tag, near: linkText ?? `image alt "${alt}" in "${context}"` })
   return ''
@@ -118,10 +157,16 @@ function resolveTagsInHtml(html) {
     if (isEl(node, 'a')) {
       linkText = text(node)
       if (isTag(node.attributes.href)) node.attributes.href = resolveTag(node.attributes.href, { linkText })
+      // Site-relative links point at usu.edu, as buttons' links do; in-page anchors (#x) stay
+      const href = node.attributes.href
+      if (href && /^\/(?!\/)|^\/\//.test(href)) node.attributes.href = siteUrl(href)
+      else if (href?.startsWith(publishedOrigin)) node.attributes.href = siteUrl(href)
     }
     if (isEl(node, 'img') && isTag(node.attributes.src)) {
       node.attributes.src = resolveTag(node.attributes.src, { alt: node.attributes.alt, context: linkText })
     }
+    // Images uploaded by push.mjs need a full URL to download from
+    if (isEl(node, 'img') && node.attributes.src) node.attributes.src = absolute(decode(node.attributes.src))
     for (const child of node.children ?? []) walk(child, linkText)
   }
   walk(doc)
@@ -139,13 +184,18 @@ function toAsset(url, alt = '') {
 // Links back into the site being migrated; these become story links once its pages exist in Storyblok
 const internalLinks = new Set()
 
-function toLink(url) {
-  if (!url) return undefined
-  // An href from the HTML still has its entities (&amp;); the link field holds the plain URL
-  url = decode(url)
-  // usu.edu serves page.php at page too; one form keeps links to the same page matchable to its story
+// A link as stored: entities decoded (an href from the HTML still has &amp;), site-relative made absolute,
+// and usu.edu's page.php written as page (it serves both), so links to one page stay matchable to its story
+function siteUrl(url) {
+  url = absolute(decode(url))
   if (url.startsWith(publishedOrigin)) url = url.replace(/(\/index)?\.php(?=[?#]|$)/, m => m.startsWith('/index') ? '/' : '')
   if (url.startsWith(published)) internalLinks.add(url)
+  return url
+}
+
+function toLink(url) {
+  if (!url) return undefined
+  url = siteUrl(url)
   return url.startsWith('mailto:')
     // An empty ?subject= says nothing and would show in the editor's email field
     ? { linktype: 'email', email: url.slice(7).replace(/[?&]\w+=(?=&|$)/g, '').replace(/^([^?]*)&/, '$1?'), fieldtype: 'multilink' }
@@ -188,7 +238,9 @@ function convertComponent(id, data, context) {
   const def = componentMap[id]
   if (!def || !def.component) {
     report.unknownComponents.push({ id, name: def?.name ?? 'unknown', reason: def?.deferred ?? 'not in component-map.json' })
-    return [blok('moca-text', { text: toRichtext(`<p>[Modern Campus component ${id}${def ? ` (${def.name})` : ''} not migrated]</p>`) })]
+    const placeholder = blok('moca-text', { text: toRichtext(`<p>[Modern Campus component ${id}${def ? ` (${def.name})` : ''} not migrated]</p>`) })
+    // A directory feed keeps the placeholder, followed by the people it showed when published
+    return [placeholder, ...id === '950' ? feedProfiles() : []]
   }
 
   const fields = {}
@@ -254,6 +306,50 @@ function convertComponent(id, data, context) {
   return [blok(def.component, fields)]
 }
 
+// The published page's directory feeds (component 950), used in page order: the nth feed component
+// on the page is the nth .embed-feed
+let feedsUsed = 0
+// Text with <br> as a line break
+const lines = node => node.type === TEXT_NODE ? decode(node.value) : isEl(node, 'br') ? '\n' : (node.children ?? []).map(lines).join('')
+const cleanLines = node => lines(node).split('\n').map(l => l.replace(/\s+/g, ' ').trim()).filter(Boolean).join('\n')
+
+// The people a feed showed, as moca-profile-cards in the feed's own columns (col-lg-4 col-md-6 col-12 mb-4)
+function feedProfiles() {
+  const feed = findAll(publishedDoc, n => isEl(n) && hasClass(n, 'embed-feed'))[feedsUsed++]
+  if (!feed) return []
+  const after = (node, label) => node ? clean(text(node)).replace(new RegExp(`^${label}:\\s*`), '') : ''
+  const columns = (feed.children ?? []).filter(n => isEl(n) && classes(n).some(c => columnClass.test(c))).map(col => {
+    const img = find(col, n => isEl(n, 'img'))
+    const name = find(col, n => isEl(n) && /^h[1-6]$/.test(n.name))
+    const part = cls => find(col, n => isEl(n) && hasClass(n, cls))
+    const title = find(col, n => isEl(n, 'p') && hasClass(n, 'h5'))
+    const department = find(col, n => isEl(n, 'p') && hasClass(n, 'h6'))
+    const button = find(col, n => isEl(n, 'a') && hasClass(n, 'btn'))
+    const src = img && (img.attributes['data-src'] || img.attributes.src)
+    const fields = {}
+    for (const c of classes(col)) {
+      const m = c.match(columnClass)
+      if (m) fields[m[1] ? `width_${m[1]}` : 'width'] = m[2] === 'auto' ? 'content' : m[2] ?? 'auto'
+    }
+    return blok('moca-column', {
+      ...fields,
+      margin_bottom: spacer(classes(col), 'mb'),
+      content: [blok('moca-profile-card', {
+        image: src ? toAsset(absolute(src), clean(img.attributes.alt ?? '')) : undefined,
+        name: name ? clean(text(name)) : '',
+        title: title ? cleanLines(title) : '',
+        department: department ? cleanLines(department) : '',
+        phone: after(part('phone'), 'Phone'),
+        email: after(part('email'), 'Email'),
+        location: after(part('location'), 'Office Location'),
+        schedule: button ? toLink(absolute(decode(button.attributes.href ?? ''))) : undefined,
+      })],
+    })
+  })
+  report.notes.push(`Directory feed ${feedsUsed}: its ${columns.length} people were copied from the published page as moca-profile-cards (name and photo no longer link to the directory); they won't update when the directory does`)
+  return [blok('moca-row', { justify: '', align: '', padding_y: '', columns })]
+}
+
 // Tags inside component data have no link text to match; use what's known about the published page
 function resolveComponentTag(tag, targetPath, context) {
   if (context.component === '3338' && targetPath === 'background_image.filename' && heroImage) return heroImage
@@ -271,7 +367,13 @@ function fromPublishedCard(title, targetPath) {
   const card = findAll(publishedDoc, n => isEl(n) && hasClass(n, 'card') && norm(text(n)).includes(key))
     .sort((a, b) => text(a).length - text(b).length)[0]
   if (!card) {
-    if (targetPath.endsWith('filename')) return undefined
+    // An image: the one in the smallest element holding both the title and an image (an info block's row)
+    if (targetPath.endsWith('filename')) {
+      const holder = findAll(publishedDoc, n => isEl(n) && norm(text(n)).includes(key) && !!find(n, m => isEl(m, 'img')))
+        .sort((a, b) => text(a).length - text(b).length)[0]
+      const img = holder && find(holder, m => isEl(m, 'img'))
+      return img && (img.attributes.src || img.attributes['data-src'])
+    }
     const links = findAll(publishedDoc, n => isEl(n, 'a') && n.attributes.href && norm(text(n)) === key)
     return (links.find(a => hasClass(a, 'btn')) ?? links[0])?.attributes.href
   }
@@ -425,14 +527,17 @@ function iconIcon(node) {
 }
 
 // A white .card with a colored title and a colored .rounded-bottom bar after its body
-const isBarCard = node => hasClass(node, 'card') && (node.children ?? []).some(n => isEl(n) && hasClass(n, 'rounded-bottom') && classes(n).some(c => c.startsWith('bg-')))
+// The bar is a .rounded-bottom div, or an empty .card-footer that only carries a color
+const isBar = n => isEl(n) && classes(n).some(c => c.startsWith('bg-'))
+  && (hasClass(n, 'rounded-bottom') || (hasClass(n, 'card-footer') && !text(n).trim()))
+const isBarCard = node => hasClass(node, 'card') && (node.children ?? []).some(isBar)
 
 function convertBarCard(card) {
   const body = (card.children ?? []).find(n => isEl(n) && hasClass(n, 'card-body'))
-  const bar = (card.children ?? []).find(n => isEl(n) && hasClass(n, 'rounded-bottom'))
+  const bar = (card.children ?? []).find(isBar)
   const heading = (body?.children ?? []).find(n => isEl(n) && /^h[1-6]$/.test(n.name))
   const colorOf = (node, prefix) => classes(node).map(c => c.match(new RegExp(`^${prefix}-(.+)$`))?.[1]).find(c => c && mocaColorNames.includes(c)) ?? ''
-  lostClasses('Bar card classes', card, ['card', 'w-100', 'h-100', /^m[tby]-[0-5]$/])
+  lostClasses('Bar card classes', card, ['card', 'nav-card', 'w-100', 'h-100', /^m[tby]-[0-5]$/])
   return boxIfSpaced(card, blok('moca-bar-card', {
     title: heading ? clean(text(heading)) : '',
     title_color: heading ? colorOf(heading, 'text') : '',
@@ -490,7 +595,8 @@ function convertIconCard(card) {
     icon_size: classes(sizer).map(c => c.match(/^fa-(\d)x$/)?.[1]).find(Boolean) ?? '',
     sr_only: clean(text(find(card, n => isEl(n) && hasClass(n, 'sr-only')) ?? { type: TEXT_NODE, value: '' })),
     header: heading ? clean(text(heading)) : '',
-    body: link ? clean(text(link)) : '',
+    // The text is a stretched link, or plain paragraphs
+    body: link ? clean(text(link)) : findAll(find(card, n => isEl(n) && hasClass(n, 'card-body')) ?? card, n => isEl(n, 'p')).map(p => clean(text(p))).join('\n\n'),
     body_link: href ? toLink(absolute(href)) : undefined,
   }))
 }
@@ -534,8 +640,8 @@ const mocaColorNames = ['primary', 'blue', 'blue-dark', 'info', 'bright-light', 
 // A heading with classes or a style -> moca-heading (color, centering, bold, spacing)
 function convertHeading(node) {
   const cls = classes(node)
-  const level = { h5: 'h4', h6: 'h4' }[node.name] ?? node.name
-  lostClasses('Heading classes', node, [/^text-/, 'text-bold', /^mb-[0-5]$/, /^mt-[0-5]$/, /^pb-[1-5]$/])
+  const level = node.name
+  lostClasses('Heading classes', node, [/^text-/, 'text-bold', /^m[tby]-[0-5]$/, /^pb-[1-5]$/])
   // pb-N adds to the heading's .5rem margin; the nearest spacer stands in for both
   const paddingBottom = spacer(cls, 'pb')
   return blok('moca-heading', {
@@ -544,7 +650,8 @@ function convertHeading(node) {
     color: cls.map(c => c.match(/^text-(.+)$/)?.[1]).find(c => c && mocaColorNames.includes(c)) ?? '',
     align: cls.includes('text-center') || /text-align:\s*center/.test(node.attributes.style ?? '') ? 'center' : '',
     bold: cls.includes('text-bold'),
-    margin_bottom: spacer(cls, 'mb') || { '1': '3', '2': '3', '3': '4', '4': '4', '5': '5' }[paddingBottom] || '',
+    margin_top: spacer(cls, 'mt') || spacer(cls, 'my'),
+    margin_bottom: spacer(cls, 'mb') || spacer(cls, 'my') || { '1': '3', '2': '3', '3': '4', '4': '4', '5': '5' }[paddingBottom] || '',
     anchor: node.attributes.id ?? '',
   })
 }
@@ -646,7 +753,7 @@ function convertColumn(cell) {
   const cls = classes(cell)
   const order = bp => cls.map(c => c.match(new RegExp(`^order-${bp ? `${bp}-` : ''}(first|last|[1-3])$`))?.[1]).find(Boolean) ?? ''
   const display = cls.includes('d-none') && cls.includes('d-lg-block') ? 'lg-up' : cls.includes('d-lg-none') ? 'below-lg' : ''
-  lostClasses('Column classes', cell, [columnClass, /^order-(lg-)?(first|last|[1-3])$/, /^m[tby]-[0-5]$/, 'd-flex', 'd-none', 'd-lg-block', 'd-lg-none', 'd-sm-block', 'd-block', /^align-self-/, 'text-center', 'mx-n5'])
+  lostClasses('Column classes', cell, [columnClass, /^order-(lg-)?(first|last|[1-3])$/, /^m[tby]-[0-5]$/, 'd-flex', 'd-none', 'd-lg-block', 'd-lg-none', 'd-sm-block', 'd-block', /^align-self-/, 'text-center', 'mx-n5', /^bg-/, /^p-[0-5]$/])
   return blok('moca-column', {
     ...fields,
     order: order(''),
@@ -658,6 +765,8 @@ function convertColumn(cell) {
     align_self: cls.map(c => c.match(/^align-self-(start|center|end)$/)?.[1]).find(Boolean) ?? '',
     text_align: cls.includes('text-center') ? 'center' : '',
     overlap: cls.includes('mx-n5'),
+    background: cls.find(c => Object.hasOwn(boxBackgrounds, c)) ?? '',
+    padding: spacer(cls, 'p'),
     content: columnContent(cell),
   })
 }
@@ -676,7 +785,7 @@ function convertRow(row) {
   const cls = classes(row)
   const justify = cls.map(c => c.match(/^justify-content-(start|center|end|between|around)$/)?.[1]).find(Boolean) ?? ''
   const align = cls.map(c => c.match(/^align-items-(start|center|end)$/)?.[1]).find(Boolean) ?? ''
-  lostClasses('Row classes', row, ['row', /^justify-content-/, /^align-items-/, /^m[tby]-[0-5]$/, /^py-[0-5]$/])
+  lostClasses('Row classes', row, ['row', /^justify-content-/, /^align-items-/, /^m[tby]-[0-5]$/, /^py-[0-5]$/, 'border', 'rounded'])
   const columns = []
   let stray = []
   const flushStray = () => {
@@ -692,7 +801,7 @@ function convertRow(row) {
     else stray.push(node)
   }
   flushStray()
-  return boxIfSpaced(row, blok('moca-row', { justify, align, padding_y: spacer(cls, 'py'), columns }))
+  return boxIfSpaced(row, blok('moca-row', { justify, align, padding_y: spacer(cls, 'py'), border: cls.includes('border'), rounded: cls.includes('rounded'), columns }))
 }
 
 // Wraps a converted element in a moca-box when the source element had margin classes (mb-4 on a card)
@@ -705,6 +814,16 @@ function boxIfSpaced(node, converted) {
 
 // <div class="mb-4"> / <div class="text-center">: only spacing and alignment
 const boxClass = /^([mp][tby]-[0-5]|text-(center|right))$/
+// moca-box / moca-column background options (mocaBg)
+const boxBackgrounds = { 'bg-white': 1, 'bg-light': 1, 'bg-secondary': 1, 'bg-primary': 1, 'bg-info': 1, 'bg-success': 1, 'bg-warning': 1, 'bg-danger': 1, 'bg-dark': 1, 'bg-gray-dark': 1, 'bg-gray-darker': 1 }
+// Utility classes a styled box keeps
+const styledClass = /^([mp][tby]?-[0-5]|bg-[a-z-]+|border|rounded|text-white|text-(center|right)|h-100|w-100)$/
+// <div class="p-3 rounded border bg-info text-white h-100">: only utilities, a box look, and no .container inside
+// (a colored div around a .container is a full-width band)
+const isStyledBox = node => node.name === 'div' && classes(node).length > 0
+  && classes(node).every(c => styledClass.test(c))
+  && classes(node).some(c => /^(p-[0-5]|border|rounded)$/.test(c))
+  && !find(node, n => isEl(n) && (hasClass(n, 'container') || hasClass(n, 'container-fluid')))
 const isBox = node => node.name === 'div' && classes(node).length > 0 && classes(node).every(c => boxClass.test(c))
 
 function convertBox(node) {
@@ -714,6 +833,12 @@ function convertBox(node) {
     margin_bottom: spacer(cls, 'mb') || spacer(cls, 'my'),
     // pt/pb other than as a pair have no field; py stands in for either
     padding_y: spacer(cls, 'py') || spacer(cls, 'pt') || spacer(cls, 'pb'),
+    padding: spacer(cls, 'p'),
+    background: cls.find(c => Object.hasOwn(boxBackgrounds, c)) ?? '',
+    border: cls.includes('border'),
+    rounded: cls.includes('rounded'),
+    text_white: cls.includes('text-white'),
+    full_height: cls.includes('h-100'),
     text_align: cls.includes('text-center') ? 'center' : cls.includes('text-right') ? 'right' : '',
     content: convertNodes(node.children ?? []),
   })
@@ -818,6 +943,7 @@ function convertNodes(nodes) {
       flush()
       out.push(blok('moca-font-awesome', { icon: cls.filter(c => !/^text-/.test(c)).join(' ') }))
     }
+    else if (isStyledBox(node)) { flush(); out.push(convertBox(node)) }
     else if (node.name === 'div' && cls.some(c => bandBackgrounds.includes(c))) { flush(); out.push(convertBand(node)) }
     else if (isBox(node)) { flush(); out.push(convertBox(node)) }
     // A column outside any row still has its 15px side padding on usu.edu, which indents what's inside

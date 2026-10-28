@@ -78,6 +78,8 @@ const faRenamed: Record<string, string> = {
   'map-marker-alt': 'location-dot',
   'phone-alt': 'phone',
   'mobile-alt': 'mobile-screen-button',
+  // Font Awesome Pro icons usu.edu has, mapped to the nearest free icon
+  'ballot-check': 'list-check',
   'user-friends': 'user-group',
   'file-alt': 'file-lines',
   'edit': 'pen-to-square',
@@ -154,7 +156,10 @@ export const mocaBg: Record<string, string> = {
   'bg-gray-darker': 'bg-usu-gray-darker!',
   'bg-light': 'bg-usu-gray-100!',
   'bg-secondary': 'bg-usu-gray-300!',
+  'bg-white': 'bg-white!',
 }
+// Backgrounds with light text on them: headings inside turn white (--moca-heading)
+export const mocaDarkBg = ['bg-primary', 'bg-info', 'bg-success', 'bg-danger', 'bg-dark', 'bg-gray-dark', 'bg-gray-darker']
 
 // .btn-* variants. `big` variants set their own font size and weight (1.167rem bold in main.css),
 // which wins over .btn-sm/.btn-lg font sizes.

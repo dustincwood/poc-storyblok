@@ -1,0 +1,1211 @@
+{
+  "story": {
+    "name": "Advisors",
+    "slug": "index",
+    "is_startpage": true,
+    "content": {
+      "_uid": "e3c05164-68f3-4e39-8fd7-2bb968827e4f",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "4afabed3-fad2-416a-a1e9-f8563750a65c",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/advisors/images/advisor-banner.png",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "300px",
+          "container_width": "default",
+          "header": "USU's Advising Structure"
+        },
+        {
+          "_uid": "3d5b7c55-10fe-49b7-ba7b-a341cdb1957d",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "75bd87a1-41bd-4760-b782-b39c581e41b0",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "The advising structure is coordinated system-wide and is focused on supporting student success through academic advising. "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "link",
+                            "attrs": {
+                              "href": "https://www.usu.edu/advising/advisors/advising-guide",
+                              "uuid": null,
+                              "anchor": null,
+                              "target": null,
+                              "linktype": "url",
+                              "custom": {}
+                            }
+                          }
+                        ],
+                        "text": "The Advising Guide"
+                      },
+                      {
+                        "type": "text",
+                        "text": " provides student and advisor responsibilities to guide the academic advising experience."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "4d199e8c-fd06-4f81-b5e7-4a2a6ee6873a",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Academic advisors are supported through "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "link",
+                            "attrs": {
+                              "href": "https://www.usu.edu/advising/advisors/professional-development",
+                              "uuid": null,
+                              "anchor": null,
+                              "target": null,
+                              "linktype": "url",
+                              "custom": {}
+                            }
+                          }
+                        ],
+                        "text": "professional development opportunities"
+                      },
+                      {
+                        "type": "text",
+                        "text": " and coordinated strategies to achieve an excellent advising experience for all students. USU academic advisors are trained in the assets-based "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "link",
+                            "attrs": {
+                              "href": "https://www.appreciativeadvising.net/",
+                              "uuid": null,
+                              "anchor": null,
+                              "target": null,
+                              "linktype": "url",
+                              "custom": {}
+                            }
+                          }
+                        ],
+                        "text": "Appreciative Advising framework."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "32a4168a-174a-42dd-bf3a-bd553d6a10e1",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "USU designs, maintains, and evaluates a systemic and effective program of academic advisement to support student development and success. Advisors are knowledgeable of the curriculum, program, and graduation requirements, and are adequately prepared to successfully fulfill their responsibilities. Advising requirements and responsibilities of advisors are defined, published, and made available to students. ("
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "link",
+                            "attrs": {
+                              "href": "https://www.usu.edu/advising/advisors/advising-guide",
+                              "uuid": null,
+                              "anchor": null,
+                              "target": "_blank",
+                              "linktype": "url",
+                              "custom": {
+                                "title": "advising guide",
+                                "rel": "noopener"
+                              }
+                            }
+                          }
+                        ],
+                        "text": "advising syllabus"
+                      },
+                      {
+                        "type": "text",
+                        "text": ")"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "b27f9298-1e0c-48d4-98fa-ffa0bda8f404",
+              "component": "moca-heading",
+              "text": "Advising Leadership",
+              "level": "h2",
+              "color": "",
+              "align": "",
+              "bold": false,
+              "margin_top": "",
+              "margin_bottom": "",
+              "anchor": "leadership"
+            },
+            {
+              "_uid": "c57c692c-1563-4123-9753-b7ce37b250fb",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Academic advising at Utah State University is guided by University Advising, Advising Administrators, and the Council of Lead Advisors (CLA). In partnership, these groups develop strategies to provide an advising environment that supports a holistic advising experience where students are developmentally supported in achieving their goals."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "text": "The Council of Lead Advisors"
+                      },
+                      {
+                        "type": "text",
+                        "text": " includes a representative from each of the advising units and statewide campuses. This group provides key information regarding student-facing processes and trends. "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "text": "Advising Administrators"
+                      },
+                      {
+                        "type": "text",
+                        "text": " are leaders of advising units and are responsible for guiding the work of individuals and teams. They are able to support advising best practices within their units. "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          }
+                        ],
+                        "text": "The Office of University Advising"
+                      },
+                      {
+                        "type": "text",
+                        "text": " is responsible for the coordination of USU's advising system."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "_uid": "fcc433cb-1694-47b2-8b7a-e3d75778d51c",
+              "component": "moca-heading",
+              "text": "Advising Unit Leadership",
+              "level": "h2",
+              "color": "",
+              "align": "",
+              "bold": false,
+              "margin_top": "",
+              "margin_bottom": "",
+              "anchor": ""
+            },
+            {
+              "_uid": "fae9015c-1aa5-46cd-aabd-8206ca73ebd9",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "table",
+                    "content": [
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableHeader",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Advising Unit"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableHeader",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Advising Administrator"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableHeader",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Lead Advisor"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "College of Arts & Sciences"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Susie Tibbits"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Tom Liljegren,"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Angela Neff,"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Linda Skabelund"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "S.J. & Jessie E. Quinney College of Agriculture & Natural Resources"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Dr. Mateja Savoie Roskos"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Lisa Hunsaker"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "College of Engineering"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Deepak Keshwani"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Amber Crook"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "EEJ College of Education and Human Services"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Dr. Sylvia Read"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Tressa Haderlie"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Huntsman School of Business"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Ruth Loveland"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Lindsey Cazier"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Exploratory Advising"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Shelly Kotynek"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Jana Haws"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "University Advising"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Shelly Kotynek"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Kaylee Roholt"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "tableRow",
+                        "content": [
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Statewide Campuses"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Jacob Van den Akker"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "tableCell",
+                            "attrs": {
+                              "colspan": 1,
+                              "rowspan": 1,
+                              "colwidth": null,
+                              "backgroundColor": null
+                            },
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Kelsey Kaiser"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "table_style": "striped",
+              "table_head": "dark"
+            },
+            {
+              "_uid": "4d9ac212-8ae5-4d6a-bc78-a6c93c6688ce",
+              "component": "moca-heading",
+              "text": "Office of University Advising",
+              "level": "h2",
+              "color": "",
+              "align": "",
+              "bold": false,
+              "margin_top": "",
+              "margin_bottom": "",
+              "anchor": "university-advising"
+            },
+            {
+              "_uid": "4833c476-63b3-442e-9819-928fb68b5bf2",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "[Modern Campus component 950 (CP Directory Feed (All Sites)) not migrated]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "_uid": "ac510c91-6ed4-431a-b99f-eb85d4050577",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "padding_y": "",
+              "columns": [
+                {
+                  "_uid": "e04a0bf6-1ddb-44ca-9aef-239177f0e59f",
+                  "component": "moca-column",
+                  "width_lg": "4",
+                  "width_md": "6",
+                  "width": "12",
+                  "margin_bottom": "4",
+                  "content": [
+                    {
+                      "_uid": "539acacd-ada1-46a4-8945-f825cf162b27",
+                      "component": "moca-profile-card",
+                      "image": {
+                        "filename": "https://www.usu.edu/advising/images/advisors/kotynek-shelly.jpg",
+                        "alt": "Shelly Kotynek",
+                        "fieldtype": "asset"
+                      },
+                      "name": "Shelly Kotynek",
+                      "title": "Executive Director\nUniversity & Exploratory Advising",
+                      "department": "Bridge Program",
+                      "phone": "435-797-9853",
+                      "email": "shelly.kotynek@usu.edu",
+                      "location": "TSC 302",
+                      "schedule": {
+                        "linktype": "url",
+                        "url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=245",
+                        "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=245",
+                        "fieldtype": "multilink"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_uid": "e77f59ab-1a81-4af9-9136-01a25e4d3108",
+                  "component": "moca-column",
+                  "width_lg": "4",
+                  "width_md": "6",
+                  "width": "12",
+                  "margin_bottom": "4",
+                  "content": [
+                    {
+                      "_uid": "1841d428-4abf-4a13-b7a8-abc974662402",
+                      "component": "moca-profile-card",
+                      "image": {
+                        "filename": "https://www.usu.edu/advising/images/advisors/rasmuson-madison.jpg",
+                        "alt": "Madison Rasmuson",
+                        "fieldtype": "asset"
+                      },
+                      "name": "Madison Rasmuson",
+                      "title": "Academic Advisor Coordinator",
+                      "department": "University and Exploratory, Ivory Scholarship and Completion",
+                      "phone": "",
+                      "email": "madison.rasmuson@usu.edu",
+                      "location": "TSC 302"
+                    }
+                  ]
+                },
+                {
+                  "_uid": "7273aa42-ef7b-4774-8237-0c5129d2823f",
+                  "component": "moca-column",
+                  "width_lg": "4",
+                  "width_md": "6",
+                  "width": "12",
+                  "margin_bottom": "4",
+                  "content": [
+                    {
+                      "_uid": "441fedd4-03a7-4950-8eac-c37aa4de9a56",
+                      "component": "moca-profile-card",
+                      "image": {
+                        "filename": "https://www.usu.edu/advising/images/advisors/roholt-kaylee.jpg",
+                        "alt": "Kaylee Roholt",
+                        "fieldtype": "asset"
+                      },
+                      "name": "Kaylee Roholt",
+                      "title": "Advisor Development Specialist",
+                      "department": "University and Exploratory, Bridge Program - Logan and out-of-state (Last names A-F)",
+                      "phone": "",
+                      "email": "kaylee.roholt@usu.edu",
+                      "location": "",
+                      "schedule": {
+                        "linktype": "url",
+                        "url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299",
+                        "cached_url": "https://studentappts.usu.edu/ramonline/BookAppt?AG=299",
+                        "fieldtype": "multilink"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_uid": "0e6122aa-c963-4e94-96cb-b1f4b9d59940",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "heading",
+                    "attrs": {
+                      "level": 2,
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Communication"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "University Advising facilitates communication with the advising community through a weekly newsletter. Campus partners can submit information to the newsletter at the link below."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "_uid": "5226bd8f-2640-403f-9dba-d5dd2e008098",
+              "component": "moca-info-block",
+              "header": "USU's Advising Community Newsletter",
+              "body": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "USU's advising community newsletter helps to connect and bring pertinent information to advisors. Submit information and sign up below."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "image": {
+                "filename": "https://www.usu.edu/advising/advisors/images/theskinny.png",
+                "alt": "The Skinny",
+                "fieldtype": "asset"
+              },
+              "image_location": "left"
+            },
+            {
+              "_uid": "9b24ed0c-ea25-4308-a4eb-21e755d120dd",
+              "component": "moca-box",
+              "margin_top": "",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "122089fe-4b4c-4f2a-949e-848a54cf089f",
+                  "component": "moca-button",
+                  "text": "Submit Newsletter Information/Event",
+                  "link": {
+                    "linktype": "url",
+                    "url": "https://usu.co1.qualtrics.com/jfe/form/SV_9NZClSv8NY2tvN3",
+                    "cached_url": "https://usu.co1.qualtrics.com/jfe/form/SV_9NZClSv8NY2tvN3",
+                    "fieldtype": "multilink",
+                    "target": "_blank"
+                  },
+                  "type": "btn-bright-light",
+                  "size": "",
+                  "centered": false,
+                  "outline": false,
+                  "block": true
+                }
+              ]
+            },
+            {
+              "_uid": "052a8db4-22b8-4a1d-9ec8-9204455deee0",
+              "component": "moca-box",
+              "margin_top": "",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "ddf32257-f180-40dc-907d-b2c196d9e332",
+                  "component": "moca-button",
+                  "text": "Subscribe to Newsletter",
+                  "link": {
+                    "linktype": "url",
+                    "url": "https://usu.us1.list-manage.com/subscribe?u=3a529feec2f71894b348558a2&id=f44f2a639f",
+                    "cached_url": "https://usu.us1.list-manage.com/subscribe?u=3a529feec2f71894b348558a2&id=f44f2a639f",
+                    "fieldtype": "multilink",
+                    "target": "_blank"
+                  },
+                  "type": "btn-bright-light",
+                  "size": "",
+                  "centered": false,
+                  "outline": false,
+                  "block": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

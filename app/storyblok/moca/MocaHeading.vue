@@ -6,7 +6,7 @@ const props = defineProps<{
   blok: {
     text?: string
     // h1 only for a page title when the page has no hero
-    level?: 'h1' | 'h2' | 'h3' | 'h4'
+    level?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
     // A mocaColors name; empty keeps the slate heading color
     color?: string
     align?: '' | 'center'
@@ -15,6 +15,8 @@ const props = defineProps<{
     rules?: boolean
     // Bootstrap spacer 0-5 below; empty keeps the heading's .5rem
     margin_bottom?: string
+    // Bootstrap spacer 0-5 above; empty keeps the heading's 1rem (#content h* in main.css)
+    margin_top?: string
     // id for in-page links (#anchor), e.g. from a row of jump buttons
     anchor?: string
   }
@@ -23,10 +25,10 @@ const props = defineProps<{
 const tag = computed(() => props.blok.level || 'h2')
 const headingClass = computed(() => [
   mocaHeading[tag.value],
-  'mt-4',
+  mocaSpace('mt', props.blok.margin_top) || 'mt-4',
   // usu.edu's #content p ~ h2/h3: more space when copy comes anywhere before the heading in the same
   // parent (here, an earlier text block)
-  (tag.value === 'h2' || tag.value === 'h3') && '[[data-moca=text]~&]:mt-8',
+  (tag.value === 'h2' || tag.value === 'h3') && !props.blok.margin_top && '[[data-moca=text]~&]:mt-8',
   mocaSpace('mb', props.blok.margin_bottom) || 'mb-2',
   mocaColors[props.blok.color ?? '']?.text,
   (props.blok.align === 'center' || props.blok.rules) && 'text-center',

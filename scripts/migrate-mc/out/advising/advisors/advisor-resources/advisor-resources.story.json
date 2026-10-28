@@ -1,0 +1,787 @@
+{
+  "story": {
+    "name": "New Advisor Resources",
+    "slug": "advisor-resources",
+    "is_startpage": false,
+    "content": {
+      "_uid": "fc46019d-2243-4f57-9653-d492351942f6",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "a5bce3e9-7db2-4ccf-b5be-5ca9a97d9a7e",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "753c070f-1fea-4023-88be-f536611fc5ae",
+              "component": "moca-box",
+              "margin_top": "5",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "981de11d-f006-4e6d-848d-71a246912d8d",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
+                  "columns": [
+                    {
+                      "_uid": "83a82d0a-5294-4afc-82e2-c181d412e183",
+                      "component": "moca-column",
+                      "width": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "2f2543de-1e41-4428-8781-c61b55c4c258",
+                          "component": "moca-heading",
+                          "text": "Advisor Resources",
+                          "level": "h1",
+                          "color": "",
+                          "align": "",
+                          "bold": false,
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "40e75fd4-6fd6-4df4-ac58-d51480c53f31",
+                          "component": "moca-row",
+                          "justify": "",
+                          "align": "",
+                          "padding_y": "3",
+                          "border": false,
+                          "rounded": false,
+                          "columns": [
+                            {
+                              "_uid": "cc1c7bfa-d1ae-4a0b-a2a0-5b1369d83514",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": false,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "background": "",
+                              "padding": "",
+                              "content": [
+                                {
+                                  "_uid": "575d240f-3849-463a-bd28-a16e30b8c2aa",
+                                  "component": "moca-text",
+                                  "text": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "heading",
+                                        "attrs": {
+                                          "level": 2,
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Academic Advising Systems Requests"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://usu.co1.qualtrics.com/jfe/form/SV_4NSt5EfNuxfojxr",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "New Advisor Form"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://usu.service-now.com/aggies?id=sc_cat_item&sys_id=5efb2ee4db3b84d03e0cef0705961902",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Banner"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://monocle.usu.edu/login",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Monocle"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/registrar/staff/ferpa",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "FERPA training"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://usu.service-now.com/aggies?id=kb_article_view&sysparm_article=KB0011908",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Slack"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/hr/training/compliance",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "USU Compliance trainings"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "d3172a4b-d131-40d9-9383-d6798d649dcc",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": false,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "background": "",
+                              "padding": "",
+                              "content": [
+                                {
+                                  "_uid": "66b0c942-f962-40c1-a5b2-0ea995f2971b",
+                                  "component": "moca-text",
+                                  "text": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "heading",
+                                        "attrs": {
+                                          "level": 2,
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Advising System Logins and Resources"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://it.usu.edu/banner/index.php",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Banner"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                  {
+                                                    "type": "list_item",
+                                                    "content": [
+                                                      {
+                                                        "type": "paragraph",
+                                                        "attrs": {
+                                                          "textAlign": null
+                                                        },
+                                                        "content": [
+                                                          {
+                                                            "type": "text",
+                                                            "marks": [
+                                                              {
+                                                                "type": "link",
+                                                                "attrs": {
+                                                                  "href": "https://docs.google.com/document/d/1O8HMWOM5GxJC8T7oKITsinXI5wH8Z4V1wlf7k2QYka4/edit?usp=sharing",
+                                                                  "uuid": null,
+                                                                  "anchor": null,
+                                                                  "target": null,
+                                                                  "linktype": "url",
+                                                                  "custom": {}
+                                                                }
+                                                              }
+                                                            ],
+                                                            "text": "Advising Student Profile"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://degreeworks.usu.edu/dashboard/",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Degree Works"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://it.usu.edu/banner/index.php",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Evisions Argos"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                  {
+                                                    "type": "list_item",
+                                                    "content": [
+                                                      {
+                                                        "type": "paragraph",
+                                                        "attrs": {
+                                                          "textAlign": null
+                                                        },
+                                                        "content": [
+                                                          {
+                                                            "type": "text",
+                                                            "marks": [
+                                                              {
+                                                                "type": "link",
+                                                                "attrs": {
+                                                                  "href": "https://usu.box.com/s/scxqz47rkl9l35hcccp6c2morqepecnk",
+                                                                  "uuid": null,
+                                                                  "anchor": null,
+                                                                  "target": null,
+                                                                  "linktype": "url",
+                                                                  "custom": {}
+                                                                }
+                                                              }
+                                                            ],
+                                                            "text": "Identifying your caseload"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://usu-edu.zoom.us/",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Zoom"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (set up profile photo and waiting room message)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/aaa/advising_current_term.cfm",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Advising Current Term (ACT) Dashboard"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/tlt/achieve/advisor/check-in-queue",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Achieve"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (USU's Appointment Scheduling System)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "_uid": "5bcabfca-321b-4263-b744-def451225c01",
+                              "component": "moca-column",
+                              "width_lg": "4",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": false,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "background": "",
+                              "padding": "",
+                              "content": [
+                                {
+                                  "_uid": "f60d14f6-910e-4efd-a60d-7635cc2d7497",
+                                  "component": "moca-text",
+                                  "text": {
+                                    "type": "doc",
+                                    "content": [
+                                      {
+                                        "type": "heading",
+                                        "attrs": {
+                                          "level": 2,
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "USU Newsletters and Websites"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "bullet_list",
+                                        "content": [
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://usu.us1.list-manage.com/subscribe?u=3a529feec2f71894b348558a2&id=f44f2a639f",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "The Skinny"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (academic advisors)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://usu.us10.list-manage.com/subscribe?u=945326f78f93156e16919b373&id=7e73d9fb21",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Front and Center"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (student-facing professionals)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/today/",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Utah State Today"
+                                                  },
+                                                  {
+                                                    "type": "text",
+                                                    "text": " (USU community)"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "list_item",
+                                            "content": [
+                                              {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                  "textAlign": null
+                                                },
+                                                "content": [
+                                                  {
+                                                    "type": "text",
+                                                    "marks": [
+                                                      {
+                                                        "type": "link",
+                                                        "attrs": {
+                                                          "href": "https://www.usu.edu/advisors/",
+                                                          "uuid": null,
+                                                          "anchor": null,
+                                                          "target": null,
+                                                          "linktype": "url",
+                                                          "custom": {}
+                                                        }
+                                                      }
+                                                    ],
+                                                    "text": "Utah State University advising"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

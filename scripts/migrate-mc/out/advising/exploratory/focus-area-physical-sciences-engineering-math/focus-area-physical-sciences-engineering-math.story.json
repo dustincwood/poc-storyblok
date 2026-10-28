@@ -4,31 +4,33 @@
     "slug": "focus-area-physical-sciences-engineering-math",
     "is_startpage": false,
     "content": {
-      "_uid": "87b4fa1a-d6ee-4336-a9bc-9d1f1d8521ef",
+      "_uid": "28def67a-93c8-481e-8b2a-e9fe66632190",
       "component": "page",
       "body": [
         {
-          "_uid": "51c41002-a09a-45eb-a965-786d380b483a",
+          "_uid": "a802fa79-50c6-4579-a22f-4e7b9901229f",
           "component": "moca-container",
           "width": "default",
           "margin_y": "",
           "padding_y": "",
           "content": [
             {
-              "_uid": "3e750ff3-c983-490d-bd6a-477b7d7b0e4e",
+              "_uid": "3f169825-a824-4d6a-893f-39a007292b6a",
               "component": "moca-box",
               "margin_top": "5",
               "margin_bottom": "3",
               "content": [
                 {
-                  "_uid": "3b29f57f-6986-47df-b095-85960818436a",
+                  "_uid": "2be5cd24-0f4a-47be-ad68-dc75c122b275",
                   "component": "moca-row",
                   "justify": "",
                   "align": "",
                   "padding_y": "",
+                  "border": false,
+                  "rounded": false,
                   "columns": [
                     {
-                      "_uid": "5f22af36-c6bd-4213-9aa6-45b9fb25dc04",
+                      "_uid": "0a106f77-60b7-49df-bf87-a63ad7068600",
                       "component": "moca-column",
                       "width": "12",
                       "order": "",
@@ -40,26 +42,29 @@
                       "align_self": "",
                       "text_align": "",
                       "overlap": false,
+                      "background": "",
+                      "padding": "",
                       "content": [
                         {
-                          "_uid": "25c05975-1f6e-480a-897c-73fe75fe411f",
+                          "_uid": "54360f7c-8f7c-4168-9d4a-7d12fb43c70c",
                           "component": "moca-heading",
                           "text": "Physical Sciences, Engineering, and Technology",
                           "level": "h1",
                           "color": "",
                           "align": "",
                           "bold": false,
+                          "margin_top": "",
                           "margin_bottom": "4",
                           "anchor": ""
                         },
                         {
-                          "_uid": "d9b3da01-7841-4748-82fc-8bbc44005f35",
+                          "_uid": "7a94a232-3f4f-412f-b5a5-f171268227ce",
                           "component": "moca-box",
                           "margin_top": "",
                           "margin_bottom": "3",
                           "content": [
                             {
-                              "_uid": "9297159d-bf2b-4e89-b7ea-c79d9076e5ae",
+                              "_uid": "289399d7-6e3a-4059-bb80-59f7c505d99c",
                               "component": "moca-button",
                               "text": "Schedule an Appointment - Physical Sciences, Engineering & Math",
                               "link": {
@@ -73,12 +78,12 @@
                               "size": "",
                               "centered": false,
                               "outline": false,
-                              "block": "true"
+                              "block": true
                             }
                           ]
                         },
                         {
-                          "_uid": "355e5f8c-0b3a-4a84-8b13-89c3ef1e3eb1",
+                          "_uid": "b285ddcd-65ec-4588-98c0-ad7447e16792",
                           "component": "moca-text",
                           "text": {
                             "type": "doc",
@@ -103,7 +108,7 @@
                           "style": "lead"
                         },
                         {
-                          "_uid": "dbf15d79-8e4b-4bf4-8b52-be0586c3c866",
+                          "_uid": "fbc02c73-9671-4b39-b839-e3788f511c98",
                           "component": "moca-text",
                           "text": {
                             "type": "doc",
@@ -159,7 +164,7 @@
                           "style": "lead"
                         },
                         {
-                          "_uid": "c6ae9112-37f9-41c6-9105-cf86f3935985",
+                          "_uid": "efcad5f5-b433-43f2-9c1d-090524b12c15",
                           "component": "moca-titled-box",
                           "title": "On This Page",
                           "title_color": "info",
@@ -169,14 +174,16 @@
                           "margin_bottom": "5",
                           "content": [
                             {
-                              "_uid": "8c25edb1-da34-424d-955a-9e1f713cc17d",
+                              "_uid": "d4d686ab-9d5f-416c-af73-100985f1a2e8",
                               "component": "moca-row",
                               "justify": "center",
                               "align": "",
                               "padding_y": "",
+                              "border": false,
+                              "rounded": false,
                               "columns": [
                                 {
-                                  "_uid": "6b0a208e-f682-4b77-bbc7-d14c434ebbc8",
+                                  "_uid": "fa993f19-8fb0-457e-a8c8-764785078746",
                                   "component": "moca-column",
                                   "width_lg": "auto",
                                   "width_md": "12",
@@ -189,9 +196,11 @@
                                   "align_self": "",
                                   "text_align": "",
                                   "overlap": false,
+                                  "background": "",
+                                  "padding": "",
                                   "content": [
                                     {
-                                      "_uid": "bd4eebcb-c8e7-46b3-84b1-6120fde0664d",
+                                      "_uid": "3b219d3e-2146-4a7c-a091-72d51e3dc8c1",
                                       "component": "moca-button",
                                       "text": "Math & Statistics Track",
                                       "link": {
@@ -210,7 +219,7 @@
                                   ]
                                 },
                                 {
-                                  "_uid": "a22795dd-872b-42e5-b709-4791ab3e6df0",
+                                  "_uid": "5befda5b-d7f9-4ac5-8ef0-3500b16fc977",
                                   "component": "moca-column",
                                   "width_lg": "auto",
                                   "width_md": "12",
@@ -223,9 +232,11 @@
                                   "align_self": "",
                                   "text_align": "",
                                   "overlap": false,
+                                  "background": "",
+                                  "padding": "",
                                   "content": [
                                     {
-                                      "_uid": "ae789c8a-b64c-4679-b59e-43cfac77daca",
+                                      "_uid": "a2bbb591-f027-447a-8eaa-8579e6db647e",
                                       "component": "moca-button",
                                       "text": "Engineering & Technology Track",
                                       "link": {
@@ -244,7 +255,7 @@
                                   ]
                                 },
                                 {
-                                  "_uid": "d0f8b5a2-e80e-4c8e-bff6-89a290f39c0d",
+                                  "_uid": "d7b17863-03ed-41a5-afdf-ba64d451713e",
                                   "component": "moca-column",
                                   "width_lg": "auto",
                                   "width_md": "12",
@@ -257,9 +268,11 @@
                                   "align_self": "",
                                   "text_align": "",
                                   "overlap": false,
+                                  "background": "",
+                                  "padding": "",
                                   "content": [
                                     {
-                                      "_uid": "c829b3b7-4766-449b-99c9-05d694972448",
+                                      "_uid": "f5b882cf-5299-4f13-84b2-7b2c84be009a",
                                       "component": "moca-button",
                                       "text": "Science Track",
                                       "link": {
@@ -282,18 +295,19 @@
                           ]
                         },
                         {
-                          "_uid": "11cd93e0-fe15-4ce3-a9c1-a5846890dcc5",
+                          "_uid": "a8122410-5205-4831-96a6-22a1f0c33d5b",
                           "component": "moca-heading",
                           "text": "Math & Statistics Track",
                           "level": "h2",
                           "color": "bright-light",
                           "align": "",
                           "bold": false,
+                          "margin_top": "",
                           "margin_bottom": "",
                           "anchor": "math"
                         },
                         {
-                          "_uid": "76317f9f-f606-49c3-bb2a-e09ee7f486c3",
+                          "_uid": "72dbbc54-38eb-446c-a638-b6d9a8250a7b",
                           "component": "moca-text",
                           "text": {
                             "type": "doc",
@@ -322,14 +336,16 @@
                           }
                         },
                         {
-                          "_uid": "0b20782f-bb35-41f5-b8bb-925d5c033fbf",
+                          "_uid": "3d4979ce-72cb-493e-8dc6-65162c92c948",
                           "component": "moca-row",
                           "justify": "",
                           "align": "",
                           "padding_y": "3",
+                          "border": false,
+                          "rounded": false,
                           "columns": [
                             {
-                              "_uid": "d9a4f13f-11b8-43c8-965e-fcbcebde243b",
+                              "_uid": "ecfda7b3-2f58-4f04-9237-f51bab016b11",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -341,9 +357,11 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "c664a92b-0499-4bea-af9a-0c9f5563452f",
+                                  "_uid": "2d831111-82e0-4727-82b0-e0ca4987b985",
                                   "component": "moca-card",
                                   "header": "Common Majors:",
                                   "color": "bg-primary",
@@ -520,7 +538,7 @@
                               ]
                             },
                             {
-                              "_uid": "678603e3-0b20-4eaa-b51a-1c6c18ad7d16",
+                              "_uid": "c5018e7c-7c8d-4d91-a8ca-f2934ad58ea1",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -532,9 +550,11 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "1c10cd41-374b-4cf1-89d3-72688269cfe3",
+                                  "_uid": "1d2abc2b-6f43-45b4-9f26-8b7bf1fa37a9",
                                   "component": "moca-card",
                                   "header": "Common Exploratory Courses:",
                                   "color": "bg-primary",
@@ -836,18 +856,19 @@
                           ]
                         },
                         {
-                          "_uid": "4e290155-6aed-4710-844e-fc54bd97961d",
+                          "_uid": "e00aa274-fd46-4f0c-82b4-2682f0bb6bf5",
                           "component": "moca-heading",
                           "text": "Engineering & Technology Track",
                           "level": "h2",
                           "color": "bright-light",
                           "align": "",
                           "bold": false,
+                          "margin_top": "",
                           "margin_bottom": "",
                           "anchor": "engineering"
                         },
                         {
-                          "_uid": "a7234d03-fed5-40ab-b57f-80bd04ffe061",
+                          "_uid": "f1f7303a-d7bc-487e-a986-b0edce98804c",
                           "component": "moca-text",
                           "text": {
                             "type": "doc",
@@ -907,7 +928,7 @@
                                       {
                                         "type": "link",
                                         "attrs": {
-                                          "href": "/advising/exploratory/majors-courses",
+                                          "href": "https://www.usu.edu/advising/exploratory/majors-courses",
                                           "uuid": null,
                                           "anchor": null,
                                           "target": null,
@@ -944,14 +965,16 @@
                           }
                         },
                         {
-                          "_uid": "fb39cdd4-0d5b-4e23-aeda-5f92ce442d77",
+                          "_uid": "3fb2fa60-d5ff-472c-a6a2-7592bfd960f5",
                           "component": "moca-row",
                           "justify": "",
                           "align": "",
                           "padding_y": "3",
+                          "border": false,
+                          "rounded": false,
                           "columns": [
                             {
-                              "_uid": "c60ffc13-b888-4f58-915f-432e770288cf",
+                              "_uid": "10d05d29-db97-4424-839c-4c7cc53d8aba",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -963,9 +986,11 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "d4337475-3a88-4fd4-ab85-d8dc4d4e2cff",
+                                  "_uid": "cc7097a0-40f1-4c8e-9cca-56181b7c5b8a",
                                   "component": "moca-card",
                                   "header": "Common Majors:",
                                   "color": "bg-primary",
@@ -1412,7 +1437,7 @@
                               ]
                             },
                             {
-                              "_uid": "f82d4ce8-bd71-4047-984a-46abd352566b",
+                              "_uid": "7adcf22f-56d8-4c47-bcb8-766b9594a25e",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -1424,9 +1449,11 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "c0e855c8-7a05-4b13-8f5e-b0ebc45514b9",
+                                  "_uid": "ac966bd3-54fb-429b-8e85-40dee35cde3c",
                                   "component": "moca-card",
                                   "header": "Common Exploratory Courses:",
                                   "color": "bg-primary",
@@ -1778,18 +1805,19 @@
                           ]
                         },
                         {
-                          "_uid": "66d02b2c-5220-4b59-8d15-4879a276f952",
+                          "_uid": "c77ee078-d9b2-4468-a15c-ab5b6bce2f97",
                           "component": "moca-heading",
                           "text": "Science Systems Track",
                           "level": "h2",
                           "color": "bright-light",
                           "align": "",
                           "bold": false,
+                          "margin_top": "",
                           "margin_bottom": "",
                           "anchor": "science"
                         },
                         {
-                          "_uid": "47c41b10-7391-464e-afae-0991d1989681",
+                          "_uid": "5077f58a-0ee3-4231-a6dd-3abc274206d2",
                           "component": "moca-text",
                           "text": {
                             "type": "doc",
@@ -1810,14 +1838,16 @@
                           }
                         },
                         {
-                          "_uid": "1277bede-85a3-4c0e-9bce-9700d50905dc",
+                          "_uid": "c87818c5-c8b2-4848-bae8-a07abd5e6a21",
                           "component": "moca-row",
                           "justify": "",
                           "align": "",
                           "padding_y": "3",
+                          "border": false,
+                          "rounded": false,
                           "columns": [
                             {
-                              "_uid": "da2a93db-5ee1-4d9b-b59e-cd7575406187",
+                              "_uid": "bbabc7d4-7eab-4058-bb49-8e11328b8307",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -1829,9 +1859,11 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "3f57a531-3137-469d-bc8b-41967b2dce78",
+                                  "_uid": "68963ed1-517f-4a98-ab79-ee7654bb3464",
                                   "component": "moca-card",
                                   "header": "Common Majors:",
                                   "color": "bg-primary",
@@ -2359,7 +2391,7 @@
                               ]
                             },
                             {
-                              "_uid": "4c458eec-e3fe-4c14-bc64-da2dfe82976f",
+                              "_uid": "30e319ad-487e-451c-87a9-3ef63506d891",
                               "component": "moca-column",
                               "width_lg": "6",
                               "order": "",
@@ -2371,9 +2403,11 @@
                               "align_self": "",
                               "text_align": "",
                               "overlap": false,
+                              "background": "",
+                              "padding": "",
                               "content": [
                                 {
-                                  "_uid": "206b72d9-2cb6-4a0e-b68a-cc8f9021314b",
+                                  "_uid": "ff706375-e65c-4e5a-8c83-25fefbcd09aa",
                                   "component": "moca-card",
                                   "header": "Common Courses:",
                                   "color": "bg-primary",

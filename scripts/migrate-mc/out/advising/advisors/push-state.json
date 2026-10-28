@@ -1,0 +1,38 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/advisors/images/advisor-banner.png": {
+      "id": 235588868978497,
+      "filename": "https://a.storyblok.com/f/294787985525525/b75fa49f29/advisor-banner.png"
+    },
+    "https://www.usu.edu/advising/images/advisors/kotynek-shelly.jpg": {
+      "id": 235588883593026,
+      "filename": "https://a.storyblok.com/f/294787985525525/62c061fa12/kotynek-shelly.jpg"
+    },
+    "https://www.usu.edu/advising/images/advisors/rasmuson-madison.jpg": {
+      "id": 235588889007939,
+      "filename": "https://a.storyblok.com/f/294787985525525/8473987ca8/rasmuson-madison.jpg"
+    },
+    "https://www.usu.edu/advising/images/advisors/roholt-kaylee.jpg": {
+      "id": 235588894672708,
+      "filename": "https://a.storyblok.com/f/294787985525525/7b68283229/roholt-kaylee.jpg"
+    },
+    "https://www.usu.edu/advising/advisors/images/theskinny.png": {
+      "id": 235588900271941,
+      "filename": "https://a.storyblok.com/f/294787985525525/77a25361f7/theskinny.png"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/advisors": 235586372513735
+  },
+  "story": {
+    "id": 235588909490394,
+    "parentId": 235586372513735,
+    "full_slug": "advising-migration-test/advising/advisors/"
+  }
+}

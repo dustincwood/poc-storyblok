@@ -1,0 +1,13 @@
+{
+  "assets": {},
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/advisors": 235586372513735
+  },
+  "story": {
+    "id": 235592613276725,
+    "parentId": 235586372513735,
+    "full_slug": "advising-migration-test/advising/advisors/advisor-resources"
+  }
+}
