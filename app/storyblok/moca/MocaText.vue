@@ -8,8 +8,17 @@ const props = defineProps<{
     // Bootstrap .table styling for tables in the text: plain (.table) or striped (.table-striped).
     // Either way the table scrolls sideways below 768px (.table-responsive-md).
     table_style?: '' | 'plain' | 'striped'
+    // Header row colors: dark (.thead-dark) or light (.thead-light); empty keeps the table's own
+    table_head?: '' | 'dark' | 'light'
   }
 }>()
+
+// Bootstrap 4 .thead-dark / .thead-light
+const heads = {
+  // ! so the header's borders win over the table's cell borders (same specificity)
+  dark: '[&_thead_th]:bg-[#343a40] [&_thead_th]:text-white [&_thead_th]:border-[#454d55]!',
+  light: '[&_thead_th]:bg-usu-gray-200 [&_thead_th]:text-[#495057] [&_thead_th]:border-usu-gray-300!',
+}
 
 const table = [
   'max-bs-md:overflow-x-auto',
@@ -31,6 +40,7 @@ const striped = '[&_tbody_tr:nth-of-type(odd)]:bg-usu-gray-200'
       blok.style === 'lead' && '[&_p]:text-xl [&_p]:leading-normal [&_p]:font-light',
       blok.table_style && table,
       blok.table_style === 'striped' && striped,
+      blok.table_style && blok.table_head && heads[blok.table_head],
     ]"
   />
 </template>

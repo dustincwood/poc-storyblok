@@ -10,6 +10,8 @@ const props = defineProps<{
     image_link?: SbLink
     body?: any
     button?: any[]
+    // Bootstrap .shadow
+    shadow?: boolean
   }
 }>()
 
@@ -39,7 +41,7 @@ const imageClass = computed(() => [
   <div
     v-if="blok.header || hasBody || hasImage"
     v-editable="blok"
-    :class="mocaCard.base"
+    :class="[mocaCard.base, blok.shadow && 'shadow-[0_.5rem_1rem_rgba(0,0,0,.15)]']"
   >
     <template v-if="hasImage && imageOnTop">
       <NuxtLink v-if="imageLink" :to="imageLink" :target="blok.image_link?.target">

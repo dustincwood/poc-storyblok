@@ -379,6 +379,11 @@
           "moca-button"
         ],
         "maximum": 1
+      },
+      "shadow": {
+        "pos": 7,
+        "type": "boolean",
+        "description": "Drop shadow (.shadow)"
       }
     }
   },
@@ -1169,6 +1174,26 @@
         ],
         "default_value": "",
         "description": "Bootstrap table styling for tables in the text"
+      },
+      "table_head": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Light",
+            "value": "light"
+          }
+        ],
+        "default_value": "",
+        "description": "Header row colors, for tables with a table style"
       }
     }
   },
@@ -2665,8 +2690,43 @@
         "default_value": ""
       },
       "content": {
-        "pos": 3,
+        "pos": 4,
         "type": "bloks"
+      },
+      "padding_y": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "None",
+            "value": ""
+          },
+          {
+            "name": "0",
+            "value": "0"
+          },
+          {
+            "name": "1 (.25rem)",
+            "value": "1"
+          },
+          {
+            "name": "2 (.5rem)",
+            "value": "2"
+          },
+          {
+            "name": "3 (1rem)",
+            "value": "3"
+          },
+          {
+            "name": "4 (1.5rem)",
+            "value": "4"
+          },
+          {
+            "name": "5 (3rem)",
+            "value": "5"
+          }
+        ],
+        "description": "Space inside, above and below"
       }
     }
   },
@@ -2836,6 +2896,30 @@
           }
         ],
         "description": "Space below"
+      },
+      "width": {
+        "pos": 4,
+        "type": "text",
+        "description": "Display width in pixels; empty keeps the image's own size (never wider than the column)"
+      },
+      "align": {
+        "pos": 5,
+        "type": "option",
+        "options": [
+          {
+            "name": "Left",
+            "value": ""
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ],
+        "default_value": ""
       }
     }
   },

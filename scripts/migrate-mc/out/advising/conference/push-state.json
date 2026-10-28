@@ -1,0 +1,29 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/images/strengthening-student-success-banner.jpeg": {
+      "id": 235583737284101,
+      "filename": "https://a.storyblok.com/f/294787985525525/9297ca44fd/strengthening-student-success-banner.jpeg"
+    },
+    "https://www.usu.edu/advising/images/little-lambs-logo.png": {
+      "id": 235583746328070,
+      "filename": "https://a.storyblok.com/f/294787985525525/0e006df598/little-lambs-logo.png"
+    },
+    "https://www.usu.edu/advising/images/donation-ideas.jpg": {
+      "id": 235583750956551,
+      "filename": "https://a.storyblok.com/f/294787985525525/5e52952f68/donation-ideas.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957
+  },
+  "story": {
+    "id": 235583758911797,
+    "parentId": 233908621144957,
+    "full_slug": "advising-migration-test/advising/conference"
+  }
+}

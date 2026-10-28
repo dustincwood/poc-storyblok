@@ -195,7 +195,7 @@ function convertComponent(id, data, context) {
   const button = {}
   const raw = (hash) => data[hash] ?? ''
   // The title lets resolveComponentTag find this component on the published page
-  const titleHash = Object.keys(def.fields).find(h => ['header', 'title', 'name'].includes(def.fields[h]?.split(':')[0]))
+  const titleHash = Object.keys(def.fields).find(h => ['header', 'title', 'name', 'text'].includes(def.fields[h]?.split(':')[0]))
   context = { ...context, title: titleHash ? clean(raw(titleHash)) : '' }
 
   const assign = (target, value) => {
@@ -206,6 +206,8 @@ function convertComponent(id, data, context) {
 
     if (type === 'html') value = toRichtext(decode(value))
     else if (type === 'bool') value = value === 'true'
+    // A value map can give a boolean or number (btn-block -> true); decoding would make it the string "false"
+    else if (typeof value !== 'string') { /* keep as mapped */ }
     else {
       value = decode(value)
       if (type === 'link' && isTag(value)) value = resolveComponentTag(value, targetPath, context)
@@ -262,12 +264,17 @@ function resolveComponentTag(tag, targetPath, context) {
 }
 
 // The component as rendered on the published page: the smallest .card holding its title. An image field
-// takes the card's image, a button link its .btn, any other link its first link.
+// takes the card's image, a button link its .btn, any other link its first link. A component that isn't a
+// card (a button, titled by its text) is the link with exactly that text, a .btn first.
 function fromPublishedCard(title, targetPath) {
   const key = norm(title)
   const card = findAll(publishedDoc, n => isEl(n) && hasClass(n, 'card') && norm(text(n)).includes(key))
     .sort((a, b) => text(a).length - text(b).length)[0]
-  if (!card) return undefined
+  if (!card) {
+    if (targetPath.endsWith('filename')) return undefined
+    const links = findAll(publishedDoc, n => isEl(n, 'a') && n.attributes.href && norm(text(n)) === key)
+    return (links.find(a => hasClass(a, 'btn')) ?? links[0])?.attributes.href
+  }
   if (targetPath.endsWith('filename')) return find(card, n => isEl(n, 'img'))?.attributes.src
   if (targetPath.startsWith('button.')) return find(card, n => isEl(n, 'a') && hasClass(n, 'btn'))?.attributes.href
   return find(card, n => isEl(n, 'a'))?.attributes.href
@@ -513,9 +520,11 @@ function convertListCard(card) {
 function convertTable(table) {
   const cls = classes(table)
   lostClasses('Table classes', table, ['table', 'table-striped', /^table-responsive/, 'table-default-responsive-md'])
+  const thead = find(table, n => isEl(n, 'thead'))
   return blok('moca-text', {
-    text: toRichtext(render(table).replace(/<table[^>]*>/, '<table>')),
+    text: toRichtext(render(table).replace(/<table[^>]*>/, '<table>').replace(/<thead[^>]*>/, '<thead>')),
     table_style: cls.includes('table-striped') ? 'striped' : 'plain',
+    table_head: thead && hasClass(thead, 'thead-dark') ? 'dark' : thead && hasClass(thead, 'thead-light') ? 'light' : '',
   })
 }
 
@@ -580,16 +589,49 @@ const isButtonParagraph = p => {
 }
 
 // <img class="rounded-circle w-100 mb-3"> -> moca-image
-function convertImage(img) {
+// The paragraph an image stands alone in, if any, gives its alignment (<p class="text-center"><img ...></p>)
+function convertImage(img, paragraph) {
   const cls = classes(img)
   const src = isTag(img.attributes.src) ? resolveTag(img.attributes.src, { alt: img.attributes.alt, context: '' }) : img.attributes.src
   lostClasses('Image classes', img, ['img-fluid', 'rounded', 'rounded-circle', 'img-thumbnail', 'w-100', /^mb-[0-5]$/])
+  const pcls = paragraph ? classes(paragraph) : []
+  if (paragraph) lostClasses('Image paragraph classes', paragraph, ['text-center', 'text-right'])
   return blok('moca-image', {
     image: toAsset(absolute(src), img.attributes.alt ?? ''),
     image_style: ['rounded-circle', 'img-thumbnail', 'rounded'].find(c => cls.includes(c)) ?? '',
     full_width: cls.includes('w-100'),
-    margin_bottom: spacer(cls, 'mb'),
+    width: /^\d+$/.test(img.attributes.width ?? '') ? img.attributes.width : '',
+    align: pcls.includes('text-center') ? 'center' : pcls.includes('text-right') ? 'right' : '',
+    // A paragraph's 1rem below
+    margin_bottom: spacer(cls, 'mb') || (paragraph ? '3' : ''),
   })
+}
+// <p> holding a single <img> and no text
+const isImageParagraph = p => {
+  const kids = (p.children ?? []).filter(n => isEl(n) || decode(n.value ?? '').trim())
+  return kids.length === 1 && isEl(kids[0], 'img')
+}
+
+// <div class="card shadow"><div class="card-header bg-primary"><h4>Title</h4></div><div class="card-body">...</div>
+// <div class="card-footer"><a class="btn">...</a></div></div>, as hand-written: the card component's shape
+const isHeaderCard = node => hasClass(node, 'card')
+  && (node.children ?? []).some(n => isEl(n) && hasClass(n, 'card-header'))
+  && (node.children ?? []).some(n => isEl(n) && hasClass(n, 'card-body'))
+
+function convertHeaderCard(card) {
+  const part = name => (card.children ?? []).find(n => isEl(n) && hasClass(n, name))
+  const header = part('card-header')
+  const body = part('card-body')
+  const button = find(part('card-footer') ?? { children: [] }, n => isEl(n, 'a') && hasClass(n, 'btn'))
+  lostClasses('Card classes', card, ['card', 'nav-card', 'shadow', 'w-100', 'h-100', /^m[tby]-[0-5]$/])
+  lostClasses('Card header classes', header, ['card-header', /^bg-/])
+  return boxIfSpaced(card, blok('moca-card', {
+    color: classes(header).find(c => /^bg-/.test(c)) ?? '',
+    header: clean(text(header)),
+    body: toRichtext((body.children ?? []).map(render).join('')),
+    button: button ? [convertButton(button)] : [],
+    shadow: hasClass(card, 'shadow'),
+  }))
 }
 
 // Bootstrap column classes -> moca-column fields
@@ -616,8 +658,15 @@ function convertColumn(cell) {
     align_self: cls.map(c => c.match(/^align-self-(start|center|end)$/)?.[1]).find(Boolean) ?? '',
     text_align: cls.includes('text-center') ? 'center' : '',
     overlap: cls.includes('mx-n5'),
-    content: convertNodes(cell.children ?? []),
+    content: columnContent(cell),
   })
+}
+
+// A column holding nothing but &nbsp; is an editor's spacer: one line of text tall (1.5rem) on usu.edu
+function columnContent(cell) {
+  const content = convertNodes(cell.children ?? [])
+  if (content.length || !/ /.test(decode(text(cell)))) return content
+  return [blok('moca-box', { margin_top: '', margin_bottom: '4', content: [] })]
 }
 
 // Bootstrap .row -> moca-row of moca-column blocks
@@ -655,7 +704,7 @@ function boxIfSpaced(node, converted) {
 }
 
 // <div class="mb-4"> / <div class="text-center">: only spacing and alignment
-const boxClass = /^(m[tby]-[0-5]|text-(center|right))$/
+const boxClass = /^([mp][tby]-[0-5]|text-(center|right))$/
 const isBox = node => node.name === 'div' && classes(node).length > 0 && classes(node).every(c => boxClass.test(c))
 
 function convertBox(node) {
@@ -663,6 +712,8 @@ function convertBox(node) {
   return blok('moca-box', {
     margin_top: spacer(cls, 'mt') || spacer(cls, 'my'),
     margin_bottom: spacer(cls, 'mb') || spacer(cls, 'my'),
+    // pt/pb other than as a pair have no field; py stands in for either
+    padding_y: spacer(cls, 'py') || spacer(cls, 'pt') || spacer(cls, 'pb'),
     text_align: cls.includes('text-center') ? 'center' : cls.includes('text-right') ? 'right' : '',
     content: convertNodes(node.children ?? []),
   })
@@ -702,11 +753,15 @@ function convertNodes(nodes) {
     }
     // The editor wraps components in a <p>; the component is the content. A button keeps the paragraph's
     // 1rem below it (cards sit in stretched columns, where a wrapper would break their equal heights).
+    // Space the paragraph adds above (pt-3 / mt-3) is kept too.
     else if (isEl(node, 'p') && find(node, n => n.name === 'mc-component')) {
       flush()
+      lostClasses('Component paragraph classes', node, [/^[mp]t-[0-5]$/])
+      const top = spacer(cls, 'pt') || spacer(cls, 'mt')
       const inner = convertNodes(node.children ?? [])
-      out.push(...inner.length && inner.every(b => b.component === 'moca-button')
-        ? [blok('moca-box', { margin_top: '', margin_bottom: '3', content: inner })]
+      const buttons = inner.length && inner.every(b => b.component === 'moca-button')
+      out.push(...buttons || top
+        ? [blok('moca-box', { margin_top: top, margin_bottom: buttons ? '3' : '', content: inner })]
         : inner)
     }
     // A paragraph holding only buttons (<p class="text-center"><a class="btn ...">): the buttons, centered with
@@ -719,6 +774,7 @@ function convertNodes(nodes) {
     }
     // An image standing on its own (not inside text) keeps its shape and width classes as a moca-image
     else if (isEl(node, 'img')) { flush(); out.push(convertImage(node)) }
+    else if (isEl(node, 'p') && isImageParagraph(node)) { flush(); out.push(convertImage(find(node, n => isEl(n, 'img')), node)) }
     // ... sometimes inside a <span> or other inline wrapper too
     else if (inlineTags.includes(node.name) && find(node, n => n.name === 'mc-component')) {
       flush()
@@ -730,6 +786,7 @@ function convertNodes(nodes) {
     else if (node.name === 'mc-form') { flush(); out.push(convertForm(node.attributes['data-asset'])) }
     else if (isIconCard(node)) { flush(); out.push(convertIconCard(node)) }
     else if (isListCard(node)) { flush(); out.push(convertListCard(node)) }
+    else if (isHeaderCard(node)) { flush(); out.push(convertHeaderCard(node)) }
     else if (isBarCard(node)) { flush(); out.push(convertBarCard(node)) }
     else if (isEl(node, 'table')) { flush(); out.push(convertTable(node)) }
     else if (isLinkCard(node)) { flush(); out.push(convertLinkCard(node)) }

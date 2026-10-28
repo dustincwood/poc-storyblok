@@ -1,0 +1,569 @@
+{
+  "story": {
+    "name": "Bachelor of Integrated Studies and Associate of General Studies Convocation",
+    "slug": "bis-ags-convocation",
+    "is_startpage": false,
+    "content": {
+      "_uid": "06eb0da8-cbcb-470c-97c6-9af58081e423",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "6dcce59f-bbd2-4464-8028-eeda54acb138",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "4eb3776a-4a6b-4fb2-a2ca-f41b034b506c",
+              "component": "moca-box",
+              "margin_top": "5",
+              "margin_bottom": "3",
+              "content": [
+                {
+                  "_uid": "1fd7f9dc-4ba1-4aee-b881-425ea057dc9c",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "columns": [
+                    {
+                      "_uid": "cf6581de-6495-4173-9fc2-1559626c7575",
+                      "component": "moca-column",
+                      "width": "12",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "content": [
+                        {
+                          "_uid": "943875b4-a9de-409b-8919-251b24bb9a00",
+                          "component": "moca-heading",
+                          "text": "Bachelor of Integrated Studies and Associate of General Studies Convocation",
+                          "level": "h1",
+                          "color": "",
+                          "align": "",
+                          "bold": false,
+                          "margin_bottom": "",
+                          "anchor": ""
+                        },
+                        {
+                          "_uid": "5d815f44-7c64-4acb-9735-6a9f4ef61b52",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Students who graduate in Summer, Fall, or Spring are invited to participate in the Spring graduation ceremonies which include the "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://www.usu.edu/commencement/index.php",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "University commencement"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": " and college convocations. The Commencement Ceremony will include the traditional walk from the quad to the Spectrum where there will be the awarding of honorary degrees, announcement of university-wide faculty awards, Commencement speeches, and the conferring of degrees upon all graduates. At the convocation ceremony, your name is read and you \"walk\" up to be recognized, receive a diploma cover, and have a professional photo taken."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "8caa68f1-4548-461d-88cd-34f2de46c868",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Please note the university commencement ceremony and the convocation ceremony are \"clear bag\" events. Guests should use clear bags or transparent containers to carry their belongings, for the safety of all attendees."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "style": "lead"
+                        },
+                        {
+                          "_uid": "9e3f7c0a-e34b-40da-9f5d-051f31c8d3ee",
+                          "component": "moca-row",
+                          "justify": "center",
+                          "align": "",
+                          "padding_y": "",
+                          "columns": [
+                            {
+                              "_uid": "9f167ce3-510c-4e4e-80f5-f3935d8cafdb",
+                              "component": "moca-column",
+                              "width_lg": "6",
+                              "order": "",
+                              "order_lg": "",
+                              "margin_top": "",
+                              "margin_bottom": "",
+                              "stretch": false,
+                              "display": "",
+                              "align_self": "",
+                              "text_align": "",
+                              "overlap": false,
+                              "content": [
+                                {
+                                  "_uid": "eabeb833-695e-49d6-ab99-9f93de0939b4",
+                                  "component": "moca-box",
+                                  "margin_top": "",
+                                  "margin_bottom": "4",
+                                  "content": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "f99620e0-5a19-4c57-887b-ef6668cc93e6",
+                          "component": "moca-box",
+                          "margin_top": "3",
+                          "margin_bottom": "",
+                          "content": [
+                            {
+                              "_uid": "c3cfff0d-db38-41de-8ea7-7390a0552a10",
+                              "component": "moca-card",
+                              "header": "Event Details",
+                              "color": "bg-primary",
+                              "body": {
+                                "type": "doc",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "marks": [
+                                          {
+                                            "type": "bold"
+                                          }
+                                        ],
+                                        "text": "Date:"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": " Thursday, April 30"
+                                      },
+                                      {
+                                        "type": "hard_break"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "marks": [
+                                          {
+                                            "type": "bold"
+                                          }
+                                        ],
+                                        "text": "Time:"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": " 9:00 - 10:30 a.m."
+                                      },
+                                      {
+                                        "type": "hard_break"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "marks": [
+                                          {
+                                            "type": "bold"
+                                          }
+                                        ],
+                                        "text": "Location:"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": " Newel & Jean Daines Concert Hall"
+                                      },
+                                      {
+                                        "type": "hard_break"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "bullet_list",
+                                    "content": [
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "8:30 a.m. Graduates check-in"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "8:55 a.m. Procession begins"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "list_item",
+                                        "content": [
+                                          {
+                                            "type": "paragraph",
+                                            "attrs": {
+                                              "textAlign": null
+                                            },
+                                            "content": [
+                                              {
+                                                "type": "text",
+                                                "text": "9:00 a.m. Ceremony begins"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": " Students will meet at 8:30 am near the Daines Concert Hall for this ceremony. Students will line up for the procession at 8:50 in the atrium down the stairs east of the Daines Concert Hall. Staff will be outside of Daines, directing students and families. At the Convocation, you will walk across the stage, hear your name read, receive your diploma cover, and have a professional photo taken. Graduation photos, programs, and video will be available a short time after the ceremony. Family and friends are encouraged to attend."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              "image_location": "card-img-bottom"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_uid": "063251e4-2880-4a62-8187-40f604a96819",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "heading",
+                    "attrs": {
+                      "level": 2,
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Additional Details"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Find additional information regarding commencement information, event parking, FAQs, academic regalia, and accomodations for persons with disabilities below."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "_uid": "5c678a56-7ce1-40a6-809f-85f4ebeffd7b",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "padding_y": "3",
+              "columns": [
+                {
+                  "_uid": "64a8926d-76d8-4a07-92e1-9985c47717d8",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "947d00a7-5043-4b85-aae2-84eebba77c08",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "content": [
+                        {
+                          "_uid": "7c6d825f-3ef6-4e5d-95af-f73651008400",
+                          "component": "moca-button",
+                          "text": "USU Commencement",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/commencement/",
+                            "cached_url": "https://www.usu.edu/commencement/",
+                            "fieldtype": "multilink",
+                            "target": "_self"
+                          },
+                          "type": "btn-bright-light",
+                          "size": "btn-lg",
+                          "centered": false,
+                          "outline": false,
+                          "block": "true"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "436f2087-6016-4ef6-8198-d1f260743135",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "00661902-b75c-4935-9b5e-983742fb05a8",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "content": [
+                        {
+                          "_uid": "6aa5e1a4-8912-4def-a8cb-6a9ccd06b4b7",
+                          "component": "moca-button",
+                          "text": "Statewide Commencement",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/commencement/schedule/statewide-campuses",
+                            "cached_url": "https://www.usu.edu/commencement/schedule/statewide-campuses",
+                            "fieldtype": "multilink",
+                            "target": "_self"
+                          },
+                          "type": "btn-bright-light",
+                          "size": "btn-lg",
+                          "centered": false,
+                          "outline": false,
+                          "block": "true"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "c8188b1b-299e-4aae-9dc4-0db3acdfb69d",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "2c188a63-6e62-48c8-91a1-16b432219e5e",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "content": [
+                        {
+                          "_uid": "a5c46fca-7a3e-45b6-bd6d-42c7e307a47a",
+                          "component": "moca-button",
+                          "text": "Student Information",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/commencement/students/",
+                            "cached_url": "https://www.usu.edu/commencement/students/",
+                            "fieldtype": "multilink",
+                            "target": "_self"
+                          },
+                          "type": "btn-bright-light",
+                          "size": "btn-lg",
+                          "centered": false,
+                          "outline": false,
+                          "block": "true"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_uid": "a8a6e00b-7513-472e-b278-6b32569c1e58",
+                  "component": "moca-column",
+                  "width_lg": "3",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "fd4aac97-0edb-427c-8826-3ffbd2ab8077",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "content": [
+                        {
+                          "_uid": "8c0ceea7-ec0e-42df-985f-6f84f9243113",
+                          "component": "moca-button",
+                          "text": "Parking Map",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://www.usu.edu/commencement/files/finearts-graduationmap-2025.pdf",
+                            "cached_url": "https://www.usu.edu/commencement/files/finearts-graduationmap-2025.pdf",
+                            "fieldtype": "multilink",
+                            "target": "_self"
+                          },
+                          "type": "btn-bright-light",
+                          "size": "btn-lg",
+                          "centered": false,
+                          "outline": false,
+                          "block": "true"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_uid": "3bfd303e-ac78-4b80-aa53-75cfaff649f0",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "heading",
+                    "attrs": {
+                      "level": 3,
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Questions?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "If you have other questions, please email "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "link",
+                            "attrs": {
+                              "href": "mailto:ruth.jensen@usu.edu?subject=",
+                              "uuid": null,
+                              "anchor": null,
+                              "target": null,
+                              "linktype": "url",
+                              "custom": {}
+                            }
+                          }
+                        ],
+                        "text": "ruth.jensen@usu.edu"
+                      },
+                      {
+                        "type": "text",
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

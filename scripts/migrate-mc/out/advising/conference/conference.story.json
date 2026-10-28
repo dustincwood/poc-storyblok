@@ -1,0 +1,2436 @@
+{
+  "story": {
+    "name": "Conference Schedule",
+    "slug": "conference",
+    "is_startpage": false,
+    "content": {
+      "_uid": "186e01e6-fde0-41c5-8423-4e3407dd32b8",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "5d7197b0-98e7-474f-8493-11c238d9a503",
+          "component": "moca-hero-banner",
+          "background_image": {
+            "filename": "https://www.usu.edu/advising/images/strengthening-student-success-banner.jpeg",
+            "alt": "",
+            "fieldtype": "asset"
+          },
+          "partial_background": true,
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "500px",
+          "container_width": "default",
+          "header": "USU Summer Advising Conference",
+          "subheader": "Strengthening Student Success Together",
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "attrs": {
+                  "textAlign": null
+                },
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "July 28 & 29, 2026"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "_uid": "039650d7-929c-4ab4-8a77-4880be21f7c6",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "45c2af79-a24f-4a3b-b944-f741edd243a4",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "padding_y": "",
+              "columns": [
+                {
+                  "_uid": "013ee446-d8aa-44ea-9666-6f9a361be782",
+                  "component": "moca-column",
+                  "width_lg": "12",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "content": [
+                    {
+                      "_uid": "ea834364-c331-42a1-ad2b-d4abec777fd9",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The USU Advising Conference has been a tradition for the advising community for over 30 years. It is a special day with time to connect with old colleagues and welcome the new members of our community. The critical work of advisors changes the lives of USU students. This important day holds space for advisors to strengthen their practice and set goals for the coming year. We are looking forward to another great conference."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "style": "lead"
+                    },
+                    {
+                      "_uid": "85f2c081-6f25-4a12-8edd-4f38263923bb",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ],
+                                "text": "Strengthening Student Success Together"
+                              },
+                              {
+                                "type": "text",
+                                "text": " recognizes that student achievement is built through meaningful collaboration, shared expertise, and strong partnerships across our campus community. We are thrilled to provide a platform for meaningful discussions, knowledge sharing, and networking opportunities."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "style": "lead"
+                    },
+                    {
+                      "_uid": "8d68fa62-6a88-4dc6-8774-1d6827c042d4",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "RSVP"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Please RSVP if you plan to attend the conference. "
+                              },
+                              {
+                                "type": "hard_break"
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ],
+                                "text": "RSVP Deadline July 17th"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "f933c103-04dd-4723-9d39-77edc835c2df",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "content": [
+                        {
+                          "_uid": "65fa48c3-d84d-433e-a1e3-215d546edf25",
+                          "component": "moca-button",
+                          "text": "RSVP",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://usu.co1.qualtrics.com/jfe/form/SV_8GhzoNoNkAyQEiq",
+                            "cached_url": "https://usu.co1.qualtrics.com/jfe/form/SV_8GhzoNoNkAyQEiq",
+                            "fieldtype": "multilink",
+                            "target": "_self"
+                          },
+                          "type": "btn-primary",
+                          "size": "",
+                          "centered": false,
+                          "outline": false,
+                          "block": false
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "5a12f775-0d21-45cc-87f4-de78448ab2bf",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Conference Committee Members"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "bullet_list",
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Alex Ziegler"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Madison Rasmuson"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Kaylee Roholt"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Myra Durrant"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "July 28, 2026 - Preconference Service Project"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "We are kicking off the conference with a service project supporting the Little Lambs Foundation for Kids."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Please join us to organize and package hygiene kits – and enjoy a dirty soda bar!"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ],
+                                "text": "2-4 PM | Perry Pavilion Huntsman Hall (HH)"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "f49d0bf0-b39a-4bed-83c9-3d6e701cb5a7",
+                      "component": "moca-row",
+                      "justify": "center",
+                      "align": "",
+                      "padding_y": "2",
+                      "columns": [
+                        {
+                          "_uid": "c59d233d-9029-43fd-bef6-e38f1e1240f1",
+                          "component": "moca-column",
+                          "width_lg": "6",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "683ecd94-8c42-4afb-9227-d011d4472372",
+                              "component": "moca-image",
+                              "image": {
+                                "filename": "https://www.usu.edu/advising/images/little-lambs-logo.png",
+                                "alt": "little lambs logo",
+                                "fieldtype": "asset"
+                              },
+                              "image_style": "",
+                              "full_width": false,
+                              "width": "342",
+                              "align": "center",
+                              "margin_bottom": "3"
+                            }
+                          ]
+                        },
+                        {
+                          "_uid": "2373e1c7-ded9-479c-8f53-3bed617dd9b4",
+                          "component": "moca-column",
+                          "width_lg": "6",
+                          "order": "",
+                          "order_lg": "",
+                          "margin_top": "",
+                          "margin_bottom": "",
+                          "stretch": false,
+                          "display": "",
+                          "align_self": "",
+                          "text_align": "",
+                          "overlap": false,
+                          "content": [
+                            {
+                              "_uid": "b32dd5d9-d8bb-444c-8c5c-65e4fe073085",
+                              "component": "moca-image",
+                              "image": {
+                                "filename": "https://www.usu.edu/advising/images/donation-ideas.jpg",
+                                "alt": "hygenie kits",
+                                "fieldtype": "asset"
+                              },
+                              "image_style": "",
+                              "full_width": false,
+                              "width": "342",
+                              "align": "center",
+                              "margin_bottom": "3"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "74440ddf-f575-4ce1-b865-b1e5e81afb0c",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Little Lambs Foundation for Kids mission is to strengthen Utah families by providing essential items, education, and resources to break the cycle of poverty and create a brighter, more secure future for children and their families."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "We want to support this initiative by asking folks from around campus to donate items for the hygiene kits. While we are happy to accept anything you want to bring, we invite each college to focus on certain items in the hopes we will get a variety of donations: "
+                              }
+                            ]
+                          },
+                          {
+                            "type": "bullet_list",
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Arts and Science – Full size shampoos, hair ties"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Agriculture and Natural Resources – Full size body washes, bars of soap"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Education and Human Services – Full size toothpastes, toothbrushes, floss"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Engineering – Full size conditioners, small hairbrushes"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Business – Deodorants for men and women"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Everyone else – Lotions, chap sticks, period products"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The goal of our project is to "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "bold"
+                                  }
+                                ],
+                                "text": "uplift struggling families and foster youth by providing necessary items that no child should have to go without. Each kit will be thoughtfully assembled with dignity in mind."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "July 29, 2026 - Conference Sessions and Workshop"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "33eac5a6-d873-4a0d-b968-c810be85edbb",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "table",
+                            "content": [
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Time"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Event"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Location"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "8:30 AM – 9:00 AM "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Muffins & Mingling"
+                                          },
+                                          {
+                                            "type": "hard_break",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "LSB Atrium"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "9:05 AM – 9:20 AM"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Opening Session / Welcome Remarks"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "LSB 133 | "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "https://usu.zoom.us/webinar/register/WN_AvQCYhN3RgqlMSC8gCzWrA",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Zoom"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "9:30 AM -12:20 PM "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Concurrent Sessions"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": " "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "9:30 AM – 10:20 AM"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "#session1",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {
+                                                    "data-scrolling": "yes"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Session 1"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": " "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "10:30 AM – 11:20 AM"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "#session2",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {
+                                                    "data-scrolling": "yes"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Session 2"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": " "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "11:30 AM – 12:20 PM"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "#session3",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {
+                                                    "data-scrolling": "yes"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Session 3"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": " "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "12:30 PM – 1:50 PM"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Lunch"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Sunburst Lounge"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "2:00 PM – 3:20 PM"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Student Success Workshop"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "LSB 231"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "tableRow",
+                                "content": [
+                                  {
+                                    "type": "tableHeader",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "3:30-4:00 PM"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "Closing and Ice Cream"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "tableCell",
+                                    "attrs": {
+                                      "colspan": 1,
+                                      "rowspan": 1,
+                                      "colwidth": null,
+                                      "backgroundColor": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "bold"
+                                              }
+                                            ],
+                                            "text": "LSB Atrium"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "table_style": "striped",
+                      "table_head": "dark"
+                    },
+                    {
+                      "_uid": "8d614add-71f8-46c7-96de-736000e55bc5",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Concurrent Session Information"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "89eed61d-8dda-42e2-970f-eb4351d3bdbe",
+                      "component": "moca-heading",
+                      "text": "Session 1",
+                      "level": "h3",
+                      "color": "",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": "",
+                      "anchor": "session1"
+                    },
+                    {
+                      "_uid": "6815817b-03d5-40c1-a0f6-4cacf4d7fab0",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "13bc8c53-4c76-49f4-b145-666bb681b2a6",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Integrating career exploration and financial reality into advising conversations",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 133"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenter: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Alana Stowe"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "italic"
+                                      }
+                                    ],
+                                    "text": "This presentation is offered in a Hybrid format, and can be attended via a Zoom Webinar."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Advisors play a critical role in helping students explore majors, careers, and designing lifestyle choices. Sometimes financial implications of career choices are difficult to address in advising conversations."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "This session introduces a practical, student-centered framework that integrates career development theory with financial awareness.  Grounded in design thinking, this approach equips advisors to ask meaningful questions, normalize conversations about cost and earning potential, and confidently refer students to appropriate resources when needed."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Participants will leave with a three-part framework—Explore, Reality Check, and Strategize—along with specific questions, conversation techniques, and referral strategies they can immediately apply in advising sessions. This approach empowers advisors to support whole-student decision-making, helping students design futures that are both meaningful and sustainable."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [
+                            {
+                              "_uid": "4e2d1b6c-a391-42bf-9ba0-4a1a803fce07",
+                              "component": "moca-button",
+                              "text": "Zoom Registration",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://usu.zoom.us/webinar/register/WN_ydOUdUsZR5mjTgDula5DkA",
+                                "cached_url": "https://usu.zoom.us/webinar/register/WN_ydOUdUsZR5mjTgDula5DkA",
+                                "fieldtype": "multilink",
+                                "target": "_self"
+                              },
+                              "type": "btn-bright-light",
+                              "outline": false,
+                              "size": "",
+                              "block": false,
+                              "fill_height": false,
+                              "centered": false
+                            }
+                          ],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "6b144d99-d106-4636-adaf-690021c3e33e",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "bacd6e3a-3727-414e-8202-3e5d4513a0b6",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Weaving Relationships: Holistic Advising for Native American Students Through K’é, Waymaking, Appreciative Advising, and Advisor Reflection",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 207"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenter: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Tylan Dee"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Native American students often navigate higher education while balancing cultural identity, family responsibilities, community commitments, and institutional expectations. This presentation explores how Appreciative Advising, Devon Isaacs’ concept of Waymaking, and the Navajo teaching of K’é can be woven together to create more meaningful and holistic advising experiences. Participants will examine how relationships, belonging, and advisor reflection influence student success and consider how advising practices can either create barriers or help students find their way. Throughout the session, attendees will engage in reflection about the knowledge, experiences, and assumptions they bring into advising spaces while learning practical strategies for supporting Native American students. Participants will leave with actionable approaches for fostering trust, belonging, and culturally responsive support that honors both individual aspirations and community-centered values."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "45e87d8a-6707-441f-9fa3-c4cf086d130f",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "8ab19444-c117-40ce-907b-90309d66bb33",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Tell Me You're An Advisor, Without Telling Me You're An Advisor...",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 231"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenters: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Allie East, Abby Macbeth, & Caisa Shoop"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "What does advising really look like beyond schedules, policies, and Degree Works? In this lively, interactive session, we invite participants to “tell us they’re an advisor” through shared experiences that highlight the heart of the role: Collaboration. We kick things off with a five-minute activity designed to spark laughter, recognition, and connection. From there, we explore four essential collaboration avenues—working with students, supervisors, colleagues, and faculty—spending ten minutes on each to share relatable scenarios, practical strategies, and lessons learned. We wrap up by tying these perspectives together to reimagine advising as a dynamic, relationship-driven profession. Attendees will leave feeling validated, energized, and equipped with ideas to strengthen collaboration in their own advising work."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "a28f2907-8828-4e7e-b943-67e0c3e460cf",
+                      "component": "moca-heading",
+                      "text": "Session 2",
+                      "level": "h3",
+                      "color": "",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": "",
+                      "anchor": "session2"
+                    },
+                    {
+                      "_uid": "9eddcef8-b0a7-4597-a49c-285fd996bc43",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "79578168-4fad-4a32-868b-011de7475f52",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Level Up: Integrating Student Development Theory to Help Students Become the Hero of Their Own Journey",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 133"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenter: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Jordan Truex"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "italic"
+                                      }
+                                    ],
+                                    "text": "This presentation is offered in a Hybrid format, and can be attended via a Zoom Webinar."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Academic advisors play a critical role in helping students navigate their educational experiences and develop meaningful academic and life plans. To effectively support students, advisors must understand the complex interplay of student behaviors, motivations, and institutional influences that are often explained through student development theory. This session will introduce participants to several foundational student development theories and demonstrate practical ways to apply them within advising conversations. Attendees will explore how theory-informed advising can enhance student growth, decision-making, engagement, and success, while empowering students to become the heroes of their own educational journeys."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [
+                            {
+                              "_uid": "48ca5d6c-07f4-4d09-8d60-87c1c734d741",
+                              "component": "moca-button",
+                              "text": "Zoom Registration",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://usu.zoom.us/webinar/register/WN_7hCmR8_rRqCg3OaF494zsQ",
+                                "cached_url": "https://usu.zoom.us/webinar/register/WN_7hCmR8_rRqCg3OaF494zsQ",
+                                "fieldtype": "multilink",
+                                "target": "_self"
+                              },
+                              "type": "btn-bright-light",
+                              "outline": false,
+                              "size": "",
+                              "block": false,
+                              "fill_height": false,
+                              "centered": false
+                            }
+                          ],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "365c9281-b7cd-44a6-ad78-c6b1aeed5f23",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "77d0dfda-0d31-46f5-ab34-a3a87c68f6eb",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "From Technical Colleges to USU: Making Transfer Credit Count",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 207"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenters: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Lisa Hunsaker & Chenese Boyle"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Students from Utah technical colleges are an important and growing population at Utah State University, bringing valuable hands-on training and prior learning experiences. However, differences in credit structure, terminology, and evaluation processes can create challenges in understanding how this coursework applies toward degree completion. This session provides a high-level overview of how technical college coursework is received and evaluated at USU, along with practical examples of how these credits can be applied toward degree requirements. Institutional data and program models, including Technology Systems and the Robotics, Automation, and Control Systems BS degree, will highlight how intentional pathways support student success. Participants will gain strategies and language to help students maximize prior learning, reduce time to degree, and navigate transfer pathways more effectively."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "237cea81-0079-4c9a-8289-18a1fae71a4b",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "297f0874-c077-4517-afd6-debababcde80",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Turning Hope Theory Inward",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 231"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenter: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Heidi Kesler"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Academic Success Coaches utilize a framework based on Snyder's Hope Theory to assist students to grow in academic belonging and learning excellence. This framework builds on three principles: 1) Understanding Identity, 2) Recognizing Agency, and 3) Developing Pathways and Taking Action. Hundreds of students have benefited from learning this framework for building hope and getting \"unstuck.\" The purpose of this session is help advisors understand the framework through personal application."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "ee71f4d3-5f14-48fa-aa7a-ad82faf812da",
+                      "component": "moca-heading",
+                      "text": "Session 3",
+                      "level": "h3",
+                      "color": "",
+                      "align": "",
+                      "bold": false,
+                      "margin_bottom": "",
+                      "anchor": "session3"
+                    },
+                    {
+                      "_uid": "b40c8e02-ed4a-4775-80d4-014cccd67e2d",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "ebe096b1-991a-4826-a8a3-90b8eb3bbb9c",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Making Meaning in Limited Time: Conflict and Change in Advising",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 133"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenter: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Erik McFadden"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "italic"
+                                      }
+                                    ],
+                                    "text": "This presentation is offered in a Hybrid format, and can be attended via a Zoom Webinar."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "As advisors, we regularly step into conversations that can lead to conflict. These moments often reflect students trying to express what they want, even when there’s a gap between what they say and what they actually need. Building on the first principles of transformative conflict, this session explores the patterns advisors fall into, applies ideas from change theory to support student motivation, and reframes how we approach advising conversations when time is limited."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [
+                            {
+                              "_uid": "9228f0df-4529-4afa-948f-54d8ffe65f33",
+                              "component": "moca-button",
+                              "text": "Zoom Registration",
+                              "link": {
+                                "linktype": "url",
+                                "url": "https://usu.zoom.us/webinar/register/WN_QPZmb5fkQiCz4ghASGUcIA",
+                                "cached_url": "https://usu.zoom.us/webinar/register/WN_QPZmb5fkQiCz4ghASGUcIA",
+                                "fieldtype": "multilink",
+                                "target": "_self"
+                              },
+                              "type": "btn-bright-light",
+                              "outline": false,
+                              "size": "",
+                              "block": false,
+                              "fill_height": false,
+                              "centered": false
+                            }
+                          ],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "6d8b2306-639d-43b3-9c8b-8de64817b872",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "f49dbb74-4ccc-44aa-acb0-6b91c5ba42f6",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Advising Habits of Mind in ACTION!",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 207"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenters: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Melanie Chambers & Carolina Bell"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "USU students are introduced to Habits of Mind from the start of their academic journey. How can advisors bring these concepts to life beyond the classroom? This session explores how Habits of Mind can strengthen both advising practice and students’ academic success."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Advisors will step into the student experience by engaging in activities drawn directly from several Habits of Mind courses, while also discovering how these skills translate into professional and career development. Together, we will focus on making Habits of Mind messaging relevant and aligned with curricular goals—ensuring students not only understand these concepts, and apply them meaningfully. Advisors will leave with practical strategies for incorporating Habits of Mind into advising conversations and have a clearer understanding of how to align messaging with the course outcomes."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [],
+                          "shadow": true
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "a34a9f8e-59e9-4f65-9c14-24e274af3be7",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "padding_y": "2",
+                      "text_align": "",
+                      "content": [
+                        {
+                          "_uid": "3ababae0-10bb-4973-aca3-b2f2b9c8924b",
+                          "component": "moca-card",
+                          "color": "bg-primary",
+                          "header": "Telling Your Advising Story: Translating Impact into Award-Worthy Evidence",
+                          "body": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Location: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "LSB 231"
+                                  },
+                                  {
+                                    "type": "hard_break"
+                                  },
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Presenters: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Dawnetta Mahnken & Kaylee Roholt"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "bold"
+                                      }
+                                    ],
+                                    "text": "Abstract: "
+                                  },
+                                  {
+                                    "type": "text",
+                                    "text": "Many advisors view award applications as intimidating, time-consuming, or reserved for only the most accomplished professionals. In reality, the application process provides a valuable opportunity to reflect on advising practice, assess impact, and communicate contributions to student success."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "This session will examine advising award criteria and review processes at the institutional, state, and national levels. Participants will learn how to connect assessment data, student outcomes, and professional accomplishments to award criteria while crafting compelling narratives that showcase their impact. Presenters will share practical strategies, examples, and lessons learned from successful award applications, helping attendees better understand both the award process and their own professional growth. Whether participants plan to submit an award application or simply want to strengthen their assessment and reflection practices, this session will provide actionable tools for documenting and communicating advising excellence."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "button": [],
+                          "shadow": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

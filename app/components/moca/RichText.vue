@@ -33,6 +33,8 @@ const show = computed(() => hasRichText(props.doc))
       '[&_:is(h1,h2,h3,h4,h5,h6)]:text-[var(--moca-heading,var(--color-usu-slate))]',
       '[&_h1]:text-[1.8125rem] bs-lg:[&_h1]:text-[2.5rem] [&_h1]:leading-[1.1]',
       '[&_h2]:text-[1.625rem] bs-lg:[&_h2]:text-[2rem] [&_h3]:text-[1.4375rem] bs-lg:[&_h3]:text-[1.75rem] [&_h4]:text-[1.25rem] bs-lg:[&_h4]:text-[1.5rem]',
+      // main.css: table tr th
+      '[&_th]:text-[1.17rem] [&_th]:font-condensed [&_th]:font-bold',
       '[&_blockquote]:mb-4 [&_blockquote]:text-xl [&_hr]:my-4 [&_hr]:border-black/10',
       // Images keep their proportions and never overflow (Bootstrap's .img-fluid)
       '[&_img]:max-w-full [&_img]:h-auto',
