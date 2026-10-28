@@ -110,14 +110,16 @@ export function mocaContainer(narrow = false) {
     : 'w-full mx-auto px-[15px] bs-sm:max-w-[540px] bs-md:max-w-[720px] bs-lg:max-w-[1320px]'
 }
 
-// Bootstrap headings as styled on usu.edu (Roboto Condensed 500, #384660, smaller below 992px)
+// Bootstrap headings as styled on usu.edu (Roboto Condensed, #384660, smaller below 992px). Bold, not
+// Bootstrap's 500: the page template puts the content in <main id="content" class="h-bold">, and main.css's
+// .h-bold h1-h6 / .h1-.h6 are bold
 export const mocaHeading = {
-  h1: 'font-condensed font-medium text-usu-slate leading-[1.1] text-[1.8125rem] bs-lg:text-[2.5rem]',
-  h2: 'font-condensed font-medium text-usu-slate leading-[1.2] text-[1.625rem] bs-lg:text-[2rem]',
-  h3: 'font-condensed font-medium text-usu-slate leading-[1.2] text-[1.4375rem] bs-lg:text-[1.75rem]',
-  h4: 'font-condensed font-medium text-usu-slate leading-[1.2] text-[1.25rem] bs-lg:text-[1.5rem]',
-  h5: 'font-condensed font-medium text-usu-slate leading-[1.2] text-[1.176rem] bs-lg:text-[1.25rem]',
-  h6: 'font-condensed font-medium text-usu-slate leading-[1.2] text-base',
+  h1: 'font-condensed font-bold text-usu-slate leading-[1.1] text-[1.8125rem] bs-lg:text-[2.5rem]',
+  h2: 'font-condensed font-bold text-usu-slate leading-[1.2] text-[1.625rem] bs-lg:text-[2rem]',
+  h3: 'font-condensed font-bold text-usu-slate leading-[1.2] text-[1.4375rem] bs-lg:text-[1.75rem]',
+  h4: 'font-condensed font-bold text-usu-slate leading-[1.2] text-[1.25rem] bs-lg:text-[1.5rem]',
+  h5: 'font-condensed font-bold text-usu-slate leading-[1.2] text-[1.176rem] bs-lg:text-[1.25rem]',
+  h6: 'font-condensed font-bold text-usu-slate leading-[1.2] text-base',
 }
 
 // Bootstrap .card and its parts. Header and footer are white on usu.edu, which is the card's own

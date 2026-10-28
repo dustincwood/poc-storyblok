@@ -58,12 +58,12 @@ function submitSearch() {
 
 const navLink = 'flex items-center gap-2 m-0 py-2 px-2 font-condensed font-normal text-[80%] text-white uppercase cursor-pointer aria-expanded:bg-header-slate hover:bg-header-sky hover:no-underline focus-visible:bg-header-sky'
 const quickLink = 'text-header-mist hover:text-white hover:underline focus:text-white focus:underline'
-const container = 'w-full mx-auto px-[15px] xl:max-w-[1320px]'
+const container = 'w-full mx-auto px-[15px] bs-xl:max-w-[1320px]'
 const row = 'flex flex-wrap -mx-[15px]'
 </script>
 
 <template>
-  <div id="site-header" class="hidden lg:block bg-header-navy">
+  <div id="site-header" class="hidden bs-lg:block bg-header-navy">
     <!-- Header Navigation -->
     <nav
       v-if="!hideTopLinks"
@@ -96,7 +96,7 @@ const row = 'flex flex-wrap -mx-[15px]'
 
       <div class="relative flex flex-nowrap items-center justify-start py-0 my-0 px-4">
         <!-- The links sit absolutely over the top of the brand area, so this bar has no height of its own -->
-        <div class="relative flex flex-nowrap items-center justify-between w-full mx-auto px-0 xl:max-w-[1320px]">
+        <div class="relative flex flex-nowrap items-center justify-between w-full mx-auto px-0 bs-xl:max-w-[1320px]">
           <div class="absolute inset-x-0 top-0 z-1 flex grow basis-auto items-center justify-end">
             <ul class="flex flex-row pl-0 mb-0 list-none">
               <li>
@@ -113,7 +113,9 @@ const row = 'flex flex-wrap -mx-[15px]'
                 </button>
               </li>
               <li>
-                <a :class="navLink" href="https://my.usu.edu"><UIcon name="i-fa6-solid-user" />MyUSU</a>
+                <!-- The links are uppercase, but MyUSU keeps its own capitals, as on usu.edu -->
+                <!-- (! because navLink's uppercase comes later in the CSS) -->
+                <a :class="[navLink, 'normal-case!']" href="https://my.usu.edu"><UIcon name="i-fa6-solid-user" />MyUSU</a>
               </li>
               <li>
                 <button
@@ -137,8 +139,10 @@ const row = 'flex flex-wrap -mx-[15px]'
       <div :class="row">
         <div class="flex flex-row min-h-[120px] pt-2 ml-4">
           <a v-if="showUsuLogo" class="self-center" href="https://www.usu.edu/">
+            <!-- main.css: next to a site name (.has-unit) the logo is at most 220px wide from 992px up, its height
+                 following; on its own it keeps its 300 x 29 -->
             <img
-              class="inline align-middle h-[29px] w-auto"
+              :class="['inline align-middle w-[300px] h-auto', hasUnit && 'bs-lg:max-w-[220px]']"
               src="https://www.usu.edu/assets/bs4/images/logos/utah-state-logo.svg"
               width="300"
               height="29"
@@ -152,15 +156,15 @@ const row = 'flex flex-wrap -mx-[15px]'
           >
             <slot name="site-logo">
               <NuxtLink
-                class="font-condensed text-left text-[1.4rem] leading-[1.7rem] text-header-steel hover:text-white hover:underline xl:text-[1.6rem] xl:leading-8"
+                class="font-condensed text-left text-[1.4rem] leading-[1.7rem] text-header-steel hover:text-white hover:underline bs-xl:text-[1.6rem] bs-xl:leading-8"
                 :to="siteUrl"
               >
                 {{ siteName }}
               </NuxtLink>
-              <!-- #15436a is Bootstrap's link hover color; production shows it here too -->
+              <!-- .header-sub-brand: white, staying white (underlined) on hover -->
               <NuxtLink
                 v-if="parentName"
-                class="font-condensed text-[1.1rem] leading-[1.4rem] text-white hover:text-[#15436a] hover:underline xl:text-[1.15rem]"
+                class="font-condensed text-[1.1rem] leading-[1.4rem] text-white hover:text-white hover:underline bs-xl:text-[1.15rem]"
                 :to="parentUrl"
               >
                 {{ parentName }}
@@ -199,12 +203,12 @@ const row = 'flex flex-wrap -mx-[15px]'
         <div :class="[row, 'justify-center']">
           <form
             id="search_form"
-            class="relative w-full px-[15px] sm:w-10/12 lg:w-8/12"
+            class="relative w-full px-[15px] sm:w-10/12 bs-lg:w-8/12"
             :action="selectedSearch.action"
             method="get"
             @submit.prevent="submitSearch"
           >
-            <h2 class="my-12 font-condensed font-bold leading-none text-[1.5rem] lg:text-[1.8rem] text-header-navy">
+            <h2 class="my-12 font-condensed font-bold leading-none text-[1.5rem] bs-lg:text-[1.8rem] text-header-navy">
               Search Utah State University:
             </h2>
             <fieldset class="min-w-0">
@@ -232,7 +236,7 @@ const row = 'flex flex-wrap -mx-[15px]'
                 v-model="searchTerms"
                 type="text"
                 name="q"
-                class="block flex-1 min-w-0 h-10 lg:h-15 py-1.5 px-3 text-[1.4rem] lg:text-[1.8rem] font-normal leading-normal text-white bg-transparent border-0 border-b border-header-mist rounded-none placeholder:text-white placeholder:opacity-100 focus:outline-none"
+                class="block flex-1 min-w-0 h-10 bs-lg:h-15 py-1.5 px-3 text-[1.4rem] bs-lg:text-[1.8rem] font-normal leading-normal text-white bg-transparent border-0 border-b border-header-mist rounded-none placeholder:text-white placeholder:opacity-100 focus:outline-none"
                 :placeholder="selectedSearch.placeholder"
                 autofocus
               >

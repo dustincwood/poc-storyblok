@@ -28,7 +28,7 @@ const show = computed(() => hasRichText(props.doc))
       '[&_ul]:list-disc [&_ul_ul]:list-[circle] [&_ul_ul_ul]:list-[square] [&_ol]:list-decimal [&_ul]:mb-4 [&_ol]:mb-4 [&_ul]:pl-10 [&_ol]:pl-10 [&_li_ul]:mb-0 [&_li_ol]:mb-0',
       // Storyblok wraps each list item's text in a <p>; on usu.edu items have no paragraph spacing
       '[&_li>p]:mb-0',
-      '[&_:is(h1,h2,h3,h4,h5,h6)]:font-condensed [&_:is(h1,h2,h3,h4,h5,h6)]:font-medium [&_:is(h1,h2,h3,h4,h5,h6)]:leading-[1.2] [&_:is(h1,h2,h3,h4,h5,h6)]:mt-4 [&_:is(h1,h2,h3,h4,h5,h6)]:mb-2',
+      '[&_:is(h1,h2,h3,h4,h5,h6)]:font-condensed [&_:is(h1,h2,h3,h4,h5,h6)]:font-bold [&_:is(h1,h2,h3,h4,h5,h6)]:leading-[1.2] [&_:is(h1,h2,h3,h4,h5,h6)]:mt-4 [&_:is(h1,h2,h3,h4,h5,h6)]:mb-2',
       // #384660 as on usu.edu; MocaBand sets --moca-heading to white on dark backgrounds
       '[&_:is(h1,h2,h3,h4,h5,h6)]:text-[var(--moca-heading,var(--color-usu-slate))]',
       '[&_h1]:text-[1.8125rem] bs-lg:[&_h1]:text-[2.5rem] [&_h1]:leading-[1.1]',

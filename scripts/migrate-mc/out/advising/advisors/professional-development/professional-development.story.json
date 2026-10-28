@@ -1,0 +1,429 @@
+{
+  "story": {
+    "name": "Advisor Training and Development",
+    "slug": "professional-development",
+    "is_startpage": false,
+    "content": {
+      "_uid": "fda0488c-d44f-41b8-ba2e-22f9e16bdc87",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "68e499b1-683f-4caf-baa3-15465491a201",
+          "component": "moca-hero-banner",
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "200px",
+          "container_width": "default",
+          "header": "Advisor Training and Development",
+          "subheader": "Using Council of Higher Education Standards (CAS) to Create Advising Programs"
+        },
+        {
+          "_uid": "9d394136-fbef-4c34-b597-ffff9b10d8e3",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "5793dc28-30cf-4fb2-ba21-d7084c85d947",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Utah State University academic advisors provide an inclusive environment in which the advisor assists undergraduate students in making responsible and informed decisions about educational plans, professional goals, and life outlooks consistent with the student's strengths, values, abilities, and interests. Advisors at USU are committed to the best professional practices to serve students."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "b2f0c319-c811-4cb6-98d6-e9498eb236c1",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "All sessions are aligned with "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "link",
+                            "attrs": {
+                              "href": "https://nacada.ksu.edu/Resources/Pillars/CoreCompetencies.aspx",
+                              "uuid": null,
+                              "anchor": null,
+                              "target": null,
+                              "linktype": "url",
+                              "custom": {}
+                            }
+                          }
+                        ],
+                        "text": "Core Competencies"
+                      },
+                      {
+                        "type": "text",
+                        "text": " from the National Academic Advising Association (NACADA)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "0546cfcd-563d-4d34-9186-5a2c68aca0a2",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "horizontal_rule"
+                  },
+                  {
+                    "type": "heading",
+                    "attrs": {
+                      "level": 2,
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Professional Development Opportunities"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "_uid": "4c409de2-7c40-4a58-acb4-4bc4ef390722",
+              "component": "moca-text",
+              "text": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "attrs": {
+                      "textAlign": null
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "italic"
+                          }
+                        ],
+                        "text": "Fall 2026 details are in progress."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "style": "lead"
+            },
+            {
+              "_uid": "5c67360c-0c90-44b0-b211-2b366d430f11",
+              "component": "moca-box",
+              "margin_top": "",
+              "margin_bottom": "",
+              "padding_y": "",
+              "padding": "5",
+              "background": "bg-light",
+              "shadow": true,
+              "border": false,
+              "rounded": false,
+              "text_white": false,
+              "full_height": false,
+              "text_align": "",
+              "content": [
+                {
+                  "_uid": "7dec1d9e-3809-475a-8658-971c60d8ec94",
+                  "component": "moca-row",
+                  "justify": "",
+                  "align": "",
+                  "padding_y": "",
+                  "border": false,
+                  "rounded": false,
+                  "columns": [
+                    {
+                      "_uid": "c1b077ba-fa61-407c-9650-9736c4bd10a4",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "4",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "center",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "4e965763-4907-45c0-b575-02f41b2665b4",
+                          "component": "moca-image",
+                          "image": {
+                            "filename": "https://www.usu.edu/advising/advisors/images/20220826_LO_Luminary_1430081.jpg",
+                            "alt": "Luminary Event at USU",
+                            "fieldtype": "asset"
+                          },
+                          "image_style": "",
+                          "full_width": false,
+                          "fill_height": true,
+                          "width": "",
+                          "align": "",
+                          "margin_bottom": ""
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "4e12a822-d0cf-479c-990d-576707db18e6",
+                      "component": "moca-column",
+                      "width_lg": "6",
+                      "order": "",
+                      "order_lg": "",
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "stretch": false,
+                      "display": "",
+                      "align_self": "",
+                      "text_align": "",
+                      "overlap": false,
+                      "background": "",
+                      "padding": "",
+                      "content": [
+                        {
+                          "_uid": "3e6ba5a2-15dc-48ff-915f-7e98808d4031",
+                          "component": "moca-text",
+                          "text": {
+                            "type": "doc",
+                            "content": [
+                              {
+                                "type": "heading",
+                                "attrs": {
+                                  "level": 3,
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "marks": [
+                                      {
+                                        "type": "link",
+                                        "attrs": {
+                                          "href": "https://usu.instructure.com/",
+                                          "uuid": null,
+                                          "anchor": null,
+                                          "target": null,
+                                          "linktype": "url",
+                                          "custom": {}
+                                        }
+                                      }
+                                    ],
+                                    "text": "University Advising Academy"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": " "
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Utah State University's advising system is a collaborative structure that works to ensure that all students receive excellent advising across the statewide system. The University Advising Academy starts by supporting new advisors and the current advising community with asynchronous foundational resources for advising practice at USU. These trainings are linked to the NACADA Core Competencies for Academic Advising."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "The program continues to support advisor growth and development through the Advising Excellence badging program. Participation in the badging program culminates in a yearly certificate.  This certificate is for academic advisors at USU who want to engage in a structured professional development plan during the academic year. The certificate program is guided by NACADA Core Competencies. "
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "The Canvas course is managed by University Advising: "
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "bullet_list",
+                                "content": [
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Shelly Kotynek, Executive Director, "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "mailto:shelly.kotynek@usu.edu",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "shelly.kotynek@usu.edu"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Kaylee Roholt, Advisor Development and Training Specialist, "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "mailto:kaylee.roholt@usu.edu",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "kaylee.roholt@usu.edu"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "list_item",
+                                    "content": [
+                                      {
+                                        "type": "paragraph",
+                                        "attrs": {
+                                          "textAlign": null
+                                        },
+                                        "content": [
+                                          {
+                                            "type": "text",
+                                            "text": "Madison Rasmuson, Advising Coordinator, "
+                                          },
+                                          {
+                                            "type": "text",
+                                            "marks": [
+                                              {
+                                                "type": "link",
+                                                "attrs": {
+                                                  "href": "mailto:madison.rasmuson@usu.edu",
+                                                  "uuid": null,
+                                                  "anchor": null,
+                                                  "target": null,
+                                                  "linktype": "url",
+                                                  "custom": {}
+                                                }
+                                              }
+                                            ],
+                                            "text": "madison.rasmuson@usu.edu "
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "paragraph",
+                                "attrs": {
+                                  "textAlign": null
+                                },
+                                "content": [
+                                  {
+                                    "type": "text",
+                                    "text": "Please email to be added to the course or to ask questions. "
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

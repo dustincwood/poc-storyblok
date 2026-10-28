@@ -107,13 +107,13 @@ function backToTop() {
   window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' })
 }
 
-const container = 'w-full mx-auto px-[15px] xl:max-w-[1320px]'
+const container = 'w-full mx-auto px-[15px] bs-xl:max-w-[1320px]'
 // Column heading with the short rule underneath
-const colBorder = 'relative flex self-center mb-2 pb-2 font-condensed text-base font-medium leading-none uppercase not-first:mt-4 after:absolute after:bottom-0 after:left-[10%] after:w-3/5 after:h-px after:bg-[#838898] lg:self-start lg:mb-4 lg:after:left-0'
-const list = 'flex flex-col items-center pl-0 mt-0 mb-4 leading-[1.8rem] list-none lg:items-start'
-const paragraph = 'mt-0 mb-4 text-center whitespace-pre-line lg:text-left'
-const footerList = 'mt-0 mb-4 px-[10px] lg:inline lg:m-0 lg:pl-0'
-const footerItem = 'py-[0.2rem] list-none lg:inline lg:mr-[15px]'
+const colBorder = 'relative flex self-center mb-2 pb-2 font-condensed text-base font-medium leading-none uppercase not-first:mt-4 after:absolute after:bottom-0 after:left-[10%] after:w-3/5 after:h-px after:bg-[#838898] bs-lg:self-start bs-lg:mb-4 bs-lg:after:left-0'
+const list = 'flex flex-col items-center pl-0 mt-0 mb-4 leading-[1.8rem] list-none bs-lg:items-start'
+const paragraph = 'mt-0 mb-4 text-center whitespace-pre-line bs-lg:text-left'
+const footerList = 'mt-0 mb-4 px-[10px] bs-lg:inline bs-lg:m-0 bs-lg:pl-0'
+const footerItem = 'py-[0.2rem] list-none bs-lg:inline bs-lg:mr-[15px]'
 const footerLink = 'text-header-mist hover:text-white hover:underline'
 </script>
 
@@ -125,7 +125,7 @@ const footerLink = 'text-header-mist hover:text-white hover:underline'
       <div :class="container" class="py-12">
         <slot>
           <div class="flex flex-wrap -mx-[15px]">
-            <div class="inline-flex mx-auto pb-4 text-center lg:ml-4 lg:text-left">
+            <div class="inline-flex mx-auto pb-4 text-center bs-lg:ml-4 bs-lg:text-left">
               <a class="mb-2 font-condensed text-[1.75rem] font-bold leading-none" :class="theme.brand" :href="siteUrl">{{ siteName }}</a>
             </div>
           </div>
@@ -133,14 +133,14 @@ const footerLink = 'text-header-mist hover:text-white hover:underline'
             <div
               v-for="(column, c) in footerColumns"
               :key="c"
-              class="relative flex flex-col w-full mt-4 px-[15px] lg:flex-1 lg:min-w-0 lg:mt-0"
+              class="relative flex flex-col w-full mt-4 px-[15px] bs-lg:flex-1 bs-lg:min-w-0 bs-lg:mt-0"
             >
               <div v-if="column.title" :class="colBorder">
                 <h2 class="m-0 font-condensed text-base font-medium leading-none" :class="column.links ? theme.listHeading : theme.heading">
                   <template v-if="column.links">
                     <button
                       type="button"
-                      class="flex items-center uppercase cursor-pointer lg:hidden"
+                      class="flex items-center uppercase cursor-pointer bs-lg:hidden"
                       :aria-expanded="!!openLists[c]"
                       :aria-controls="`footer-list-${c}`"
                       @click="toggleList(c)"
@@ -148,13 +148,13 @@ const footerLink = 'text-header-mist hover:text-white hover:underline'
                       {{ column.title }}
                       <UIcon name="i-fa6-solid-caret-down" class="ml-1 text-[#838898] transition-transform" :class="openLists[c] && 'rotate-180'" />
                     </button>
-                    <span class="max-lg:hidden">{{ column.title }}</span>
+                    <span class="max-bs-lg:hidden">{{ column.title }}</span>
                   </template>
                   <template v-else>{{ column.title }}</template>
                 </h2>
               </div>
 
-              <ul v-if="column.social" class="flex flex-row justify-center gap-2 mt-0 mb-6 pl-0 leading-[1.8rem] list-none lg:justify-start">
+              <ul v-if="column.social" class="flex flex-row justify-center gap-2 mt-0 mb-6 pl-0 leading-[1.8rem] list-none bs-lg:justify-start">
                 <li v-for="social in column.social" :key="social.label" class="inline-block">
                   <a :href="social.to" :class="lightFooter ? theme.link : 'text-white hover:text-[#ddd]'">
                     <UIcon :name="social.icon" class="size-8" /><span class="sr-only">{{ social.label }}</span>
@@ -164,7 +164,7 @@ const footerLink = 'text-header-mist hover:text-white hover:underline'
 
               <p v-if="column.text" :class="paragraph">{{ column.text }}</p>
 
-              <ul v-if="column.links" :id="`footer-list-${c}`" :class="[list, !openLists[c] && 'max-lg:hidden']">
+              <ul v-if="column.links" :id="`footer-list-${c}`" :class="[list, !openLists[c] && 'max-bs-lg:hidden']">
                 <li v-for="link in column.links" :key="link.label">
                   <a :class="theme.link" :href="link.to">{{ link.label }}</a>
                 </li>
@@ -210,8 +210,8 @@ const footerLink = 'text-header-mist hover:text-white hover:underline'
     <!-- Global Footer -->
     <section id="global-footer" class="mt-6 bg-[#252f40]">
       <div :class="container">
-        <div class="flex flex-wrap -mx-[15px] py-4 lg:py-6">
-          <div class="relative flex items-center justify-center w-full px-[15px] py-4 lg:w-3/12">
+        <div class="flex flex-wrap -mx-[15px] py-4 bs-lg:py-6">
+          <div class="relative flex items-center justify-center w-full px-[15px] py-4 bs-lg:w-3/12">
             <a href="https://www.usu.edu">
               <img
                 class="inline align-middle w-full max-w-[180px] h-auto m-auto md:max-w-[220px]"
@@ -222,15 +222,15 @@ const footerLink = 'text-header-mist hover:text-white hover:underline'
               >
             </a>
           </div>
-          <div class="relative flex flex-row justify-center items-start w-full px-[15px] lg:flex-col lg:justify-start lg:w-9/12">
-            <div class="text-right lg:text-left lg:my-1">
+          <div class="relative flex flex-row justify-center items-start w-full px-[15px] bs-lg:flex-col bs-lg:justify-start bs-lg:w-9/12">
+            <div class="text-right bs-lg:text-left bs-lg:my-1">
               <ul :class="footerList">
                 <li v-for="link in globalLinks" :key="link.label" :class="footerItem">
                   <a :class="footerLink" :href="link.to">{{ link.label }}</a>
                 </li>
               </ul>
             </div>
-            <div class="lg:text-[0.9rem]">
+            <div class="bs-lg:text-[0.9rem]">
               <ul :class="footerList">
                 <li v-for="link in legalLinks" :key="link.label" :class="footerItem">
                   <a :class="footerLink" :href="link.to">{{ link.label }}</a>

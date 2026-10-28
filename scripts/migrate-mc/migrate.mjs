@@ -160,6 +160,8 @@ function resolveTagsInHtml(html) {
       // Site-relative links point at usu.edu, as buttons' links do; in-page anchors (#x) stay
       const href = node.attributes.href
       if (href && /^\/(?!\/)|^\/\//.test(href)) node.attributes.href = siteUrl(href)
+      // Email links get the same cleanup as link fields
+      else if (href?.startsWith('mailto:')) node.attributes.href = `mailto:${toLink(href).email}`
       else if (href?.startsWith(publishedOrigin)) node.attributes.href = siteUrl(href)
     }
     if (isEl(node, 'img') && isTag(node.attributes.src)) {
@@ -198,7 +200,8 @@ function toLink(url) {
   url = siteUrl(url)
   return url.startsWith('mailto:')
     // An empty ?subject= says nothing and would show in the editor's email field
-    ? { linktype: 'email', email: url.slice(7).replace(/[?&]\w+=(?=&|$)/g, '').replace(/^([^?]*)&/, '$1?'), fieldtype: 'multilink' }
+    // ...and spaces pasted into the address (%C2%A0 is a non-breaking space) aren't part of it
+    ? { linktype: 'email', email: url.slice(7).replace(/[?&]\w+=(?=&|$)/g, '').replace(/^([^?]*)&/, '$1?').replace(/(%C2%A0|%20|\s| )+(?=\?|$)/gi, ''), fieldtype: 'multilink' }
     : { linktype: 'url', url, cached_url: url, fieldtype: 'multilink' }
 }
 
@@ -700,13 +703,15 @@ const isButtonParagraph = p => {
 function convertImage(img, paragraph) {
   const cls = classes(img)
   const src = isTag(img.attributes.src) ? resolveTag(img.attributes.src, { alt: img.attributes.alt, context: '' }) : img.attributes.src
-  lostClasses('Image classes', img, ['img-fluid', 'rounded', 'rounded-circle', 'img-thumbnail', 'w-100', /^mb-[0-5]$/])
+  lostClasses('Image classes', img, ['img-fluid', 'rounded', 'rounded-circle', 'img-thumbnail', 'w-100', 'h-100', /^mb-[0-5]$/])
   const pcls = paragraph ? classes(paragraph) : []
   if (paragraph) lostClasses('Image paragraph classes', paragraph, ['text-center', 'text-right'])
   return blok('moca-image', {
     image: toAsset(absolute(src), img.attributes.alt ?? ''),
     image_style: ['rounded-circle', 'img-thumbnail', 'rounded'].find(c => cls.includes(c)) ?? '',
     full_width: cls.includes('w-100'),
+    // h-100 (with object-fit: cover): the column's full height, cropped to fill
+    fill_height: cls.includes('h-100'),
     width: /^\d+$/.test(img.attributes.width ?? '') ? img.attributes.width : '',
     align: pcls.includes('text-center') ? 'center' : pcls.includes('text-right') ? 'right' : '',
     // A paragraph's 1rem below
@@ -814,15 +819,27 @@ function boxIfSpaced(node, converted) {
 
 // <div class="mb-4"> / <div class="text-center">: only spacing and alignment
 const boxClass = /^([mp][tby]-[0-5]|text-(center|right))$/
+// p-2 p-sm-4 p-lg-5: moca-box has one padding; the desktop (lg and up) value is used
+function boxPadding(node) {
+  const cls = classes(node)
+  const at = bp => cls.map(c => c.match(new RegExp(`^p-${bp ? `${bp}-` : ''}([0-5])$`))?.[1]).find(v => v !== undefined)
+  const values = ['xl', 'lg', 'md', 'sm', ''].map(at)
+  const desktop = values.find(v => v !== undefined) ?? ''
+  if (values.filter(v => v !== undefined).length > 1) {
+    report.approximated.push({ what: `<${node.name} class="${cls.join(' ')}">`, as: `moca-box padding ${desktop}`, detail: 'padding changes per breakpoint on usu.edu; the desktop value is used at every width' })
+  }
+  return desktop
+}
+
 // moca-box / moca-column background options (mocaBg)
 const boxBackgrounds = { 'bg-white': 1, 'bg-light': 1, 'bg-secondary': 1, 'bg-primary': 1, 'bg-info': 1, 'bg-success': 1, 'bg-warning': 1, 'bg-danger': 1, 'bg-dark': 1, 'bg-gray-dark': 1, 'bg-gray-darker': 1 }
 // Utility classes a styled box keeps
-const styledClass = /^([mp][tby]?-[0-5]|bg-[a-z-]+|border|rounded|text-white|text-(center|right)|h-100|w-100)$/
+const styledClass = /^([mp][tby]?-[0-5]|p-(sm|md|lg|xl)-[0-5]|bg-[a-z-]+|border|rounded|shadow|text-white|text-(center|right)|h-100|w-100)$/
 // <div class="p-3 rounded border bg-info text-white h-100">: only utilities, a box look, and no .container inside
 // (a colored div around a .container is a full-width band)
 const isStyledBox = node => node.name === 'div' && classes(node).length > 0
   && classes(node).every(c => styledClass.test(c))
-  && classes(node).some(c => /^(p-[0-5]|border|rounded)$/.test(c))
+  && classes(node).some(c => /^(p-[0-5]|border|rounded|shadow)$/.test(c))
   && !find(node, n => isEl(n) && (hasClass(n, 'container') || hasClass(n, 'container-fluid')))
 const isBox = node => node.name === 'div' && classes(node).length > 0 && classes(node).every(c => boxClass.test(c))
 
@@ -833,8 +850,9 @@ function convertBox(node) {
     margin_bottom: spacer(cls, 'mb') || spacer(cls, 'my'),
     // pt/pb other than as a pair have no field; py stands in for either
     padding_y: spacer(cls, 'py') || spacer(cls, 'pt') || spacer(cls, 'pb'),
-    padding: spacer(cls, 'p'),
+    padding: boxPadding(node),
     background: cls.find(c => Object.hasOwn(boxBackgrounds, c)) ?? '',
+    shadow: cls.includes('shadow'),
     border: cls.includes('border'),
     rounded: cls.includes('rounded'),
     text_white: cls.includes('text-white'),
@@ -988,15 +1006,46 @@ const contentHtml = (pcf.match(/<content>([\s\S]*?)<\/content>/)?.[1] ?? '')
 const converted = convertNodes(parse(contentHtml).children)
 const body = /<nocontainer\s*\/>/.test(pcf) ? converted : [blok('moca-container', { width: 'default', margin_y: '', padding_y: '', content: converted })]
 
+// ---------- Site header ----------
+
+// The header's site name and parent organization, as published (Modern Campus's per-folder _siteLogo.inc)
+function headerOf(doc) {
+  const brand = find(doc, n => isEl(n, 'a') && hasClass(n, 'header-brand'))
+  const sub = find(doc, n => isEl(n, 'a') && hasClass(n, 'header-sub-brand'))
+  // The brand link holds the site name and, inside a div, the sub-brand; only its own text is the name
+  const own = node => clean((node?.children ?? []).filter(c => c.type === TEXT_NODE || (isEl(c) && !find(c, m => m === sub))).map(text).join(' '))
+  return { site: own(brand), parent: sub ? clean(text(sub)) : '' }
+}
+
+// A page sets the header only when it differs from the one it would inherit, so changing a folder's header
+// reaches everything below it: a start page compares with the folder above, any other page with its own
+// folder's start page (the Nuxt app looks up the nearest start page that sets one). Links stay empty: the site name
+// then goes to the start page itself, and the parent link is set in Storyblok, where it can point at a story.
+const relPath = path.basename(pcfPath, '.pcf')
+const header = headerOf(publishedDoc)
+let headerFields = {}
+if (header.site) {
+  // The published start page this one would inherit from: the folder above for a start page (none above the
+  // site's top folder, which then always sets it)
+  const from = relPath === 'index' ? new URL('../', new URL('./', published)) : new URL('./', published)
+  const inherited = from.pathname.split('/').filter(Boolean).length
+    ? await fetch(from).then(r => r.ok ? r.text() : '').then(h => h && headerOf(parse(h))).catch(() => undefined)
+    : undefined
+  const differs = !inherited?.site || inherited.site !== header.site || inherited.parent !== header.parent
+  if (differs) {
+    headerFields = { header_site_name: header.site, header_parent_name: header.parent }
+    report.notes.push(`Site header: "${header.site}"${header.parent ? ` / "${header.parent}"` : ''}${relPath === 'index' ? ' (for this folder; sub-pages inherit it)' : ' (differs from its folder\'s)'}${header.parent ? '. Set the parent organization link in Storyblok' : ''}`)
+  }
+}
+
 // ---------- Output ----------
 
-const relPath = path.basename(pcfPath, '.pcf')
 const story = {
   story: {
     name: meta.title,
     slug: relPath === 'index' ? 'index' : relPath,
     is_startpage: relPath === 'index',
-    content: { _uid: uid(), component: 'page', body },
+    content: { _uid: uid(), component: 'page', body, ...headerFields },
   },
 }
 

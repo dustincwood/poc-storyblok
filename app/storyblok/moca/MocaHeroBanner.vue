@@ -44,6 +44,10 @@ const heroStyle = computed(() => ({
 
 const container = computed(() => mocaContainer(props.blok.container_width === 'narrow'))
 const textWidth = computed(() => centered.value ? '' : 'max-w-[38ch]')
+// The title sits in .jumbotron-content.xl: main.css's .xl h1 is 2.8125rem from 992px (the plain h1's 2.5rem
+// below that stays 1.8125rem either way)
+// (! because mocaHeading.h1's own bs-lg size would otherwise compete with it)
+const titleClass = [mocaHeading.h1, 'bs-lg:text-[2.8125rem]! m-0 font-bold! text-white!']
 const leadWidth = computed(() => centered.value ? '' : 'max-w-[60ch]')
 </script>
 
@@ -52,7 +56,7 @@ const leadWidth = computed(() => centered.value ? '' : 'max-w-[60ch]')
     <!-- .jumbotron-title-bottom needs the container inside .jumbotron-content, the reverse of the usual order -->
     <div v-if="titleBottom" class="relative z-3 w-full self-end py-6 bg-black/70 text-left text-white">
       <div :class="container">
-        <h1 v-if="blok.header" :class="[mocaHeading.h1, 'm-0 font-bold! text-white!', textWidth]">{{ blok.header }}</h1>
+        <h1 v-if="blok.header" :class="[titleClass, textWidth]">{{ blok.header }}</h1>
         <p v-if="blok.subheader" :class="['mt-3 mb-0 text-xl bs-lg:text-[1.375rem] font-light', leadWidth]">{{ blok.subheader }}</p>
         <MocaRichText :doc="blok.content" variant="hero" />
         <div v-if="blok.button?.[0]?.text" class="mt-2">
@@ -63,7 +67,7 @@ const leadWidth = computed(() => centered.value ? '' : 'max-w-[60ch]')
 
     <div v-else :class="container">
       <div :class="['relative z-3 text-white', centered ? 'text-center' : 'text-left', bottomLeft && 'mb-6']">
-        <h1 v-if="blok.header" :class="[mocaHeading.h1, 'm-0 font-bold! text-white!', textWidth]">{{ blok.header }}</h1>
+        <h1 v-if="blok.header" :class="[titleClass, textWidth]">{{ blok.header }}</h1>
         <p v-if="blok.subheader" :class="['mt-3 mb-0 text-xl bs-lg:text-[1.375rem] font-light', leadWidth]">{{ blok.subheader }}</p>
         <MocaRichText :doc="blok.content" :variant="centered ? 'hero-center' : 'hero'" />
         <div v-if="blok.button?.[0]?.text" class="mt-2">

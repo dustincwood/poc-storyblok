@@ -1,0 +1,14 @@
+{
+  "assets": {},
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/advisors": 235586372513735,
+    "advising-migration-test/advising/advisors/awards": 235629517776382
+  },
+  "story": {
+    "id": 235630348973621,
+    "parentId": 235629517776382,
+    "full_slug": "advising-migration-test/advising/advisors/awards/winners"
+  }
+}

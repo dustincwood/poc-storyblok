@@ -16,6 +16,8 @@ const props = defineProps<{
     rounded?: boolean
     // White text (.text-white); headings and links inside turn white too
     text_white?: boolean
+    // Bootstrap .shadow
+    shadow?: boolean
     // Fills its column's height (.h-100), so boxes in a row line up
     full_height?: boolean
     text_align?: '' | 'center' | 'right'
@@ -40,6 +42,7 @@ const lightText = computed(() => props.blok.text_white || mocaDarkBg.includes(pr
       mocaBg[blok.background ?? ''],
       blok.border && 'border border-usu-gray-300',
       blok.rounded && 'rounded',
+      blok.shadow && 'shadow-[0_.5rem_1rem_rgba(0,0,0,.15)]',
       blok.text_white && 'text-white [&_a]:text-white! [&_:is(h1,h2,h3,h4,h5,h6)]:text-white!',
       blok.full_height && 'h-full',
       aligns[blok.text_align ?? ''],

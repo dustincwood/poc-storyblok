@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "https://www.usu.edu/advising/advisors/images/20220826_LO_Luminary_1430081.jpg": {
+      "id": 235625746171491,
+      "filename": "https://a.storyblok.com/f/294787985525525/cf572b78e7/20220826_lo_luminary_1430081.jpg"
+    }
+  },
+  "assetFolder": {
+    "name": "advising-migration-test",
+    "id": 233908594512245
+  },
+  "folders": {
+    "advising-migration-test": 233908618695548,
+    "advising-migration-test/advising": 233908621144957,
+    "advising-migration-test/advising/advisors": 235586372513735
+  },
+  "story": {
+    "id": 235625754576318,
+    "parentId": 235586372513735,
+    "full_slug": "advising-migration-test/advising/advisors/professional-development"
+  }
+}

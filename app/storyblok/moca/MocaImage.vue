@@ -8,6 +8,8 @@ const props = defineProps<{
     image_style?: '' | 'rounded' | 'rounded-circle' | 'img-thumbnail'
     // Stretch to the column's width (.w-100); otherwise its own width, never wider than the column
     full_width?: boolean
+    // Fill its column's height, cropped to fit (.h-100 with object-fit: cover)
+    fill_height?: boolean
     // Display width in pixels (the img width attribute); empty keeps the image's own
     width?: string
     align?: '' | 'center' | 'right'
@@ -30,6 +32,7 @@ const width = computed(() => Number(props.blok.width) > 0 ? `${Number(props.blok
     :class="[
       'block max-w-full h-auto',
       blok.full_width && 'w-full',
+      blok.fill_height && 'w-full h-full object-cover',
       aligns[blok.align ?? ''],
       mocaImageStyles[blok.image_style ?? ''],
       mocaSpace('mb', blok.margin_bottom),

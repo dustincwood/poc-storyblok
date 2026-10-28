@@ -139,7 +139,7 @@ function onMenuEscape(event) {
 watch(mobileOpen, (open) => { if (!open) openSub.value = null })
 
 // Reset whichever menu no longer applies when the window crosses lg
-const isDesktop = useMediaQuery('(min-width: 64rem)')
+const isDesktop = useMediaQuery('(min-width: 62rem)')
 watch(isDesktop, (desktop) => {
   if (desktop) mobileOpen.value = false
   else openIndex.value = null
@@ -148,28 +148,28 @@ watch(isDesktop, (desktop) => {
 // Page menu (Bootstrap collapse in the original)
 const subNavOpen = ref(false)
 
-const desktopLink = 'flex items-center self-stretch m-0 pt-3 px-3 pb-[0.6rem] font-condensed font-normal text-base whitespace-nowrap border-b-3 cursor-pointer xl:text-[1.125rem]'
+const desktopLink = 'flex items-center self-stretch m-0 pt-3 px-3 pb-[0.6rem] font-condensed font-normal text-base whitespace-nowrap border-b-3 cursor-pointer bs-xl:text-[1.125rem]'
 const desktopLinkIdle = 'text-white border-transparent hover:border-[#e1eaf9] focus-visible:border-[#e1eaf9]'
 const navButton = 'flex items-center self-stretch m-0 pt-3 px-8 pb-[0.6rem] font-condensed font-bold text-[1.167rem] text-white whitespace-nowrap bg-header-sky border-b-3 border-transparent hover:border-white focus-visible:border-white'
 const mobileLink = 'flex items-center w-[calc(100%-50px)] mx-[25px] py-2 font-condensed text-[1.2rem] text-left cursor-pointer'
 const offcanvasButton = 'inline-flex items-center gap-1 my-2 py-1.5 px-3 font-condensed font-normal text-[1.3rem] leading-normal text-white bg-header-slate border border-transparent rounded cursor-pointer transition-colors duration-150 ease-in-out hover:bg-header-sky focus:bg-header-sky focus:outline-none'
 const subPanel = 'absolute inset-0 z-10 overflow-y-auto bg-header-slate transition-[translate,visibility] duration-300 ease-in-out motion-reduce:transition-none'
-const toggler = 'absolute top-0 right-0 bottom-0 flex items-center my-[0.55rem] sm:mr-2 px-2 py-1 text-[1.25rem] leading-none bg-transparent rounded cursor-pointer hover:bg-header-sky focus:bg-header-sky lg:hidden'
+const toggler = 'absolute top-0 right-0 bottom-0 flex items-center my-[0.55rem] sm:mr-2 px-2 py-1 text-[1.25rem] leading-none bg-transparent rounded cursor-pointer hover:bg-header-sky focus:bg-header-sky bs-lg:hidden'
 const uLogo = 'inline align-middle max-w-full h-auto pr-1 sm:pr-2'
-const navContainer = 'flex flex-wrap items-center justify-between w-full mx-auto xl:max-w-[1320px]'
+const navContainer = 'flex flex-wrap items-center justify-between w-full mx-auto bs-xl:max-w-[1320px]'
 </script>
 
 <template>
   <!-- z-40 rather than Bootstrap's 1020 so Nuxt UI overlays (z-50) open above it -->
   <nav
     id="master-nav"
-    class="sticky top-0 z-40 flex flex-wrap items-center justify-between p-0 font-system bg-header-navy lg:flex-row lg:flex-nowrap lg:justify-start lg:transition-[background-color] lg:duration-500"
-    :class="scrolled ? 'lg:bg-header-navy' : 'lg:bg-header-slate'"
+    class="sticky top-0 z-40 flex flex-wrap items-center justify-between p-0 font-system bg-header-navy bs-lg:flex-row bs-lg:flex-nowrap bs-lg:justify-start bs-lg:transition-[background-color] bs-lg:duration-500"
+    :class="scrolled ? 'bs-lg:bg-header-navy' : 'bs-lg:bg-header-slate'"
     aria-label="Main menu"
   >
-    <div :class="navContainer" class="p-0 lg:flex-nowrap">
+    <div :class="navContainer" class="p-0 bs-lg:flex-nowrap">
       <!-- Mobile bar -->
-      <div class="flex grow justify-between pl-0 pr-14 lg:hidden">
+      <div class="flex grow justify-between pl-0 pr-14 bs-lg:hidden">
         <div class="flex flex-col justify-center ml-2 sm:ml-4 mr-2 my-4 pr-1">
           <a href="https://www.usu.edu">
             <img width="80" height="61" src="https://www.usu.edu/assets/bs4/images/logos/u-state-logo.svg" :class="uLogo" alt="UState logo">
@@ -197,7 +197,7 @@ const navContainer = 'flex flex-wrap items-center justify-between w-full mx-auto
       <ul
         v-if="!hideTopNav"
         ref="desktopNav"
-        class="hidden lg:flex lg:flex-row lg:grow mb-0 p-0 list-none"
+        class="hidden bs-lg:flex bs-lg:flex-row bs-lg:grow mb-0 p-0 list-none"
         @keydown.esc="closeDropdown"
       >
         <li
@@ -317,13 +317,13 @@ const navContainer = 'flex flex-wrap items-center justify-between w-full mx-auto
   <nav
     v-if="subNav"
     id="sub-menu"
-    class="relative flex flex-wrap items-center justify-between px-0 pt-1 pb-0 font-condensed bg-[#e9ecef] border border-t-0 border-[#dee2e6] lg:flex-col lg:items-stretch lg:pb-1"
+    class="relative flex flex-wrap items-center justify-between px-0 pt-1 pb-0 font-condensed bg-[#e9ecef] border border-t-0 border-[#dee2e6] bs-lg:flex-col bs-lg:items-stretch bs-lg:pb-1"
     aria-label="Page menu"
   >
-    <div :class="navContainer" class="px-3 lg:pl-[0.6rem]">
-      <div class="flex grow justify-between lg:grow-0 lg:justify-start">
+    <div :class="navContainer" class="px-3 bs-lg:pl-[0.6rem]">
+      <div class="flex grow justify-between bs-lg:grow-0 bs-lg:justify-start">
         <button
-          class="order-2 flex items-center py-1 pl-0 pr-0 ml-0 text-[1.25rem] leading-none bg-transparent rounded cursor-pointer lg:order-1 lg:pr-4"
+          class="order-2 flex items-center py-1 pl-0 pr-0 ml-0 text-[1.25rem] leading-none bg-transparent rounded cursor-pointer bs-lg:order-1 bs-lg:pr-4"
           type="button"
           aria-controls="sub-menu-navbar"
           :aria-expanded="subNavOpen"
@@ -334,7 +334,7 @@ const navContainer = 'flex flex-wrap items-center justify-between w-full mx-auto
         </button>
         <button
           type="button"
-          class="flex grow self-center justify-center text-center text-[1.2rem] leading-6 text-[#226baa] cursor-pointer hover:text-header-sky lg:order-2 lg:grow-0 lg:text-left"
+          class="flex grow self-center justify-center text-center text-[1.2rem] leading-6 text-[#226baa] cursor-pointer hover:text-header-sky bs-lg:order-2 bs-lg:grow-0 bs-lg:text-left"
           aria-controls="sub-menu-navbar"
           :aria-expanded="subNavOpen"
           @click="subNavOpen = !subNavOpen"

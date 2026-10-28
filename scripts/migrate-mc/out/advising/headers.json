@@ -1,0 +1,18 @@
+[
+  {
+    "story": "advising-migration-test/advising/",
+    "site": "Office of University & Exploratory Advising"
+  },
+  {
+    "story": "advising-migration-test/advising/exploratory/",
+    "site": "Exploratory Advising",
+    "parent": "Office of University & Exploratory Advising",
+    "parentStory": "advising-migration-test/advising/"
+  },
+  {
+    "story": "advising-migration-test/advising/advisors/",
+    "site": "For Advisors",
+    "parent": "Office of University & Exploratory Advising",
+    "parentStory": "advising-migration-test/advising/"
+  }
+]

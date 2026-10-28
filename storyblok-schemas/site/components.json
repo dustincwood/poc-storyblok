@@ -1,11 +1,62 @@
 [
   {
+    "name": "page",
+    "display_name": "Page",
+    "is_root": true,
+    "is_nestable": false,
+    "schema": {
+      "body": {
+        "type": "bloks",
+        "id": "u6YERxgiRc-qNW-Ray49vw",
+        "pos": 0
+      },
+      "site_header": {
+        "type": "section",
+        "display_name": "Site header",
+        "keys": [
+          "header_site_name",
+          "header_site_link",
+          "header_parent_name",
+          "header_parent_link"
+        ],
+        "pos": 1
+      },
+      "header_site_name": {
+        "type": "text",
+        "pos": 2,
+        "display_name": "Site name",
+        "description": "Shown in the header next to the USU logo. Leave all four empty to use the folder above's (set it once on a folder's start page)"
+      },
+      "header_site_link": {
+        "type": "multilink",
+        "pos": 3,
+        "display_name": "Site link",
+        "description": "Where the site name goes; empty: the page that sets it"
+      },
+      "header_parent_name": {
+        "type": "text",
+        "pos": 4,
+        "display_name": "Parent organization",
+        "description": "Smaller line under the site name; empty for none"
+      },
+      "header_parent_link": {
+        "type": "multilink",
+        "pos": 5,
+        "display_name": "Parent organization link"
+      }
+    }
+  },
+  {
     "name": "page-title",
     "display_name": "Page Title",
     "is_root": false,
     "is_nestable": true,
     "schema": {
-      "title": { "pos": 0, "type": "text", "required": true }
+      "title": {
+        "pos": 0,
+        "type": "text",
+        "required": true
+      }
     }
   },
   {

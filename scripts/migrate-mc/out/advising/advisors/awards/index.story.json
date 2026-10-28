@@ -1,0 +1,1144 @@
+{
+  "story": {
+    "name": "Professional Advisor Awards",
+    "slug": "index",
+    "is_startpage": true,
+    "content": {
+      "_uid": "d4db36b2-2e34-471e-95ea-87123ac76e0a",
+      "component": "page",
+      "body": [
+        {
+          "_uid": "2ab5c193-a04d-4533-907c-af1f12a41c5e",
+          "component": "moca-hero-banner",
+          "text_location": "jumbotron-content-bottom-left",
+          "height": "300px",
+          "container_width": "default",
+          "header": "Professional Advising Awards"
+        },
+        {
+          "_uid": "654e7c1d-2fbc-4b99-bb28-b7136dc0b51f",
+          "component": "moca-container",
+          "width": "default",
+          "margin_y": "5",
+          "padding_y": "",
+          "content": [
+            {
+              "_uid": "b16c99f9-c40b-4242-a187-7cc319c06259",
+              "component": "moca-row",
+              "justify": "",
+              "align": "",
+              "padding_y": "",
+              "border": false,
+              "rounded": false,
+              "columns": [
+                {
+                  "_uid": "888f7286-39cb-48ac-b33f-634c445dbe72",
+                  "component": "moca-column",
+                  "width_lg": "12",
+                  "order": "",
+                  "order_lg": "",
+                  "margin_top": "",
+                  "margin_bottom": "",
+                  "stretch": false,
+                  "display": "",
+                  "align_self": "",
+                  "text_align": "",
+                  "overlap": false,
+                  "background": "",
+                  "padding": "",
+                  "content": [
+                    {
+                      "_uid": "48c5239e-b094-4d6e-a8a7-4cb314090baa",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "USU has two categories of advising awards: Outstanding Professional Advisor of the Year and the Outstanding New Advisor. Winners of the institutional awards are nominated for additional awards through the National Academic Advising Association (NACADA) and Utah Advising Association (UAA)."
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "style": "lead"
+                    },
+                    {
+                      "_uid": "cbcaeec1-7141-47e5-b3f3-8c15d9e0a1dd",
+                      "component": "moca-box",
+                      "margin_top": "",
+                      "margin_bottom": "3",
+                      "content": [
+                        {
+                          "_uid": "dafb4c36-c2cd-41bd-b3cd-24c61aadfd75",
+                          "component": "moca-button",
+                          "text": "Advising Award Winners",
+                          "link": {
+                            "linktype": "url",
+                            "url": "https://usu.box.com/s/vki6q7o8kim9zprk6qwnx5f6jlk6ajtz",
+                            "cached_url": "https://usu.box.com/s/vki6q7o8kim9zprk6qwnx5f6jlk6ajtz",
+                            "fieldtype": "multilink",
+                            "target": "_self"
+                          },
+                          "type": "btn-info",
+                          "size": "btn-lg",
+                          "centered": false,
+                          "outline": false,
+                          "block": false
+                        }
+                      ]
+                    },
+                    {
+                      "_uid": "1fcc6794-e71c-4c5a-a287-4d7c61c0c0d2",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Nomination Process"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Students receive an email in February with an invitation to nominate their advisor for advisor of the year. Deans, Department Heads, faculty, and staff are also invited to make nominations."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Nominations are reviewed by the awards committee and award finalists are selected. Finalists submit a portfolio for review by the awards committee. The winner is selected based on alignment with the "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://nacada.ksu.edu/Programs/Awards.aspx",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "NACADA excellence in advising criteria"
+                              },
+                              {
+                                "type": "text",
+                                "text": "."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Outstanding New Advisor Award Criteria"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "An Outstanding New Advisor Award is given to recognize and emphasize excellence in academic advising. Anyone affiliated with the University (i.e. Deans, Department Heads, faculty, staff, or students) may nominate a professional advisor to receive this award. The winner of the New Advisor of the Year award will receive a token representing the award."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The selection committee will evaluate nominations based on the evidence of effective advising qualities and practices distinguishing the nominee as an outstanding academic advisor. Such evidence may include, but is not limited to, the following:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ordered_list",
+                            "attrs": {
+                              "order": 1
+                            },
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Strong interpersonal skills"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Availability to advisees, faculty or staff"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Use and dissemination of appropriate information sources"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Advisee or unit evaluations (summary data)"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Meeting advisees in informal settings"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Monitoring of student progress toward academic/career goals"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Mastery of institutional regulations, policies and procedures"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Ability to engage in, promote and support developmental advising"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Frequency of contact with advisees"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Appropriate referral activity"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Evidence of student success rate by advisor or department"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Caring, helpful attitude toward advisees, faculty and staff"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Participation and support of intrusive advising to build strong relationships with advisees"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Participation in and support of advisor development programs"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Perception by colleagues of nominee's advising skills"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2,
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Outstanding Professional Advisor of the Year Eligibility, Portfolio, and Criteria"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The Professional Advisor of the Year Award is given to recognize and emphasize excellence in academic advising. Individuals affiliated with the University (i.e. Deans, Department Heads, faculty, staff, or students) may nominate a professional advisor to receive this award. The winner of the Professional Advisor of the Year award will receive a $750 cash award."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "42611d4d-3a8a-4987-ab04-9c783f916ec9",
+                      "component": "moca-heading",
+                      "text": "Eligibility",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
+                    },
+                    {
+                      "_uid": "fb8579fa-13ab-4eda-b573-d4d6e7ac0a86",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "bullet_list",
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "The selection committee will consider any USU Professional Academic Advisors who have not received this award within the past five years."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Winners of the "
+                                      },
+                                      {
+                                        "type": "text",
+                                        "marks": [
+                                          {
+                                            "type": "link",
+                                            "attrs": {
+                                              "href": "https://nacada.ksu.edu/Programs/Awards/Global-Awards/Outstanding-Advising.aspx",
+                                              "uuid": null,
+                                              "anchor": null,
+                                              "target": null,
+                                              "linktype": "url",
+                                              "custom": {}
+                                            }
+                                          }
+                                        ],
+                                        "text": "National Academic Advising Association Outstanding Advisor of the Year"
+                                      },
+                                      {
+                                        "type": "text",
+                                        "text": " are not eligible to receive this award."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Must serve as an academic advisor at least 50% of role and/or caseload of 150 students (Logan) or 100 (Statewide)."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "dab6d387-fc5a-4a90-a941-b631aa1235f2",
+                      "component": "moca-heading",
+                      "text": "Finalist Portfolio",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
+                    },
+                    {
+                      "_uid": "f6c9f77d-7ef4-4e60-9e12-663098a2db71",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Finalists are notified of their status and are invited to submit a portfolio. If a finalist declines, the committee may add another finalist. Finalists for the award are invited to "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://usu.co1.qualtrics.com/jfe/form/SV_eLt4SIGnbUORmUB",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "submit portfolios"
+                              },
+                              {
+                                "type": "text",
+                                "text": " by April 1 at 8 am. The portfolio includes:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ordered_list",
+                            "attrs": {
+                              "order": 1
+                            },
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Percent time spent in academic advising, academic advising programming, administrative duties, and other responsibilities"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Caseload details including number of students served as primary major advisor, secondary major advisor, and minor advisor"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Short bio"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Professional photo"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Resume or CV which includes a list of relevant professional development activities"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Advising philosophy statement (2 pages maximum)"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Letter of support from institution officials, administrators, colleagues, employees, supervisors, advisees, or students, or anyone who might enhance the selection committee's understanding of the nominee"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Supplemental material demonstrating how the advisor meets the criteria. Great portfolios include information about the advisor's caseload, percent of caseload served in a year/semester, summary of student satisfaction results, and summary of advising programming effectiveness in persistence, completion, or other interventions. (4 pages maximum)"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "_uid": "099b1f7a-adaf-456b-a4d1-e41a8c874a5e",
+                      "component": "moca-heading",
+                      "text": "Evaluation Criteria",
+                      "level": "h3",
+                      "color": "bright-light",
+                      "align": "",
+                      "bold": false,
+                      "margin_top": "",
+                      "margin_bottom": "",
+                      "anchor": ""
+                    },
+                    {
+                      "_uid": "9824e5b6-c6b9-4ab7-b28f-d7a971639ac2",
+                      "component": "moca-text",
+                      "text": {
+                        "type": "doc",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "The committee will evaluate nominations based on the evidence of effective advising qualities and practices distinguishing the nominee as an outstanding academic advisor. USU evaluates portfolios utilizing rubrics from the National Academic Advising Association (NACADA) for "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://nacada.ksu.edu/Portals/0/Awards/NACADAOAPrimaryAwardsRubricpublic.pdf",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "Outstanding Professional Advisor "
+                              },
+                              {
+                                "type": "text",
+                                "text": "and "
+                              },
+                              {
+                                "type": "text",
+                                "marks": [
+                                  {
+                                    "type": "link",
+                                    "attrs": {
+                                      "href": "https://nacada.ksu.edu/Portals/0/Awards/NACADANewAdvisorRubricfinal.pdf",
+                                      "uuid": null,
+                                      "anchor": null,
+                                      "target": null,
+                                      "linktype": "url",
+                                      "custom": {}
+                                    }
+                                  }
+                                ],
+                                "text": "New Advisor"
+                              },
+                              {
+                                "type": "text",
+                                "text": " awards."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "attrs": {
+                              "textAlign": null
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Criteria may include, but is not limited to, the following:"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ordered_list",
+                            "attrs": {
+                              "order": 1
+                            },
+                            "content": [
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Strong interpersonal skills"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Availability to advisees, faculty or staff"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Use and dissemination of appropriate information sources"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Advisee or unit evaluations (summary data)"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Meeting advisees in informal settings"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Monitoring of student progress toward academic/career goals"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Mastery of institutional regulations, policies and procedures"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Ability to engage in, promote and support developmental advising"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Frequency of contact with advisees"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Appropriate referral activity"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Evidence of student success rate by advisor or department"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Caring, helpful attitude toward advisees, faculty and staff"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Participation and support of intrusive advising to build strong relationships with advisees"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Participation in and support of advisor development programs"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "list_item",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "attrs": {
+                                      "textAlign": null
+                                    },
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Perception by colleagues of nominee's advising skills"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

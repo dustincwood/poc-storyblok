@@ -2813,7 +2813,7 @@
         "description": "Space below"
       },
       "text_align": {
-        "pos": 9,
+        "pos": 10,
         "type": "option",
         "options": [
           {
@@ -2832,7 +2832,7 @@
         "default_value": ""
       },
       "content": {
-        "pos": 10,
+        "pos": 11,
         "type": "bloks"
       },
       "padding_y": {
@@ -2977,7 +2977,12 @@
       "full_height": {
         "type": "boolean",
         "description": "Fill the column height, so boxes in a row line up",
-        "pos": 8
+        "pos": 9
+      },
+      "shadow": {
+        "pos": 8,
+        "type": "boolean",
+        "description": "Drop shadow"
       }
     }
   },
@@ -3119,7 +3124,7 @@
         "description": "Stretch to the column width; otherwise the image keeps its own size, never wider than the column"
       },
       "margin_bottom": {
-        "pos": 3,
+        "pos": 4,
         "type": "option",
         "options": [
           {
@@ -3154,12 +3159,12 @@
         "description": "Space below"
       },
       "width": {
-        "pos": 4,
+        "pos": 5,
         "type": "text",
         "description": "Display width in pixels; empty keeps the image's own size (never wider than the column)"
       },
       "align": {
-        "pos": 5,
+        "pos": 6,
         "type": "option",
         "options": [
           {
@@ -3176,6 +3181,11 @@
           }
         ],
         "default_value": ""
+      },
+      "fill_height": {
+        "pos": 3,
+        "type": "boolean",
+        "description": "Fill the column height, cropping the image to fit"
       }
     }
   },
