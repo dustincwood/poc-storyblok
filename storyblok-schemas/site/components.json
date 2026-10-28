@@ -43,6 +43,26 @@
         "type": "multilink",
         "pos": 5,
         "display_name": "Parent organization link"
+      },
+      "top_navigation": {
+        "type": "section",
+        "display_name": "Top navigation",
+        "keys": [
+          "top_nav"
+        ],
+        "pos": 6
+      },
+      "top_nav": {
+        "type": "bloks",
+        "pos": 7,
+        "display_name": "Top navigation",
+        "restrict_components": true,
+        "component_whitelist": [
+          "nav-link",
+          "nav-dropdown",
+          "nav-columns"
+        ],
+        "description": "The menu bar under the header. Leave empty to use the folder above's (set it once on a folder's start page)"
       }
     }
   },
@@ -71,6 +91,179 @@
         "display_name": "Number of Columns",
         "default_value": "3",
         "description": "Cards per row (1-6). Lists every story in the space except this page, each linking to it"
+      }
+    }
+  },
+  {
+    "name": "nav-link",
+    "display_name": "Nav Link",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "label": {
+        "pos": 0,
+        "type": "text",
+        "required": true
+      },
+      "link": {
+        "pos": 1,
+        "type": "multilink"
+      },
+      "button": {
+        "pos": 2,
+        "type": "boolean",
+        "description": "Top level only: show as the highlighted button at the end of the bar"
+      },
+      "icon": {
+        "pos": 3,
+        "type": "text",
+        "description": "Optional Font Awesome icon before the label, e.g. fa-solid fa-calendar-days"
+      }
+    }
+  },
+  {
+    "name": "nav-divider",
+    "display_name": "Nav Divider",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {}
+  },
+  {
+    "name": "nav-dropdown",
+    "display_name": "Nav Dropdown",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "label": {
+        "pos": 0,
+        "type": "text",
+        "required": true
+      },
+      "links": {
+        "pos": 1,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "nav-link",
+          "nav-divider"
+        ]
+      },
+      "align_right": {
+        "pos": 2,
+        "type": "boolean",
+        "description": "Open leftward, for an item near the right end of the bar"
+      }
+    }
+  },
+  {
+    "name": "nav-column",
+    "display_name": "Nav Column",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "title": {
+        "pos": 0,
+        "type": "text"
+      },
+      "text": {
+        "pos": 1,
+        "type": "textarea"
+      },
+      "links": {
+        "pos": 2,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "nav-link"
+        ]
+      },
+      "link_columns": {
+        "pos": 3,
+        "type": "option",
+        "options": [
+          {
+            "name": "1",
+            "value": "1"
+          },
+          {
+            "name": "2",
+            "value": "2"
+          },
+          {
+            "name": "3",
+            "value": "3"
+          }
+        ],
+        "default_value": "1",
+        "description": "Lists the links side by side"
+      },
+      "more": {
+        "pos": 4,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "nav-link"
+        ],
+        "maximum": 1,
+        "description": "A \"Read more\" style link under the column"
+      },
+      "width": {
+        "pos": 5,
+        "type": "option",
+        "options": [
+          {
+            "name": "Equal share",
+            "value": ""
+          },
+          {
+            "name": "3/12",
+            "value": "3"
+          },
+          {
+            "name": "4/12",
+            "value": "4"
+          },
+          {
+            "name": "6/12",
+            "value": "6"
+          },
+          {
+            "name": "Full",
+            "value": "12"
+          }
+        ],
+        "default_value": ""
+      }
+    }
+  },
+  {
+    "name": "nav-columns",
+    "display_name": "Nav Columns Dropdown",
+    "is_root": false,
+    "is_nestable": true,
+    "schema": {
+      "label": {
+        "pos": 0,
+        "type": "text",
+        "required": true
+      },
+      "columns": {
+        "pos": 1,
+        "type": "bloks",
+        "restrict_components": true,
+        "component_whitelist": [
+          "nav-column"
+        ]
+      },
+      "mega": {
+        "pos": 2,
+        "type": "boolean",
+        "description": "Megamenu: the full width of the bar"
+      },
+      "align_right": {
+        "pos": 3,
+        "type": "boolean",
+        "description": "Open leftward, for an item near the right end of the bar"
       }
     }
   }

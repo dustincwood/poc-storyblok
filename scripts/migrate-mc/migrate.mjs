@@ -10,6 +10,7 @@ import { randomUUID } from 'node:crypto'
 import { parse, ELEMENT_NODE, TEXT_NODE, renderSync as render } from 'ultrahtml'
 import { decodeHTML } from 'entities'
 import { htmlToStoryblokRichtext } from '@storyblok/richtext/html-parser'
+import { navBlocks, navSignature, publishedMenu } from './nav.mjs'
 
 const here = path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1'))
 const componentMap = JSON.parse(fs.readFileSync(path.join(here, 'component-map.json'), 'utf8'))
@@ -1035,6 +1036,23 @@ if (header.site) {
   if (differs) {
     headerFields = { header_site_name: header.site, header_parent_name: header.parent }
     report.notes.push(`Site header: "${header.site}"${header.parent ? ` / "${header.parent}"` : ''}${relPath === 'index' ? ' (for this folder; sub-pages inherit it)' : ' (differs from its folder\'s)'}${header.parent ? '. Set the parent organization link in Storyblok' : ''}`)
+  }
+}
+
+// ---------- Top nav ----------
+
+// A start page carries its folder's menu (_topNav.inc, read as published) when it differs from the folder
+// above's; other pages inherit their folder's. Links point at usu.edu, like the page's other links;
+// set-nav.mjs sets the menus with links to the migrated stories instead.
+if (relPath === 'index') {
+  const menu = navBlocks(publishedMenu(publishedDoc), href => toLink(href))
+  const above = new URL('../', new URL('./', published))
+  const aboveMenu = above.pathname.split('/').filter(Boolean).length
+    ? await fetch(above).then(r => r.ok ? r.text() : '').then(h => h ? navBlocks(publishedMenu(parse(h)), href => toLink(href)) : []).catch(() => [])
+    : []
+  if (menu.length && navSignature(menu) !== navSignature(aboveMenu)) {
+    headerFields.top_nav = menu
+    report.notes.push(`Top nav: this folder's own menu (${menu.length} items: ${menu.map(b => b.label).join(', ')}); its pages inherit it. Run set-nav.mjs to point its links at the migrated stories`)
   }
 }
 

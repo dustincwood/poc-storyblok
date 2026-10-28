@@ -1,7 +1,9 @@
-// Sets the site header's names before the page renders (the layout renders <Header> ahead of the page, so a
-// page setting them itself would be too late for the server's HTML). Modern Campus gave each folder its own
-// _siteLogo.inc; here the story's own header fields win, else the nearest folder start page above it that
-// sets a site name. The four fields go together, so a sub-site never shows another site's parent.
+// Sets the site header's names and the top nav before the page renders (the layout renders them ahead of the
+// page, so a page setting them itself would be too late for the server's HTML). Modern Campus gave each
+// folder its own _siteLogo.inc and _topNav.inc; here the story's own fields win, else the nearest folder
+// start page above it that sets them. The header and the nav are each inherited on their own (a sub-site
+// can keep its parent's menu but name itself), and the header's four fields go together, so a sub-site
+// never shows another site's parent.
 import type { SiteHeader } from '~/composables/useSiteHeader'
 
 type HeaderFields = {
@@ -32,6 +34,7 @@ function candidates(path: string) {
 export default defineNuxtRouteMiddleware(async (to) => {
   const nuxtApp = useNuxtApp()
   const state = useSiteHeaderState()
+  const nav = useTopNavState()
   // The server already looked it up for the first page
   if (import.meta.client && nuxtApp.isHydrating && nuxtApp.payload.serverRendered) return
 
@@ -41,11 +44,15 @@ export default defineNuxtRouteMiddleware(async (to) => {
     // One request for the story and every start page above it; only the header fields, not their bodies
     const { data } = await useStoryblokApi().get('cdn/stories', { version, by_slugs: slugs.join(','), excluding_fields: 'body' })
     const bySlug = new Map((data.stories as any[]).map(s => [s.full_slug, s]))
-    const found = slugs.map(s => bySlug.get(s)).find(s => s?.content?.header_site_name?.trim())
+    const stories = slugs.map(s => bySlug.get(s))
+    const found = stories.find(s => s?.content?.header_site_name?.trim())
     state.value = found ? fromFields(found.content, found.full_slug) : null
+    const menu = stories.find(s => s?.content?.top_nav?.length)
+    nav.value = menu ? navItems(menu.content.top_nav) : null
   }
   catch {
-    // No header names is better than no page: the header shows its defaults
+    // No header names or menu is better than no page: the header and nav show their defaults
     state.value = null
+    nav.value = null
   }
 })
